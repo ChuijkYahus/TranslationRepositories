@@ -36,8 +36,8 @@
   "farmersrespite.container.kettle.heated": "已受热",
 
   "farmersrespite.tooltip.kettle.empty": "空",
-  "farmersrespite.tooltip.kettle.single_serving": "目前的 1 份食物：",
-  "farmersrespite.tooltip.kettle.many_servings": "目前的 %s 份食物：",
+  "farmersrespite.tooltip.kettle.single_serving": "目前的 1 份饮品：",
+  "farmersrespite.tooltip.kettle.many_servings": "目前的 %s 份饮品：",
 
   "effect.farmersrespite.caffeinated": "咖啡冲击",
 
