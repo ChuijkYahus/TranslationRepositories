@@ -8,9 +8,9 @@
   "block.supplementaries.wind_vane": "风向标",
   "block.supplementaries.clock_block": "时钟方块",
   "block.supplementaries.crank": "曲柄",
-  "block.supplementaries.jar": "广口瓶",
-  "block.supplementaries.jar_tinted": "着色广口瓶",
-  "block.supplementaries.turn_table": "转盘",
+  "block.supplementaries.jar": "玻璃罐",
+  "block.supplementaries.jar_tinted": "着色玻璃罐",
+  "block.supplementaries.turn_table": "转台",
   "block.supplementaries.pedestal": "展示台",
   "block.supplementaries.redstone_illuminator": "红石照明器",
   "block.supplementaries.notice_board": "布告栏",
@@ -25,7 +25,7 @@
   "gui.supplementaries.speaker_block.chat_message" : "语音信息",
   "gui.supplementaries.speaker_block.narrator_message": "聊天栏信息",
   "entity.supplementaries.firefly": "萤火虫",
-  "block.supplementaries.firefly_jar": "萤火虫广口瓶",
+  "block.supplementaries.firefly_jar": "萤火虫玻璃罐",
   "item.supplementaries.firefly": "萤火虫刷怪蛋",
   "globe.supplementaries.moon": "月球",
   "globe.supplementaries.earth": "地球",
@@ -49,7 +49,7 @@
   "container.supplementaries.safe": "所有者",
   "gui.supplementaries.speaker_block.volume" : "音量：",
   "gui.supplementaries.speaker_block.blocks": "格",
-  "block.supplementaries.soul_jar": "灵魂广口瓶",
+  "block.supplementaries.soul_jar": "灵魂玻璃罐",
   "item.supplementaries.flute": "竹笛",
   "message.supplementaries.throwable_brick": "可投掷",
   "message.supplementaries.wall_lantern": "可放置在墙上",
@@ -91,8 +91,8 @@
   "supplementaries.comment9": "You could also leave the %s which will get filled by the translated potion name from tipped arrows",
   "supplementaries.comment10": "if you do that try it out in game since it might just work fine",
   "item.supplementaries.bamboo_spikes_tipped_effect": "%s竹刺",
-  "death.attack.supplementaries.bamboo_spikes": "%1$s被竹刺扎穿了",
-  "death.attack.supplementaries.bamboo_spikes.player": "%1$s在与%2$s战斗时被竹刺扎穿了",
+  "death.attack.supplementaries.bamboo_spikes": "%1$s被竹刺刺穿了",
+  "death.attack.supplementaries.bamboo_spikes.player": "%1$s在与%2$s战斗时被竹刺刺穿了",
   "block.supplementaries.netherite_door": "下界合金门",
   "block.supplementaries.netherite_trapdoor": "下界合金活板门",
   "block.supplementaries.pancake": "煎饼",
@@ -102,19 +102,19 @@
   "block.supplementaries.lock_block": "锁方块",
   "block.supplementaries.checker_block": "棋盘格方块",
   "message.supplementaries.lock_block.locked": "方块已上锁",
-  "fluid.supplementaries.jar_fluid": "瓶内液体",
+  "fluid.supplementaries.jar_fluid": "罐内液体",
   "fluid.supplementaries.experience": "经验",
   "message.supplementaries.fluid_tooltip": "%s：%d瓶",
   "fluid.supplementaries.honey": "蜂蜜",
   "fluid.supplementaries.milk": "牛奶",
   "fluid.supplementaries.slime": "史莱姆",
-  "itemGroup.jars": "广口瓶",
+  "itemGroup.jars": "玻璃罐",
   "item.supplementaries.flax": "亚麻",
   "item.supplementaries.flax_seeds": "亚麻种子",
-  "item.supplementaries.rope_arrow": "绳箭",
+  "item.supplementaries.rope_arrow": "绳索箭矢",
   "block.supplementaries.potted_flax": "亚麻盆栽",
   "entity.supplementaries.brick_projectile": "砖弹",
-  "entity.supplementaries.rope_arrow": "绳箭",
+  "entity.supplementaries.rope_arrow": "绳索箭矢",
   "block.supplementaries.checker_slab": "棋盘格台阶",
   "message.supplementaries.rope_arrow": "绳索：%s",
   "block.supplementaries.pulley_block": "滑轮方块",
@@ -123,10 +123,10 @@
   "item.supplementaries.bomb_projectile": "炸弹",
   "block.supplementaries.flax_block": "亚麻块",
   "subtitle.supplementaries.bomb": "炸弹：爆炸",
-  "message.supplementaries.anti_repost": "你好像从某个奇怪网站下载了Supplementaries :( 从这里下载%s。",
-  "message.supplementaries.anti_repost_link": "官方版",
+  "message.supplementaries.anti_repost": "你好像从某个奇怪网站下载了Supplementaries :( 从%s下载官方版。",
+  "message.supplementaries.anti_repost_link": "这里",
   "message.supplementaries.anti_repost_2": "编辑配置文件以关闭该警告",
-  "block.supplementaries.jar_boat": "瓶中船",
+  "block.supplementaries.jar_boat": "罐中船",
   "block.supplementaries.magma_cream_block": "岩浆膏块",
   "message.supplementaries.magma_cream_block": "安装Quark以激活全部功能",
   "message.supplementaries.command.configs": "安装Configured以访问配置",
@@ -138,10 +138,10 @@
   "block.supplementaries.checker_vertical_slab": "棋盘格竖直台阶",
   "block.supplementaries.blaze_rod": "烈焰棒",
   "block.supplementaries.stick": "木棍",
-  "block.supplementaries.daub": "抹灰",
-  "block.supplementaries.daub_frame": "抹灰篱笆框架",
-  "block.supplementaries.daub_brace": "抹灰篱笆支架",
-  "block.supplementaries.daub_cross_brace": "抹灰篱笆交叉支架",
+  "block.supplementaries.daub": "粗灰泥",
+  "block.supplementaries.daub_frame": "粗灰泥篱笆框架",
+  "block.supplementaries.daub_brace": "粗灰泥篱笆支架",
+  "block.supplementaries.daub_cross_brace": "粗灰泥篱笆交叉支架",
   "block.supplementaries.timber_frame": "木框架",
   "block.supplementaries.timber_brace": "木支架",
   "block.supplementaries.timber_cross_brace": "木交叉支架",
@@ -182,7 +182,7 @@
   "death.attack.supplementaries.xp_extracting.player": "%1$s在与%2$s战斗时榨取了过多经验",
   "advancements.adventure.way_sign.title": "路在这边",
   "advancements.adventure.way_sign.description": "顺着路走会到达一个村庄",
-  "advancements.story.unenchanter.title": "你怎么会做这样的事！？",
+  "advancements.story.unenchanter.title": "怎么可以这样做？！",
   "advancements.story.unenchanter.description": "用砂轮将一个附魔金苹果祛魔",
   "message.supplementaries.jar": "可以盛纳汤类、药水、其他液体、曲奇饼以及小型生物",
   "block.supplementaries.statue": "雕像",
@@ -202,8 +202,8 @@
   "filled_map.mineshaft": "地底探险家地图",
   "filled_map.swamp_hut": "沼泽探险家地图",
   "filled_map.ocean_ruin": "深海探险家地图",
-  "block.supplementaries.iron_gate": "铁栅栏门",
-  "block.supplementaries.gold_gate": "金栅栏门",
+  "block.supplementaries.iron_gate": "铁栏杆门",
+  "block.supplementaries.gold_gate": "金栏杆门",
   "advancements.husbandry.sus_stew.title": "这碗汤很可疑",
   "advancements.husbandry.sus_stew.description": "吃一碗谜之炖菜",
   "item.supplementaries.speedometer": "速度计",
@@ -219,7 +219,7 @@
   "block.supplementaries.feather_block": "羽毛块",
   "block.supplementaries.flint_block": "燧石块",
   "entity.supplementaries.red_merchant": "红商人",
-  "message.supplementaries.timber_frame": "接受任意固体方块",
+  "message.supplementaries.timber_frame": "接受任意完整方块",
   "block.supplementaries.wild_flax": "野生亚麻",
   "item.supplementaries.slingshot": "弹弓",
   "block.supplementaries.deepslate_lamp": "深板岩灯",
@@ -281,8 +281,8 @@
   "block.supplementaries.bubble_block": "肥皂泡",
   "advancements.nether.goblet.title": "来杯鸡尾酒",
   "advancements.nether.goblet.description": "从酒杯中喝液体",
-  "advancements.story.turn_table.title": "转盘好玩吗",
-  "advancements.story.turn_table.description": "用转盘旋转你自己",
+  "advancements.story.turn_table.title": "转台好玩吗",
+  "advancements.story.turn_table.description": "用转台旋转你自己",
   "gui.supplementaries.present": "礼物盒",
   "gui.supplementaries.present.send": "送给：",
   "gui.supplementaries.present.pack": "打包",
@@ -327,7 +327,8 @@
   "item.supplementaries.sign_post_oak": "橡木路标",
   "item.supplementaries.sign_post_spruce": "云杉木路标",
   "item.supplementaries.sign_post_warped": "诡异木路标",
-  //BYG
+  
+  "_supplementaries.trslcn.comment1": "BYG",
   "block.supplementaries.hanging_sign_aspen": "白杨木挂牌",
   "block.supplementaries.hanging_sign_baobab": "猴面包木挂牌",
   "block.supplementaries.hanging_sign_blue_enchanted": "蓝色魔法木挂牌",
@@ -386,9 +387,11 @@
   "item.supplementaries.sign_post_willow": "柳木路标",
   "item.supplementaries.sign_post_witch_hazel": "金缕梅木路标",
   "item.supplementaries.sign_post_zelkova": "榉木路标",
-  "block.supplementaries.hanging_sign_imparius": "Imparius 挂牌",//官中未译
+  "block.supplementaries.hanging_sign_imparius": "Imparius 挂牌",
+  "_supplementaries.trslcn.comment2": "官中未译",
   "item.supplementaries.sign_post_imparius": "Imparius 路标",
-  //bop = Biomes O' Plenty
+  
+  "_supplementaries.trslcn.comment3": "Biomes O' Plenty",
   "block.supplementaries.hanging_sign_cherry_bop": "樱桃木挂牌",
   "block.supplementaries.hanging_sign_dead_bop": "枯死木挂牌",
   "block.supplementaries.hanging_sign_fir_bop": "杉木挂牌",
@@ -411,15 +414,18 @@
   "item.supplementaries.sign_post_redwood_bop": "红木路标",
   "item.supplementaries.sign_post_umbran_bop": "暗影木路标",
   "item.supplementaries.sign_post_willow_bop": "柳木路标",
-  //te = Terra Incognita
+  
+  "_supplementaries.trslcn.comment4": "Terra Incognita",
   "block.supplementaries.hanging_sign_apple_te": "苹果木挂牌",
   "block.supplementaries.hanging_sign_hazel_te": "榛木挂牌",
   "item.supplementaries.sign_post_apple_te": "苹果木路标",
   "item.supplementaries.sign_post_hazel_te": "榛木路标",
-  //tr = Traverse
+  
+  "_supplementaries.trslcn.comment5": "Traverse",
   "block.supplementaries.hanging_sign_fir_tr": "冷杉木挂牌",
   "item.supplementaries.sign_post_fir_tr": "冷杉木路标",
-  //pw = Premium Wood
+  
+  "_supplementaries.trslcn.comment6": "Premium Wood",
   "block.supplementaries.hanging_sign_magic_pw": "魔法木挂牌",
   "block.supplementaries.hanging_sign_maple_pw": "枫木挂牌",
   "block.supplementaries.hanging_sign_purple_heart_pw": "紫心木挂牌",
@@ -432,14 +438,16 @@
   "item.supplementaries.sign_post_silverbell_pw": "银钟木路标",
   "item.supplementaries.sign_post_tiger_pw": "虎木路标",
   "item.supplementaries.sign_post_willow_pw": "柳木路标",
-  //env = Environmental
+  
+  "_supplementaries.trslcn.comment7": "Environmental",
   "block.supplementaries.hanging_sign_cherry_env": "樱桃木挂牌",
   "block.supplementaries.hanging_sign_willow_env": "柳木挂牌",
   "block.supplementaries.hanging_sign_wisteria_env": "紫藤木挂牌",
   "item.supplementaries.sign_post_cherry_env": "樱桃木路标",
   "item.supplementaries.sign_post_willow_env": "柳木路标",
   "item.supplementaries.sign_post_wisteria_env": "紫藤木路标",
-  //atm = Atmospheric
+  
+  "_supplementaries.trslcn.comment8": "Atmospheric",
   "block.supplementaries.hanging_sign_aspen_atm": "白杨木挂牌",
   "block.supplementaries.hanging_sign_grimwood": "阴郁木挂牌",
   "block.supplementaries.hanging_sign_kousa": "梾木挂牌",
@@ -452,46 +460,56 @@
   "item.supplementaries.sign_post_morado": "酸枝木路标",
   "item.supplementaries.sign_post_rosewood": "花梨木路标",
   "item.supplementaries.sign_post_yucca": "丝兰木路标",
-  //aut = Autumnity
+  
+  "_supplementaries.trslcn.comment9": "Autumnity",
   "block.supplementaries.hanging_sign_maple_aut": "枫木挂牌",
   "item.supplementaries.sign_post_maple_aut": "枫木路标",
-  //Upgrade Aquatic
+  
+  "_supplementaries.trslcn.comment10": "Upgrade Aquatic",
   "block.supplementaries.hanging_sign_driftwood": "浮木挂牌",
   "block.supplementaries.hanging_sign_river": "桑木挂牌",
   "item.supplementaries.sign_post_driftwood": "浮木路标",
   "item.supplementaries.sign_post_river": "桑木路标",
-  //Endergetic Expansion
+  
+  "_supplementaries.trslcn.comment11": "Endergetic Expansion",
   "block.supplementaries.hanging_sign_poise": "幽仪木挂牌",
   "item.supplementaries.sign_post_poise": "幽仪木路标",
-  //Bamboo Blocks
+  
+  "_supplementaries.trslcn.comment12": "Bamboo Blocks",
   "block.supplementaries.hanging_sign_bamboo": "竹挂牌",
   "item.supplementaries.sign_post_bamboo": "竹路标",
-  //bb = Bayou Blues
+  
+  "_supplementaries.trslcn.comment13": "Bayou Blues",
   "block.supplementaries.hanging_sign_cypress_bb": "丝柏木挂牌",
   "item.supplementaries.sign_post_cypress_bb": "丝柏木路标",
-  //ab = Abundance
+  
+  "_supplementaries.trslcn.comment14": "Abundance",
   "block.supplementaries.hanging_sign_jacaranda_ab": "蓝花楹木挂牌",
   "block.supplementaries.hanging_sign_redbud_ab": "紫荆木挂牌",
   "item.supplementaries.sign_post_jacaranda_ab": "蓝花楹木路标",
   "item.supplementaries.sign_post_redbud_ab": "紫荆木路标",
-  //Enhanced Mushrooms
+  
+  "_supplementaries.trslcn.comment15": "Enhanced Mushrooms",
   "block.supplementaries.hanging_sign_brown_mushroom": "棕色蘑菇挂牌",
   "block.supplementaries.hanging_sign_glowshroom": "荧光菇挂牌",
   "block.supplementaries.hanging_sign_red_mushroom": "红色蘑菇挂牌",
   "item.supplementaries.sign_post_brown_mushroom": "棕色蘑菇路标",
   "item.supplementaries.sign_post_glowshroom": "荧光菇路标",
   "item.supplementaries.sign_post_red_mushroom": "红色蘑菇路标",
-  //em = Extended Mushrooms
+  
+  "_supplementaries.trslcn.comment16": "Extended Mushrooms",
   "block.supplementaries.hanging_sign_glowshroom_em": "荧光菇挂牌",
   "block.supplementaries.hanging_sign_mushroom_em": "蘑菇挂牌",
   "block.supplementaries.hanging_sign_poisonous_mushroom_em": "毒蘑菇挂牌",
   "item.supplementaries.sign_post_glowshroom_em": "荧光菇路标",
   "item.supplementaries.sign_post_mushroom_em": "蘑菇路标",
   "item.supplementaries.sign_post_poisonous_mushroom_em": "毒蘑菇路标",
-  //red = Rediscovered
+  
+  "_supplementaries.trslcn.comment17": "Rediscovered",
   "block.supplementaries.hanging_sign_cherry_red": "樱桃木挂牌",
   "item.supplementaries.sign_post_cherry_red": "樱桃木路标",
-  //ter = Terraqueous
+  
+  "_supplementaries.trslcn.comment18": "Terraqueous",
   "block.supplementaries.hanging_sign_apple_ter": "苹果木挂牌",
   "block.supplementaries.hanging_sign_banana_ter": "香蕉木挂牌",
   "block.supplementaries.hanging_sign_cherry_ter": "樱桃木挂牌",
@@ -514,26 +532,32 @@
   "item.supplementaries.sign_post_peach_ter": "桃木路标",
   "item.supplementaries.sign_post_pear_ter": "梨木路标",
   "item.supplementaries.sign_post_plum_ter": "李木路标",
-  //Architect's Palette
+  
+  "_supplementaries.trslcn.comment19": "Architect's Palette",
   "block.supplementaries.hanging_sign_twisted": "扭曲木挂牌",
   "item.supplementaries.sign_post_twisted": "扭曲木路标",
-  //Eidolon
+  
+  "_supplementaries.trslcn.comment20": "Eidolon",
   "block.supplementaries.hanging_sign_polished": "抛光木挂牌",
   "item.supplementaries.sign_post_polished": "抛光木路标",
-  //Malum
+  
+  "_supplementaries.trslcn.comment21": "Malum",
   "block.supplementaries.hanging_sign_runewood": "符文木挂牌",
   "item.supplementaries.sign_post_runewood": "符文木路标",
-  //Ars Nouveau
+  
+  "_supplementaries.trslcn.comment22": "Ars Nouveau",
   "block.supplementaries.hanging_sign_archwood": "至高木挂牌",
   "item.supplementaries.sign_post_archwood": "至高木路标",
-  //Botania
+  
+  "_supplementaries.trslcn.comment23": "Botania",
   "block.supplementaries.hanging_sign_dreamwood": "梦之木挂牌",
   "block.supplementaries.hanging_sign_livingwood": "活木挂牌",
   "block.supplementaries.hanging_sign_shimmerwood": "微光木挂牌",
   "item.supplementaries.sign_post_dreamwood": "梦之木路标",
   "item.supplementaries.sign_post_livingwood": "活木路标",
   "item.supplementaries.sign_post_shimmerwood": "微光木路标",
-  //Forbidden & Arcanus
+  
+  "_supplementaries.trslcn.comment24": "Forbidden & Arcanus",
   "block.supplementaries.hanging_sign_arcane_edelwood": "神秘埃德木挂牌",
   "block.supplementaries.hanging_sign_edelwood": "埃德木挂牌",
   "block.supplementaries.hanging_sign_cherrywood": "樱桃木挂牌",
@@ -542,12 +566,14 @@
   "item.supplementaries.sign_post_edelwood": "埃德木路标",
   "item.supplementaries.sign_post_cherrywood": "樱桃木路标",
   "item.supplementaries.sign_post_mysterywood": "神秘木路标",
-  //Druidcraft
+  
+  "_supplementaries.trslcn.comment25": "Druidcraft",
   "block.supplementaries.hanging_sign_darkwood": "黑木挂牌",
   "block.supplementaries.hanging_sign_elder": "接骨木挂牌",
   "item.supplementaries.sign_post_darkwood": "黑木路标",
   "item.supplementaries.sign_post_elder": "接骨木路标",
-  //Good Night's Sleep
+  
+  "_supplementaries.trslcn.comment26": "Good Night's Sleep",
   "block.supplementaries.hanging_sign_blood": "血木挂牌",
   "block.supplementaries.hanging_sign_dead": "枯木挂牌",
   "block.supplementaries.hanging_sign_dream": "美梦木挂牌",
@@ -556,17 +582,22 @@
   "item.supplementaries.sign_post_dead": "枯木路标",
   "item.supplementaries.sign_post_dream": "美梦木路标",
   "item.supplementaries.sign_post_white": "白木路标",
-  //Pokecube Legends
+  
+  "_supplementaries.trslcn.comment27": "Pokecube Legends",
   "block.supplementaries.hanging_sign_enigma": "迷芝果木挂牌",
   "block.supplementaries.hanging_sign_leppa": "苹野木挂牌",
   "block.supplementaries.hanging_sign_nanab": "蕉香木挂牌",
   "block.supplementaries.hanging_sign_oran": "橙橙木挂牌",
   "block.supplementaries.hanging_sign_pecha": "桃桃木挂牌",
   "block.supplementaries.hanging_sign_sitrus": "文柚木挂牌",
-  "block.supplementaries.hanging_sign_aged": "古老挂牌",//古老石室
-  "block.supplementaries.hanging_sign_distortic": "毁坏的挂牌",//毁坏的世界
-  "block.supplementaries.hanging_sign_inverted": "逆转挂牌",//没找到
-  "block.supplementaries.hanging_sign_temporal": "时限挂牌",//时限之塔
+  "block.supplementaries.hanging_sign_aged": "古老挂牌",
+  "_supplementaries.trslcn.comment28": "古老石室",
+  "block.supplementaries.hanging_sign_distortic": "毁坏的挂牌",
+  "_supplementaries.trslcn.comment29": "毁坏的世界",
+  "block.supplementaries.hanging_sign_inverted": "逆转挂牌",
+  "_supplementaries.trslcn.comment30": "没找到",
+  "block.supplementaries.hanging_sign_temporal": "时限挂牌",
+  "_supplementaries.trslcn.comment31": "时限之塔",
   "item.supplementaries.sign_post_enigma": "迷芝果木路标",
   "item.supplementaries.sign_post_leppa": "苹野木路标",
   "item.supplementaries.sign_post_nanab": "蕉香木路标",
@@ -577,10 +608,12 @@
   "item.supplementaries.sign_post_distortic": "毁坏的路标",
   "item.supplementaries.sign_post_inverted": "逆转路标",
   "item.supplementaries.sign_post_temporal": "时限路标",
-  //Outer End
+  
+  "_supplementaries.trslcn.comment32": "Outer End",
   "block.supplementaries.hanging_sign_azure": "碧蓝木挂牌",
   "item.supplementaries.sign_post_azure": "碧蓝木路标",
-  //Better End
+  
+  "_supplementaries.trslcn.comment33": "Better End",
   "block.supplementaries.hanging_sign_dragon_tree": "龙鳞木挂牌",
   "block.supplementaries.hanging_sign_end_lotus": "末地莲木挂牌",
   "block.supplementaries.hanging_sign_helix_tree": "螺旋木挂牌",
@@ -599,28 +632,35 @@
   "item.supplementaries.sign_post_pythadendron": "毕达木路标",
   "item.supplementaries.sign_post_tenanea": "十纹木路标",
   "item.supplementaries.sign_post_umbrella_tree": "胶伞木路标",
-  "block.supplementaries.hanging_sign_lucernia": "Lucernia 挂牌",//官中未译
+  "block.supplementaries.hanging_sign_lucernia": "Lucernia 挂牌",
+  "_supplementaries.trslcn.comment34": "官中未译",
   "item.supplementaries.sign_post_lucernia": "Lucernia 路标",
-  //Greek Fantasy
+  
+  "_supplementaries.trslcn.comment35": "Greek Fantasy",
   "block.supplementaries.hanging_sign_olive": "橄榄木挂牌",
   "item.supplementaries.sign_post_olive": "橄榄木路标",
-  //Mystical World
+  
+  "_supplementaries.trslcn.comment36": "Mystical World",
   "block.supplementaries.hanging_sign_charred": "烧焦的挂牌",
   "item.supplementaries.sign_post_charred": "烧焦的路标",
-  //Undergarden
+  
+  "_supplementaries.trslcn.comment37": "Undergarden",
   "block.supplementaries.hanging_sign_grongle": "油绿木挂牌",
   "block.supplementaries.hanging_sign_smogstem": "烟梗木挂牌",
   "block.supplementaries.hanging_sign_wigglewood": "摇蜿木挂牌",
   "item.supplementaries.sign_post_grongle": "油绿木路标",
   "item.supplementaries.sign_post_smogstem": "烟梗木路标",
   "item.supplementaries.sign_post_wigglewood": "摇蜿木路标",
-  //de = Desolation
-  "block.supplementaries.hanging_sign_charred_de": "烧焦的挂牌",
-  "item.supplementaries.sign_post_charred_de": "烧焦的路标",
-  //Mowzie's Mobs
+  
+  "_supplementaries.trslcn.comment38": "Desolation",
+  "block.supplementaries.hanging_sign_charred_de": "烧焦挂牌",
+  "item.supplementaries.sign_post_charred_de": "烧焦路标",
+  
+  "_supplementaries.trslcn.comment39": "Mowzie's Mobs",
   "block.supplementaries.hanging_sign_painted_acacia": "彩绘金合欢木挂牌",
   "item.supplementaries.sign_post_painted_acacia": "彩绘金合欢木路标",
-  //Twilight Forest
+  
+  "_supplementaries.trslcn.comment40": "Twilight Forest",
   "block.supplementaries.hanging_sign_canopy_tf": "苍穹木挂牌",
   "block.supplementaries.hanging_sign_dark_tf": "黑木挂牌",
   "block.supplementaries.hanging_sign_mangrove_tf": "红木挂牌",
@@ -637,12 +677,14 @@
   "item.supplementaries.sign_post_time_tf": "时光木路标",
   "item.supplementaries.sign_post_trans_tf": "变化木路标",
   "item.supplementaries.sign_post_twilight_oak_tf": "暮色橡木路标",
-  //Atum
+  
+  "_supplementaries.trslcn.comment41": "Atum",
   "block.supplementaries.hanging_sign_deadwood_atum": "死树木挂牌",
   "block.supplementaries.hanging_sign_palm_atum": "棕榈木挂牌",
   "item.supplementaries.sign_post_deadwood_atum": "死树木路标",
   "item.supplementaries.sign_post_palm_atum": "棕榈木路标",
-  //Lord of the Rings
+  
+  "_supplementaries.trslcn.comment42": "Lord of the Rings",
   "block.supplementaries.hanging_sign_apple_lotr": "苹果木挂牌",
   "block.supplementaries.hanging_sign_aspen_lotr": "杨木挂牌",
   "block.supplementaries.hanging_sign_beech_lotr": "山毛榉木挂牌",
@@ -681,20 +723,24 @@
   "item.supplementaries.sign_post_pear_lotr": "梨木路标",
   "item.supplementaries.sign_post_pine_lotr": "松木路标",
   "item.supplementaries.sign_post_rotten_lotr": "腐木路标",
-  //Structurize
+  
+  "_supplementaries.trslcn.comment43": "Structurize",
   "block.supplementaries.hanging_sign_cactus": "仙人掌挂牌",
   "item.supplementaries.sign_post_cactus": "仙人掌路标",
-  //Simply Tea
+  
+  "_supplementaries.trslcn.comment44": "Simply Tea",
   "block.supplementaries.hanging_sign_tea": "茶木挂牌",
   "item.supplementaries.sign_post_tea": "茶木路标",
-  //Habitat 不全的繁体翻译
+  
+  "_supplementaries.trslcn.comment45": "Habitat 不全的繁体翻译",
   "block.supplementaries.hanging_sign_fairy_ring_mushroom_hbt": "仙女环蘑菇挂牌",
   "item.supplementaries.sign_post_fairy_ring_mushroom_hbt": "仙女环蘑菇路标",
-  //Omni 仅不全的繁体翻译，作者上一次更新在一年前
+  
+  "_supplementaries.trslcn.comment46": "Omni 仅不全的繁体翻译，作者上一次更新在一年前",
   "block.supplementaries.hanging_sign_cave_mushroom": "洞穴蘑菇挂牌",
   "item.supplementaries.sign_post_cave_mushroom": "洞穴蘑菇路标",
 
-  //deprecated recipes
+  "_supplementaries.trslcn.comment47": "停止使用",
   "block.supplementaries.hanging_sign_beeswax": "蜂蜡挂牌",
   "item.supplementaries.sign_post_beeswax": "蜂蜡路标",
   "block.supplementaries.hanging_sign_tofustem": "豆干挂牌",
@@ -764,7 +810,7 @@
   "book.supplementaries.entry.hourglass.name": "沙漏",
   "book.supplementaries.entry.hourglass.page.1.title": "沙漏",
   "book.supplementaries.entry.hourglass.page.1": "能用任意砂类和粉末填充，黏液和蜂蜜也可以。$(br)一旦填入对应物品，内容物就会在一段时间内流至底部，时间的长度由内容物种类决定。$(br)会根据剩余时间输出可被比较器检测的红石信号。$(br)在处理时序中很有用处。",
-  "book.supplementaries.entry.hourglass.page.2": "可用转盘旋转两次或是Shift右击重设。$(br)可通过配置文件查看和编辑各种填充物对应的时间。",
+  "book.supplementaries.entry.hourglass.page.2": "可用转台旋转两次或是Shift右击重设。$(br)可通过配置文件查看和编辑各种填充物对应的时间。",
 
   "book.supplementaries.entry.illuminator.name": "红石照明器",
   "book.supplementaries.entry.illuminator.page.1.title": "红石照明器",
@@ -783,7 +829,7 @@
 
   "book.supplementaries.entry.pulley.name": "滑轮",
   "book.supplementaries.entry.pulley.page.1.title": "滑轮",
-  "book.supplementaries.entry.pulley.page.1": "有一个物品槽，接受任意类似铁链或$(l:decorative/rope)绳索$(/l)的物品。$(br)当转盘旋转该方块时（连的转轴要对），它会伸出或收回其物品槽内物品，行为由旋转方向为顺时针或逆时针决定。",
+  "book.supplementaries.entry.pulley.page.1": "有一个物品槽，接受任意类似铁链或$(l:decorative/rope)绳索$(/l)的物品。$(br)当转台旋转该方块时（连的转轴要对），它会伸出或收回其物品槽内物品，行为由旋转方向为顺时针或逆时针决定。",
   "book.supplementaries.entry.pulley.page.2": "如果其下$(l:decorative/rope)绳索$(/l)以手动Shift右击的方式收回（参见绳索），收得的$(l:decorative/rope)绳索$(/l)会进入滑轮的物品槽内。$(br)也可用曲柄来旋转。",
   "book.supplementaries.entry.pulley.page.3": "它旋转时会带动与它相邻且同转轴的滑轮。$(br)和使用绳索一样，收回或伸出铁链和绳索也会带动连在其末端的方块。$(br)不可被红石驱动。",
 
@@ -797,8 +843,8 @@
   "book.supplementaries.entry.speaker.page.1": "被红石激活时向一定距离内的玩家的聊天栏发送信息。$(br)同时有一个“语音模式”使信息通过复述功能读出。$(br)它的传播半径（音量）和信息内容可通过其GUI编辑。",
   "book.supplementaries.entry.speaker.page.2": "可通过铁砧重命名发送信息时扬声器的名字。$(br)重命名为“”就不会显示名字了。",
 
-  "book.supplementaries.entry.turn_table.name": "转盘",
-  "book.supplementaries.entry.turn_table.page.1.title": "转盘",
+  "book.supplementaries.entry.turn_table.name": "转台",
+  "book.supplementaries.entry.turn_table.page.1.title": "转台",
   "book.supplementaries.entry.turn_table.page.1": "可改变其面对的方块的方向。$(br)它被激活时会进行一次旋转，所消耗的时间由接收到的信号强度决定。$(br)当次旋转动作会无视红石信号执行，由其上的红灯显示它在运作与否。",
   "book.supplementaries.entry.turn_table.page.2": "如果给予一个短脉冲，它就只会执行一次旋转。$(br)旋转频率（或者说旋转速度，对实体而言）由其接收到的信号强度决定。$(br)右击切换旋转方向。",
   "book.supplementaries.entry.turn_table.page.3": "可面朝任意方向放置。$(br)会持续旋转站在其上的实体（仅在其面向上方时生效）。$(br)旋转时间在15点强度时为4 tick，随信号强度减弱线性增加，在1点强度时为60 tick。",
@@ -807,7 +853,7 @@
   "book.supplementaries.entry.faucet.page.1.title": "水龙头",
   "book.supplementaries.entry.faucet.page.1": "是个强大的多功能方块。$(br)右击旋钮开启。$(br)给予红石信号时切换开关状态。$(br)可从其后物品栏内提取物品并以一秒一次的速度从龙头吐出。",
   "book.supplementaries.entry.faucet.page.2": "它放置在储有流体的方块旁时会从龙头出滴下流体粒子，开启后仅在视觉层面上显示出一个小型流体柱。",
-  "book.supplementaries.entry.faucet.page.3": "它能将其后的储有流体的方块内的流体提取至其下方的能储存流体的方块。$(br)每250mB提取一次。$(br)能储存流体的方块有：含水方块、流体储罐、广口瓶、酒杯、炼药锅（兼容Inspirations）和特殊方块，比如煎饼、浸药竹刺、蜂巢和某些其他模组的方块（例如富含树脂的原木和蜂蜜罐）。",
+  "book.supplementaries.entry.faucet.page.3": "它能将其后的储有流体的方块内的流体提取至其下方的能储存流体的方块。$(br)每250mB提取一次。$(br)能储存流体的方块有：含水方块、流体储罐、玻璃罐、酒杯、炼药锅（兼容Inspirations）和特殊方块，比如煎饼、浸药竹刺、蜂巢和某些其他模组的方块（例如富含树脂的原木和蜂蜜罐）。",
   "book.supplementaries.entry.faucet.page.4": "其后有流体的水龙头能使其下的混凝土粉末固化。$(br)玩家可与和流体相连并被开启的水龙头用玻璃瓶或空手在龙头处直接与流体交互（或者可以说是在喝那种流体）。",
 
   "book.supplementaries.entry.crank.name": "曲柄",
@@ -854,10 +900,10 @@
   "book.supplementaries.entry.pancake.page.1": "它们只能放出来吃，和蛋糕类似。$(br)一堆里最多能放8张煎饼。$(br)能在其上倒上蜂蜜（水龙头或直接用蜂蜜瓶均可）。$(br)它们也接受其他佐料，比如巧克力和糖浆，与其他模组兼容。",
   "book.supplementaries.entry.pancake.page.2": "淋有蜂蜜、巧克力或糖浆的煎饼会给予食用者一个短暂的速度效果。$(br)你也可以把一张煎饼塞到唱片机里。放点新奇的音乐。$(br)将煎饼插入唱片机会播放一首新的音乐——煎饼曲。",
 
-  "book.supplementaries.entry.rope_arrow.name": "绳箭",
-  "book.supplementaries.entry.rope_arrow.page.1.title": "绳箭",
-  "book.supplementaries.entry.rope_arrow.page.1": "发射后会尝试在落点放出一条绳索。$(br)最多能放24条绳索（可用配置文件修改）。$(br)是居家旅行，探洞掘坑的必备良品。$(br)射出去的绳箭会保有没能放出去的绳索，记得回收它们。",
-  "book.supplementaries.entry.rope_arrow.page.2.title": "绳箭",
+  "book.supplementaries.entry.rope_arrow.name": "绳索箭矢",
+  "book.supplementaries.entry.rope_arrow.page.1.title": "绳索箭矢",
+  "book.supplementaries.entry.rope_arrow.page.1": "发射后会尝试在落点放出一条绳索。$(br)最多能放24条绳索（可用配置文件修改）。$(br)是居家旅行，探洞掘坑的必备良品。$(br)射出去的绳索箭矢会保有没能放出去的绳索，记得回收它们。",
+  "book.supplementaries.entry.rope_arrow.page.2.title": "绳索箭矢",
   "book.supplementaries.entry.rope_arrow.page.2": "$(br2)$()$(br2)$()$(br2)$()$(br2)$()$(br)$()",
 
 
@@ -880,7 +926,7 @@
 
   "book.supplementaries.entry.fireflies.name": "萤火虫",
   "book.supplementaries.entry.fireflies.page.1.title": "萤火虫",
-  "book.supplementaries.entry.fireflies.page.1": "一种在夜晚生成，随心所欲到处游荡发光的被动生物。$(br)在平原类、沼泽类和魔法气息浓厚的生物群系生成。$(br)装在广口瓶中会有特殊的动画效果。",
+  "book.supplementaries.entry.fireflies.page.1": "一种在夜晚生成，随心所欲到处游荡发光的被动生物。$(br)在平原类、沼泽类和魔法气息浓厚的生物群系生成。$(br)装在玻璃罐中会有特殊的动画效果。",
   "book.supplementaries.entry.fireflies.page.2": "",
 
 
@@ -1113,18 +1159,18 @@
 
   "book.supplementaries.entry.hanging_sign.name": "挂牌",
   "book.supplementaries.entry.hanging_sign.page.1.title": "挂牌",
-  "book.supplementaries.entry.hanging_sign.page.1": "能写有文本，展示物品和拥有旗帜图案。$(br)能连接在方块底面或侧面，也能与栅栏和墙连接。$(br)被实体碰到是会飘动。",
+  "book.supplementaries.entry.hanging_sign.page.1": "能写有文本，展示物品和旗帜图案。$(br)能连接在方块底面或侧面，也能与栅栏和墙连接。$(br)被实体碰到是会飘动。",
   "book.supplementaries.entry.hanging_sign.page.2": "",
 
-  "book.supplementaries.entry.iron_gate.name": "铁栅栏门",
-  "book.supplementaries.entry.iron_gate.page.1.title": "铁栅栏门",
-  "book.supplementaries.entry.iron_gate.page.1": "和栅栏门功效一致的装饰性方块。$(br)能与其上的金属栅栏门相连。",
+  "book.supplementaries.entry.iron_gate.name": "铁栏杆门",
+  "book.supplementaries.entry.iron_gate.page.1.title": "铁栏杆门",
+  "book.supplementaries.entry.iron_gate.page.1": "和栏杆门功效一致的装饰性方块。$(br)能与其上的金属栏杆门相连。",
   "book.supplementaries.entry.iron_gate.page.2": "",
 
-  "book.supplementaries.entry.jar.name": "广口瓶",
-  "book.supplementaries.entry.jar.page.1.title": "广口瓶",
-  "book.supplementaries.entry.jar.page.1": "$(br2)$()$(br2)$()能储存最多12个曲奇类物品。$(br)支持许多模组。$(br)与其交互直接食用其中曲奇。$(br)和笼子一样能捕捉小型生物，白名单和笼子的不同。$(br)广口瓶能储存最多12瓶（或3000mB）流体。",
-  "book.supplementaries.entry.jar.page.2": "和$(l:decorative/goblet)酒杯$(/l)有同样的行为逻辑。$(br)查看对应条目以获得更多信息。$(br)可在配置文件中启用允许直接从物品状态和方块状态下的广口瓶中饮用流体的选项。",
+  "book.supplementaries.entry.jar.name": "玻璃罐",
+  "book.supplementaries.entry.jar.page.1.title": "玻璃罐",
+  "book.supplementaries.entry.jar.page.1": "$(br2)$()$(br2)$()能储存最多12个曲奇类物品。$(br)支持许多模组。$(br)与其交互直接食用其中曲奇。$(br)和笼子一样能捕捉小型生物，其白名单和笼子的不同。$(br)玻璃罐能储存最多12瓶（或3000mB）流体。",
+  "book.supplementaries.entry.jar.page.2": "和$(l:decorative/goblet)酒杯$(/l)有同样的行为逻辑。$(br)查看对应条目以获得更多信息。$(br)可在配置文件中启用允许直接从物品状态和方块状态下的玻璃罐中饮用流体的选项。",
 
   "book.supplementaries.entry.lamp.name": "灯",
   "book.supplementaries.entry.lamp.page.1.title": "灯",
@@ -1193,9 +1239,9 @@
   "book.supplementaries.entry.statue.page.1": "能持有一个物品。$(br)持有一些物品（例如蜡烛、工具、剑）有特殊视觉效果。$(br)被红石激活时会挥舞手臂。$(br)赞助者们重命名雕像为自己的用户名就能拿到一个有着自己皮肤的雕像。",
   "book.supplementaries.entry.statue.page.2": "",
 
-  "book.supplementaries.entry.wattle_daub.name": "抹灰篱笆方块",
-  "book.supplementaries.entry.wattle_daub.page.1.title": "抹灰篱笆方块",
-  "book.supplementaries.entry.wattle_daub.page.1": "$(br2)$()$(br2)$()$(br2)$()$(br)$()一种和木支架方块相性很好的中世纪风格装饰性方块。$(br)向任意木支架方块中放置抹灰就能将其转变为对应的抹灰篱笆方块。",
+  "book.supplementaries.entry.wattle_daub.name": "粗灰泥篱笆方块",
+  "book.supplementaries.entry.wattle_daub.page.1.title": "粗灰泥篱笆方块",
+  "book.supplementaries.entry.wattle_daub.page.1": "$(br2)$()$(br2)$()$(br2)$()$(br)$()一种和木支架方块相性很好的中世纪风格装饰性方块。$(br)向任意木支架方块中放置粗灰泥就能将其转变为对应的粗灰泥篱笆方块。",
   "book.supplementaries.entry.wattle_daub.page.2": "",
 
   "book.supplementaries.entry.checker.name": "棋盘格方块",
