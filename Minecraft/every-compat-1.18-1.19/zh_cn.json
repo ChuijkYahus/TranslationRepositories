@@ -856,12 +856,14 @@
 
   "wood_type.quark.blossom": "花木",
   "wood_type.quark.azalea": "杜鹃木",
+  "wood_type.quark.ancient": "远古木",
   "leaves_type.quark.blue_blossom": "雪霜花",
   "leaves_type.quark.lavender_blossom": "幽静花",
   "leaves_type.quark.orange_blossom": "温暖花",
   "leaves_type.quark.pink_blossom": "甜蜜花",
   "leaves_type.quark.yellow_blossom": "阳光花",
   "leaves_type.quark.red_blossom": "火热花",
+  "leaves_type.quark.ancient": "远古",
 
   "wood_type.rankine.cedar": "雪松木",
   "wood_type.rankine.balsam_fir": "胶枞木",
