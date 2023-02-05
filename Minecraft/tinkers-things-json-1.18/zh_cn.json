@@ -9,9 +9,14 @@
   
   "item.tinkers_things.halberd": "戟",
   "item.tinkers_things.halberd.description": "戟是一种远距武器，专为强力打击远处目标而设计。",
+  "modifier.tinkers_things.range": "Long Range",
+  "modifier.tinkers_things.range.flavor": "Extra long handle",
+  "modifier.tinkers_things.range.description": "Tool is extra long, allowing attacking far away monsters",
   
   "item.tinkers_things.shortbow": "短弓",
   "item.tinkers_things.shortbow.description": "短弓是一种轻量级的弓，它没有长弓那样的力量和精确度，但却能在移动中轻松拉开。",
+
+  "item.tinkers_things.sack": "Silky Sack",  
   
   "pattern.tinkers_things.large_repair_kit": "大型修补件",
   "item.tinkers_things.large_repair_kit": "大型修补件",
@@ -41,6 +46,15 @@
   "modifier.tinkers_things.weakness": "虚弱",
   "modifier.tinkers_things.weakness.flavor": "晕眩之箭！",
   "modifier.tinkers_things.weakness.description": "目标会暂时变得虚弱，其攻击伤害会降低",
+  
+  
+  "modifier.tinkers_things.stowing": "Stowing",
+  "modifier.tinkers_things.stowing.flavor": "Holds a lot of stuff",
+  "modifier.tinkers_things.stowing.description": "Tool gains an additional 9 slots of storage",
+  
+  "modifier.tinkers_things.pouch": "Pouch",
+  "modifier.tinkers_things.pouch.flavor": "Holds a couple things",
+  "modifier.tinkers_things.pouch.description": "Tools gains an additional 3 slots of storage",
   
   
   "block.tinkers_things.hematite_block": "血曜石块",
