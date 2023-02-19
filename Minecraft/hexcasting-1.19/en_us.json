@@ -10,6 +10,8 @@
   "item.hexcasting.warped_staff": "Warped Staff",
   "item.hexcasting.mangrove_staff": "Mangrove Staff",
   "item.hexcasting.edified_staff": "Edified Staff",
+  "item.hexcasting.quenched_staff": "Quenched Shard Staff",
+  "item.hexcasting.mindsplice_staff": "Mindsplice Staff",
   "item.hexcasting.thought_knot": "Thought-Knot",
   "item.hexcasting.focus": "Focus",
   "item.hexcasting.focus.sealed": "Sealed Focus",
@@ -20,6 +22,7 @@
   "item.hexcasting.battery": "Phial of Media",
   "item.hexcasting.amethyst_dust": "Amethyst Dust",
   "item.hexcasting.charged_amethyst": "Charged Amethyst",
+  "item.hexcasting.quenched_allay_shard": "Shard of Quenched Allay",
   "item.hexcasting.lens": "Scrying Lens",
   "item.hexcasting.scroll_small": "Small Scroll",
   "item.hexcasting.scroll_small.of": "How did you get this item of %s",
@@ -114,6 +117,7 @@
   "block.hexcasting.amethyst_edified_leaves": "Amethyst Edified Leaves",
   "block.hexcasting.aventurine_edified_leaves": "Aventurine Edified Leaves",
   "block.hexcasting.citrine_edified_leaves": "Citrine Edified Leaves",
+  "block.hexcasting.quenched_allay": "Quenched Allay",
   
   "itemGroup.hexcasting": "Hexcasting",
   "itemGroup.hexcasting.creative_tab": "Hexcasting",
@@ -296,6 +300,8 @@
   "hexcasting.subtitles.impetus.fletcher.tick": "Fletcher Impetus ticks",
   "hexcasting.subtitles.impetus.cleric.register": "Cleric Impetus dings",
   "hexcasting.subtitles.lore_fragment.read": "Read lore fragment",
+  "hexcasting.subtitles.flight.ambience": "Player flies",
+  "hexcasting.subtitles.flight.finish": "Flight ends",
   
   "_comment": "hexcasting.spell.book keys override the name of a pattern in the patchouli book if present",
   
@@ -488,13 +494,15 @@
   "hexcasting.action.hexcasting:potion/wither": "Black Sun's Nadir",
   "hexcasting.action.hexcasting:potion/poison": "Red Sun's Nadir",
   "hexcasting.action.hexcasting:potion/slowness": "Green Sun's Nadir",
+  "hexcasting.action.hexcasting:flight/range": "Anchorite's Flight",
+  "hexcasting.action.hexcasting:flight/time": "Wayfarer's Flight",
   
   "hexcasting.action.hexcasting:potion/regeneration": "White Sun's Zenith",
   "hexcasting.action.hexcasting:potion/night_vision": "Blue Sun's Zenith",
   "hexcasting.action.hexcasting:potion/absorption": "Black Sun's Zenith",
   "hexcasting.action.hexcasting:potion/haste": "Red Sun's Zenith",
   "hexcasting.action.hexcasting:potion/strength": "Green Sun's Zenith",
-  "hexcasting.action.hexcasting:flight": "Flight",
+  "hexcasting.action.hexcasting:flight": "Altiora",
   "hexcasting.action.hexcasting:lightning": "Summon Lightning",
   "hexcasting.action.hexcasting:summon_rain": "Summon Rain",
   "hexcasting.action.hexcasting:dispel_rain": "Dispel Rain",
@@ -601,7 +609,7 @@
   
   "_comment": "Patchi stuff",
   
-  "hexcasting.landing": "I seem to have discovered a new method of magical arts, in which one draws patterns strange and wild onto a hexagonal grid. It fascinates me. I've decided to start a journal of my thoughts and findings.$(br2)$(l:https://discord.gg/4xxHGYteWk)Discord Server Link/$",
+  "hexcasting.landing": "I seem to have discovered a new method of magical arts, in which one draws patterns strange and wild onto a hexagonal grid. It fascinates me. I've decided to start a journal of my thoughts and findings.$(br2)$(l:https://forum.petra-k.at/index.php)Forum Link/$",
   
   "hexcasting.entry.basics": "Getting Started",
   "hexcasting.entry.basics.desc": "The practitioners of this art would cast their so-called _Hexes by drawing strange patterns in the air with a $(l:items/staff)$(item)staff/$-- or craft $(l:items/hexcasting)$(item)powerful magical items/$ to do the casting for them. How might I do the same?",
@@ -870,6 +878,16 @@
   "hexcasting.page.akashiclib.akashic_record": "Allocating and assigning patterns is simple but oh so boring. I have better things to do. I will need a mind well-used to its work for the extraction to stay sound.",
   "hexcasting.page.akashiclib.3": "Then to operate the library is simple, the patterns are routed through the librarian and it looks them up and returns the iota to you. Two actions do the work. $(l:patterns/akashic_patterns)Notes here/$.$(br2)Using an empty $(l:items/scroll)$(item)scroll/$ on a bookshelf copies the pattern there onto the $(l:items/scroll)$(item)scroll/$. Sneaking and using an empty hand clears the datum in the shelf.",
   
+  "hexcasting.entry.quenching_allays": "Quenching Allays",
+  "hexcasting.page.quenching_allays.1": "THEY ARE BITS OF MEDIA. How did I not see it sooner? They are -- as I am a heap of flesh with a scrap, blessed with a scrap of thought, an Allay is a self-sustaining quarrel of media pinned to a scrap of flesh. It explains everything -- their propensity for media, their response to music, I SEE NOW, HOW did the ones before NOT?",
+  "hexcasting.page.quenching_allays.2": "And given this it is only RIGHT I conquer their peculiar minds -- their peculiar selves -- that is all they are, a mind, a self, a coda. Something about their phase speaks to me. I can... I can compress _media with them, overlay two wends of thought in one space, physical and cognitive, all and once.$(br2)Somehow, the process produces _media of its own. How? Perhaps -- perhaps MY work, the process of doing it --",
+  "hexcasting.page.quenching_allays.3": "It matters not. I matter not. They matter not, all that matters is what it does. And this is it.$(br2)It must hurt so very much.",
+  "hexcasting.page.quenching_allays.4": "The product is fragile. Breaking it shatters it into pieces, with $(thing)Fortune/$ increasing the yield... if I wish the block itself I need a silken touch.$(br2)The produced shards are worth thrice an $(l:items/amethyst)$(item)Charged Amethyst Crystal/$ apiece. The block itself is worth four of the shards.",
+  "hexcasting.page.quenching_allays.5": "They are mercurial, they seem to twist and wink under my fingers, and by giving them a mentor in another form of _media they may be coerced into its shape, in an equivalent exchange of _media.",
+  
+  "hexcasting.entry.fanciful_staves": "Fanciful Staves",
+  "hexcasting.page.fanciful_staves.1": "It is only right as I shed the husk of ignorance I replace my tools, my palm-polished staves. These new constructions of mine have no additional properties -- but they are so glorious, oh so Glorious... They match the radiance winking at the corners of my sight.",
+  
   "_comment": "Patterns",
   
   "hexcasting.entry.readers_guide": "How to Read this Section",
@@ -1131,6 +1149,14 @@
   
   "hexcasting.page.colorize": "I must be holding a $(l:items/pigments)$(item)Pigment/$ in my other hand to cast this spell. When I do, it will consume the dye and permanently change my mind's coloration (at least, until I cast the spell again). Costs about one $(l:items/amethyst)$(item)Amethyst Dust/$.",
   
+  "hexcasting.entry.flights": "Flight",
+  "hexcasting.page.flights.1": "Although it seems that true, limitless flight is out of my grasp, I have nonetheless found some methods of holding one in the sky, each with their respective drawbacks.$(br2)All forms produce a shimmer of excess _media; as the spell gets closer to ending, the sparks are shot through with more red and black.",
+  "hexcasting.page.flights.2": "Other forms of flight do exist, of course. For example, a combination of $(l:patterns/spells/basic#hexcasting:add_motion)$(action)Impulse/$ and $(l:patterns/spells/nadirs#hexcasting:potion/levitation)$(action)Blue Sun's Nadir/$ has been used since antiquity for a flight of sorts.$(br2)I've also heard tell of a thin membrane worn on the back that allows the ability to glide. From my research, I believe the Great spell $(l:patterns/great_spells/altiora)$(action)Altiora/$ may be used to mimic it.",
+  "hexcasting.page.flights.range.1": "A flight limited in its range.",
+  "hexcasting.page.flights.range.2": "The second argument is a horizontal radius, in meters, in which the spell is stable. Moving outside of that radius will end the spell, dropping me out of the sky. As long as I stay inside the safe zone, however, the spell lasts indefinitely. An additional shimmer of _media marks the origin point of the safe zone. $(br2)Costs about 1 $(l:items/amethyst)$(item)Amethyst Dust/$ per meter of safety.",
+  "hexcasting.page.flights.time.1": "A flight limited in its duration.",
+  "hexcasting.page.flights.time.2": "The second argument is an amount of time in seconds for which the spell is stable. After that time, the spell ends and I am dropped from the sky. $(br2)It is relatively expensive at about 1 $(l:items/amethyst)$(item)Charged Crystal/$ per second of flight; I believe it is best suited for travel.",
+  
   "hexcasting.page.create_lava.1": "Summon a block of lava (or insert up to a bucket's worth) into a block at the given position. Costs about one $(l:items/amethyst)$(item)Charged Amethyst/$.",
   "hexcasting.page.create_lava.2": "It may be advisable to keep my knowledge of this spell secret. A certain faction of botanists get... touchy about it, or so I've heard.$(br2)Well, no one said tracing the deep secrets of the universe was going to be an easy time.",
   
@@ -1139,8 +1165,8 @@
   "hexcasting.page.weather_manip.summon_rain": "I control the clouds! This spell will summon rain across the world I cast it upon. Costs about one $(l:items/amethyst)$(item)Charged Amethyst/$. Does nothing if it is already raining.",
   "hexcasting.page.weather_manip.dispel_rain": "A counterpart to summoning rain. This spell will dispel rain across the world I cast it upon. Costs about one $(l:items/amethyst)$(item)Amethyst Shard/$. Does nothing if the skies are already clear.",
   
-  "hexcasting.page.flight.1": "The power of flight! I have wrestled Nature to its knees. But Nature is vengeful, and itches for me to break its contract so it may break my shins.",
-  "hexcasting.page.flight.2": "The entity (which must be a player) will be endowed with flight. The first number is the number of seconds they may fly for, and the second number is the radius of the zone they may fly in. If the recipient exits that zone, or their timer runs out while midair, the gravity that they spurned will get its revenge. Painfully.$(br2)It costs one quarter of an $(l:items/amethyst)$(item)Amethyst Dust/$, per meter of radius, per second in flight.",
+  "hexcasting.page.altiora.1": "Summon a sheaf of _media about me in the shape of wings, endowed with enough substance to allow gliding.",
+  "hexcasting.page.altiora.2": "Using them is identical to using $(item)Elytra/$; the target (which must be a player) is lofted into the air, after which pressing $(k:jump) will deploy the wings. The wings are fragile, and break upon touching any surface. Longer flights may benefit from $(l:patterns/spells/basic#hexcasting:add_motion)$(action)Impulse/$ or (for the foolhardy) $(item)Fireworks/$.$(br2)Costs about one $(l:items/amethyst)$(item)Charged Crystal/$.",
   
   "hexcasting.page.teleport.1": "Far more powerful than $(l:patterns/spells/basic#hexcasting:blink)$(action)Blink/$, this spell lets me teleport nearly anywhere in the entire world! There does seem to be a limit, but it is $(italic)much/$ greater than the normal radius of influence I am used to.",
   "hexcasting.page.teleport.2": "The entity will be teleported by the given vector, which is an offset from its given position. No matter the distance, it always seems to cost about ten $(l:items/amethyst)$(item)Charged Amethyst/$.$(br2)The transference is not perfect, and it seems when teleporting something as complex as a player, their inventory doesn't $(italic)quite/$ stay attached, and tends to splatter everywhere at the destination. In addition, the target will be forcibly removed from anything inanimate they are riding or sitting on ... but I've read scraps that suggest animals can come along for the ride, so to speak.",

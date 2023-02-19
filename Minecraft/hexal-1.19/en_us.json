@@ -20,11 +20,17 @@
   "hexcasting.mishap.invalid_value.class.type.block.able": "an item type that has a block",
   "hexcasting.mishap.invalid_value.class.type.list.double": "a list of numbers",
   "hexal.mishap.invalid_value.vecitem": "a vector or item entity",
+  "hexal.mishap.invalid_value.veclist": "a vector or a list of vectors",
 
 
   "hexcasting.iota.hexal:iota_type": "Iota Type",
   "hexcasting.iota.hexal:entity_type": "Entity Type",
   "hexcasting.iota.hexal:item_type": "Item Type",
+  "hexcasting.iota.hexal:gate": "Gate",
+
+  "hexal.spelldata.entity_type": "Type",
+  "hexal.spelldata.gate": "Gate %d",
+
 
   "hexcasting.spell.hexal:type/block": "Surveyor's Purification",
   "hexcasting.spell.hexal:type/entity": "Physician's Purification",
@@ -34,6 +40,8 @@
   "hexcasting.spell.hexal:remaining_evals": "Thanatos' Reflection",
   "hexcasting.spell.hexal:breath": "Diver's Purification",
   "hexcasting.spell.hexal:health": "Nurse's Purification",
+  "hexcasting.spell.hexal:armour": "Squire's Purification",
+  "hexcasting.spell.hexal:toughness": "Boxer's Purification",
   "hexcasting.spell.hexal:light_level": "Lamplighter's Purification",
 
   "hexcasting.spell.hexal:factorial": "Factorial Purification",
@@ -49,6 +57,7 @@
   "hexcasting.spell.hexal:freeze": "Freeze",
   "hexcasting.spell.hexal:falling_block": "Falling Block",
   "hexcasting.spell.hexal:place_type": "Place Block II",
+  "hexcasting.spell.hexal:particles": "Particles",
 
   "hexcasting.spell.hexal:wisp/summon/projectile": "Summon Projectile Wisp",
   "hexcasting.spell.hexal:wisp/summon/ticking": "Summon Cyclic Wisp",
@@ -85,6 +94,12 @@
   "hexcasting.spell.hexal:link/comm/open_transmit": "Open Transmit",
   "hexcasting.spell.hexal:link/comm/close_transmit": "Close Transmit",
 
+  "hexcasting.spell.hexal:gate/make": "Gate's Reflection",
+  "hexcasting.spell.hexal:gate/mark": "Gate's Opening",
+  "hexcasting.spell.hexal:gate/close": "Gate's Closing",
+
+  "hexcasting.spell.hexal:tick": "Accelerate",
+
 
 
   "hexcasting.spell.book.hexal:light_level": "Lamplighter's Prfn.",
@@ -108,6 +123,8 @@
   "hexal.page.hexal_basics.remaining_evals": "Adds the number of evaluations a hex is still capable of to the stack. This is reduced by $(l:patterns/meta#hexcasting:eval)$(action)Hermes' Gambit/$ and $(l:patterns/meta#hexcasting:for_each)$(action)Thoth's Gambit/$.",
   "hexal.page.hexal_basics.breath": "Removes a Living entity from the stack and returns how much breath it has left (i.e., how close it is to drowning).",
   "hexal.page.hexal_basics.health": "Removes a Living entity from the stack and returns how much health it has left (i.e., how close it is to dying).",
+  "hexal.page.hexal_basics.armour": "Removes a Living entity from the stack and returns how much armour it has.",
+  "hexal.page.hexal_basics.toughness": "Removes a Living entity from the stack and returns how much toughness it has (another property of armour).",
   "hexal.page.hexal_basics.light_level": "Removes a position vector from the stack and returns the light level at that position.",
 
   "hexal.entry.hexal_maths": "Hexal Maths",
@@ -120,7 +137,8 @@
   "hexal.page.hexal_spell.smelt.1": "Costs three quarters of an $(l:items/amethyst)$(item)Amethyst Dust/$ per item smelted (i.e. three quarters of an $(l:items/amethyst)$(item)Amethyst Dust/$ for smelting a block, 6 $(l:items/amethyst)$(item)Amethyst Dust/$ to smelt a stack of 8 items.)",
   "hexal.page.hexal_spell.freeze": "Freezes the block at a block location. For example, turns water into ice, and ice into packed ice. Costs three $(l:items/amethyst)$(item)Amethyst Dust/$.",
   "hexal.page.hexal_spell.falling_block": "Remove a location from the stack, and force the block there to fall as if it were sand or gravel. Costs one and a half $(l:items/amethyst)$(item)Amethyst Dust/$.",
-  "hexal.page.hexal_spell.place_type": "Accepts a location and an item type, and attempts to place a block of that item type at that location. Costs an eight of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
+  "hexal.page.hexal_spell.place_type": "Accepts a location and an item type, and attempts to place a block of that item type at that location. Costs an eighth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
+  "hexal.page.hexal_spell.particles": "Accepts a location or a list of locations, and either creates a particle at the location, or creates lines of particles between the locations in the list. Costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$ per location.",
 
   "hexal.entry.wisps": "Wisps",
   "hexal.page.wisps.0": "I have discovered a way to create constructs from the media itself, visible to others and able to move and act somewhat on their own. They are able to cast hexes in my place, similar to how a $(l:patterns/meta#hexcasting:eval)$(action)Hermes' Gambit/$ evaluates patterns. They do take some of my attention to operate this however, and if too many try and execute at once I will only be able to run some of them, leaving the rest for the next instant.",
@@ -128,7 +146,7 @@
   "hexal.page.wisps.wisp/summon/projectile.0": "This wisp is summoned and launched like an arrow, casting its hex on whatever it hits. The initial stack when it executes will be a reference to itself, then a reference to what it hit.",
   "hexal.page.wisps.wisp/summon/projectile.1": "This could be a block position or an entity reference. The first vector accepted is the location the wisp will be summoned, while the direction of the second is the direction the wisp will be launched, and the second's magnitude seems to affect the wisp's velocity. The cost of the spell increases with the squared magnitude of velocity. The number accepted determines the wisp's reservoir in $(l:items/amethyst)$(item)Amethyst Dust/$. It loses one $(l:items/amethyst)$(item)Amethyst Dust/$ of media every second once summoned, and has a range of influence of 4 blocks.",
   "hexal.page.wisps.wisp/summon/ticking.0": "Similar to Summon Projectile Wisp, but with only one vector input for the position to summon the wisp. Cyclic wisps are unmoving once summoned, instead executing their hex up to 20 times each second.",
-  "hexal.page.wisps.wisp/summon/ticking.1": "The first time it casts the stack will start with a reference to itself, from which point it will always start with the stack and ravenmind in the state they finished on the last cast. This wisp has a less stable form making it lose significantly more media every second, losing one $(l:items/amethyst)$(item)Amethyst Dust/$ per second once summoned, as well as an amount proportional to the amount remaining. It has a range of influence of 8 blocks.",
+  "hexal.page.wisps.wisp/summon/ticking.1": "The first time it casts the stack will start with a reference to itself, from which point it will always start with the stack and ravenmind in the state they finished on the last cast. This wisp has a less stable form making it lose significantly more media every second, losing approximately seven tenths of an $(l:items/amethyst)$(item)Amethyst Dust/$ per second once summoned. It has a range of influence of 8 blocks.",
   "hexal.page.wisps.wisp/self": "Add a reference to the casting wisp to the stack. This must be cast by a wisp; trying to cast it through a staff will fail rather spectacularly.",
   "hexal.page.wisps.wisp/media": "Add the amount of media in the wisp's reservoir to the stack. This must be cast by a wisp; trying to cast it through a staff will fail rather spectacularly.",
   "hexal.page.wisps.wisp/hex": "Removes a reference to a wisp from the stack, and replaces it with the wisp's contained hex. Must be a wisp you summoned.",
@@ -146,7 +164,7 @@
 
   "hexal.entry.links": "Links",
   "hexal.page.links.0": "These patterns outline a system that I have found for communicating information from one $(l:hexal:patterns/spells/wisps)$(thing)wisp/$ to another, among other things. There are a number of patterns related to creating these links that are able to transmit information, and a number of patterns related to sending and receiving iotas over a link once it is created. A wisp can have any number of links active, with each costing a negligible amount of media to maintain each twentieth of a second.",
-  "hexal.page.links.1": "When a link is created both ends will assign a number to it, equal to the previous number of links that end had, which is used to reference the links in a number of patterns. The linkable type present in a number of the following signatures is not its own type, but a shorthand for any type that can be coerced into a linkable (e.g. Entity -> Linkable entities, Vec -> Linkable blocks, ...).",
+  "hexal.page.links.1": "When a link is created both ends will assign a number to it, equal to the previous number of links that end had, which is used to reference the links in a number of patterns. The linkable type present in a number of the following signatures is not its own type, but a shorthand for any type that can be coerced into a linkable (e.g. Entity -> Linkable entities, Vec -> Linkable blocks, ...). Links can span up to the maximum of the two linkable's ranges.",
   "hexal.page.links.link": "Links the casting wisp to the entity removed from the stack, which must be linkable. This costs one $(l:items/amethyst)$(item)Amethyst Shard/$.",
   "hexal.page.links.link/others": "May be evaluated by any casting instrument. Links two entities, which must be linkable. This costs one $(l:items/amethyst)$(item)Amethyst Shard/$.",
   "hexal.page.links.link/unlink": "Removes the link at the given index from the casting wisp's links. This costs two $(l:items/amethyst)$(item)Amethyst Dust/$.",
@@ -160,11 +178,21 @@
   "hexal.page.links.link/comm/open_transmit": "Similar to $(l:patterns/patterns_as_iotas#hexcasting:open_paren)$(action)Introspection/$, until drawing a $(l:hexal:patterns/spells/links#hexal:link/comm/close_transmit)$(action)Close Transmit/$ all patterns I draw are sent along the link whose index is at the top of the stack.",
   "hexal.page.links.link/comm/close_transmit": "When drawn after $(l:hexal:patterns/spells/links#hexal:link/comm/open_transmit)$(action)Open Transmit/$ I stop transmitting drawn patterns. If either $(l:hexal:patterns/spells/links#hexal:link/comm/open_transmit)$(action)Open Transmit/$ or $(l:hexal:patterns/spells/links#hexal:link/comm/close_transmit)$(action)Close Transmit/$ are executed by an intermediary caster such as a wisp, they will mishap.",
 
+  "hexal.entry.tick": "Accelerate",
+  "hexal.page.tick.tick.0": "Causes the block at the passed vector to perform its normal actions faster in the instant that this spell is cast.",
+  "hexal.page.tick.tick.1": "Casting it costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$, plus a thousandth of an $(l:items/amethyst)$(item)Amethyst Dust/$ for each time it has previously been cast on that block in this hex.",
+
+  "hexal.entry.gates": "Gates",
+  "hexal.page.gates.gate/make": "Adds a new gate iota to the stack. Any copy of this iota will point to the same numbered gate. Costs 32 $(l:items/amethyst)$(item)Charged Amethyst/$.",
+  "hexal.page.gates.gate/mark": "Consumes a gate iota and an entity. Marks that entity to be teleported the next time that gate is closed. Costs one twentieth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
+  "hexal.page.gates.gate/mark/get": "Consumes a gate iota, returns a list of entities marked by that gate.",
+  "hexal.page.gates.gate/close": "Consumes a gate iota and a position. Transports all the entities marked with that gate to the given position. Costs half an $(l:items/amethyst)$(item)Amethyst Shard/$.",
+
   "hexal.entry.great_wisps": "Great Wisp Spells",
   "hexal.page.great_wisps.wisp/consume.0": "Remove a wisp from the stack, and disassemble the wisp. The patterns contained are lost, but the media that it contained can be repurposed if this spell is cast by another wisp.",
-  "hexal.page.great_wisps.wisp/consume.1": "Costs either an $(l:items/amethyst)$(item)Amethyst Crystal/$ if the wisp is owned by you, or half again as much media as the consumed wisp contains if the wisp is owned by another. Repurposing the media is not completely efficient, losing one twentieth of the consumed wisp's reserve in transfer.",
-  "hexal.page.great_wisps.wisp/seon/set": "Bind one of my wisps closer to me; I may only have one bound wisp at a time, but whichever wisp is bound costs significantly less upkeep.",
-  "hexal.page.great_wisps.wisp/seon/get": "Returns my currently bound wisp. (This is not a great spell, I have simply placed it here for convenience.)",
+  "hexal.page.great_wisps.wisp/consume.1": "Costs either an $(l:items/amethyst)$(item)Amethyst Shard/$ if the wisp is owned by you, or half again as much media as the consumed wisp contains if the wisp is owned by another. Repurposing the media is not completely efficient, losing one twentieth of the consumed wisp's reserve in transfer.",
+  "hexal.page.great_wisps.wisp/seon/set": "Bind one of my wisps closer to me; I may only have one bound wisp at a time, but whichever wisp is bound costs significantly less upkeep and increased range.",
+  "hexal.page.great_wisps.wisp/seon/get": "Returns my currently bound wisp. A new wisp can only be bound when this returns null. (This is not a great spell, I have simply placed it here for convenience.)",
 
   "hexal.entry.types": "Types",
   "hexal.page.types.type/block": "Remove a location from the stack, and adds the type of the block at that location to the stack.",
@@ -186,5 +214,74 @@
   "hexal.page.everbook_entries.0": "Every page in this entry displays the pattern key for one of the entries of your $(l:hexal:patterns/everbook)$(action)Everbook/$.",
 
   "hexal.everbook_pattern_entry.header": "Stored Key: %d",
-  "hexal.everbook_pattern_entry.macro_header": "Macro Key: %d"
+  "hexal.everbook_pattern_entry.macro_header": "Macro Key: %d",
+
+
+
+  "_comment": "Config Entries",
+  "text.autoconfig.hexal.title": "Hexal Configs",
+  "text.autoconfig.hexal.category.common": "Common",
+  "text.autoconfig.hexal.category.client": "Client",
+  "text.autoconfig.hexal.category.server": "Server",
+
+  "text.autoconfig.hexal.option.server.terrainGeneration": "Terrain Generation",
+  "text.autoconfig.hexal.option.server.generateSlipwayGeodes": "Should generate Slipway Geodes?",
+
+  "text.autoconfig.hexal.option.server.miscSpells": "Miscellaneous Spells",
+  "text.autoconfig.hexal.option.server.miscSpells.fallingBlockCost": "Falling Block Cost",
+  "text.autoconfig.hexal.option.server.miscSpells.freezeCost": "Freeze Cost",
+  "text.autoconfig.hexal.option.server.miscSpells.particlesCost": "Particles Cost per Vector",
+  "text.autoconfig.hexal.option.server.miscSpells.placeTypeCost": "Place Type Cost",
+  "text.autoconfig.hexal.option.server.miscSpells.smeltCost": "Smelt Cost per Item",
+
+  "text.autoconfig.hexal.option.server.wispSpells": "Wisp Spells",
+  "text.autoconfig.hexal.option.server.wispSpells.moveSpeedSetCost": "Move Speed Set Base Cost",
+  "text.autoconfig.hexal.option.server.wispSpells.moveSpeedSetCost.@Tooltip[0]": "Cost to increase the movement speed of a wisp by 1.",
+  "text.autoconfig.hexal.option.server.wispSpells.moveSpeedSetCost.@Tooltip[1]": "This is the base cost, with greater increases being quadratically based on this.",
+  "text.autoconfig.hexal.option.server.wispSpells.summonTickingWispCost": "Summon Cyclic Wisp Cost",
+  "text.autoconfig.hexal.option.server.wispSpells.summonProjectileWispCost": "Summon Projectile Wisp Cost per Velocity Squared",
+  "text.autoconfig.hexal.option.server.wispSpells.summonProjectileWispMinCost": "Summon Cyclic Wisp Minimum Cost",
+
+  "text.autoconfig.hexal.option.server.wispUpkeep": "Wisp Upkeep",
+  "text.autoconfig.hexal.option.server.wispUpkeep.tickingWispUpkeepPerTick": "Cyclic Wisp Upkeep per Tick",
+  "text.autoconfig.hexal.option.server.wispUpkeep.projectileWispUpkeepPerTick": "Projectile Wisp Upkeep per Tick",
+  "text.autoconfig.hexal.option.server.wispUpkeep.untriggeredWispUpkeepDiscount": "Untriggered Wisp Upkeep Discount",
+  "text.autoconfig.hexal.option.server.wispUpkeep.untriggeredWispUpkeepDiscount.@Tooltip[0]": "The upkeep cost of untriggered cyclic wisps is multiplied by this number.",
+  "text.autoconfig.hexal.option.server.wispUpkeep.untriggeredWispUpkeepDiscount.@Tooltip[1]": "Bounded from 0.0 to 1.0.",
+  "text.autoconfig.hexal.option.server.wispUpkeep.linkUpkeepPerTick": "Link Upkeep per Tick",
+  "text.autoconfig.hexal.option.server.wispUpkeep.seonDiscountFactor": "Bound Wisp Discount Factor",
+  "text.autoconfig.hexal.option.server.wispUpkeep.seonDiscountFactor.@Tooltip[0]": "The upkeep cost of bound wisps is divided by this number.",
+  "text.autoconfig.hexal.option.server.wispUpkeep.seonDiscountFactor.@Tooltip[1]": "Bounded from 2.0 to 200.0.",
+  "text.autoconfig.hexal.option.server.wispUpkeep.storingPlayerCostScaleFactor": "Storing Player Cost Scale Factor",
+  "text.autoconfig.hexal.option.server.wispUpkeep.storingPlayerCostScaleFactor.@Tooltip[0]": "The multiplicative cost increase of wisps containing an iota of another player.",
+  "text.autoconfig.hexal.option.server.wispUpkeep.storingPlayerCostScaleFactor.@Tooltip[1]": "Bounded from 1.0 to 200.0.",
+
+  "text.autoconfig.hexal.option.server.linkSpells": "Link Spells",
+  "text.autoconfig.hexal.option.server.linkSpells.linkCost": "Link Cost",
+  "text.autoconfig.hexal.option.server.linkSpells.sendIotaCost": "Send Iota Cost",
+  "text.autoconfig.hexal.option.server.linkSpells.unlinkCost": "Unlink Cost",
+
+  "text.autoconfig.hexal.option.server.gateSpells": "Gate Spells",
+  "text.autoconfig.hexal.option.server.gateSpells.makeGateCost": "Make Gate Cost",
+  "text.autoconfig.hexal.option.server.gateSpells.markGateCost": "Mark Gate Cost",
+  "text.autoconfig.hexal.option.server.gateSpells.closeGateCost": "Close Gate Cost",
+
+  "text.autoconfig.hexal.option.server.greatSpells": "Great Spells",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOwnCost": "Consume Own Wisp Cost",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOwnCost.@Tooltip[0]": "Cost to consume a wisp you own,",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOwnCost.@Tooltip[1]": "or that doesn't fight back for some other reason.",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOthersCostPerMedia": "Consume Other's Wisp Cost per Media",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOthersCostPerMedia.@Tooltip[0]": "Cost to consume a wisp that fights back, this number is multiplied by",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOthersCostPerMedia.@Tooltip[1]": "the media possessed by the wisp you are attempting to consume.",
+  "text.autoconfig.hexal.option.server.greatSpells.consumeWispOthersCostPerMedia.@Tooltip[2]": "Bounded from 1.0 to 20.0.",
+  "text.autoconfig.hexal.option.server.greatSpells.seonWispSetCost": "Bind Wisp Cost",
+  "text.autoconfig.hexal.option.server.greatSpells.tickConstantCost": "Tick Constant Cost",
+  "text.autoconfig.hexal.option.server.greatSpells.tickConstantCost.@Tooltip": "Constant cost to tick a block. Always applies.",
+  "text.autoconfig.hexal.option.server.greatSpells.tickCostPerTicked": "Tick Cost per Time Ticked",
+  "text.autoconfig.hexal.option.server.greatSpells.tickCostPerTicked.@Tooltip[0]": "Cost to tick a block per time that block has already been ticked.",
+  "text.autoconfig.hexal.option.server.greatSpells.tickCostPerTicked.@Tooltip[1]": "Added to the constant cost above.",
+  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb": "Tick Inverse Probability of Random Ticking",
+  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[0]": "The inverse probability of tick randomly ticking a block.",
+  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[1]": "Higher numbers make random ticks less likely, lower numbers make them more likely.",
+  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[2]": "Bound from 600 to 2100."
 }
