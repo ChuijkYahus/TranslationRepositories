@@ -332,6 +332,7 @@
   "hexcasting.action.book.hexcasting:const/vec/y": "向量之精思，+Y/-Y型",
   "hexcasting.action.book.hexcasting:const/vec/z": "向量之精思，+Z/-Z型",
   "hexcasting.action.book.hexcasting:read/entity": "编年史家之纯化",
+  "hexcasting.action.book.hexcasting:bool_to_number": "数秘术师之纯化",
   "hexcasting.action.book.hexcasting:number": "数字之精思",
   "hexcasting.action.book.hexcasting:mask": "簿记员之策略",
 
@@ -427,6 +428,7 @@
   "hexcasting.action.hexcasting:not_equals": "不等之馏化",
   "hexcasting.action.hexcasting:not": "取非之纯化",
   "hexcasting.action.hexcasting:bool_coerce": "占卜师之纯化",
+  "hexcasting.action.hexcasting:bool_to_number": "数秘术师之纯化",
   "hexcasting.action.hexcasting:if": "占卜师之提整",
 
   "hexcasting.action.hexcasting:add": "加法之馏化",
@@ -557,6 +559,7 @@
   "hexcasting.mishap.invalid_value.int.positive.less.equal": "一个小于等于%d的正整数",
   "hexcasting.mishap.invalid_value.int.between": "一个介于%d和%d之间的整数",
   "hexcasting.mishap.invalid_value.evaluatable": "可运行的事物",
+  "hexcasting.mishap.invalid_value.bool_commute": "一个布尔值、0或1",
   "hexcasting.mishap.not_enough_args": "本应接受大于等于%s个参数，而实际栈中元素数为%s",
   "hexcasting.mishap.no_args": "本应接受大于等于%s个参数，而实际为空栈",
   "hexcasting.mishap.too_many_close_parens": "在绘制反思前未先绘制内省",
@@ -954,7 +957,7 @@
   "hexcasting.page.advanced_math.arcsin": "计算所给数（绝对值小于 1）的反正弦，也即正弦为该值的角。与 $(l:patterns/consts#hexcasting:const/double/pi)$(thing)π/$ 和 $(l:patterns/consts#hexcasting:const/double/tau)$(thing)τ/$ 的值有关。",
   "hexcasting.page.advanced_math.arccos": "计算所给数（绝对值小于 1）的反余弦，也即余弦为该值的角。与 $(l:patterns/consts#hexcasting:const/double/pi)$(thing)π/$ 和 $(l:patterns/consts#hexcasting:const/double/tau)$(thing)τ/$ 的值有关。",
   "hexcasting.page.advanced_math.arctan": "计算所给数的反正切，也即正切为该值的角。与 $(l:patterns/consts#hexcasting:const/double/pi)$(thing)π/$ 和 $(l:patterns/consts#hexcasting:const/double/tau)$(thing)τ/$ 的值有关。",
-  "hexcasting.page.advanced_math.arctan2": "计算所给纵坐标与横坐标的反正切，也即计算 X 轴正向，与原点至所给坐标的射线间的夹角的反正切。",
+  "hexcasting.page.advanced_math.arctan2": "计算所给纵坐标与横坐标的反正切，也即计算 X 轴正向，与原点至所给坐标的射线间的夹角。",
   "hexcasting.page.advanced_math.logarithm": "计算以栈顶元素为底的，栈顶往下第二元素为真数的对数。与 $(l:patterns/consts#hexcasting:const/double/e)$(thing)$(italic)e/$ 的值有关。",
 
   "hexcasting.entry.sets": "集合",
@@ -1002,6 +1005,7 @@
 
   "hexcasting.entry.logic": "逻辑运算",
   "hexcasting.page.logic.bool_coerce": "将参数变换为布尔值。数 $(thing)0/$、$(l:influences#null)$(thing)Null/$，以及空列表会变为 False。其余所有则变为 True。",
+  "hexcasting.page.logic.bool_to_number": "将布尔值变换为树。True 变为 $(thing)1/$， False 变为 $(thing)0/$。",
   "hexcasting.page.logic.not": "如果参数是 True，返回 False；如果参数是 False，返回 True。",
   "hexcasting.page.logic.or": "如果至少有一个参数是 True，返回 True。否则返回 False。",
   "hexcasting.page.logic.and": "如果两个参数都是 True，返回 True。否则返回 False。",
