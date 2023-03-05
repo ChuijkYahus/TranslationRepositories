@@ -368,6 +368,7 @@
   "block.supplementaries.candle_holder_orange": "Orange Candle Holder",
   "block.supplementaries.candle_holder_gray": "Gray Candle Holder",
   "block.supplementaries.candle_holder_soul": "Soul Candle Holder",
+  "block.supplementaries.candle_holder_spectacle": "Spectacle Candle Holder",
   "block.supplementaries.enderman_head": "Enderman Head",
   "block.supplementaries.ashen_basalt": "Basalt",
   "block.supplementaries.skull_candle": "Skull Candle",
@@ -404,10 +405,11 @@
   "subtitle.supplementaries.sack.open": "Sack opened",
   "subtitle.supplementaries.rope.break": "Rope broken",
   "subtitle.supplementaries.rope.place": "Rope placed",
+  "subtitle.supplementaries.rope.slide": "Rope slide",
   "subtitle.supplementaries.bubble.pop": "Bubble pop",
   "subtitle.supplementaries.bubble.blow": "Bubble blown",
   "subtitle.supplementaries.present.place": "Present placed",
-  "sbtitle.supplementaries.present.break": "Present broken",
+  "subtitle.supplementaries.present.break": "Present broken",
   "subtitle.supplementaries.present.open": "Present opened",
   "subtitle.supplementaries.present.pack": "Present packed",
   "subtitle.supplementaries.crank.turn": "Crank turned",
@@ -431,7 +433,6 @@
 
   "block_type.supplementaries.hanging_sign": "Hanging Sign",
   "block_type.supplementaries.sign_post": "Sign Post",
-
 
   "block.supplementaries.laser_block": "Ender Beamer",
   "death.attack.supplementaries.amethyst_shard": "%1$s was sharded to death",
