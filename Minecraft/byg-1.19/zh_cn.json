@@ -1281,6 +1281,8 @@
   "byg.nether.not.used.terrablender": "警告：该世界并未使用BYG的下界生成资源，这使得下界配置文件不被使用，但配置文件中已声明要使用！如果这是有意而为的（例如有另外的下界模组），你可以在配置文件（“%s”）中将“warnBYGNetherBiomeSourceNotUsedInNewWorlds”设置为“false”以使该警告不再出现！\n我们发现该世界的生物群系资源受TerraBlender控制，请将TerraBlender配置文件中“replace_default_nether”设置为“false”（配置文件：%s）\n需要注意的是这一改动仅对新世界有效，若需改动已有世界，请参阅此处说明：%s。",
   "byg.saplingpattern.suggest.hold.shift": "按住%s以查看树苗种植方式",
   "byg.saplingpattern.tooltip": "树苗种植方式：",
+  "byg.saplingpattern.tooltip.empty": "□ = 空",
+  "byg.saplingpattern.tooltip.sapling": "x = 树苗",
   "byg.screen.configloadfail.openconfigdir": "打开配置文件目录",
   "byg.screen.configloadfail.openconfigdir.hover": "打开配置文件目录。",
   "byg.screen.configloadfail.recreateconfigs": "重新生成配置文件",

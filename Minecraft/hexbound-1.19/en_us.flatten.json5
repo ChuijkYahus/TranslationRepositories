@@ -41,9 +41,19 @@
                 "load": "Recall Pigment",
                 "delete": "Forget Pigment"
             },
+            "create_shield/": {
+                "normal": "Hex Shield",
+                "glitchy": "Unstable Hex Shield"
+            },
             set_fake_impetus_player: "Bind Figment",
-            rotate_pattern: "Revolving Distillation",
-            merge_patterns: "Painter's Distillation",
+            "pattern/": {
+                rotate: "Revolving Distillation",
+                merge: "Painter's Distillation",
+                head: "Starting Distillation",
+                tail: "Ending Distillation",
+                line_count: "Fragment's Purification",
+                start_dir: "Winding Purification"
+            },
             construct_get_self: "Automaton's Reflection",
             "give_command/": {
                 pick_up: "Command: Pick Up Item",
@@ -140,7 +150,8 @@
     entity: {
         hexbound: {
             spider_construct: "Spider Construct",
-            robot_construct: "Robot Construct"
+            robot_construct: "Robot Construct",
+            shield: "Hex Shield"
         }
     },
     "item.hexbound": {
@@ -155,6 +166,9 @@
         construct_broadcaster: "Construct Broadcaster"
     },
     "itemGroup.hexbound.hexbound_group": "Hexbound",
+    "effect.hexbound": {
+        reduced_ambit: "Event Horizon"
+    },
     "hexbound.book": {
         "category.constructs": {
             title: "Constructs",
@@ -168,7 +182,7 @@
         casting: {
             figments: {
                 title: "Figments",
-                "1": "All my study shows that the act of casting a _Hex inevitably requires a living Caster exist $(i)somewhere$(). \
+                "1": "All my study shows that the act of casting a _Hex inevitably requires a living Caster exist $(o)somewhere$(). \
 |                     Perhaps an obvious and pointless detail: I am the one casting the _Hex, so the requirement is met, but \
 |                     should I discover $(l:hexcasting:greatwork/spellcircle)some means of independent casting$() (or even rig a dispenser to flail a trinket around), \
 |                     it would lose the link and cease to function the moment I cross the portal to the Nether or elsewhere.",
@@ -229,9 +243,9 @@
         "interop.hexal": {
             title: "Hexal-Hexbound",
             "1": "It appears some of the _Hexcasting disciplines I've encountered can operate together.$(br2) \
-|                 First, I've discovered that $(l:hexbound:casting/item_iotas)Item Iotas$(), as created by the likes of $(l:hexbound:patterns/item_patterns#hexbound:get_main_hand)Duelist's Purification$(), and Item Type Iotas, as created by $(l:hexbound:hexal:patterns/types#hexal:type/entity)Physician's Purification$(), are near-identical! \
+|                 First, I've discovered that $(l:hexbound:casting/item_iotas)Item Iotas$(), as created by the likes of $(l:hexbound:patterns/item_patterns#hexbound:get_main_hand)Duelist's Purification$(), and Item Type Iotas, as created by $(l:hexal:patterns/types#hexal:type/entity)Physician's Purification$(), are near-identical! \
 |                 Comparisons between them or their types should therefore work as expected.",
-            "2": "The second and, perhaps, even more important discovery is the ability of $(l:hexbound:patterns/constructs/constructs_intro)Constructs$() to maintain $(l:hexbound:hexal:patterns/spells/links)Links$(). This will allow me to send iotas between Wisps and Constructs, or even Constructs and myself! The possibilities are well and truly endless."
+            "2": "The second and, perhaps, even more important discovery is the ability of $(l:hexbound:patterns/constructs/constructs_intro)Constructs$() to maintain $(l:hexal:patterns/spells/links)Links$(). This will allow me to send iotas between Wisps and Constructs, or even Constructs and myself! The possibilities are well and truly endless."
         },
         patterns: {
             pattern_editing: {
@@ -240,7 +254,11 @@
 |                     Exciting as that may sound, anything possible I could just draw myself, and any impossible pattern is very unlikely to produce valuable results.$(br)\
 |                     Some look pretty good on a $(l:hexcasting:items/scroll)Scroll$() though, so not entirely pointless!",
                 rotate: "Removes a pattern and an integer from the stack and rotates the pattern the number of times given by the integer. Positive numbers rotate clockwise, while negative rotate counter-clockwise.",
-                merge: "Removes two patterns and merges them, as if first stroke of the second was drawn from the last point of the first. It appears excessively large patterns will simply end after a certain point instead."
+                merge: "Removes two patterns and merges them, as if first stroke of the second was drawn from the last point of the first. It appears if the result is longer than 128 strokes, its end will be lost entirely.",
+                line_count: "Removes a pattern from the stack and returns the number of strokes the removed pattern is composed of.",
+                start_dir: "Removes a pattern from the stack and returns a number from 0 to 5 representing the pattern's starting direction. The returned number will be 0 for north-east, 1 for east, and continue to increase clockwise.",
+                head: "Removes a pattern and a number N from the stack. N must be between 1 and the number of strokes in the removed pattern. Returns a pattern composed of the first N strokes of the removed pattern, preserving the original pattern's direction.",
+                tail: "Removes a pattern and a number from the stack. Behaves exactly as Starting Distillation but takes the last strokes of the pattern instead of the first."
             },
             item_patterns: {
                 title: "Item Patterns",
@@ -263,6 +281,17 @@
                     save: "Removes a pattern from the stack and associates my current Pigment with that pattern.",
                     load: "Removes a pattern from the stack and sets my current Pigment to the one I have associated with that pattern",
                     delete: "Removes a pattern from the stack, and forgets the Pigment I have associated with that pattern."
+                },
+                shield: {
+                    title: "Hex Shield",
+                    "1": "In my search for geodes and other travels I've discovered that getting shot full of arrows significantly interferes with my ability to focus on my $(hex)Hexes$().$(br2)\
+|                         The patterns detailed in this entry will let me avoid using unwieldy and fragile shields, replacing them with a manifestation of $(media)media$().",
+                    "2": "These manifestations, or $(hex)Hex Shields$(), will block most projectiles from going through, but only in the direction opposite its facing,\
+|                         allowing me to fire a bow or throw potions with no fear of reprisal. Curiously, this extends to $(l:hexcasting:patterns/basics#hexcasting:raycast/entity)Scout's Distillation$(), \
+|                         which will go through the shield only if it's facing in the same direction.$(br2)It appears I cannot have more than 10 active Hex Shields at once.",
+                    normal: "Removes a position vector, facing vector, and a positive number from the stack, creating a Hex Shield with the given position and facing, \
+|                            which will last for the given number of seconds.$(br)Costs 2 $(media)Amethyst Dust$() per second of duration.",
+                    glitchy: "Creates an unstable Hex Shield, which will occasionally distort. The effect appears purely visual."
                 }
             },
             great_spells: {
@@ -322,7 +351,7 @@
                 "1": "After careful study, experimentation, and filling in both figurative and literal holes in what blueprints I could find, I believe I'm ready to create a Construct of my own.$(br2)\
 |                     Spider Constructs, as I've taken to calling them, are small, but nimble assistants capable of interacting with their surroundings, and carrying items.",
                 "2": "One of the blueprints contained an alternate design for this Construct, which I replicated as best I could. The two designs can be switched by using an Iron Block or Amethyst Block \
-|                     on the Construct while sneaking or, should I find the Spider form not to my taste, by enabling a form of perception filter in $(l:hexbound:file://config/hexbound/config.toml)configuration files$() \
+|                     on the Construct while sneaking or, should I find the Spider form not to my taste, by enabling a form of perception filter in configuration files \
 |                     to make all Constructs appear to me as their alternate design.",
                 core: {
                     title: "Spider Construct Core",
