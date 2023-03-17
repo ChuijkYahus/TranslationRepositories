@@ -14,6 +14,7 @@
   "hexcasting.spell.moreiotas:string/chat/prefix/set": "筛具之策略",
   "hexcasting.spell.moreiotas:string/chat/prefix/get": "筛具之精思",
   "hexcasting.spell.moreiotas:string/iota": "代笔人之纯化",
+  "hexcasting.spell.moreiotas:string/action": "图案师之纯化",
   "hexcasting.spell.moreiotas:string/add": "接串之馏化",
   "hexcasting.spell.moreiotas:string/split": "分串之馏化",
   "hexcasting.spell.moreiotas:string/parse": "输入之纯化",
@@ -53,6 +54,7 @@
   "moreiotas.page.strings.string/chat/prefix/set": "接受一个字符串。所有此后发出的以此字符串起始的消息将不再可见。同时，$(l:moreiotas:patterns/strings#moreiotas:string/chat/caster)$(action)耳语之精思/$也将只能读取上述不再可见的消息。",
   "moreiotas.page.strings.string/chat/prefix/get": "返回上一次传给$(l:moreiotas:patterns/strings#moreiotas:string/chat/prefix/set)$(action)筛具之策略/$的字符串。",
   "moreiotas.page.strings.string/iota": "将栈顶元素转换为字符串。",
+  "moreiotas.page.strings.string/action": "将栈顶图案转换为其名字。如果该图案不对应任何操作，或对应的操作是卓越法术，则返回 Null。",
   "moreiotas.page.strings.string/add": "移除栈顶两字符串，并将其连接。",
   "moreiotas.page.strings.string/split": "移除栈顶两字符串，并以第二个字符串为分隔符拆分第一个字符串，结果作为列表返回。",
   "moreiotas.page.strings.string/parse": "移除栈顶字符串，并返回字符串所解析得的数（若无法解析则返回 Null）。",
@@ -80,6 +82,7 @@
   "moreiotas.page.matrices.matrix/concat/hori": "接受一 nxm 矩阵与一 nxp 矩阵，返回一 nx(m+p) 矩阵，其中第一个矩阵位于第二个矩阵左方。",
   "moreiotas.page.matrices.matrix/split/vert": "接受一 nxm 矩阵与一 0 到 n 间的整数，返回由原矩阵在所给整数行处上下分割所得的两个矩阵。",
   "moreiotas.page.matrices.matrix/split/hori": "接受一 nxm 矩阵与一 0 到 m 间的整数，返回由原矩阵在所给整数列处左右分割所得的两个矩阵。",
+
 
   "hexcasting.mishap.invalid_value.class.string": "一个字符串",
   "hexcasting.mishap.invalid_value.class.matrix": "一个矩阵",
