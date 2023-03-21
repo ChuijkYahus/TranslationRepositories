@@ -127,7 +127,8 @@
   "block.dramaticdoors.tall_aa_steel_door": "高钢门",
 
   "block.dramaticdoors.tall_ash_door": "高梣木门",
-  
+  "block.dramaticdoors.tall_gourdrot_door": "高棕垂木门",
+
   "block.dramaticdoors.tall_twisted_door": "高扭曲木门",
   
   "block.dramaticdoors.tall_archwood_door": "高至高木门",
@@ -191,6 +192,10 @@
   "block.dramaticdoors.tall_locked_copper_door": "上锁的高铜门",
   "block.dramaticdoors.tall_locked_zinc_door": "上锁的高锌门",
   
+  "block.dramaticdoors.tall_andesite_casing_door": "高安山门",
+  "block.dramaticdoors.tall_brass_casing_door": "高黄铜门",
+  "block.dramaticdoors.tall_copper_casing_door": "高铜门",
+
   "block.dramaticdoors.tall_petrified_door": "高石化木门",
 
   "block.dramaticdoors.tall_echo_door": "高回响木门",
@@ -525,6 +530,9 @@
   "block.dramaticdoors.tall_chipped_warped_door_19": "高诡异木门",
   "block.dramaticdoors.tall_chipped_warped_door_20": "高诡异木门",
 
+  "block.dramaticdoors.tall_macaw_store_door": "高商店门",
+  "block.dramaticdoors.tall_macaw_sliding_glass_door": "高玻璃移门",
+  
   "block.dramaticdoors.tall_macaw_jail_door": "高监狱门",
   "block.dramaticdoors.tall_macaw_metal_door": "高金属门",
   "block.dramaticdoors.tall_macaw_metal_hospital_door": "高医院金属门",
@@ -533,6 +541,7 @@
   "block.dramaticdoors.tall_macaw_metal_windowed_door": "高金属视窗门",
   
   "block.dramaticdoors.tall_macaw_acacia_barn_door": "高金合欢木谷仓门",
+  "block.dramaticdoors.tall_macaw_bamboo_barn_door": "高竹谷仓门",
   "block.dramaticdoors.tall_macaw_birch_barn_door": "高白桦木谷仓门",
   "block.dramaticdoors.tall_macaw_crimson_barn_door": "高绯红木谷仓门",
   "block.dramaticdoors.tall_macaw_dark_oak_barn_door": "高深色橡木谷仓门",
@@ -543,6 +552,7 @@
   "block.dramaticdoors.tall_macaw_warped_barn_door": "高诡异木谷仓门",
   
   "block.dramaticdoors.tall_macaw_acacia_barn_glass_door": "高金合欢木玻璃谷仓门",
+  "block.dramaticdoors.tall_macaw_bamboo_barn_glass_door": "高竹玻璃谷仓门",
   "block.dramaticdoors.tall_macaw_birch_barn_glass_door": "高白桦木玻璃谷仓门",
   "block.dramaticdoors.tall_macaw_crimson_barn_glass_door": "高绯红木玻璃谷仓门",
   "block.dramaticdoors.tall_macaw_dark_oak_barn_glass_door": "高深色橡木玻璃谷仓门",
@@ -553,6 +563,7 @@
   "block.dramaticdoors.tall_macaw_warped_barn_glass_door": "高诡异木玻璃谷仓门",
   
   "block.dramaticdoors.tall_macaw_acacia_stable_door": "高金合欢木马厩门",
+  "block.dramaticdoors.tall_macaw_bamboo_stable_door": "高竹马厩门",
   "block.dramaticdoors.tall_macaw_birch_stable_door": "高白桦木马厩门",
   "block.dramaticdoors.tall_macaw_crimson_stable_door": "高绯红木马厩门",
   "block.dramaticdoors.tall_macaw_dark_oak_stable_door": "高深色橡木马厩门",
@@ -563,6 +574,7 @@
   "block.dramaticdoors.tall_macaw_warped_stable_door": "高诡异木马厩门",
 
   "block.dramaticdoors.tall_macaw_acacia_stable_head_door": "高金合欢木有开口马厩门",
+  "block.dramaticdoors.tall_macaw_bamboo_stable_head_door": "高竹有开口马厩门",
   "block.dramaticdoors.tall_macaw_birch_stable_head_door": "高白桦木有开口马厩门",
   "block.dramaticdoors.tall_macaw_crimson_stable_head_door": "高绯红木有开口马厩门",
   "block.dramaticdoors.tall_macaw_dark_oak_stable_head_door": "高深色橡木有开口马厩门",
@@ -573,6 +585,7 @@
   "block.dramaticdoors.tall_macaw_warped_stable_head_door": "高诡异木有开口马厩门",
   
   "block.dramaticdoors.tall_macaw_acacia_glass_door": "高金合欢木玻璃门",
+  "block.dramaticdoors.tall_macaw_bamboo_glass_door": "高竹玻璃门",
   "block.dramaticdoors.tall_macaw_birch_glass_door": "高白桦木玻璃门",
   "block.dramaticdoors.tall_macaw_crimson_glass_door": "高绯红木玻璃门",
   "block.dramaticdoors.tall_macaw_dark_oak_glass_door": "高深色橡木玻璃门",
@@ -583,6 +596,7 @@
   "block.dramaticdoors.tall_macaw_warped_glass_door": "高诡异木玻璃门",
 
   "block.dramaticdoors.tall_macaw_acacia_bark_glass_door": "高金合欢木树皮玻璃门",
+  "block.dramaticdoors.tall_macaw_bamboo_bark_glass_door": "高竹树皮玻璃门",
   "block.dramaticdoors.tall_macaw_birch_bark_glass_door": "高白桦木树皮玻璃门",
   "block.dramaticdoors.tall_macaw_crimson_stem_glass_door": "高绯红木菌柄玻璃门",
   "block.dramaticdoors.tall_macaw_dark_oak_bark_glass_door": "高深色橡木树皮玻璃门",
@@ -593,6 +607,7 @@
   "block.dramaticdoors.tall_macaw_warped_stem_glass_door": "高诡异木菌柄玻璃门",
 
   "block.dramaticdoors.tall_macaw_acacia_modern_door": "高金合欢木现代风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_modern_door": "高竹现代风格门",
   "block.dramaticdoors.tall_macaw_birch_modern_door": "高白桦木现代风格门",
   "block.dramaticdoors.tall_macaw_crimson_modern_door": "高绯红木现代风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_modern_door": "高深色橡木现代风格门",
@@ -603,6 +618,7 @@
   "block.dramaticdoors.tall_macaw_warped_modern_door": "高诡异木现代风格门",
 
   "block.dramaticdoors.tall_macaw_acacia_japanese_door": "高金合欢木障子门",
+  "block.dramaticdoors.tall_macaw_bamboo_japanese_door": "高竹障子门",
   "block.dramaticdoors.tall_macaw_birch_japanese_door": "高白桦木障子门",
   "block.dramaticdoors.tall_macaw_crimson_japanese_door": "高绯红木障子门",
   "block.dramaticdoors.tall_macaw_dark_oak_japanese_door": "高深色橡木障子门",
@@ -613,6 +629,7 @@
   "block.dramaticdoors.tall_macaw_warped_japanese_door": "高诡异木障子门",
 
   "block.dramaticdoors.tall_macaw_acacia_japanese2_door": "高金合欢木全格障子门",
+  "block.dramaticdoors.tall_macaw_bamboo_japanese2_door": "高竹全格障子门",
   "block.dramaticdoors.tall_macaw_birch_japanese2_door": "高白桦木全格障子门",
   "block.dramaticdoors.tall_macaw_crimson_japanese2_door": "高绯红木全格障子门",
   "block.dramaticdoors.tall_macaw_dark_oak_japanese2_door": "高深色橡木全格障子门",
@@ -622,7 +639,18 @@
   "block.dramaticdoors.tall_macaw_spruce_japanese2_door": "高云杉木全格障子门",
   "block.dramaticdoors.tall_macaw_warped_japanese2_door": "高诡异木全格障子门",
 
+  "block.dramaticdoors.tall_macaw_acacia_bamboo_door": "高金合欢木竹风门",
+  "block.dramaticdoors.tall_macaw_birch_bamboo_door": "高白桦木竹风门",
+  "block.dramaticdoors.tall_macaw_crimson_bamboo_door": "高绯红木竹风门",
+  "block.dramaticdoors.tall_macaw_dark_oak_bamboo_door": "高深色橡木竹风门",
+  "block.dramaticdoors.tall_macaw_jungle_bamboo_door": "高丛林木竹风门",
+  "block.dramaticdoors.tall_macaw_mangrove_bamboo_door": "高红树木竹风门",
+  "block.dramaticdoors.tall_macaw_oak_bamboo_door": "高橡木竹风门",
+  "block.dramaticdoors.tall_macaw_spruce_bamboo_door": "高云杉木竹风门",
+  "block.dramaticdoors.tall_macaw_warped_bamboo_door": "高诡异木竹风门",
+
   "block.dramaticdoors.tall_macaw_acacia_beach_door": "高金合欢木海滨风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_beach_door": "高竹海滨风格门",
   "block.dramaticdoors.tall_macaw_birch_beach_door": "高白桦木海滨风格门",
   "block.dramaticdoors.tall_macaw_crimson_beach_door": "高绯红木海滨风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_beach_door": "高深色橡木海滨风格门",
@@ -633,6 +661,7 @@
   "block.dramaticdoors.tall_macaw_warped_beach_door": "高诡异木海滨风格门",
 
   "block.dramaticdoors.tall_macaw_acacia_classic_door": "高金合欢木经典风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_classic_door": "高竹经典风格门",
   "block.dramaticdoors.tall_macaw_birch_classic_door": "高白桦木经典风格门",
   "block.dramaticdoors.tall_macaw_crimson_classic_door": "高绯红木经典风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_classic_door": "高深色橡木经典风格门",
@@ -643,6 +672,7 @@
   "block.dramaticdoors.tall_macaw_warped_classic_door": "高诡异木经典风格门",
   
   "block.dramaticdoors.tall_macaw_acacia_cottage_door": "高金合欢木农舍风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_cottage_door": "高竹农舍风格门",
   "block.dramaticdoors.tall_macaw_birch_cottage_door": "高白桦木农舍风格门",
   "block.dramaticdoors.tall_macaw_crimson_cottage_door": "高绯红木农舍风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_cottage_door": "高深色橡木农舍风格门",
@@ -653,6 +683,7 @@
   "block.dramaticdoors.tall_macaw_warped_cottage_door": "高诡异木农舍风格门",
 
   "block.dramaticdoors.tall_macaw_acacia_four_panel_door": "高金合欢木四联门",
+  "block.dramaticdoors.tall_macaw_bamboo_four_panel_door": "高竹四联门",
   "block.dramaticdoors.tall_macaw_birch_four_panel_door": "高白桦木四联门",
   "block.dramaticdoors.tall_macaw_crimson_four_panel_door": "高绯红木四联门",
   "block.dramaticdoors.tall_macaw_dark_oak_four_panel_door": "高深色橡木四联门",
@@ -663,6 +694,7 @@
   "block.dramaticdoors.tall_macaw_warped_four_panel_door": "高诡异木四联门",
 
   "block.dramaticdoors.tall_macaw_acacia_mystic_door": "高金合欢木诡秘风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_mystic_door": "高竹诡秘风格门",
   "block.dramaticdoors.tall_macaw_birch_mystic_door": "高白桦木诡秘风格门",
   "block.dramaticdoors.tall_macaw_crimson_mystic_door": "高绯红木诡秘风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_mystic_door": "高深色橡木诡秘风格门",
@@ -673,6 +705,7 @@
   "block.dramaticdoors.tall_macaw_warped_mystic_door": "高诡异木诡秘风格门",
 
   "block.dramaticdoors.tall_macaw_acacia_nether_door": "高金合欢木下界风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_nether_door": "高竹下界风格门",
   "block.dramaticdoors.tall_macaw_birch_nether_door": "高白桦木下界风格门",
   "block.dramaticdoors.tall_macaw_crimson_nether_door": "高绯红木下界风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_nether_door": "高深色橡木下界风格门",
@@ -683,6 +716,7 @@
   "block.dramaticdoors.tall_macaw_warped_nether_door": "高诡异木下界风格门",
   
   "block.dramaticdoors.tall_macaw_acacia_paper_door": "高金合欢木壁纸门",
+  "block.dramaticdoors.tall_macaw_bamboo_paper_door": "高竹纸门",
   "block.dramaticdoors.tall_macaw_birch_paper_door": "高白桦木壁纸门",
   "block.dramaticdoors.tall_macaw_crimson_paper_door": "高绯红木壁纸门",
   "block.dramaticdoors.tall_macaw_dark_oak_paper_door": "高深色橡木壁纸门",
@@ -693,6 +727,7 @@
   "block.dramaticdoors.tall_macaw_warped_paper_door": "高诡异木壁纸门",
   
   "block.dramaticdoors.tall_macaw_acacia_swamp_door": "高金合欢木沼泽风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_swamp_door": "高竹沼泽风格门",
   "block.dramaticdoors.tall_macaw_birch_swamp_door": "高白桦木沼泽风格门",
   "block.dramaticdoors.tall_macaw_crimson_swamp_door": "高绯红木沼泽风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_swamp_door": "高深色橡木沼泽风格门",
@@ -703,6 +738,7 @@
   "block.dramaticdoors.tall_macaw_warped_swamp_door": "高诡异木沼泽风格门",
   
   "block.dramaticdoors.tall_macaw_acacia_tropical_door": "高金合欢木热带风格门",
+  "block.dramaticdoors.tall_macaw_bamboo_tropical_door": "高竹热带风格门",
   "block.dramaticdoors.tall_macaw_birch_tropical_door": "高白桦木热带风格门",
   "block.dramaticdoors.tall_macaw_crimson_tropical_door": "高绯红木热带风格门",
   "block.dramaticdoors.tall_macaw_dark_oak_tropical_door": "高深色橡木热带风格门",
@@ -836,5 +872,7 @@
   "itemGroup.dramaticdoors": "Dramatic Doors",
   "itemGroup.dramaticdoors_chipped": "Dramatic Doors丨Chipped",
   "itemGroup.dramaticdoors_macaw": "Dramatic Doors丨Macaw的门",
-  "itemGroup.dramaticdoors_manyideas": "Dramatic Doors丨灵机妙想：门"
+  "itemGroup.dramaticdoors_manyideas": "Dramatic Doors丨灵机妙想：门",
+  
+  "message.dramaticdoors.statement_notice": "<DramaticDoors> 如果门和栅栏门显示不正常，可按下F3+T以重载资源包，或在本模组配置文件中禁用含水属性，抑或卸载Statement Library模组。"
 }

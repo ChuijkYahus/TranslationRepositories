@@ -40,7 +40,6 @@
   "block.dramaticdoors.tall_byg_jacaranda_door": "Tall Jacaranda Door",
   "block.dramaticdoors.tall_byg_lament_door": "Tall Lament Door",
   "block.dramaticdoors.tall_byg_mahogany_door": "Tall Mahogany Door",
-  "block.dramaticdoors.tall_byg_mangrove_door": "Tall Mangrove Door",
   "block.dramaticdoors.tall_byg_maple_door": "Tall Maple Door",
   "block.dramaticdoors.tall_byg_nightshade_door": "Tall Nightshade Door",
   "block.dramaticdoors.tall_byg_palm_door": "Tall Palm Door",
@@ -50,6 +49,7 @@
   "block.dramaticdoors.tall_byg_skyris_door": "Tall Skyris Door",
   "block.dramaticdoors.tall_byg_soul_shroom_door": "Tall Soul Shroom Door",
   "block.dramaticdoors.tall_byg_sythian_door": "Tall Sythian Door",
+  "block.dramaticdoors.tall_byg_white_mangrove_door": "Tall White Mangrove Door",
   "block.dramaticdoors.tall_byg_willow_door": "Tall Willow Door",
   "block.dramaticdoors.tall_byg_witch_hazel_door": "Tall Witch Hazel Door",
   "block.dramaticdoors.tall_byg_zelkova_door": "Tall Zelkova Door",
@@ -63,6 +63,21 @@
   "block.dramaticdoors.tall_protojuniperoxylon_door": "Tall Protojuniperoxylon Door",
   "block.dramaticdoors.tall_protopiceoxylon_door": "Tall Protopiceoxylon Door",
   "block.dramaticdoors.tall_zamites_door": "Tall Zamites Door",
+
+  "block.dramaticdoors.tall_rue_baobab_door": "Tall Baobab Door",
+  "block.dramaticdoors.tall_rue_blackwood_door": "Tall Blackwood Door",
+  "block.dramaticdoors.tall_rue_cherry_door": "Tall Cherry Door",
+  "block.dramaticdoors.tall_rue_cypress_door": "Tall Cypress Door",
+  "block.dramaticdoors.tall_rue_dead_door": "Tall Dead Door",
+  "block.dramaticdoors.tall_rue_eucalyptus_door": "Tall Eucalyptus Door",
+  "block.dramaticdoors.tall_rue_joshua_door": "Tall Joshua Door",
+  "block.dramaticdoors.tall_rue_larch_door": "Tall Larch Door",
+  "block.dramaticdoors.tall_rue_maple_door": "Tall Maple Door",
+  "block.dramaticdoors.tall_rue_mauve_door": "Tall Mauve Door",
+  "block.dramaticdoors.tall_rue_palm_door": "Tall Palm Door",
+  "block.dramaticdoors.tall_rue_pine_door": "Tall Pine Door",
+  "block.dramaticdoors.tall_rue_redwood_door": "Tall Redwood Door",
+  "block.dramaticdoors.tall_rue_willow_door": "Tall Willow Door",
 
   "block.dramaticdoors.tall_canopy_door": "Tall Canopy Door",
   "block.dramaticdoors.tall_darkwood_door": "Tall Darkwood Door",
@@ -105,9 +120,14 @@
 
   "block.dramaticdoors.tall_brown_mushroom_door": "Tall Brown Mushroom Door",
   "block.dramaticdoors.tall_red_mushroom_door": "Tall Red Mushroom Door",
-  "block.dramaticdoors.tall_glowshroom_door": "Tall Glowshroom Door",
 
+  "block.dramaticdoors.tall_aeronos_door": "Tall Aeronos Door",
+  "block.dramaticdoors.tall_glacian_door": "Tall Glacian Door",
+  "block.dramaticdoors.tall_strophar_door": "Tall Strophar Door",
+  "block.dramaticdoors.tall_aa_steel_door": "Tall Steel Door",
+  
   "block.dramaticdoors.tall_ash_door": "Tall Ash Door",
+  "block.dramaticdoors.tall_gourdrot_door": "Tall Gourdrot Door",
   
   "block.dramaticdoors.tall_twisted_door": "Tall Twisted Door",
   
@@ -117,6 +137,8 @@
   "block.dramaticdoors.tall_be_dry_bamboo_door": "Tall Dry Bamboo Door",
 
   "block.dramaticdoors.tall_flesh_door": "Tall Flesh Door",
+  "block.dramaticdoors.tall_full_flesh_door": "Tall Wide Flesh Door",
+  "block.dramaticdoors.tall_fleshkin_door": "Tall Fleshkin Door",
   
   "block.dramaticdoors.tall_bm_ancient_oak_door": "Tall Ancient Oak Door",
   "block.dramaticdoors.tall_bm_blighted_balsa_door": "Tall Blighted Balsa Door",
@@ -170,6 +192,10 @@
   "block.dramaticdoors.tall_locked_copper_door": "Tall Locked Copper Door",
   "block.dramaticdoors.tall_locked_zinc_door": "Tall Locked Zinc Door",
   
+  "block.dramaticdoors.tall_andesite_casing_door": "Tall Andesite Casing Door",
+  "block.dramaticdoors.tall_brass_casing_door": "Tall Brass Casing Door",
+  "block.dramaticdoors.tall_copper_casing_door": "Tall Copper Casing Door",
+
   "block.dramaticdoors.tall_petrified_door": "Tall Petrified Door",
 
   "block.dramaticdoors.tall_echo_door": "Tall Echo Door",
@@ -187,6 +213,11 @@
   "block.dramaticdoors.tall_eco_flowering_azalea_door": "Tall Flowering Azalea Door",
   "block.dramaticdoors.tall_eco_coconut_door": "Tall Coconut Door",
   "block.dramaticdoors.tall_eco_walnut_door": "Tall Walnut Door",
+  
+  "block.dramaticdoors.tall_mushroom_door": "Tall Mushroom Door",
+  "block.dramaticdoors.tall_glowshroom_door": "Tall Glowshroom Door",
+  "block.dramaticdoors.tall_poisonous_mushroom_door": "Tall Poisonous Mushroom Door",
+  "block.dramaticdoors.tall_honey_fungus_door": "Tall Honey Fungus Door",
 
   "block.dramaticdoors.tall_ec_copper_door": "Tall Copper Door",
   "block.dramaticdoors.tall_ec_exposed_copper_door": "Tall Exposed Copper Door",
@@ -200,15 +231,25 @@
   "block.dramaticdoors.tall_ebony_door": "Tall Ebony Door",
   "block.dramaticdoors.tall_pream_door": "Tall Pream Door",
 
-  "block.dramaticdoors.tall_cerulean_door": "Tall Cerulean Door",
-  "block.dramaticdoors.tall_seldge_door": "Tall Seldge Door",
-  "block.dramaticdoors.tall_verdant_door": "Tall Verdant Door",
+  "block.dramaticdoors.tall_cerulean_door": "Tall Cerulean Door (Legacy)",
+  "block.dramaticdoors.tall_cosmic_door": "Tall Cosmic Door (Legacy)",
+  "block.dramaticdoors.tall_seldge_door": "Tall Congealed Door",
+  "block.dramaticdoors.tall_stalk_door": "Tall Stalk Door (Legacy)",
+  "block.dramaticdoors.tall_verdant_door": "Tall Ebony Door",
 
-  "block.dramaticdoors.tall_arcane_gold_door": "Tall Arcane Gold Door",
-  "block.dramaticdoors.tall_cherrywood_door": "Tall Cherrywood Door",
+  "block.dramaticdoors.tall_arcane_gold_door": "Tall Deorum Door",
+  "block.dramaticdoors.tall_arcane_edelwood_door": "Tall Arcane Edelwood Door",
+  "block.dramaticdoors.tall_cherrywood_door": "Tall Cherry Door",
   "block.dramaticdoors.tall_edelwood_door": "Tall Edelwood Door",
   "block.dramaticdoors.tall_fungyss_door": "Tall Fungyss Door",
-  "block.dramaticdoors.tall_mysterywood_door": "Tall Mysterywood Door",
+  "block.dramaticdoors.tall_mysterywood_door": "Tall Aurum Door",
+  
+  "block.dramaticdoors.tall_ft_cherry_door": "Tall Cherry Door",
+  "block.dramaticdoors.tall_ft_cherry_sliding_door": "Tall Cherry Sliding Door",
+  "block.dramaticdoors.tall_ft_citrus_door": "Tall Citrus Door",
+
+  "block.dramaticdoors.tall_soulblight_door": "Tall Soulblight Door",
+  "block.dramaticdoors.tall_whistlecane_door": "Tall Whistlecane Door",
 
   "block.dramaticdoors.tall_ge_cypress_door": "Tall Cypress Door",
   "block.dramaticdoors.tall_ge_muddy_oak_door": "Tall Muddy Oak Door",
@@ -226,6 +267,35 @@
 
   "block.dramaticdoors.tall_runewood_door": "Tall Runewood Door",
   "block.dramaticdoors.tall_soulwood_door": "Tall Soulwood Door",
+
+  "block.dramaticdoors.tall_ms_iron_bar_door": "Tall Iron Bar Door",
+  "block.dramaticdoors.tall_ms_bamboo_door": "Tall Bamboo Door",
+  "block.dramaticdoors.tall_ms_cherry_door": "Tall Cherry Door",
+  "block.dramaticdoors.tall_ms_glowood_door": "Tall Glowood Door",
+  "block.dramaticdoors.tall_ms_hellwood_door": "Tall Hellwood Door",
+  "block.dramaticdoors.tall_ms_maple_door": "Tall Maple Door",
+  "block.dramaticdoors.tall_ms_silverbell_door": "Tall Silverbell Door",
+  "block.dramaticdoors.tall_ms_tigerwood_door": "Tall Tigerwood Door",
+  "block.dramaticdoors.tall_ms_willow_door": "Tall Willow Door",
+  "block.dramaticdoors.tall_ms_glass_door": "Tall Glass Door",
+  "block.dramaticdoors.tall_ms_soul_glass_door": "Tall Soul Glass Door",
+  "block.dramaticdoors.tall_ms_tinted_glass_door": "Tall Tinted Glass Door",
+  "block.dramaticdoors.tall_ms_black_glass_door": "Tall Black Stained Glass Door",
+  "block.dramaticdoors.tall_ms_grey_glass_door": "Tall Grey Stained Glass Door",
+  "block.dramaticdoors.tall_ms_light_grey_glass_door": "Tall Light Grey Stained Glass Door",
+  "block.dramaticdoors.tall_ms_white_glass_door": "Tall White Stained Glass Door",
+  "block.dramaticdoors.tall_ms_red_glass_door": "Tall Red Stained Glass Door",
+  "block.dramaticdoors.tall_ms_orange_glass_door": "Tall Orange Stained Glass Door",
+  "block.dramaticdoors.tall_ms_yellow_glass_door": "Tall Yellow Stained Glass Door",
+  "block.dramaticdoors.tall_ms_lime_glass_door": "Tall Lime Stained Glass Door",
+  "block.dramaticdoors.tall_ms_green_glass_door": "Tall Green Stained Glass Door",
+  "block.dramaticdoors.tall_ms_cyan_glass_door": "Tall Cyan Stained Glass Door",
+  "block.dramaticdoors.tall_ms_blue_glass_door": "Tall Blue Stained Glass Door",
+  "block.dramaticdoors.tall_ms_purple_glass_door": "Tall Purple Stained Glass Door",
+  "block.dramaticdoors.tall_ms_magenta_glass_door": "Tall Magenta Stained Glass Door",
+  "block.dramaticdoors.tall_ms_pink_glass_door": "Tall Pink Stained Glass Door",
+  "block.dramaticdoors.tall_ms_light_blue_glass_door": "Tall Light Blue Stained Glass Door",
+  "block.dramaticdoors.tall_ms_brown_glass_door": "Tall Brown Stained Glass Door",
 
   "block.dramaticdoors.tall_jaboticaba_door": "Tall Jabuticaba Door",
   "block.dramaticdoors.tall_ramboutan_door": "Tall Rambutan Door",
@@ -254,7 +324,11 @@
   "block.dramaticdoors.tall_pw_silverbell_door": "Tall Silverbell Door",
   "block.dramaticdoors.tall_pw_tiger_door": "Tall Tiger Door",
   "block.dramaticdoors.tall_pw_willow_door": "Tall Willow Door",
+  
+  "block.dramaticdoors.tall_pyrowood_door": "Tall Pyrowood Door",
+  "block.dramaticdoors.tall_rotten_planks_door": "Tall Rotten Planks Door",
 
+  "block.dramaticdoors.tall_quark_ancient_door": "Tall Ancient Door",
   "block.dramaticdoors.tall_quark_azalea_door": "Tall Azalea Door",
   "block.dramaticdoors.tall_quark_blossom_door": "Tall Blossom Door",
 
@@ -277,8 +351,16 @@
   "block.dramaticdoors.tall_smogstem_door": "Tall Smogstem Door",
   "block.dramaticdoors.tall_wigglewood_door": "Tall Wigglewood Door",
 
+  "block.dramaticdoors.tall_golden_door": "Tall Golden Door",
   "block.dramaticdoors.tall_chestnut_door": "Tall Chestnut Door",
   "block.dramaticdoors.tall_holly_door": "Tall Holly Door",
+
+  "block.dramaticdoors.tall_morecraft_netherbrick_door": "Tall Nether Brick Door",
+  "block.dramaticdoors.tall_morecraft_netherwood_door": "Tall Netherwood Door",
+  "block.dramaticdoors.tall_morecraft_netherite_door": "Tall Netherite Door",
+  "block.dramaticdoors.tall_morecraft_glass_door": "Tall Glass Door",
+  "block.dramaticdoors.tall_morecraft_soul_glass_door": "Tall Soul Glass Door",
+  "block.dramaticdoors.tall_morecraft_bone_door": "Tall Bone Door",
 
   "block.dramaticdoors.tall_chipped_oak_door_01": "Tall Oak Door",
   "block.dramaticdoors.tall_chipped_oak_door_02": "Tall Oak Door",
@@ -448,6 +530,9 @@
   "block.dramaticdoors.tall_chipped_warped_door_19": "Tall Warped Door",
   "block.dramaticdoors.tall_chipped_warped_door_20": "Tall Warped Door",
 
+  "block.dramaticdoors.tall_macaw_store_door": "Tall Store Door",
+  "block.dramaticdoors.tall_macaw_sliding_glass_door": "Tall Sliding Glass Door",
+  
   "block.dramaticdoors.tall_macaw_jail_door": "Tall Jail Door",
   "block.dramaticdoors.tall_macaw_metal_door": "Tall Metal Door",
   "block.dramaticdoors.tall_macaw_metal_hospital_door": "Tall Metal Hospital Door",
@@ -456,6 +541,7 @@
   "block.dramaticdoors.tall_macaw_metal_windowed_door": "Tall Metal Windowed Door",
   
   "block.dramaticdoors.tall_macaw_acacia_barn_door": "Tall Acacia Barn Door",
+  "block.dramaticdoors.tall_macaw_bamboo_barn_door": "Tall Bamboo Barn Door",
   "block.dramaticdoors.tall_macaw_birch_barn_door": "Tall Birch Barn Door",
   "block.dramaticdoors.tall_macaw_crimson_barn_door": "Tall Crimson Barn Door",
   "block.dramaticdoors.tall_macaw_dark_oak_barn_door": "Tall Dark Oak Barn Door",
@@ -466,6 +552,7 @@
   "block.dramaticdoors.tall_macaw_warped_barn_door": "Tall Warped Barn Door",
   
   "block.dramaticdoors.tall_macaw_acacia_barn_glass_door": "Tall Acacia Barn Glassed Door",
+  "block.dramaticdoors.tall_macaw_bamboo_barn_glass_door": "Tall Bamboo Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_birch_barn_glass_door": "Tall Birch Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_crimson_barn_glass_door": "Tall Crimson Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_dark_oak_barn_glass_door": "Tall Dark Oak Barn Glassed Door",
@@ -476,6 +563,7 @@
   "block.dramaticdoors.tall_macaw_warped_barn_glass_door": "Tall Warped Barn Glassed Door",
   
   "block.dramaticdoors.tall_macaw_acacia_stable_door": "Tall Acacia Stable Door",
+  "block.dramaticdoors.tall_macaw_bamboo_stable_door": "Tall Bamboo Stable Door",
   "block.dramaticdoors.tall_macaw_birch_stable_door": "Tall Birch Stable Door",
   "block.dramaticdoors.tall_macaw_crimson_stable_door": "Tall Crimson Stable Door",
   "block.dramaticdoors.tall_macaw_dark_oak_stable_door": "Tall Dark Oak Stable Door",
@@ -486,6 +574,7 @@
   "block.dramaticdoors.tall_macaw_warped_stable_door": "Tall Warped Stable Door",
 
   "block.dramaticdoors.tall_macaw_acacia_stable_head_door": "Tall Acacia Stable Horse Door",
+  "block.dramaticdoors.tall_macaw_bamboo_stable_head_door": "Tall Bamboo Stable Horse Door",
   "block.dramaticdoors.tall_macaw_birch_stable_head_door": "Tall Birch Stable Horse Door",
   "block.dramaticdoors.tall_macaw_crimson_stable_head_door": "Tall Crimson Stable Horse Door",
   "block.dramaticdoors.tall_macaw_dark_oak_stable_head_door": "Tall Dark Oak Stable Horse Door",
@@ -496,6 +585,7 @@
   "block.dramaticdoors.tall_macaw_warped_stable_head_door": "Tall Warped Stable Horse Door",
   
   "block.dramaticdoors.tall_macaw_acacia_glass_door": "Tall Acacia Glass Door",
+  "block.dramaticdoors.tall_macaw_bamboo_glass_door": "Tall Bamboo Glass Door",
   "block.dramaticdoors.tall_macaw_birch_glass_door": "Tall Birch Glass Door",
   "block.dramaticdoors.tall_macaw_crimson_glass_door": "Tall Crimson Glass Door",
   "block.dramaticdoors.tall_macaw_dark_oak_glass_door": "Tall Dark Oak Glass Door",
@@ -506,6 +596,7 @@
   "block.dramaticdoors.tall_macaw_warped_glass_door": "Tall Warped Glass Door",
 
   "block.dramaticdoors.tall_macaw_acacia_bark_glass_door": "Tall Acacia Bark Glass Door",
+  "block.dramaticdoors.tall_macaw_bamboo_bark_glass_door": "Tall Bamboo Bark Glass Door",
   "block.dramaticdoors.tall_macaw_birch_bark_glass_door": "Tall Birch Bark Glass Door",
   "block.dramaticdoors.tall_macaw_crimson_stem_glass_door": "Tall Crimson Stem Glass Door",
   "block.dramaticdoors.tall_macaw_dark_oak_bark_glass_door": "Tall Dark Oak Bark Glass Door",
@@ -516,6 +607,7 @@
   "block.dramaticdoors.tall_macaw_warped_stem_glass_door": "Tall Warped Stem Glass Door",
 
   "block.dramaticdoors.tall_macaw_acacia_modern_door": "Tall Acacia Modern Door",
+  "block.dramaticdoors.tall_macaw_bamboo_modern_door": "Tall Bamboo Modern Door",
   "block.dramaticdoors.tall_macaw_birch_modern_door": "Tall Birch Modern Door",
   "block.dramaticdoors.tall_macaw_crimson_modern_door": "Tall Crimson Modern Door",
   "block.dramaticdoors.tall_macaw_dark_oak_modern_door": "Tall Dark Oak Modern Door",
@@ -526,6 +618,7 @@
   "block.dramaticdoors.tall_macaw_warped_modern_door": "Tall Warped Modern Door",
 
   "block.dramaticdoors.tall_macaw_acacia_japanese_door": "Tall Acacia Shoji Door",
+  "block.dramaticdoors.tall_macaw_bamboo_japanese_door": "Tall Bamboo Shoji Door",
   "block.dramaticdoors.tall_macaw_birch_japanese_door": "Tall Birch Shoji Door",
   "block.dramaticdoors.tall_macaw_crimson_japanese_door": "Tall Crimson Shoji Door",
   "block.dramaticdoors.tall_macaw_dark_oak_japanese_door": "Tall Dark Oak Shoji Door",
@@ -536,6 +629,7 @@
   "block.dramaticdoors.tall_macaw_warped_japanese_door": "Tall Warped Shoji Door",
 
   "block.dramaticdoors.tall_macaw_acacia_japanese2_door": "Tall Acacia Shoji Whole Door",
+  "block.dramaticdoors.tall_macaw_bamboo_japanese2_door": "Tall Bamboo Shoji Whole Door",
   "block.dramaticdoors.tall_macaw_birch_japanese2_door": "Tall Birch Shoji Whole Door",
   "block.dramaticdoors.tall_macaw_crimson_japanese2_door": "Tall Crimson Shoji Whole Door",
   "block.dramaticdoors.tall_macaw_dark_oak_japanese2_door": "Tall Dark Oak Shoji Whole Door",
@@ -545,7 +639,18 @@
   "block.dramaticdoors.tall_macaw_spruce_japanese2_door": "Tall Spruce Shoji Whole Door",
   "block.dramaticdoors.tall_macaw_warped_japanese2_door": "Tall Warped Shoji Whole Door",
 
+  "block.dramaticdoors.tall_macaw_acacia_bamboo_door": "Tall Acacia Bamboo Door",
+  "block.dramaticdoors.tall_macaw_birch_bamboo_door": "Tall Birch Bamboo Door",
+  "block.dramaticdoors.tall_macaw_crimson_bamboo_door": "Tall Crimson Bamboo Door",
+  "block.dramaticdoors.tall_macaw_dark_oak_bamboo_door": "Tall Dark Oak Bamboo Door",
+  "block.dramaticdoors.tall_macaw_jungle_bamboo_door": "Tall Jungle Bamboo Door",
+  "block.dramaticdoors.tall_macaw_mangrove_bamboo_door": "Tall Mangrove Bamboo Door",
+  "block.dramaticdoors.tall_macaw_oak_bamboo_door": "Tall Oak Bamboo Door",
+  "block.dramaticdoors.tall_macaw_spruce_bamboo_door": "Tall Spruce Bamboo Door",
+  "block.dramaticdoors.tall_macaw_warped_bamboo_door": "Tall Warped Bamboo Door",
+
   "block.dramaticdoors.tall_macaw_acacia_beach_door": "Tall Acacia Beach Door",
+  "block.dramaticdoors.tall_macaw_bamboo_beach_door": "Tall Bamboo Beach Door",
   "block.dramaticdoors.tall_macaw_birch_beach_door": "Tall Birch Beach Door",
   "block.dramaticdoors.tall_macaw_crimson_beach_door": "Tall Crimson Beach Door",
   "block.dramaticdoors.tall_macaw_dark_oak_beach_door": "Tall Dark Oak Beach Door",
@@ -556,6 +661,7 @@
   "block.dramaticdoors.tall_macaw_warped_beach_door": "Tall Warped Beach Door",
 
   "block.dramaticdoors.tall_macaw_acacia_classic_door": "Tall Acacia Classic Door",
+  "block.dramaticdoors.tall_macaw_bamboo_classic_door": "Tall Bamboo Classic Door",
   "block.dramaticdoors.tall_macaw_birch_classic_door": "Tall Birch Classic Door",
   "block.dramaticdoors.tall_macaw_crimson_classic_door": "Tall Crimson Classic Door",
   "block.dramaticdoors.tall_macaw_dark_oak_classic_door": "Tall Dark Oak Classic Door",
@@ -566,6 +672,7 @@
   "block.dramaticdoors.tall_macaw_warped_classic_door": "Tall Warped Classic Door",
   
   "block.dramaticdoors.tall_macaw_acacia_cottage_door": "Tall Acacia Cottage Door",
+  "block.dramaticdoors.tall_macaw_bamboo_cottage_door": "Tall Bamboo Cottage Door",
   "block.dramaticdoors.tall_macaw_birch_cottage_door": "Tall Birch Cottage Door",
   "block.dramaticdoors.tall_macaw_crimson_cottage_door": "Tall Crimson Cottage Door",
   "block.dramaticdoors.tall_macaw_dark_oak_cottage_door": "Tall Dark Oak Cottage Door",
@@ -576,6 +683,7 @@
   "block.dramaticdoors.tall_macaw_warped_cottage_door": "Tall Warped Cottage Door",
 
   "block.dramaticdoors.tall_macaw_acacia_four_panel_door": "Tall Acacia Four Panel Door",
+  "block.dramaticdoors.tall_macaw_bamboo_four_panel_door": "Tall Bamboo Four Panel Door",
   "block.dramaticdoors.tall_macaw_birch_four_panel_door": "Tall Birch Four Panel Door",
   "block.dramaticdoors.tall_macaw_crimson_four_panel_door": "Tall Crimson Four Panel Door",
   "block.dramaticdoors.tall_macaw_dark_oak_four_panel_door": "Tall Dark Oak Four Panel Door",
@@ -586,6 +694,7 @@
   "block.dramaticdoors.tall_macaw_warped_four_panel_door": "Tall Warped Four Panel Door",
 
   "block.dramaticdoors.tall_macaw_acacia_mystic_door": "Tall Acacia Mystic Door",
+  "block.dramaticdoors.tall_macaw_bamboo_mystic_door": "Tall Bamboo Mystic Door",
   "block.dramaticdoors.tall_macaw_birch_mystic_door": "Tall Birch Mystic Door",
   "block.dramaticdoors.tall_macaw_crimson_mystic_door": "Tall Crimson Mystic Door",
   "block.dramaticdoors.tall_macaw_dark_oak_mystic_door": "Tall Dark Oak Mystic Door",
@@ -596,6 +705,7 @@
   "block.dramaticdoors.tall_macaw_warped_mystic_door": "Tall Warped Mystic Door",
 
   "block.dramaticdoors.tall_macaw_acacia_nether_door": "Tall Acacia Nether Door",
+  "block.dramaticdoors.tall_macaw_bamboo_nether_door": "Tall Bamboo Nether Door",
   "block.dramaticdoors.tall_macaw_birch_nether_door": "Tall Birch Nether Door",
   "block.dramaticdoors.tall_macaw_crimson_nether_door": "Tall Crimson Nether Door",
   "block.dramaticdoors.tall_macaw_dark_oak_nether_door": "Tall Dark Oak Nether Door",
@@ -606,6 +716,7 @@
   "block.dramaticdoors.tall_macaw_warped_nether_door": "Tall Warped Nether Door",
   
   "block.dramaticdoors.tall_macaw_acacia_paper_door": "Tall Acacia Paper Door",
+  "block.dramaticdoors.tall_macaw_bamboo_paper_door": "Tall Bamboo Paper Door",
   "block.dramaticdoors.tall_macaw_birch_paper_door": "Tall Birch Paper Door",
   "block.dramaticdoors.tall_macaw_crimson_paper_door": "Tall Crimson Paper Door",
   "block.dramaticdoors.tall_macaw_dark_oak_paper_door": "Tall Dark Oak Paper Door",
@@ -616,6 +727,7 @@
   "block.dramaticdoors.tall_macaw_warped_paper_door": "Tall Warped Paper Door",
   
   "block.dramaticdoors.tall_macaw_acacia_swamp_door": "Tall Acacia Swamp Door",
+  "block.dramaticdoors.tall_macaw_bamboo_swamp_door": "Tall Bamboo Swamp Door",
   "block.dramaticdoors.tall_macaw_birch_swamp_door": "Tall Birch Swamp Door",
   "block.dramaticdoors.tall_macaw_crimson_swamp_door": "Tall Crimson Swamp Door",
   "block.dramaticdoors.tall_macaw_dark_oak_swamp_door": "Tall Dark Oak Swamp Door",
@@ -626,6 +738,7 @@
   "block.dramaticdoors.tall_macaw_warped_swamp_door": "Tall Warped Swamp Door",
   
   "block.dramaticdoors.tall_macaw_acacia_tropical_door": "Tall Acacia Tropical Door",
+  "block.dramaticdoors.tall_macaw_bamboo_tropical_door": "Tall Bamboo Tropical Door",
   "block.dramaticdoors.tall_macaw_birch_tropical_door": "Tall Birch Tropical Door",
   "block.dramaticdoors.tall_macaw_crimson_tropical_door": "Tall Crimson Tropical Door",
   "block.dramaticdoors.tall_macaw_dark_oak_tropical_door": "Tall Dark Oak Tropical Door",
@@ -634,8 +747,132 @@
   "block.dramaticdoors.tall_macaw_oak_tropical_door": "Tall Oak Tropical Door",
   "block.dramaticdoors.tall_macaw_spruce_tropical_door": "Tall Spruce Tropical Door",
   "block.dramaticdoors.tall_macaw_warped_tropical_door": "Tall Warped Tropical Door",
-  
+
+  "block.dramaticdoors.tall_manyideas_copper_bar_door": "Tall Copper Bar Door",
+  "block.dramaticdoors.tall_manyideas_copper_barrel_door": "Tall Copper Barrel Door",
+  "block.dramaticdoors.tall_manyideas_copper_brick_door": "Tall Copper Brick Door",
+  "block.dramaticdoors.tall_manyideas_copper_corrugated_door": "Tall Copper Corrugated Door",
+  "block.dramaticdoors.tall_manyideas_copper_factory_door": "Tall Copper Factory Door",
+  "block.dramaticdoors.tall_manyideas_copper_glass_door": "Tall Copper Glass Door",
+  "block.dramaticdoors.tall_manyideas_copper_modern_door": "Tall Copper Modern Door",
+  "block.dramaticdoors.tall_manyideas_copper_ship_door": "Tall Copper Ship Door",
+  "block.dramaticdoors.tall_manyideas_copper_smooth_sandstone_door": "Tall Copper Smooth Sandstone Door",
+  "block.dramaticdoors.tall_manyideas_copper_steampunk_door": "Tall Copper Steampunk Door",
+
+  "block.dramaticdoors.tall_manyideas_iron_bookshelf_door": "Tall Iron Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_iron_dwarf_door": "Tall Iron Dwarf Door",
+  "block.dramaticdoors.tall_manyideas_iron_fantasy_door": "Tall Iron Fantasy Door",
+  "block.dramaticdoors.tall_manyideas_iron_glass_door": "Tall Iron Glass Door",
+  "block.dramaticdoors.tall_manyideas_iron_laboratory_door": "Tall Iron Laboratory Door",
+  "block.dramaticdoors.tall_manyideas_iron_rusted_door": "Tall Iron Rusted Door",
+  "block.dramaticdoors.tall_manyideas_iron_safe_door": "Tall Iron Safe Door",
+  "block.dramaticdoors.tall_manyideas_iron_ship_door": "Tall Iron Ship Door",
+  "block.dramaticdoors.tall_manyideas_iron_space_door": "Tall Iron Space Door",
+  "block.dramaticdoors.tall_manyideas_iron_stone_brick_door": "Tall Iron Stone Brick Door",
+
+  "block.dramaticdoors.tall_manyideas_oak_blank_door": "Tall Oak Blank Door",
+  "block.dramaticdoors.tall_manyideas_oak_bookshelf_door": "Tall Oak Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_oak_cassette_door": "Tall Oak Cassette Door",
+  "block.dramaticdoors.tall_manyideas_oak_french_door": "Tall Oak French Door",
+  "block.dramaticdoors.tall_manyideas_oak_frosted_door": "Tall Oak Frosted Door",
+  "block.dramaticdoors.tall_manyideas_oak_glass_door": "Tall Oak Glass Door",
+  "block.dramaticdoors.tall_manyideas_oak_heart_door": "Tall Oak Heart Door",
+  "block.dramaticdoors.tall_manyideas_oak_origin_door": "Tall Oak Origin Door",
+  "block.dramaticdoors.tall_manyideas_oak_rustic_door": "Tall Oak Rustic Door",
+  "block.dramaticdoors.tall_manyideas_oak_shoji_door": "Tall Oak Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_spruce_blank_door": "Tall Spruce Blank Door",
+  "block.dramaticdoors.tall_manyideas_spruce_bookshelf_door": "Tall Spruce Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_spruce_cassette_door": "Tall Spruce Cassette Door",
+  "block.dramaticdoors.tall_manyideas_spruce_french_door": "Tall Spruce French Door",
+  "block.dramaticdoors.tall_manyideas_spruce_frosted_door": "Tall Spruce Frosted Door",
+  "block.dramaticdoors.tall_manyideas_spruce_glass_door": "Tall Spruce Glass Door",
+  "block.dramaticdoors.tall_manyideas_spruce_heart_door": "Tall Spruce Heart Door",
+  "block.dramaticdoors.tall_manyideas_spruce_origin_door": "Tall Spruce Origin Door",
+  "block.dramaticdoors.tall_manyideas_spruce_rustic_door": "Tall Spruce Rustic Door",
+  "block.dramaticdoors.tall_manyideas_spruce_shoji_door": "Tall Spruce Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_birch_blank_door": "Tall Birch Blank Door",
+  "block.dramaticdoors.tall_manyideas_birch_bookshelf_door": "Tall Birch Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_birch_cassette_door": "Tall Birch Cassette Door",
+  "block.dramaticdoors.tall_manyideas_birch_french_door": "Tall Birch French Door",
+  "block.dramaticdoors.tall_manyideas_birch_frosted_door": "Tall Birch Frosted Door",
+  "block.dramaticdoors.tall_manyideas_birch_glass_door": "Tall Birch Glass Door",
+  "block.dramaticdoors.tall_manyideas_birch_heart_door": "Tall Birch Heart Door",
+  "block.dramaticdoors.tall_manyideas_birch_origin_door": "Tall Birch Origin Door",
+  "block.dramaticdoors.tall_manyideas_birch_rustic_door": "Tall Birch Rustic Door",
+  "block.dramaticdoors.tall_manyideas_birch_shoji_door": "Tall Birch Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_jungle_blank_door": "Tall Jungle Blank Door",
+  "block.dramaticdoors.tall_manyideas_jungle_bookshelf_door": "Tall Jungle Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_jungle_cassette_door": "Tall Jungle Cassette Door",
+  "block.dramaticdoors.tall_manyideas_jungle_french_door": "Tall Jungle French Door",
+  "block.dramaticdoors.tall_manyideas_jungle_frosted_door": "Tall Jungle Frosted Door",
+  "block.dramaticdoors.tall_manyideas_jungle_glass_door": "Tall Jungle Glass Door",
+  "block.dramaticdoors.tall_manyideas_jungle_heart_door": "Tall Jungle Heart Door",
+  "block.dramaticdoors.tall_manyideas_jungle_origin_door": "Tall Jungle Origin Door",
+  "block.dramaticdoors.tall_manyideas_jungle_rustic_door": "Tall Jungle Rustic Door",
+  "block.dramaticdoors.tall_manyideas_jungle_shoji_door": "Tall Jungle Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_acacia_blank_door": "Tall Acacia Blank Door",
+  "block.dramaticdoors.tall_manyideas_acacia_bookshelf_door": "Tall Acacia Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_acacia_cassette_door": "Tall Acacia Cassette Door",
+  "block.dramaticdoors.tall_manyideas_acacia_french_door": "Tall Acacia French Door",
+  "block.dramaticdoors.tall_manyideas_acacia_frosted_door": "Tall Acacia Frosted Door",
+  "block.dramaticdoors.tall_manyideas_acacia_glass_door": "Tall Acacia Glass Door",
+  "block.dramaticdoors.tall_manyideas_acacia_heart_door": "Tall Acacia Heart Door",
+  "block.dramaticdoors.tall_manyideas_acacia_origin_door": "Tall Acacia Origin Door",
+  "block.dramaticdoors.tall_manyideas_acacia_rustic_door": "Tall Acacia Rustic Door",
+  "block.dramaticdoors.tall_manyideas_acacia_shoji_door": "Tall Acacia Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_dark_oak_blank_door": "Tall Dark Oak Blank Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_bookshelf_door": "Tall Dark Oak Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_cassette_door": "Tall Dark Oak Cassette Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_french_door": "Tall Dark Oak French Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_frosted_door": "Tall Dark Oak Frosted Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_glass_door": "Tall Dark Oak Glass Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_heart_door": "Tall Dark Oak Heart Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_origin_door": "Tall Dark Oak Origin Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_rustic_door": "Tall Dark Oak Rustic Door",
+  "block.dramaticdoors.tall_manyideas_dark_oak_shoji_door": "Tall Dark Oak Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_mangrove_blank_door": "Tall Mangrove Blank Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_bookshelf_door": "Tall Mangrove Bookshelf Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_cassette_door": "Tall Mangrove Cassette Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_french_door": "Tall Mangrove French Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_frosted_door": "Tall Mangrove Frosted Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_glass_door": "Tall Mangrove Glass Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_heart_door": "Tall Mangrove Heart Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_origin_door": "Tall Mangrove Origin Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_rustic_door": "Tall Mangrove Rustic Door (Placeholder)",
+  "block.dramaticdoors.tall_manyideas_mangrove_shoji_door": "Tall Mangrove Shoji Door (Placeholder)",
+
+  "block.dramaticdoors.tall_manyideas_crimson_blank_door": "Tall Crimson Blank Door",
+  "block.dramaticdoors.tall_manyideas_crimson_bookshelf_door": "Tall Crimson Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_crimson_cassette_door": "Tall Crimson Cassette Door",
+  "block.dramaticdoors.tall_manyideas_crimson_french_door": "Tall Crimson French Door",
+  "block.dramaticdoors.tall_manyideas_crimson_frosted_door": "Tall Crimson Frosted Door",
+  "block.dramaticdoors.tall_manyideas_crimson_glass_door": "Tall Crimson Glass Door",
+  "block.dramaticdoors.tall_manyideas_crimson_heart_door": "Tall Crimson Heart Door",
+  "block.dramaticdoors.tall_manyideas_crimson_origin_door": "Tall Crimson Origin Door",
+  "block.dramaticdoors.tall_manyideas_crimson_rustic_door": "Tall Crimson Rustic Door",
+  "block.dramaticdoors.tall_manyideas_crimson_shoji_door": "Tall Crimson Shoji Door",
+
+  "block.dramaticdoors.tall_manyideas_warped_blank_door": "Tall Warped Blank Door",
+  "block.dramaticdoors.tall_manyideas_warped_bookshelf_door": "Tall Warped Bookshelf Door",
+  "block.dramaticdoors.tall_manyideas_warped_cassette_door": "Tall Warped Cassette Door",
+  "block.dramaticdoors.tall_manyideas_warped_french_door": "Tall Warped French Door",
+  "block.dramaticdoors.tall_manyideas_warped_frosted_door": "Tall Warped Frosted Door",
+  "block.dramaticdoors.tall_manyideas_warped_glass_door": "Tall Warped Glass Door",
+  "block.dramaticdoors.tall_manyideas_warped_heart_door": "Tall Warped Heart Door",
+  "block.dramaticdoors.tall_manyideas_warped_origin_door": "Tall Warped Origin Door",
+  "block.dramaticdoors.tall_manyideas_warped_rustic_door": "Tall Warped Rustic Door",
+  "block.dramaticdoors.tall_manyideas_warped_shoji_door": "Tall Warped Shoji Door",
+
   "itemGroup.dramaticdoors": "Dramatic Doors",
   "itemGroup.dramaticdoors_chipped": "Dramatic Doors: Chipped",
-  "itemGroup.dramaticdoors_macaw": "Dramatic Doors: Macaw's Doors"
+  "itemGroup.dramaticdoors_macaw": "Dramatic Doors: Macaw's Doors",
+  "itemGroup.dramaticdoors_manyideas": "Dramatic Doors: ManyIdeas Doors",
+  
+  "message.dramaticdoors.statement_notice": "<DramaticDoors> If the doors or fence gates don't look right, press F3+T to reload resource pack, disable waterlogging property in dramaticdoors config file or remove Statement mod."
 }
