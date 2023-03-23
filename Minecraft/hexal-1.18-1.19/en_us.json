@@ -12,6 +12,8 @@
   "hexcasting.mishap.others_wisp": "That wisp is owned by %s, not you.",
   "hexcasting.mishap.no_links": "%s has no links.",
   "hexcasting.mishap.self_link": "Tried to link %s to itself.",
+  "hexcasting.mishap.no_bound_storage": "No bound Mote Nexus.",
+  "hexcasting.mishap.storage_unloaded": "Bound Mote Nexus is unloaded.",
 
   "hexcasting.mishap.invalid_value.class.linkable": "a linkable",
   "hexcasting.mishap.invalid_value.class.wisp": "a wisp",
@@ -22,12 +24,16 @@
   "hexcasting.mishap.invalid_value.class.type.block.able": "an item type that has a block",
   "hexcasting.mishap.invalid_value.class.type.list.double": "a list of numbers",
   "hexcasting.mishap.invalid_value.class.gate": "a gate",
-  "hexcasting.mishap.invalid_value.class.item": "an item iota",
-  "hexcasting.mishap.invalid_value.itemitemtype": "an item iota or item type",
-  "hexal.mishap.invalid_value.vecitem": "a vector or item iota",
-  "hexal.mishap.invalid_value.veclist": "a vector or a list of vectors",
-  "hexcasting.mishap.invalid_value.blockitementityitem": "a block, item entity, or item iota",
-  "hexal.mishap.invalid_value.int.strictly_positive": "a strictly positive integer",
+  "hexcasting.mishap.invalid_value.class.item": "a mote",
+  "hexcasting.mishap.invalid_value.itemitemtype": "a mote or item type",
+  "hexcasting.mishap.invalid_value.vecitem": "a vector or mote",
+  "hexcasting.mishap.invalid_value.veclist": "a vector or a list of vectors",
+  "hexcasting.mishap.invalid_value.blockitementityitemframeitem": "a block, item entity, item frame, or mote",
+  "hexcasting.mishap.invalid_value.entity.itemitemframe": "an item entity or item frame",
+  "hexcasting.mishap.invalid_value.int.strictly_positive": "a strictly positive integer",
+  "hexcasting.mishap.invalid_value.crafting_recipe": "a valid crafting recipe",
+  "hexcasting.mishap.invalid_value.mote_duplicated": "each mote to appear only once",
+  "hexcasting.mishap.invalid_value.cant_combine_motes": "two motes that can be combined",
 
 
   "hexcasting.iota.hexal:iota_type": "Iota Type",
@@ -41,9 +47,14 @@
   "hexal.spelldata.item": "%s x%d",
 
 
-  "hexcasting.spell.hexal:type/block_item": "Sorter's Purification",
-  "hexcasting.spell.hexal:type/entity": "Physician's Purification",
   "hexcasting.spell.hexal:type/iota": "Classifier's Purification",
+  "hexcasting.spell.hexal:type/entity": "Physician's Purification",
+  "hexcasting.spell.hexal:type/block_item": "Sorter's Purification",
+  "hexcasting.spell.hexal:type/item_held": "Sorter's Reflection",
+
+  "hexcasting.spell.hexal:get_entity/type": "Entity Distillation: Type",
+  "hexcasting.spell.hexal:zone_entity/type": "Zone Exaltation: Type",
+  "hexcasting.spell.hexal:zone_entity/not_type": "Zone Exaltation: Not-Type",
 
   "hexcasting.spell.hexal:current_tick": "Timekeeper's Reflection",
   "hexcasting.spell.hexal:remaining_evals": "Thanatos' Reflection",
@@ -105,6 +116,8 @@
 
   "hexcasting.spell.hexal:gate/make": "Gate's Reflection",
   "hexcasting.spell.hexal:gate/mark": "Gate's Opening",
+  "hexcasting.spell.hexal:gate/mark/num/get": "Marked Purification",
+  "hexcasting.spell.hexal:gate/mark/get": "Marked Distillation",
   "hexcasting.spell.hexal:gate/close": "Gate's Closing",
 
   "hexcasting.spell.hexal:item/storage/bind": "Bind Storage",
@@ -115,6 +128,7 @@
   "hexcasting.spell.hexal:item/make": "Mediafy Item",
   "hexcasting.spell.hexal:item/return": "Return Item",
   "hexcasting.spell.hexal:item/combine": "Stacking Distillation",
+  "hexcasting.spell.hexal:item/combinable": "Stacking Distillation II",
   "hexcasting.spell.hexal:item/split": "Splitting Gambit",
   "hexcasting.spell.hexal:item/storage/get": "Depot Purification",
   "hexcasting.spell.hexal:item/storage/set": "Depot Gambit",
@@ -159,11 +173,11 @@
   "hexal.page.hexal_maths.running/mul": "Takes a list from the stack and computes its running product, for example inputting [1,2,5] would return [1,2,10].",
 
   "hexal.entry.hexal_spell": "Hexal Spells",
-  "hexal.page.hexal_spell.smelt.0": "Remove a location or item entity from the stack, then either smelt the block at the location or smelt all the items in the item entity.",
+  "hexal.page.hexal_spell.smelt.0": "Remove a location, item entity, or mote from the stack, then either smelt the block at the location or smelt all the items in the item entity or mote.",
   "hexal.page.hexal_spell.smelt.1": "Costs three quarters of an $(l:items/amethyst)$(item)Amethyst Dust/$ per item smelted (i.e. three quarters of an $(l:items/amethyst)$(item)Amethyst Dust/$ for smelting a block, 6 $(l:items/amethyst)$(item)Amethyst Dust/$ to smelt a stack of 8 items.)",
   "hexal.page.hexal_spell.freeze": "Freezes the block at a block location. For example, turns water into ice, and ice into packed ice. Costs three $(l:items/amethyst)$(item)Amethyst Dust/$.",
   "hexal.page.hexal_spell.falling_block": "Remove a location from the stack, and force the block there to fall as if it were sand or gravel. Costs one and a half $(l:items/amethyst)$(item)Amethyst Dust/$.",
-  "hexal.page.hexal_spell.place_type": "Accepts a location and an item type, and attempts to place a block of that item type at that location. Costs an eighth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
+  "hexal.page.hexal_spell.place_type": "Accepts an item type or mote and a location, and attempts to place a block of that item type at that location. If a mote was passed it will instead place from the record referenced by that mote. Costs an eighth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
   "hexal.page.hexal_spell.particles": "Accepts a location or a list of locations, and either creates a particle at the location, or creates lines of particles between the locations in the list. Costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$ per location.",
 
   "hexal.entry.wisps": "Wisps",
@@ -190,7 +204,7 @@
 
   "hexal.entry.links": "Links",
   "hexal.page.links.0": "These patterns outline a system that I have found for communicating information from one $(l:hexal:patterns/spells/wisps)$(thing)wisp/$ to another, among other things. There are a number of patterns related to creating these links that are able to transmit information, and a number of patterns related to sending and receiving iotas over a link once it is created. A wisp can have any number of links active, with each costing a negligible amount of media to maintain each twentieth of a second.",
-  "hexal.page.links.1": "When a link is created both ends will assign a number to it, equal to the previous number of links that end had, which is used to reference the links in a number of patterns. The linkable type present in a number of the following signatures is not its own type, but a shorthand for any type that can be coerced into a linkable (e.g. Entity -> Linkable entities, Vec -> Linkable blocks, ...). Links can span up to the maximum of the two linkable's ranges.",
+  "hexal.page.links.1": "When a link is created both ends will assign a number to it, equal to the previous number of links that end had, which is used to reference the links in a number of patterns. The linkable type present in a number of the following signatures is not its own type, but a shorthand for any type that can be coerced into a linkable (e.g. Entity -> Linkable entities, Vec -> Linkable blocks, ...). Links can span up to double the sum of the two linkable's ranges.",
   "hexal.page.links.link": "Links the casting wisp to the entity removed from the stack, which must be linkable. This costs one $(l:items/amethyst)$(item)Amethyst Shard/$.",
   "hexal.page.links.link/others": "May be evaluated by any casting instrument. Links two entities, which must be linkable. This costs one $(l:items/amethyst)$(item)Amethyst Shard/$.",
   "hexal.page.links.link/unlink": "Removes the link at the given index from the casting wisp's links. This costs two $(l:items/amethyst)$(item)Amethyst Dust/$.",
@@ -211,21 +225,24 @@
   "hexal.entry.gates": "Gates",
   "hexal.page.gates.gate/make": "Adds a new gate iota to the stack. Any copy of this iota will point to the same numbered gate. Costs 32 $(l:items/amethyst)$(item)Charged Amethyst/$.",
   "hexal.page.gates.gate/mark": "Consumes a gate iota and an entity. Marks that entity to be teleported the next time that gate is closed. Costs one twentieth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
-  "hexal.page.gates.gate/mark/get": "Consumes a gate iota, returns a list of entities marked by that gate.",
+  "hexal.page.gates.gate/mark/num/get": "Consumes a gate iota, returns how many entities are marked by that gate.",
+  "hexal.page.gates.gate/mark/get": "Consumes a gate iota and an entity, returns whether that entity is marked by that gate.",
   "hexal.page.gates.gate/close": "Consumes a gate iota and a position. Transports all the entities marked with that gate to the given position. Costs half an $(l:items/amethyst)$(item)Amethyst Shard/$.",
 
-  "hexal.entry.items": "Items",
+  "hexal.entry.items": "Motes",
   "hexal.page.items.explanation.0": "This entry deals with bringing items into the media, making them referencable, countable, bringing order to them and to me and to my mind and-. A mediafied item iota (known as a mote) that has been added to the stack references a specific mote record in a Mote Nexus, since without something holding the thought-pattern of the item to this world it will wither away -away like my cognition is flensing-.",
   "hexal.page.items.explanation.1": "Any duplicate of that first mote iota referencing a record references the same record, and any change to one affects them all for they all point to the one and only in the media. Splitting and merging and crafting and trading all affect all affect all-.",
   "hexal.page.items.explanation.2": "A Mote Nexus is limited in some ways, but only some. It can contain 1023 different records, but each record can store items innumerable. I have yet to find any limit, I can merge and merge and merge forever and the record keeps growing and growing and growing...",
+  "hexal.page.items.mediafed_storage_recipe":  "The Mote Nexus is built from the mind of a cartographer endlessly mapping the contents of the $(item)Shulker Box/$ that it has been flayed into.",
   "hexal.page.items.item/storage/bind": "Target a Mote Nexus block in the world and bind yourself to it, meaning all items you mediafy will be added to that nexus' capacity. Targeting any other block will unbind you from your currently bound nexus. Costs 32 $(l:items/amethyst)$(item)Amethyst Dust/$.",
   "hexal.page.items.item/storage/bind/temp": "Target a Mote Nexus block in the world and bind to it for the remainder of this cast, temporarily overriding your primary binding. Costs one $(l:items/amethyst)$(item)Amethyst Dust/$.",
   "hexal.page.items.item/contained_type/get": "Gets all the types of motes contained in the currently bound Mote Nexus.",
   "hexal.page.items.item/contained/get": "Gets all the mote records from the currently bound Mote Nexus that match the passed item type or could be combined with the passed mote.",
-  "hexal.page.items.item/storage/remaining_capacity/get": "Gets the remaining capacity of the currently bound Mote Nexus.",
-  "hexal.page.items.item/make": "Convert an item entity in the world into a mote on your stack. Mediafying an item costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
+  "hexal.page.items.item/storage/remaining_capacity/get": "Gets the remaining capacity of the bound Mote Nexus.",
+  "hexal.page.items.item/make": "Convert an item entity in the world or in an item frame into a mote on your stack. Mediafying an item costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
   "hexal.page.items.item/return": "Returns all the items from a mote to the world at the location of your choosing. Costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
-  "hexal.page.items.item/combine": "Combines two motes into one, merging the mote records they point to. This can make motes holding many more items than I could carry in a stack naturally!",
+  "hexal.page.items.item/combine": "Combines two motes into one, merging the mote records they point to. Any pointers to the second mote will become null, any pointers to the first will remain. This can make motes holding many more items than I could carry in a stack naturally!",
+  "hexal.page.items.item/combinable": "Returns true if the two motes on top of the stack can be combined, and false otherwise.",
   "hexal.page.items.item/split": "Splits the specified number of items off of the passed mote, creating a new mote pointing to a new mote record.",
   "hexal.page.items.item/storage/get": "Get the position of the Mote Nexus that contains the passed mote.",
   "hexal.page.items.item/storage/set": "Move the record referenced by the passed mote to the Mote Nexus at the passed position. This returns a new mote pointing to that record, and invalidates all previous motes pointing to that record.",
@@ -234,8 +251,8 @@
   "hexal.page.items.item/villager/level/get": "Accepts a villager, returns a number representing that villager's seniority and skill at their craft.",
   "hexal.page.items.item/trade/get.0": "Accepts a villager and returns all of the trades that villager is offering. This is a list of lists of lists. Each trade comprises two lists, the cost, and the returned items. The returned items is a list containing the type of item, and the number of items.",
   "hexal.page.items.item/trade/get.1": "The cost is a list of one or two pairs of item and number of items required by the villager for the trade to be accepted. For example, one trade offer could be [[[Emerald, 1]], [Redstone, 1]].",
-  "hexal.page.items.item/trade.0": "Accepts a villager, a list of motes to trade with to villager, and optionally an int for which of that villager's trades to attempt. If no trade number was passed, it will try each of the villager's trade until finding one that accepts the passed items.",
-  "hexal.page.items.item/trade.1": "If a trade number was passed it will skip straight to using that trade. It will then repeat that trade for as long as it has enough items and the villager is still willing to trade. It will then return the items the villager traded away as a mote to the stack.",
+  "hexal.page.items.item/trade.0": "Accepts a villager, a list of motes to trade with to villager, and optionally an int for which of that villager's trades to attempt. (int? above means that you can pass 2 or 3 arguments, the optional 3rd being an int).",
+  "hexal.page.items.item/trade.1": "If no trade number was passed, it will try each of the villager's trade until finding one that accepts the passed items. If a trade number was passed it will skip straight to using that trade. It will then repeat that trade for as long as it has enough items and the villager is still willing to trade. It will then return the items the villager traded away as a mote to the stack.",
   "hexal.page.items.item/trade.2": "The villager will find this trade to be a learnable experience as it would if trading with you directly, and will improve its skills and trade offerings commensurately. Costs a tenth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
 
   "hexal.entry.great_wisps": "Great Wisp Spells",
@@ -245,11 +262,14 @@
   "hexal.page.great_wisps.wisp/seon/get": "Returns my currently bound wisp. A new wisp can only be bound when this returns null. (This is not a great spell, I have simply placed it here for convenience.)",
 
   "hexal.entry.types": "Types",
-  "hexal.page.types.type/block_item": "Remove a location or item from the stack, and adds the type of the block at that location, or type of that item, to the stack (e.g. Grass, Stone, Stick, etc.).",
-  "hexal.page.types.type/entity": "Remove an entity from the stack, and adds the type of the entity at that location to the stack (with item entities adding their item type).",
   "hexal.page.types.type/iota": "Remove an iota from the stack, and adds the type of that iota to the stack.",
+  "hexal.page.types.type/entity": "Remove an entity from the stack, and adds the type of the entity at that location to the stack.",
+  "hexal.page.types.type/block_item": "Remove a location, $(l:hexal:hexal.entry.items)$(item)mote/$, item entity, or item frame from the stack, and adds the type of the block at that location, or type of that item, to the stack (e.g. Grass, Stone, Stick, etc.).",
+  "hexal.page.types.type/item_held": "Adds the type of the item in the caster's offhand to the stack if there is one present, or the type of the casting hand otherwise.",
 
-
+  "hexal.page.types.get_entity/type": "Remove an entity type and a position from the stack, and returns an entity of that type at that position if one exists.",
+  "hexal.page.types.zone_entity/type": "Remove an entity type, a position, and a radius from the stack, and returns a list of all entities of that type within that radius of that position.",
+  "hexal.page.types.zone_entity/not_type": "Remove an entity type, a position, and a radius from the stack, and returns a list of all entities not of that type within that radius of that position",
 
 
   "hexal.entry.everbook": "Everbook",
