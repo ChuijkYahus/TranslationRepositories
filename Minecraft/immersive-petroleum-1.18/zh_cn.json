@@ -45,7 +45,7 @@
 	"_comment": "################## Items ##################",
 	
 	"item.immersivepetroleum.projector": "投影仪",
-	"item.immersivepetroleum.projector.specific": "投影仪 当前投影：%s",
+	"item.immersivepetroleum.projector.specific": "投影仪：%s",
 	"item.immersivepetroleum.speedboat": "汽艇",
 	"item.immersivepetroleum.oil_can": "润滑剂罐",
 	"item.immersivepetroleum.survey_result": "探测结果",
@@ -121,14 +121,21 @@
 	"desc.immersivepetroleum.info.projector.mode_1": "投影模式",
 	
 	"desc.immersivepetroleum.info.projector.holdshift": "按住Shift",
-	"desc.immersivepetroleum.info.projector.holdshift.text": "以查看被设定参数",
+	"desc.immersivepetroleum.info.projector.holdshift.text": "查看被设定参数",
 
 	"desc.immersivepetroleum.info.projector.holdctrl": "按住Ctrl",
-	"desc.immersivepetroleum.info.projector.holdctrl.text": "以查看操作键位",
+	"desc.immersivepetroleum.info.projector.holdctrl.text": "查看操作键位",
 	
 	"desc.immersivepetroleum.info.projector.control1": "按住Shift并上下滚动鼠标滚轮以旋转",
 	"desc.immersivepetroleum.info.projector.control2": "按%s以镜像多方块结构虚像",
 	"desc.immersivepetroleum.info.projector.control3": "对着空气潜行并右击以改变模式",
+	
+	"_comment": "################## Item-Shaders ##################",
+	
+	"item.immersivepetroleum.shader.name.blue": "Blue ASHPD",
+	"item.immersivepetroleum.shader.name.orange": "Orange ASHPD",
+	"item.immersivepetroleum.shader.name.cube0": "Storage Cube",
+	"item.immersivepetroleum.shader.name.cube1": "Companion Cube",
 	
 	"_comment": "################## GUI ##################",
 	
@@ -162,14 +169,14 @@
 	
 	"_comment": "################## IE-Manual ##################",
 	
-	"manual.immersivepetroleum.main": "原油处理",
+	"manual.immersivepetroleum.petroleum": "原油处理",
 	
 	"ie.manual.entry.blank_text": "",
 	
 	"ie.manual.entry.reservoirs.title": "流体储层",
 	"ie.manual.entry.reservoirs.subtitle": "黑色的黄金",
 
-	"ie.manual.entry.reservoirs.oil0": "当你在基岩附近挖矿时，你偶尔会看到一种粘稠的黑色易燃物质：<link;immersivepetroleum:fluids;§o§n原油§r>。原油只是这坚不可摧的基岩下方的数种流体之一，但凭你自己的力量无法触及这些流体储层。\n\n在<link;immersivepetroleum:derrick;§o§n经过特别设计的机器§r>的帮助下，你才能把这些流体矿藏收入囊中。<np>",
+	"ie.manual.entry.reservoirs.oil0": "当你在基岩附近挖矿时，你偶尔会看到一种黏稠的黑色易燃物质：<link;immersivepetroleum:fluids;§o§n原油§r>。原油只是这坚不可摧的基岩下方的数种流体之一，但凭你自己的力量无法触及这些流体储层。\n\n在<link;immersivepetroleum:derrick;§o§n经过特别设计的机器§r>的帮助下，你才能把这些流体矿藏收入囊中。<np>",
 	"ie.manual.entry.reservoirs.oil1": "§o§n震波探测器§r能以反射回来的次声波探测地下的流体储层，而探测用次声波可由<link;bullets;§o§n鹿弹§r;buckshot>产生。需将鹿弹装填至探测器内，再启动仪器，就可产出一张记录有周围流体储层信息的地图，凭此能三角定位出确切位置。\n\n每个流体储层只能产出一种流体，各类型的具体信息已罗列在后页。<np>",
 	
 	"ie.manual.entry.reservoirs.consonant": "",
@@ -184,8 +191,9 @@
 	"ie.manual.entry.reservoirs.bio.any": "此流体储层会生成在任何生物群系。",
 	
 	"ie.manual.entry.reservoirs.content": "%1$s%6$s\n它含有%3$s到%4$smB的%2$s。%5$s",
-	"ie.manual.entry.reservoirs.replenish": "\n储层枯竭后，每个抽油机能以%1$dmB/tick的速率开采出少量的%2$s。",
-	
+	"ie.manual.entry.reservoirs.replenish": "\n储层储量低于%3$dB后，其会因平衡压力而以%1$dmB/tick的速率额外渗出少量的%2$s。",
+	"ie.manual.entry.reservoirs.replenish_depleted": "\n储层枯竭后，抽油机能以%1$dmB/tick的速率开采出少量的%2$s。",
+
 	"_comment": "################## Chat ##################",
 	
 	"chat.immersivepetroleum.command.reservoir.notfound": "没有流体储层",
