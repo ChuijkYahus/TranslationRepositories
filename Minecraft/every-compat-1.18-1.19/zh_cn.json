@@ -103,6 +103,7 @@
   
   "block_type.quark.stripped_post": "去皮%s杆",
   "block_type.quark.post": "%s杆",
+  "block_type.quark.hollow_log": "空心%s原木",
   "block_type.quark.hedge": "%s树叶篱",
   "block_type.quark.leaf_carpet": "%s树叶地毯",
   "block_type.quark.ladder": "%s梯子",
@@ -130,6 +131,7 @@
   "block_type.mcwbridges.wired_fence": "%s铁丝栅栏",
   
   "block_type.mcwdoors.bark_glass_door": "%s树皮玻璃门",
+  "block_type.mcwdoors.bamboo_door": "%s竹风门",
   "block_type.mcwdoors.barn_door": "%s谷仓门",
   "block_type.mcwdoors.barn_glass_door": "%s玻璃谷仓门",
   "block_type.mcwdoors.beach_door": "%s海滨风格门",
@@ -473,7 +475,7 @@
   "leaves_type.ars_nouveau.red_archwood": "烈焰至高",
   "leaves_type.ars_nouveau.green_archwood": "繁茂至高",
   "leaves_type.ars_nouveau.purple_archwood": "恼人至高",
-
+  
   "wood_type.atmospheric.rosewood": "花梨木",
   "wood_type.atmospheric.morado": "酸枝木",
   "wood_type.atmospheric.yucca": "丝兰木",
