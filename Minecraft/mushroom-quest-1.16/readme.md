@@ -1,6 +1,6 @@
 **各蘑菇等物种对应推测**（依物种排序，中文名基本都是学名，直接搜维基百科就行）：
 
-中文名 | 中文其它称呼 | 英文名 | 学名 | 备注
+中文名 | 其它称呼 | 英文名 | 学名 | 备注
 -|-|-|-|-
 枝莎蕨 | | Fan Fern | *Schizaea dichotoma* |
 银蕨 | | Koru | *Alsophila dealbata* |
@@ -57,7 +57,7 @@
 青绿湿伞 | | Parrot Toadstool | *Gliophorus psittacinus* |
 红铆钉菇 | | Rosy Spikecap | *Gomphidius roseus* |
 钉菇 | | Pig's Ear | *Gomphus clavatus* |
-灰树花 | 舞茸 | Hen of the Woods | *Grifola frondosa* |
+灰树花 | 舞茸（日文） | Hen of the Woods | *Grifola frondosa* |
 焰耳 | | Apricot Jelly | *Guepinia helvelloides* | 属内单种
 橙裸伞 | 橙黄裸伞<br>大笑茸 | Laughing Gym | *Gymnopilus junonius* |
 鹿花菌 | | False Morel | *Gyromitra esculenta* |
