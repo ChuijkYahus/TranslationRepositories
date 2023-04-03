@@ -1,11 +1,11 @@
-**各蘑菇等物种对应推测**（依物种排序）：
+**各蘑菇等物种对应推测**（依物种排序，中文名基本都是学名，直接搜维基百科就行）：
 
 中文名 | 中文其它称呼 | 英文名 | 学名 | 备注
 -|-|-|-|-
 枝莎蕨 | | Fan Fern | *Schizaea dichotoma* |
 银蕨 | | Koru | *Alsophila dealbata* |
 大紫蘑菇 | | The Prince | *Agaricus augustus* |
-野蘑菇 | | Horse Mushroom | *Agaricus arvensis* |
+野蘑菇 | 田野蘑菇 | Horse Mushroom | *Agaricus arvensis* |
 双孢蘑菇 | 洋菇 | Portobello | *Agaricus bisporus* |
 四孢蘑菇 | | Meadow Mushroom | *Agaricus campestris* |
 赭鳞蘑菇 | 巴西蘑菇 | Mushroom of the Sun | *Agaricus subrufescens* |
@@ -19,7 +19,7 @@
 豹纹鹅膏菌 | | Panther Cap | *Amanita pantherina* |
 毒鹅膏 | 黄绿毒鹅膏菌 | Death Cap | *Amanita phalloides* |
 赭色鹅膏菌 | | The Blusher | *Amanita rubescens* |
-蜜环菌 | | Honey Mushroom | *Armillaria sp.* |
+蜜环菌 | 榛蘑 | Honey Mushroom | *Armillaria sp.*<br>*Armillaria mellea* |
 毛木耳 | | Cloud Ear | *Auricularia cornea* |
 黑木耳 | | Wood Ear | *Auricularia heimuer* | 材质貌似和黑木耳不大相似
 鬼笔状钉灰包 | | Sandy Stiltball | *Battarrea phalloides* |
@@ -28,7 +28,7 @@
 鸡油菌 | | Golden Chanterelle | *Cantharellus cibarius* |
 宽鳞多孔菌 | | Pheasant Back | *Cerioporus squamosus* |
 一色齿毛菌 | | Mossy Maze Polypore | *Cerrena unicolor* |
-裂杯菌 | | Devil's Cigar | *Chorioactis sp.* |
+裂杯菌 | 恶魔雪茄<br>地星状裂杯菌 | Devil's Cigar | *Chorioactis geaster* |
 阿切氏笼头菌 | 阿切尔笼头菌 | Octupus Stinkhorn | *Clathrus archeri* |
 柱状笼头菌 | | Column Stinkhorn | *Clathrus columnatus* |
 红笼头菌 | | Lattice Mushroom | *Clathrus ruber* |
@@ -110,8 +110,8 @@
 粉红紫湿伞 | | Pink Waxcap | *Porpolomopsis calyptriformis*<br>*Hygrocybe calyptriformis* |
 贝形圆孢侧耳 | | Angel Wing | *Pleurocybella porrigens* |
 金顶侧耳 | | Golden Oyster | *Pleurotus citrinopileatus* |
-平菇 | | Oyster Mushroom | *Pleurotus ostreatus* |
 杏鲍菇 | | King Trumpet | *Pleurotus eryngii* |
+平菇 | | Oyster Mushroom | *Pleurotus ostreatus* |
 火焰茸 | | Poison Fire Coral | *Podostroma cornu-damae* |
 半裸盖菇 | 致幻蘑菇 | Magic Shrooms | *Psilocybe semilanceata* |
 葡萄状枝瑚菌 | 丛枝瑚菌 | Clustered Coral | *Ramaria botrytis* |
