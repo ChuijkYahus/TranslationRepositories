@@ -724,7 +724,7 @@
   "malum.gui.book.entry.belt_of_the_prospector": "勘探腰带",
   "malum.gui.book.entry.belt_of_the_prospector.description": "大地之宝",
   "malum.gui.book.entry.page.headline.belt_of_the_prospector": "勘探腰带",
-  "malum.gui.book.entry.page.text.belt_of_the_prospector.1": "为进行各种魔法实验和达成目标， 我常需要各种岩层下的宝藏。此 腰带可使地上的高价值物品免受 $i直接/$由我造成的爆炸的摧残，并 使这种爆炸破坏方块的效果与时 运 III的工具等同。",
+  "malum.gui.book.entry.page.text.belt_of_the_prospector.1": "为进行各种魔法实验和达成目标， 我常需要各种岩层下的宝藏。此 腰带可使地上的高价值物品免受 $i直接/$由我造成的爆炸的摧残，并 使这种爆炸破坏方块的效果与时运 III的工具等同。",
   "malum.gui.book.entry.page.headline.belt_of_the_prospector.ring_of_the_hoarder": "囤积者戒指",
   "malum.gui.book.entry.page.text.belt_of_the_prospector.ring_of_the_hoarder.1": "戴着这枚戒指时，任何我造成的 爆炸产生的物品会直接传送至我 所在处。",
 
@@ -885,8 +885,8 @@
   "malum.gui.book.entry.page.text.arcane_rite.description.1": "原始奥术能量是所有仪式的基石， 无能量则无效果。这也自然而然 引人思考：将其作为仪式核心会 怎样？其答案复杂而凶险。",
   "malum.gui.book.entry.page.text.arcane_rite.description.2": "此仪式聚焦所需远超其他仪式， 需要用到整整五个符文才可激活， 就好像试图抵达并突破某种阈限 一样。突破之后……其动量仍会 保留。",
   "malum.gui.book.entry.page.text.arcane_rite.description.3": "一旦变易，木材的颜色和魔法性 情都会改变。我命名其为“灵魂 木”，这种木种在创造其的残暴 过程中留下了伤疤。而这些伤疤 扭曲了魔法，变易了其本性。任 何在灵魂木图腾上启动的仪式的 效果均与原有的迥然不同。",
-  "malum.gui.book.entry.page.text.arcane_rite.description.4": "现在已可直接获取灵魂木，就同样能直接用灵魂木制作图腾基座，也就绕过了嬗变符文木图腾的过程。",
-  "malum.gui.book.entry.page.text.corrupt_arcane_rite": "如今其已添疤痕，能量便从图腾中渗流而出，腐化扭曲周围环境。任何放在那种腐枯物质之上的方块都会被变易，并取得全新形态。",
+  "malum.gui.book.entry.page.text.arcane_rite.description.4": "现在已可直接获取灵魂木，就同 样能直接用灵魂木制作图腾基座， 也就绕过了嬗变符文木图腾的过 程。",
+  "malum.gui.book.entry.page.text.corrupt_arcane_rite": "如今其已添疤痕，能量便从图腾 中渗流而出，腐化扭曲周围环境。 任何放在那种腐枯物质之上的方 块都会被变易，并取得全新形态。",
 
   "malum.gui.book.entry.corrupt_aerial_rite": "腐化澄空仪式",
   "malum.gui.book.entry.corrupt_aerial_rite.description": "散解灵魂",
