@@ -4,7 +4,7 @@
   "icon": "ars_instrumentum:runic_storage_stone",
   "pages": [
     {
-      "text": "Rightclick a configured Source Relay of any type with the Runic Stone of Storage to store it's configuration. Shift-Rightclick a Source Relay to apply a stored configuration. For Splitter-Type Relays this ADDS to the already applied configuration. Standard Relay Configuration is overwritten. To clear a stored configuration, craft the Runic Stone of Storage.",
+      "text": "手持存储符文石右击魔源中继器即可将其配置存入其中。潜行右击魔源中继器就能应用其所存储的配置。分流型中继器会在原有配置的基础上新增，普通中继器的配置会被覆盖。以其合成自身即可清除其中配置。",
       "type": "patchouli:text"
     },
     {

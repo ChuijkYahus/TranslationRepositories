@@ -4,7 +4,7 @@
   "icon": "ars_instrumentum:scroll_of_save_starbuncle",
   "pages": [
     {
-      "text": "Rightclick a Starbuncle with a Scroll of Save Starbuncle to save its current configuration to the Scroll. Shift-Rightclick a Starbuncle to apply the stored configuration. Shift-Rightclick empty air to clear the currently stored configuration.",
+      "text": "手持此卷轴右击星宝石兽即可将其当前配置存入卷轴。手持卷轴潜行右击星宝石兽就能应用其所存储的配置。对空气潜行右击则会清除其中配置。",
       "type": "patchouli:text"
     },
     {
