@@ -872,7 +872,7 @@
 
       "vectors.1": "如果要深入研究，就要对向量相关的知识足够熟悉。我整理了些讲解向量知识的资料，以备不理解时之需。$(br2)首先，来一段富有启发性的视频。（译注：此为 B 站官方账号$(l:https://www.bilibili.com/video/BV1ys411472E)网址/$）",
       "vectors.1.link_text": "3blue1brown",
-      "vectors.2": "此外，似乎操控 $(thing)Psi 能量/$的魔法师们（又称“术式师”）有一些对学徒理解向量大有裨益的课程，虽然他们命名能力不强。我会在后页冒昧地提供前往他们课程的链接。$(br2)他们使用了另一套术语：$(li)“术式”对应“操作”。$(li)“启动式”对应“法术”。$(li)“运算符”则对应不是法术的操作。",
+      "vectors.2": "此外，似乎操控 $(thing)Psi 能量/$的魔法师们（又称“术式师”）有一些对学徒理解向量大有裨益的课程，虽然他们命名能力不强。我会在后页冒昧地提供前往他们课程的链接。$(br2)他们使用了另一套术语：$(li)“功能块”对应“操作”。$(li)“启动式”对应“法术”。$(li)“运算符”则对应不是法术的操作。",
       "vectors.3": "链接在此。",
       "vectors.3.link_text": "Psi Codex",
 
@@ -1093,7 +1093,7 @@
       "basics_pattern.get_entity_look": "将栈顶的实体变为其视线方向上的单位向量。",
       "basics_pattern.print": "向我展示栈顶的 iota。",
       "basics_pattern.raycast.1": "将两个向量组合（分别表示位置和方向）并返回如下问题的答案：若我站在该位置并看向该方向，我会看到什么方块？消耗极少量$(media)媒质/$。",
-      "basics_pattern.raycast.2": "如果视线并未击中任何事物，所提供的向量会变为 $(l:casting/influences)$(thing)Null/$。$(br2)有一套常用的图案序列（常称“光线投射曼怛罗”），由$(action)意识之精思/$、$(action)指南针之纯化/$、$(action)意识之精思/$、$(action)照准仪之纯化/$、$(action)弓箭手之馏化/$组成。依次绘制就能返回我所看的方块的位置向量。",
+      "basics_pattern.raycast.2": "如果视线并未击中任何事物，所提供的向量会变为 $(l:casting/influences)$(thing)Null/$。$(br2)有一套常用的图案序列（常称“射线追踪曼怛罗”），由$(action)意识之精思/$、$(action)指南针之纯化/$、$(action)意识之精思/$、$(action)照准仪之纯化/$、$(action)弓箭手之馏化/$组成。依次绘制就能返回我所看的方块的位置向量。",
       "basics_pattern.raycast/axis.1": "与$(l:patterns/basics#hexcasting:raycast)$(action)弓箭手之馏化/$类似，但会返回如下问题的答案：我看着的是方块的$(italic)哪一面/$？消耗极少量$(media)媒质/$。",
       "basics_pattern.raycast/axis.2": "更确切地说，它会返回所看面的$(italic)法向量/$，也即垂直于该面的单位向量。$(li)如果我看着地面，它会返回 (0, 1, 0)。$(li)如果我看着某方块面向南方的侧面，它会返回 (0, 0, 1)。",
       "basics_pattern.raycast/entity": "与$(l:patterns/basics#hexcasting:raycast)$(action)弓箭手之馏化/$类似，但会返回我所看的$(italic)实体/$。消耗极少量$(media)媒质/$。",
