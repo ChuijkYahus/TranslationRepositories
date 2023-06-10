@@ -9,6 +9,7 @@
   "block.dramaticdoors.short_warped_door": "矮诡异木门",
   "block.dramaticdoors.short_mangrove_door": "矮红树木门",
   "block.dramaticdoors.short_bamboo_door": "矮竹门",
+  "block.dramaticdoors.short_cherry_door": "矮樱花木门",
   "block.dramaticdoors.short_iron_door": "矮铁门",
   "block.dramaticdoors.tall_oak_door": "高橡木门",
   "block.dramaticdoors.tall_spruce_door": "高云杉木门",
@@ -20,6 +21,7 @@
   "block.dramaticdoors.tall_warped_door": "高诡异木门",
   "block.dramaticdoors.tall_mangrove_door": "高红树木门",
   "block.dramaticdoors.tall_bamboo_door": "高竹门",
+  "block.dramaticdoors.tall_cherry_door": "高樱花木门",
   "block.dramaticdoors.tall_iron_door": "高铁门",
   
   "block.dramaticdoors.short_bop_cherry_door": "矮樱桃木门",
@@ -199,7 +201,7 @@
   "block.dramaticdoors.short_honeycomb_door": "矮蜜脾门",
   "block.dramaticdoors.short_azalea_door": "矮杜鹃木门",
   "block.dramaticdoors.short_poise_door": "矮幽仪木门",
-  "block.dramaticdoors.short_cherry_door": "矮樱桃木门",
+  "block.dramaticdoors.short_dark_cherry_door": "矮樱桃木门",
   "block.dramaticdoors.short_wisteria_door": "矮紫藤木门",
   "block.dramaticdoors.short_willow_door": "矮柳木门",
   "block.dramaticdoors.short_driftwood_door": "矮浮木门",
@@ -216,7 +218,7 @@
   "block.dramaticdoors.tall_honeycomb_door": "高蜜脾门",
   "block.dramaticdoors.tall_azalea_door": "高杜鹃木门",
   "block.dramaticdoors.tall_poise_door": "高幽仪木门",
-  "block.dramaticdoors.tall_cherry_door": "高樱桃木门",
+  "block.dramaticdoors.tall_dark_cherry_door": "高樱桃木门",
   "block.dramaticdoors.tall_wisteria_door": "高紫藤木门",
   "block.dramaticdoors.tall_willow_door": "高柳木门",
   "block.dramaticdoors.tall_driftwood_door": "高浮木门",
@@ -554,6 +556,13 @@
   "block.dramaticdoors.tall_ms_light_blue_glass_door": "高淡蓝色染色玻璃门",
   "block.dramaticdoors.tall_ms_brown_glass_door": "高棕色染色玻璃门",
 
+  "block.dramaticdoors.short_mb_cherry_door": "矮樱桃木门",
+  "block.dramaticdoors.short_mb_jacaranda_door": "矮蓝花楹木门",
+  "block.dramaticdoors.short_mb_strawberry_door": "矮草莓木门",
+  "block.dramaticdoors.tall_mb_cherry_door": "高樱桃木门",
+  "block.dramaticdoors.tall_mb_jacaranda_door": "高蓝花楹木门",
+  "block.dramaticdoors.tall_mb_strawberry_door": "高草莓木门",
+
   "block.dramaticdoors.short_jaboticaba_door": "矮嘉宝果木门",
   "block.dramaticdoors.short_ramboutan_door": "矮红毛丹木门",
   "block.dramaticdoors.tall_jaboticaba_door": "高嘉宝果木门",
@@ -655,6 +664,9 @@
   "block.dramaticdoors.tall_golden_door": "高金门",
   "block.dramaticdoors.tall_chestnut_door": "高栗木门",
   "block.dramaticdoors.tall_holly_door": "高冬青木门",
+
+  "block.dramaticdoors.short_mystical_oak_door": "矮神秘橡木门",
+  "block.dramaticdoors.tall_mystical_oak_door": "高神秘橡木门",
 
   "block.dramaticdoors.short_morecraft_netherbrick_door": "矮下界砖门",
   "block.dramaticdoors.short_morecraft_netherwood_door": "矮下界木门",
