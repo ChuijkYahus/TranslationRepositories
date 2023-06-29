@@ -317,57 +317,57 @@
 	"item.tetra.scroll.tetra/flamberge_blade.prefix": "锻造之艺，第I章",
 	"item.tetra.scroll.tetra/flamberge_blade.name": "焰形剑",
 	"item.tetra.scroll.tetra/flamberge_blade.description": "记载着有关制作焰形剑剑刃的知识",
-	"item.tetra.scroll.tetra/flamberge_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.tetra/flamberge_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.single/head/halberd_head/halberd_head.prefix": "锻造之艺，第II章",
 	"item.tetra.scroll.single/head/halberd_head/halberd_head.name": "戟",
 	"item.tetra.scroll.single/head/halberd_head/halberd_head.description": "记载着有关制作戟头的知识",
-	"item.tetra.scroll.single/head/halberd_head/halberd_head.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.single/head/halberd_head/halberd_head.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.sword/key_guard.prefix": "锻造之艺，第III章",
 	"item.tetra.scroll.sword/key_guard.name": "键刃护手",
 	"item.tetra.scroll.sword/key_guard.description": "记载着有关制作键刃护手的知识",
-	"item.tetra.scroll.sword/key_guard.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.sword/key_guard.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.single/head/mace_head/mace_head.prefix": "锻造之艺，第IV章",
 	"item.tetra.scroll.single/head/mace_head/mace_head.name": "钉锤",
 	"item.tetra.scroll.single/head/mace_head/mace_head.description": "记载着有关制作钉锤头的知识",
-	"item.tetra.scroll.single/head/mace_head/mace_head.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.single/head/mace_head/mace_head.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.tetra/crucible_blade.prefix": "锻造之艺，第V章",
 	"item.tetra.scroll.tetra/crucible_blade.name": "裁决剑",
 	"item.tetra.scroll.tetra/crucible_blade.description": "记载着有关制作裁决剑剑刃的知识",
-	"item.tetra.scroll.tetra/crucible_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.tetra/crucible_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.bow/stave/dreadnought_stave.prefix": "锻造之艺，第VI章",
 	"item.tetra.scroll.bow/stave/dreadnought_stave.name": "无畏弓",
 	"item.tetra.scroll.bow/stave/dreadnought_stave.description": "记载着有关制作无畏弓弓体的知识",
-	"item.tetra.scroll.bow/stave/dreadnought_stave.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.bow/stave/dreadnought_stave.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.sword/katana/katana_blade.prefix": "锻造之艺，第VII章",
 	"item.tetra.scroll.sword/katana/katana_blade.name": "武士刀",
 	"item.tetra.scroll.sword/katana/katana_blade.description": "记载着有关制作武士刀刀刃的知识",
-	"item.tetra.scroll.sword/katana/katana_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.sword/katana/katana_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.bow/string/compound_string.prefix": "锻造之艺，第VIII章",
 	"item.tetra.scroll.bow/string/compound_string.name": "复合弓弦",
 	"item.tetra.scroll.bow/string/compound_string.description": "记载着有关制作复合弓弦的知识",
-	"item.tetra.scroll.bow/string/compound_string.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.bow/string/compound_string.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.utilize/hammer.prefix": "锻造之艺，第IX章",
 	"item.tetra.scroll.utilize/hammer.name": "采石锤",
 	"item.tetra.scroll.utilize/hammer.description": "记载着有关如何将锤复用于挖掘隧道的知识",
-	"item.tetra.scroll.utilize/hammer.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.utilize/hammer.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.tetra/rending_scissor_purple.prefix": "锻造之艺，第?章",
 	"item.tetra.scroll.tetra/rending_scissor_purple.name": "断斩之剪",
 	"item.tetra.scroll.tetra/rending_scissor_purple.description": "记载着有关制作断斩之剪的异世界知识",
-	"item.tetra.scroll.tetra/rending_scissor_purple.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.tetra/rending_scissor_purple.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 	"item.tetra.scroll.sword/katana/murasama_blade.prefix": "锻造之艺，第?章",
 	"item.tetra.scroll.sword/katana/murasama_blade.name": "鬼妖村正",
 	"item.tetra.scroll.sword/katana/murasama_blade.description": "记载着有关制作鬼妖村正的异世界知识",
-	"item.tetra.scroll.sword/katana/murasama_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
+	"item.tetra.scroll.sword/katana/murasama_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
 
 
 
