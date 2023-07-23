@@ -869,8 +869,8 @@
 	"block.gemsnjewels.iolite_nether_ore_block": "下界堇青石矿石",
 	"block.gemsnjewels.kunzite_nether_ore_block": "下界紫锂辉石矿石",
 	
-	"itemGroup.gemsnjewels_materials": "Gems & Jewels丨材料",
-	"itemGroup.gemsnjewels_tools": "Gems & Jewels丨工具",
-	"itemGroup.gemsnjewels_armor": "Gems & Jewels丨盔甲",
-	"itemGroup.gemsnjewels_blocks": "Gems & Jewels丨方块"
+	"itemGroup.gemsnjewels_materials": "宝石与珠宝丨材料",
+	"itemGroup.gemsnjewels_tools": "宝石与珠宝丨工具",
+	"itemGroup.gemsnjewels_armor": "宝石与珠宝丨盔甲",
+	"itemGroup.gemsnjewels_blocks": "宝石与珠宝丨方块"
 }
