@@ -14,6 +14,12 @@
   "item.hexcasting.staff.quenched": "淬灵晶法杖",
   "item.hexcasting.staff.mindsplice": "制念法杖",
 
+  "item.hexcasting.tags.tag.item.hexcasting:brainswept_circle_components": "剥离意识环组件",
+  "item.hexcasting.tags.tag.item.hexcasting:directrices": "导向石",
+  "item.hexcasting.tags.tag.item.hexcasting:grants_root_advancement": "给予根进度",
+  "item.hexcasting.tags.tag.item.hexcasting:impeti": "促动石",
+  "item.hexcasting.tags.tag.item.hexcasting:seal_materials": "密封材料",
+
   "item.hexcasting.amethyst_dust": "紫水晶粉",
   "item.hexcasting.charged_amethyst": "充能紫水晶",
   "item.hexcasting.quenched_allay_shard": "淬灵晶碎片",
@@ -396,7 +402,7 @@
   "hexcasting.action.hexcasting:index_of": "定位器之馏化",
   "hexcasting.action.hexcasting:remove_from": "切除器之馏化",
   "hexcasting.action.hexcasting:slice": "选择之提整",
-  "hexcasting.action.hexcasting:modify_in_place": "外科医师之提整",
+  "hexcasting.action.hexcasting:replace": "外科医师之提整",
   "hexcasting.action.hexcasting:construct": "演讲者之馏化",
   "hexcasting.action.hexcasting:deconstruct": "演讲者之分解",
 
@@ -696,7 +702,7 @@
   "hexcasting.category.casting.desc": "我好像已经开始理解以前的咒法师们是如何施放$(hex)咒术/$的了！虽然有些复杂，但我坚信我能理清其中脉络。继续研究吧……",
 
   "hexcasting.category.items": "物品",
-  "hexcasting.category.items.desc": "这部分主要介绍我在研究过程中可能要用到的魔法物品和各类神秘物品。$(br2)这里面的许多物品似乎在和$(l:items/staff)$(item)法杖/$一起持有的时候就会起效。要谨慎考虑另一只手里要拿什么物品。",
+  "hexcasting.category.items.desc": "这部分主要介绍我在研究过程中可能要用到的魔法物品和各类神秘物品。",
 
   "hexcasting.category.greatwork": "卓伟之作",
   "hexcasting.category.greatwork.desc": "我所见……甚多。我已……经历……湮灭与解构与重构。我已听闻世上的原子在被翻转而后被搅乱而后消散为能量时的尖啸。我已见我已见我已冂$(k)get stick bugged lmao/$",
@@ -740,11 +746,21 @@
   "hexcasting.page.start_to_see.3": "……但是。$(br2)但是在那最为神圣的一刻，我破碎的那一部分……它$(italic)看见了/$……$(l:greatwork/the_work)$(thing)一些东西/$。一个地方——也许是一件作品？（这种定义对……那种事物来说不值一提）$(p)和一张……一个薄膜-屏障-薄层-界限，将我和单纯的思维-能流-光-能量的领域隔绝开来。我记得——我看见-想到-回忆起-感受到——那个屏障的边缘变得模糊了，略微模糊了。$(p)我想要$(italic)穿过它/$。",
   "hexcasting.page.start_to_see.4": "但我不应该。我也$(italic)清楚/$我不应该。那很危险。非常非常危险。跨越屏障需要的力量……我必须仅凭$(italic)一次施法/$就让我自己濒临死亡。$(br2)但我，就是，$(italic)不甘心/$。$(p)$(italic)这/$就是我魔法的集大成之作。这就是我所追求的$(#54398a)启迪/$。$(br2)我还想知道更多。我要再看到那场景。我$(italic)必将/$再见。$(p)我脆弱的意识和永恒的荣耀相比，又算得上什么呢？",
 
-
+  "hexcasting.page.casting.overview.1": "我坚信正确的起步方向非常重要。因此，我编写了一个能在我所看的位置产生中小型爆炸的$(hex)咒术/$。相信研究其内部机理会相当有启迪性。",
+  "hexcasting.page.casting.grid.1": "我通常会使用$(l:items/staff)$(item)法杖/$为自然提供图案。在手中持有时按下$(thing)$(k:use)/$就会在我面前产生一个六边形格点。之后点击并在点间拖拽，再释放就可绘制图案。$(br2)在我提交图案的同时，其就会被运行（见下一章节）。",
+  "hexcasting.page.casting.grid.2": "按下$(thing)$(k:escape)/$会保存并关闭网格，下一次使用法杖时，原有的图案和 iota 都会保留。$(br2)如果需要重设施法状态，在潜行时打开网格即可。",
+  "hexcasting.page.casting.patterns&actions.1": "$(thing)图案/$是沿$(media)媒质/$网格行进的路径。我相信图案的六次对称性就是这种技艺名称的由来。（译注：hex：六；咒术）$(br2)$(thing)操作/$则是图案所$(italic)做/$的事情。",
+  "hexcasting.page.casting.patterns&actions.2": "两者的区别可类比为$(italic)词语/$和$(italic)意义/$的区别。任意的字母组合都是词语，但其中大部分（例如“xnopyt”）毫无意义。相似地，沿$(media)媒质/$随意画出的任何东西都可称作图案，但其中大部分什么都做不了。",
+  "hexcasting.page.casting.patterns&actions.3": "操作有点类似统领宇宙的卓伟系统规则的命令。（我曾看过有些文本将这些规则拟人化为“自然”。）它们通常会执行如下其一：$(li)收集有关世界的某些信息，例如获取实体的位置。$(li)操纵收集到的信息，例如计算两位置间的距离。$(li)在世界上产生某些魔法效果，例如召唤闪电和爆炸。$(br)其中最后一种操作又称“法术”，也通常是吸引人们研习这门技艺的原因。",
+  "hexcasting.page.casting.patterns&actions.4": "$(hex)咒术/$则是依次提供给自然的有效图案序列。自然会依次理解这些图案，如果它能够理解，则会根据我的奇想改变世界。（或者说，根据它印象中我奇想的意义。）",
+  "hexcasting.page.casting.patterns&actions.5": "尽管某些操作可轻松执行，但某些则需要一种凝结形态的$(media)媒质/$。我相信这种浓缩的意识能量是对自然的某种论据，作为说服其应当依照我的请求做事的报偿。大部分的法术都需要这种报偿，若干非法术操作也需要。$(br2)我已在各操作的介绍页记录了其消耗（若有）。",
+  "hexcasting.page.casting.iotas.1": "自然的语言中的“名词”称作 $(thing)iota/$。从其最为基础的层面而言，咒法学便是操纵 iota 的技艺。$(br2)Iota 有许多不同类型：$(li)数（某些文献称之为“双精度浮点数”）。$(li)向量，一种可代表世界中位置、运动或方向的，由三个数组成的集合。$(li)布尔值（简称“布尔”），一种代表真和假的抽象概念的的 iota。$(li)实体，如我自己、鸡、矿车等。",
+  "hexcasting.page.casting.iotas.2": "$(li)虚指，一种代表抽象概念的奇怪的 iota。$(li)图案，用于制作魔法物品，也用在某些烧脑的咒术中，如$(italic)能施放其他法术的法术/$。$(li)由上述若干种组成的列表，相当于一个 iota。",
+  "hexcasting.page.casting.iotas.3": "通常情况下，我会给操作提供 iota。例如$(l:patterns/spells/basic#hexcasting:explode)$(action)爆炸/$。此法术需要一个表示强度的数 iota，和一个表示位置的向量 iota。$(br2)或者再看$(l:patterns/basic#hexcasting:get_pos)$(action)指南针之纯化/$。它会将一个实体 iota 转换为一个表示该实体位置的向量 iota。",
 
   "hexcasting.entry.101": "咒术 101",
   "hexcasting.page.101.1": "施放$(hex)咒术/$难度颇高，也难怪这门学问早已遗落！我必须要仔细回看我的笔记。$(br2)我可以手持$(l:items/staff)$(item)法杖/$按下$(k:use)来施放$(hex)咒术/$，而后就会浮现一个按六边形网格排列的点阵。然后便可在点阵上单击并拖动以在网格的$(media)媒质/$中绘制图案。绘制完一个图案就会立刻执行其对应的操作（详情见后）。",
-  "hexcasting.page.101.2": "当我绘制的图案足以施法时，网格就会消失，而累积起来的$(media)媒质/$也会被释放。按住$(k:sneak)时使用$(l:items/staff)$(item)法杖/$也能清空网格，如果完全不在乎会不会出现事故的话。（似乎我累积的$(media)媒质/$越多，就越有可能导致事故）$(br2)所以图案是如何起效的呢？简而言之：$(li)$(italic)图案/$会执行……$(li)$(italic)操作/$，其会操控……$(li)$(l:casting/stack)$(italic)栈/$，也即一列表的……$(li)$(italic)Iota/$，就是以单位计的信息。",
+  "hexcasting.page.101.2": "当我绘制的图案足以施法时，网格就会消失，而累积起来的$(media)媒质/$也会被释放。按住$(k:sneak)时使用$(l:items/staff)$(item)法杖/$也能清空网格。$(br2)所以图案是如何起效的呢？简而言之：$(li)$(italic)图案/$会执行……$(li)$(italic)操作/$，其会操控……$(li)$(l:casting/stack)$(italic)栈/$，也即一列表的……$(li)$(italic)Iota/$，就是以单位计的信息。",
   "hexcasting.page.101.3": "首先，$(thing)图案/$。它们是咒术的必需物，可用它们来操控周围的$(media)媒质/$。部分图案在被绘制时，会执行$(thing)操作/$。操作是$(italic)实际产生/$魔法效果的事物。所有图案都会以某种方式影响$(media)媒质/$，而当这些影响实际有用时，我们就称其为操作。$(br2)$(media)媒质/$是易变的，如果我绘制了无效的图案，栈上某处就会出现$(l:casting/influences)$(action)垃圾/$（详情见后）。",
   "hexcasting.page.101.4.header": "示例",
   "hexcasting.page.101.4": "有意思的是，图案整体的$(italic)方向/$完全不影响图案的功用。例如，上图中的两个图案都会执行名为$(l:patterns/basics#hexcasting:get_caster)$(action)意识之精思/$的操作。",
@@ -770,7 +786,7 @@
 
   "hexcasting.entry.mishaps": "事故",
   "hexcasting.page.mishaps.1": "不幸的是，我（还）不是一个完美的生物。我经常会在研究中和施放$(hex)咒术/$时犯错。比如说，绘制错图案，或是对错误的 iota 进行操作。而自然一般不会宽容我的错误，从而导致$(italic)事故/$。",
-  "hexcasting.page.mishaps.2": "导致事故的图案会在网格中发红光。根据事故的类型，我能大致推断出其造成的有害后果。同时会有一簇红色与各色混合的火花四散开去，这主要是处理不当的$(media)媒质/$凝结为某种颜色的光所致。$(br2)聊天栏中则会出现一条错误信息，但某种纠缠不休的感觉告诉我这些都会在“模组更新”后发生改变，没人知道这意味着什么。我不该指望这些信息会一直出现。",
+  "hexcasting.page.mishaps.2": "导致事故的图案会在网格中发红光。根据事故的类型，我能大致推断出其造成的有害后果。同时会有一簇红色与各色混合的火花四散开去，这主要是处理不当的$(media)媒质/$凝结为某种颜色的光所致。",
   "hexcasting.page.mishaps.3": "而幸运的是，虽然所有事故导致的有害效果都$(italic)很烦人/$，但也都不会导致长期毁灭性后果。在哪里跌倒，就要在哪里站起来，然后继续前进……当然也可以换一条更好走的路。$(br2)我整理的所有事故如下所述。",
   "hexcasting.page.mishaps.invalid_pattern.title": "无效图案",
   "hexcasting.page.mishaps.invalid_pattern": "绘制的图案不对应任何操作。$(br2)产生黄色火花，并向栈顶压入一个$(l:casting/influences)$(action)垃圾/$。",
@@ -1124,7 +1140,7 @@
   "hexcasting.page.lists.reverse": "倒置栈顶列表。",
   "hexcasting.page.lists.index_of": "移除栈顶元素，并将栈顶列表变为该元素在其中第一次出现的位置（从 0 开始）。若没有出现过则返回 -1。",
   "hexcasting.page.lists.remove_from": "移除栈顶的数，而后移除栈顶列表中下标为该数（就是被移除的那个数）的元素。",
-  "hexcasting.page.lists.modify_in_place": "移除栈顶元素和栈顶的数，而后将栈顶列表中下标为该数（就是被移除的那个数）变为该元素。若该数越界则不进行操作。",
+  "hexcasting.page.lists.replace": "移除栈顶元素和栈顶的数，而后将栈顶列表中下标为该数（就是被移除的那个数）变为该元素。若该数越界则不进行操作。",
   "hexcasting.page.lists.last_n_list": "移除$(italic)所给数/$个元素，并将这些元素加入列表并将该列表压入栈顶。",
   "hexcasting.page.lists.splat": "移除栈顶列表，而后将其中元素全部压入栈顶。",
   "hexcasting.page.lists.construct": "移除栈顶元素，将其加到栈顶列表的开头。",
