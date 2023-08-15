@@ -1,11 +1,11 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: 标准发信器自动库存
+  title: 基于标准发信器的自动维持物品量
   icon: level_emitter
 ---
 
-# 标准发信器自动库存
+# 基于标准发信器的自动维持物品量
 
 有人可能会问：“如何在库存中维持一定数量的物品，并在缺少时自动补足？”
 

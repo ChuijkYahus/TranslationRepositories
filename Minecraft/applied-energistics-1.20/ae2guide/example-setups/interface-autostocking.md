@@ -1,11 +1,11 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: 接口自动库存
+  title: 基于接口的自动维持物品量
   icon: interface
 ---
 
-# 接口自动库存
+# 基于接口的自动维持物品量
 
 有人可能会问：“如何在库存中维持一定数量的物品，并在缺少时自动补足？”
 
