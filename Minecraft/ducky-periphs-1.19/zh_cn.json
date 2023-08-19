@@ -25,6 +25,10 @@
     "block.ducky-periphs.focal_link_block": "核心链接",
     "item.ducky-periphs.focal_link_block": "核心链接",
 
+    "block.ducky-periphs.conjured_ducky_block": "构筑的小鸭",
+    "item.ducky-periphs.conjured_ducky_block": "构筑的小鸭",
+    "hexcasting.spell.ducky-periphs:conjure_ducky": "构筑小鸭",
+
     "item.ducky-periphs.ducky_banner_pattern": "旗帜图案",
     "item.ducky-periphs.ducky_banner_pattern.desc": "小鸭旗帜图案",
     
