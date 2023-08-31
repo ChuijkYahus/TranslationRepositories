@@ -106,7 +106,7 @@
 | Radiobarite     | 镭重晶石   | radium，英语，镭<br>barite，重晶石 | $(Ba,Ra)SO_4$ | [Mineralogy Database](https://webmineral.com/data/Radiobarite.shtml) |
 | *Iimoriite     | 羟硅钇石   | [日]饭盛里安（1885-1982）| $Y_2(SiO_4)$ <br> $(CO_3)$ | [Wikipedia-JP](https://ja.wikipedia.org/wiki/%E9%A3%AF%E7%9B%9B%E7%9F%B3)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1240)<br>[Mineralogy Database](https://webmineral.com/data/Iimoriite-(Y).shtml) |
 | *Rutheniridosmine | 钌铱锇矿 | ruthenium，英语，钌<br>osmium，英语，锇<br>iridium，英语，铱 | $(Ir,Os,Ru)$ | [Wikipedia](https://en.wikipedia.org/wiki/Rutheniridosmine)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2314)<br>[Mineralogy Database](https://webmineral.com/data/Rutheniridosmine.shtml) |
-| Miassite        | *密硫铑矿* | Miass，俄罗斯地名 | $Rh_{17}S_{15}$ | [Mineralogy Database](https://webmineral.com/data/Miassite.shtml) |
+| Miassite        | *密硫铑矿* | 米阿斯，俄罗斯地名 | $Rh_{17}S_{15}$ | [Mineralogy Database](https://webmineral.com/data/Miassite.shtml) |
 | Erlichmanite    | 硫锇矿     | [荷兰]Jozef Erlichman<br>（1935-2022）| $OsS_2$ | [Wikipedia](https://en.wikipedia.org/wiki/Erlichmanite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/817)<br>[Mineralogy Database](https://webmineral.com/data/Erlichmanite.shtml) |
 | Chengdeite      | 承德矿     | 承德，中国地名 | $Ir_3Fe$ | [国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/519)<br>[Mineralogy Database](https://webmineral.com/data/Chengdeite.shtml) |
 | Laurite         | 硫钌矿     | Laura R. Joy | $RuS_2$ | [Wikipedia](https://en.wikipedia.org/wiki/Laurite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1507)<br>[Mineralogy Database](https://webmineral.com/data/Laurite.shtml) |
