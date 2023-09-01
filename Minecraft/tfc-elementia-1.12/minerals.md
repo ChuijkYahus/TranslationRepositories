@@ -1,4 +1,8 @@
 拿来对照的表格，词源不保证对
+Mineralogy Database中有mindat的链接，不是名字从mindat上找的就不列出了（）
+
+感谢502y的审校
+
 * 中文斜体：未找到中文译名
 * 中文标星：有中文译名，但无法确定采用哪种
 * 英文标星：作者打错了
@@ -45,7 +49,7 @@
 | Salammoniac     | 硇砂       | sal，拉丁语，盐<br>阿蒙，古埃及神名 | $NH_4Cl$ | [Wikipedia](https://en.wikipedia.org/wiki/Salammoniac)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2331)<br>[Mineralogy Database](https://webmineral.com/data/Salammoniac.shtml) |
 | Fluorite        | 萤石       | fluere，拉丁语，流动 | $CaF_2$ | [Wikipedia](https://en.wikipedia.org/wiki/Fluorite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/918)<br>[Mineralogy Database](https://webmineral.com/data/Fluorite.shtml) |
 | Iodate          | *碘酸盐岩* | iodate，英语，碘酸根 | - | 未找到 |
-| Phosphorite     | *磷酸盐岩* | phosphorus，英语，磷 | - | [Wikipedia](https://en.wikipedia.org/wiki/Phosphorite) |
+| Phosphorite     | 磷块岩     | phosphorus，英语，磷 | - | [Wikipedia](https://en.wikipedia.org/wiki/Phosphorite)<br>[术语在线](https://www.termonline.cn/word/251416/1?#s1) |
 | Selenide        | *硒化岩*   | selenium，英语，硒 | - | 未找到 |
 | Spodumene       | 锂辉石     | σποδούμενος，<br>古希腊语，烧成灰烬 | $LiAlSi_2O_6$ | [Wikipedia](https://en.wikipedia.org/wiki/Spodumene)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2498)<br>[Mineralogy Database](https://webmineral.com/data/Spodumene.shtml) |
 | Halite          | 石盐       | ἅλς，古希腊语，盐 | $NaCl$ | [Wikipedia](https://en.wikipedia.org/wiki/Halite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1091)<br>[Mineralogy Database](https://webmineral.com/data/Halite.shtml) |
@@ -94,8 +98,8 @@
 | Calaverite      | 碲金矿     | Calaveras，美国地名 | $AuTe_2$ | [Wikipedia](https://en.wikipedia.org/wiki/Calaverite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/415)<br>[Mineralogy Database](https://webmineral.com/data/Calaverite.shtml) |
 | Monazite        | 独居石     | μονάζω，古希腊语，独处 | $(La,Ce,Nd,Th)$ <br> $PO_4$ | [Wikipedia](https://en.wikipedia.org/wiki/Monazite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1808)<br>[Mineralogy Database](https://webmineral.com/data/Monazite-(La).shtml) |
 | Bastnaesite     | 氟碳铈矿   | 瑞典矿场名，Bastnäs | $Ce(CO_3)F$ | [Wikipedia](https://en.wikipedia.org/wiki/Bastn%C3%A4site)<br>[百度](https://baike.baidu.com/item/%E6%B0%9F%E7%A2%B3%E9%93%88%E7%9F%BF/8143821)<br>[Mineralogy Database](https://webmineral.com/data/Bastnasite-(Ce).shtml) |
-| Kozoite         | *碳酸镧钕矿* | [日]长岛弘三（1925-1985）| $(Nd,La,Sm,Pr)$ <br> $(CO_3)(OH)$ | [Wikipedia-JP](https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AA%E3%82%B8%E3%83%A0%E5%BC%98%E4%B8%89%E7%9F%B3)<br>[Mineralogy Database](https://webmineral.com/data/Kozoite-(Nd).shtml) |
-| Samarskite      | *铌镱矿    | [俄]Vassili Samarsky-<br>Bykhovets<br>（1803-1870）| $(Y,Fe,U)$ <br> $(Nb,Ta)O_4$ | [Wikipedia](https://en.wikipedia.org/wiki/Samarskite-(Y))<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2334)<br>[Mineralogy Database](https://webmineral.com/data/Samarskite-(Y).shtml)（钇）<br>[Mineralogy Database](https://webmineral.com/data/Samarskite-(Yb).shtml)（镱）|
+| Kozoite         | 羟碳钕石   | [日]长岛弘三（1925-1985）| $(Nd,La,Sm,Pr)$ <br> $(CO_3)(OH)$ | [Wikipedia-JP](https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AA%E3%82%B8%E3%83%A0%E5%BC%98%E4%B8%89%E7%9F%B3)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/3588)<br>[Mineralogy Database](https://webmineral.com/data/Kozoite-(Nd).shtml) |
+| Samarskite      | *铌钇矿    | [俄]Vassili Samarsky-<br>Bykhovets<br>（1803-1870）| $(Y,Fe,U)$ <br> $(Nb,Ta)O_4$ | [Wikipedia](https://en.wikipedia.org/wiki/Samarskite-(Y))<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2334)<br>[Mineralogy Database](https://webmineral.com/data/Samarskite-(Y).shtml)（钇）<br>[Mineralogy Database](https://webmineral.com/data/Samarskite-(Yb).shtml)（镱）|
 | Loparite        | 铈铌钙钛矿 | лопарь，俄语，萨米人旧称 | $(Ce,Na,Ca)_2$ <br> $(Ti,Nb)_2O_6$ | [Wikipedia](https://en.wikipedia.org/wiki/Loparite-(Ce))<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1584)<br>[Mineralogy Database](https://webmineral.com/data/Loparite-(Ce).shtml) |
 | Gadolinite      | *硅铍铈矿  | [芬兰]Johan Gadolin<br>（1760-1852）| $(Ce,La,Nd,Y)_2$ <br> $FeBe_2Si_2O_1._0$ | [Wikipedia](https://en.wikipedia.org/wiki/Gadolinite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/960)（铈）<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/961)（钇）<br>[Mineralogy Database](https://webmineral.com/data/Gadolinite-(Ce).shtml)（铈）<br>[Mineralogy Database](https://webmineral.com/data/Gadolinite-(Y).shtml)（钇）|
 | Euxenite        | 黑稀金矿   | εὔξενος，古希腊语，好客 | $(Y,Ca,Ce)$ <br> $(Nb,Ta,Ti)_2O_6$ | [Wikipedia](https://en.wikipedia.org/wiki/Euxenite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/839)<br>[Mineralogy Database](https://webmineral.com/data/Euxenite-(Y).shtml) |
@@ -113,10 +117,10 @@
 | Diomignite      | 硼锂石     | διοσ，希腊语，神圣<br>μιγνεν，希腊语，混合物 | $Li_2B_4O_7$ | [国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/729)<br>[Mineralogy Database](https://webmineral.com/data/Diomignite.shtml) |
 | Moissanite      | 碳硅石     | [法]亨利·莫瓦桑 | $SiC$ | [Wikipedia](https://en.wikipedia.org/wiki/Moissanite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1802)<br>[Mineralogy Database](https://webmineral.com/data/Moissanite.shtml) |
 | Dzharkenite     | 等轴硒铁矿 | 扎尔肯特，哈萨克斯坦地名 | $FeSe_2$ | [Wikipedia](https://en.wikipedia.org/wiki/Ferroselite)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/770)<br>[Mineralogy Database](https://webmineral.com/data/Dzharkenite.shtml) |
-| Paratooite      | *钙铜镨镧石* | 澳大利亚铜矿名，<br>Paratoo | $REE_3(Ca,Sr)_2$ <br> $NaCu(CO_3)_8$ | [Wikipedia](https://en.wikipedia.org/wiki/Paratooite-(La))<br>[Mineralogy Database](https://webmineral.com/data/Paratooite-(La).shtml) |
-| Decrespignyite  | *氯碳铜钇石* | [澳]Robert Champion<br>de Crespigny<br>（1950-）| $(Y,REE)_4Cu$ <br> $(CO_3)_4Cl$ <br> $(OH)_5·5H_2O$ | [Wikipedia](https://en.wikipedia.org/wiki/Decrespignyite-(Y))<br>[Mineralogy Database](https://webmineral.com/data/Decrespignyite-(Y).shtml) |
+| Paratooite      | 帕碳铜镧石 | 澳大利亚铜矿名，<br>Paratoo | $REE_3(Ca,Sr)_2$ <br> $NaCu(CO_3)_8$ | [Wikipedia](https://en.wikipedia.org/wiki/Paratooite-(La))<br>[Mineralogy Database](https://webmineral.com/data/Paratooite-(La).shtml)<br>[mindat](https://zh.mindat.org/min-44649.html) |
+| Decrespignyite  | 碳氯钇铜矾 | [澳]Robert Champion<br>de Crespigny<br>（1950-）| $(Y,REE)_4Cu$ <br> $(CO_3)_4Cl$ <br> $(OH)_5·5H_2O$ | [Wikipedia](https://en.wikipedia.org/wiki/Decrespignyite-(Y))<br>[Mineralogy Database](https://webmineral.com/data/Decrespignyite-(Y).shtml)<br>[mindat](https://zh.mindat.org/min-45585.html) |
 | Yftisite        | *钇氟钛硅石* | **y**ttrium，英语，钇<br>**f**luorine，英语，氟<br>**ti**tanium，英语，钛<br>**si**licon，英语，硅 | $(Y,Dy,Er)_4$ <br> $(Ti,Sn)O$ <br> $(SiO_4)_2$ <br> $(F,OH)_6$ | [Mineralogy Database](https://webmineral.com/data/Yftisite-(Y).shtml) |
-| Iwashiroite     | *单斜钽钇矿* | 岩代，日本旧地名，<br>今属福岛县 | $YTaO_4$ | [Mineralogy Database](https://webmineral.com/data/Iwashiroite-(Y).shtml) |
+| Iwashiroite     | *单斜钽钇矿 | 岩代，日本旧地名，<br>今属福岛县 | $Y(Ta,Nb)O_4$ | [Mineralogy Database](https://webmineral.com/data/Iwashiroite-(Y).shtml) |
 | Proshchenkoite  | *硅钇稀土矿* | [俄]Evgeniy Grigor'evich<br>Proshchenko<br>（1929-1996）| $Y,REE,Ca,$ <br> $Na,Mn,Fe,P,$ <br> $Si,B,O,F$ | [Mineralogy Database](https://webmineral.com/data/Proshchenkoite-(Y).shtml)<br>[mindat](https://www.mindat.org/min-35971.html) |
 | Griceite        | 葛氟锂石     | [加拿大]Joel D. Grice<br>（1946-） | $LiF$ | [Wikipedia](https://en.wikipedia.org/wiki/Lithium_fluoride)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/1060)<br>[Mineralogy Database](https://webmineral.com/data/Griceite.shtml) |
 | Lithiophosphate | *块磷锂矿*   | lithium，英语，锂<br>phosphate，英语，磷酸根 | $Li_3PO_4$ | [Wikipedia](https://en.wikipedia.org/wiki/Lithiophosphate)<br>[Mineralogy Database](https://webmineral.com/data/Lithiophosphate.shtml) |
