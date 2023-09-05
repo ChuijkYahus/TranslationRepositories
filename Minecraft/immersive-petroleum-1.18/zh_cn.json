@@ -49,6 +49,9 @@
 	"item.immersivepetroleum.speedboat": "汽艇",
 	"item.immersivepetroleum.oil_can": "润滑剂罐",
 	"item.immersivepetroleum.survey_result": "探测结果",
+	"item.immersivepetroleum.gasoline_bottle":"汽油瓶",
+	"item.immersivepetroleum.molotov":"燃烧瓶",
+	"item.immersivepetroleum.molotov_lit":"点燃的燃烧瓶",
 	
 	"item.immersivepetroleum.bitumen": "沥青",
 	"item.immersivepetroleum.petcoke": "石油焦",
@@ -131,7 +134,7 @@
 	"desc.immersivepetroleum.info.projector.control3": "对着空气潜行并右击以改变模式",
 	
 	"desc.immersiveengineering.info.shader.immersivepetroleum:projector": "投影仪",
-
+	
 	"_comment": "################## Item-Shaders ##################",
 	
 	"item.immersivepetroleum.shader.name.blue": "Blue ASHPD",
@@ -272,5 +275,8 @@
 	"_comment": "################## Subtitles ##################",
 	
 	"subtitle.immersivepetroleum.projector": "投影仪：嗡嗡声",
-	"subtitle.immersivepetroleum.flarestack_fire": "焚油烟囱：火焰嗖嗖声"
+	"subtitle.immersivepetroleum.flarestack_fire": "焚油烟囱：火焰嗖嗖声",
+	
+	"_comment": "##################### JEI #####################",
+	"desc.immersivepetroleum.compat.jei.distillation.byproduct": "副产物"
 }

@@ -49,6 +49,9 @@
 	"item.immersivepetroleum.speedboat": "Motorboat",
 	"item.immersivepetroleum.oil_can": "Lubricant Can",
 	"item.immersivepetroleum.survey_result": "Survey Result",
+	"item.immersivepetroleum.gasoline_bottle":"Gasoline Bottle",
+	"item.immersivepetroleum.molotov":"Molotov",
+	"item.immersivepetroleum.molotov_lit":"Molotov Lit",
 	
 	"item.immersivepetroleum.bitumen": "Bitumen",
 	"item.immersivepetroleum.petcoke": "Petcoke",
@@ -131,7 +134,7 @@
 	"desc.immersivepetroleum.info.projector.control3": "Sneak + Rightclick in air to Change Mode",
 	
 	"desc.immersiveengineering.info.shader.immersivepetroleum:projector": "Projector",
-
+	
 	"_comment": "################## Item-Shaders ##################",
 	
 	"item.immersivepetroleum.shader.name.blue": "Blue ASHPD",
@@ -272,5 +275,8 @@
 	"_comment": "################## Subtitles ##################",
 	
 	"subtitle.immersivepetroleum.projector": "Projector whirring",
-	"subtitle.immersivepetroleum.flarestack_fire":"Flarestack fire wooshing"
+	"subtitle.immersivepetroleum.flarestack_fire":"Flarestack fire wooshing",
+	
+	"_comment": "##################### JEI #####################",
+	"desc.immersivepetroleum.compat.jei.distillation.byproduct": "Secondary Output"
 }
