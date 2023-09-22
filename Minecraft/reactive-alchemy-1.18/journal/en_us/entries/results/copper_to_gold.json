@@ -1,0 +1,12 @@
+{
+  "name": "Copper Into Gold",
+  "icon": "minecraft:gold_ingot",
+  "category": "reactive:results",
+  "pages": [
+    {
+      "type": "reactive:transmute",
+      "recipe": "gold_from_copper",
+      "text": "What is nobler for an Alchemist than the ability to convert Basic Metals into Gold? Indeed, such a feat is possible! You will know you are close when the Crucible contains a $(l:reactive:intro/synthesis)secret yellow-green Power$(/l)."
+    }
+  ]
+}
