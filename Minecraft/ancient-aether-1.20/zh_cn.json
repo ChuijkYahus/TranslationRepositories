@@ -108,6 +108,7 @@
   "item.ancient_aether.roothyrn_spawn_egg": "Roothyrn刷怪蛋",
   "item.ancient_aether.leaping_sentry_spawn_egg": "Leaping Sentry刷怪蛋",
   "item.ancient_aether.ancient_guardian_spawn_egg": "Ancient Guardian刷怪蛋",
+  "item.ancient_aether.wynd_zephyr_spawn_egg": "Wynd Zephyr Spawn Egg",
   "item.ancient_aether.sakura_moa_egg": "樱木 Moa Egg",
   "item.ancient_aether.highsproot_boat": "高茁木船",
   "item.ancient_aether.highsproot_chest_boat": "高茁木运输船",
@@ -126,6 +127,8 @@
   "entity.ancient_aether.highland_buffalo": "Highland Buffalo",
   "entity.ancient_aether.leaping_sentry": "Leaping Sentry",
   "entity.ancient_aether.ancient_guardian": "Ancient Guardian",
+  "entity.ancient_aether.wynd_zephyr": "Wynd Zephyr",
+  "entity.ancient_aether.wynd_zephyr_snowball": "Wynd Zephyr Snowball",
   "entity.ancient_aether.ancient_core": "Ancient Core",
   "entity.ancient_aether.roothyrn": "Roothyrn",
   "entity.ancient_aether.boat": "船",
@@ -174,6 +177,11 @@
 
   "menu.ancient_aether.ancient_treasure_chest": "Ancient Treasure Chest",
   "ancient_aether.ancient_treasure_chest_locked": "This Treasure Chest must be unlocked with an Ancient Key",
+
+  "pack.ancient_aether.ancient_aether_new_worldgen.title": "New World Generation",
+  "pack.ancient_aether.ancient_aether_new_worldgen.description": "Completely overhauls the Terrain Generation of the Aether.",
+  "pack.ancient_aether.ancient_aether_default_biome_improvements.title": "Aether Default Biomes Improvements",
+  "pack.ancient_aether.ancient_aether_default_biome_improvements.description": "Adds more vegetation and other improvements to the Aether's Default Biomes.",
 
   "lore.block.ancient_aether.holystone_brick_mosaic": "A fancy Holystone Brick variant that can be rotated in various different directions.",
   "lore.block.ancient_aether.carved_stone_mosaic": "A fancy Carved Stone variant that can be rotated in various different directions.",

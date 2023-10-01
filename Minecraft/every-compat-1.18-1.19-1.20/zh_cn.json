@@ -1161,6 +1161,12 @@
   "leaves_type.malum.runewood": "符文",
   "leaves_type.malum.soulwood": "灵魂",
 
+  "wood_type.maple.bamboo": "竹",
+  "wood_type.maple.cherry": "樱花木",
+  "wood_type.maple.maple": "枫木",
+  "leaves_type.maple.cherry": "樱花",
+  "leaves_type.maple.maple": "枫树",
+
   "wood_type.maple_forest.maple": "枫木",
   "leaves_type.maple_forest.green_maple": "绿色枫树",
   "leaves_type.maple_forest.yellow_maple": "黄色枫树",
