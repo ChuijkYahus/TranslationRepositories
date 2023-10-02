@@ -55,7 +55,6 @@
   "block_type.chipped.shack_door": "陋屋式%s门",
   "block_type.chipped.sliding_door": "推拉式%s门",
   "block_type.chipped.supported_door": "横板式%s门",
-  "block_type.chipped.tile_windowed_door": "带窗格%s门",
   "block_type.chipped.tiled_door": "方格式%s门",
   "block_type.chipped.windowed_door": "带窗%s门",
 
@@ -114,6 +113,7 @@
   "block_type.chipped.torch": "%s火把",
   "block_type.chipped.wall_torch": "%s火把",
 
+  "block_type.chipped.tile_windowed_door": "带窗格%s门",
   "block_type.chipped.basket_woven_planks": "篮编纹%s板",
   "block_type.chipped.boxed_planks": "箱纹%s板",
   "block_type.chipped.brick_bond_planks": "砖式%s板",
