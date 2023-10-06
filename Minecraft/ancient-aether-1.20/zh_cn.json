@@ -180,9 +180,9 @@
   "menu.ancient_aether.ancient_treasure_chest": "古代藏宝箱",
   "ancient_aether.ancient_treasure_chest_locked": "该藏宝箱必须使用古代钥匙开启",
 
-  "pack.ancient_aether.ancient_aether_new_worldgen.title": "新世界生成特性",
+  "pack.ancient_aether.ancient_aether_new_worldgen.title": "New World Generation",
   "pack.ancient_aether.ancient_aether_new_worldgen.description": "彻底改进增强了天境的地形生成。",
-  "pack.ancient_aether.ancient_aether_default_biome_improvements.title": "天境默认生物群系改进",
+  "pack.ancient_aether.ancient_aether_default_biome_improvements.title": "Aether Default Biomes Improvements",
   "pack.ancient_aether.ancient_aether_default_biome_improvements.description": "为天境的默认生物群系添加了更多植被，也作出了许多其他改进。",
 
   "lore.block.ancient_aether.holystone_brick_mosaic": "可旋转至各种方向的华丽圣石砖变种。",
@@ -246,9 +246,9 @@
   "lore.block.ancient_aether.sakura_stairs": "由樱木木板合成。楼梯能让建筑更显陡峭，也经常被用作装饰！",
   "lore.block.ancient_aether.sakura_trapdoor": "由樱木木板合成。活板门能够将通道缩减为单格宽。它们常用作楼道的额外防护措施。",
   "lore.block.ancient_aether.sakura_sign": "由樱木木板和天根木棍合成。告示牌是记录信息和指引的完美之选。",
-  "lore.block.ancient_aether.cracked_slider": "古代女武神的失败实验品，只能用重力晶镐或更高品级的镐挖下。它会响应红石信号。",
+  "lore.block.ancient_aether.cracked_slider": "古代女武神的失败实验品，只能用重力晶镐或更高品质的镐挖下。它会响应红石信号。",
   "lore.block.ancient_aether.unpowered_aerotic_obelisk": "出现于古代地牢的入口，可用古代符文解锁。",
-  "lore.block.ancient_aether.ancient_obelisk": "华丽的装饰性方块，只能用重力晶镐或更高品级的镐挖下。",
+  "lore.block.ancient_aether.ancient_obelisk": "华丽的装饰性方块，只能用重力晶镐或更高品质的镐挖下。",
   "lore.block.aether.highsproot_bookshelf": "由高茁木板和书合成。书架能够提升附魔台的附魔能力。",
   "lore.block.aether.sakura_bookshelf": "由樱木木板和书合成。书架能够提升附魔台的附魔能力。",
   "lore.block.ancient_aether.aerotic_slab": "由空凝石合成。台阶是半格高的方块，常用于装饰和建造缓坡。试着用它去建造屋顶吧！",
