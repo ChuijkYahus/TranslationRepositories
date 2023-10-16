@@ -1,7 +1,7 @@
 {
   "name": "燃料",
   "icon": "minecraft:charcoal",
-  "category": "rankine:mechanics",
+  "category": "mechanics",
   "pages": [
     {
       "type": "text",

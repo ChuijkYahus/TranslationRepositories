@@ -1,7 +1,7 @@
 {
   "name": "Enchantments",
   "icon": "minecraft:enchanted_book",
-  "category": "rankine:mechanics",
+  "category": "mechanics",
   "pages": [
 	{
       "type": "text",
@@ -160,12 +160,6 @@
     },
     {
       "type": "text",
-      "title": "enchantment.rankine.torque",
-      "anchor": "torque",
-      "text": "enchantment.rankine.torque.desc"
-    },
-    {
-      "type": "text",
       "title": "enchantment.rankine.leverage",
       "anchor": "leverage",
       "text": "enchantment.rankine.leverage.desc"
@@ -178,9 +172,9 @@
     },
     {
       "type": "text",
-      "title": "enchantment.rankine.fulcrum",
-      "anchor": "fulcrum",
-      "text": "enchantment.rankine.fulcrum.desc"
+      "title": "enchantment.rankine.lift",
+      "anchor": "lift",
+      "text": "enchantment.rankine.lift.desc"
     },
     {
       "type": "text",
@@ -196,9 +190,9 @@
     },
     {
       "type": "text",
-      "title": "enchantment.rankine.endobiotic",
-      "anchor": "endobiotic",
-      "text": "enchantment.rankine.endobiotic.desc"
+      "title": "enchantment.rankine.endbiotic",
+      "anchor": "endbiotic",
+      "text": "enchantment.rankine.endbiotic.desc"
     },
     {
       "type": "text",
@@ -262,9 +256,9 @@
     },
     {
       "type": "text",
-      "title": "enchantment.rankine.withering_curse",
-      "anchor": "withering_curse",
-      "text": "enchantment.rankine.withering_curse.desc"
+      "title": "enchantment.rankine.curse_of_withering",
+      "anchor": "curse_of_withering",
+      "text": "enchantment.rankine.curse_of_withering.desc"
     }
   ]
 }

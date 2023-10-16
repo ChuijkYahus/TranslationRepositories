@@ -1,7 +1,7 @@
 {
   "name": "Axing",
   "icon": "rankine:flint_axe",
-  "category": "rankine:mechanics",
+  "category": "mechanics",
   "pages": [
     {
       "type": "text",

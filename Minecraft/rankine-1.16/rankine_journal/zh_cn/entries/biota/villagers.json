@@ -1,7 +1,7 @@
 {
   "name": "村民",
   "icon": "minecraft:emerald",
-  "category": "rankine:biota",
+  "category": "biota",
   "pages": [
     {
       "type": "text",

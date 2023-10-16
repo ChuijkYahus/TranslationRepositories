@@ -1,7 +1,7 @@
 {
   "name": "Alluvium",
   "icon": "rankine:alluvium",
-  "category": "rankine:sediments",
+  "category": "sediments",
   "pages": [
     {
       "type": "text",

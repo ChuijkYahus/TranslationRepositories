@@ -1,7 +1,7 @@
 {
   "name": "Alloying",
   "icon": "rankine:element",
-  "category": "rankine:mechanics",
+  "category": "mechanics",
   "pages": [
     {
       "type": "text",
@@ -67,6 +67,11 @@
       "type": "text",
       "title": "Toughness",
       "text": "Toughness acts like built in unbreaking. It is the chance to not consume a durability on use. It ranges from -100% to 100%, where 0% means it acts like normal and where negatives means a chance to consume two durability."
+    },
+    {
+      "type": "text",
+      "title": "Electrical Potential",
+      "text": "Something to do with electricity..."
     },
     {
       "type": "text",
