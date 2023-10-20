@@ -27,20 +27,20 @@
 	"block.immersivepetroleum.derrick": "井架",
 	"block.immersivepetroleum.oiltank": "储油罐",
 	
-	"fluid.immersivepetroleum.diesel": "柴油",
-	"fluid.immersivepetroleum.diesel_sulfur": "含硫柴油",
-	"fluid.immersivepetroleum.crudeoil": "原油",
-	"fluid.immersivepetroleum.lubricant": "润滑油",
-	"fluid.immersivepetroleum.gasoline": "汽油",
-	"fluid.immersivepetroleum.napalm": "凝固汽油",
-	"fluid.immersivepetroleum.naphtha": "石脑油",
-	"fluid.immersivepetroleum.naphtha_cracked": "裂化石脑油",
-	"fluid.immersivepetroleum.benzene": "苯",
-	"fluid.immersivepetroleum.propylene": "丙烯",
-	"fluid.immersivepetroleum.ethylene": "乙烯",
-	"fluid.immersivepetroleum.lubricant_cracked": "裂化润滑油",
-	"fluid.immersivepetroleum.kerosene": "煤油",
-	"fluid.immersivepetroleum.gasoline_additives": "汽油添加剂",
+	"fluid_type.immersivepetroleum.diesel": "柴油",
+	"fluid_type.immersivepetroleum.diesel_sulfur": "含硫柴油",
+	"fluid_type.immersivepetroleum.crudeoil": "原油",
+	"fluid_type.immersivepetroleum.lubricant": "润滑油",
+	"fluid_type.immersivepetroleum.gasoline": "汽油",
+	"fluid_type.immersivepetroleum.napalm": "凝固汽油",
+	"fluid_type.immersivepetroleum.naphtha": "石脑油",
+	"fluid_type.immersivepetroleum.naphtha_cracked": "裂化石脑油",
+	"fluid_type.immersivepetroleum.benzene": "苯",
+	"fluid_type.immersivepetroleum.propylene": "丙烯",
+	"fluid_type.immersivepetroleum.ethylene": "乙烯",
+	"fluid_type.immersivepetroleum.lubricant_cracked": "裂化润滑油",
+	"fluid_type.immersivepetroleum.kerosene": "煤油",
+	"fluid_type.immersivepetroleum.gasoline_additives": "汽油添加剂",
 	
 	"_comment": "################## Items ##################",
 	
@@ -107,7 +107,7 @@
 	"desc.immersivepetroleum.flavour.speedboat.prefix": "增强",
 	"desc.immersivepetroleum.flavour.speedboat.upgrade": "升级#%d：",
 	
-	"desc.immersivepetroleum.flavour.surveytool.holdme": "手持以查看",
+	"desc.immersivepetroleum.flavour.surveytool.rightclickme": "右击以打开。",
 	"desc.immersivepetroleum.flavour.surveytool.location": "在[%1$d, %2$d]处获取的样本",
 	
 	"desc.immersivepetroleum.info.projector.noMultiblock": "右击打开菜单",
@@ -172,6 +172,12 @@
 	"gui.immersivepetroleum.derrick.settings.button.close": "关闭",
 	"gui.immersivepetroleum.derrick.settings.button.close.desc": "返回井架界面",
 	
+	"gui.immersivepetroleum.seismicsurvey.northarrow": "北",
+	"gui.immersivepetroleum.seismicsurvey.worldcoords": "坐标：x%1$d z%2$d",
+	"gui.immersivepetroleum.seismicsurvey.takenhere": "取样点。",
+	"gui.immersivepetroleum.seismicsurvey.possibility": "可能存在未知类型的流体储层",
+	"gui.immersivepetroleum.seismicsurvey.awaitingresponse": "等待服务端数据中……",
+
 	"_comment": "################## Effects ##################",
 	
 	"effect.immersivepetroleum.anti_fire": "",
@@ -186,8 +192,10 @@
 	"ie.manual.entry.reservoirs.subtitle": "黑色的黄金",
 
 	"ie.manual.entry.reservoirs.oil0": "当你在基岩附近挖矿时，你偶尔会看到一种黏稠的黑色易燃物质：<link;immersivepetroleum:fluids;§o§n原油§r>。原油只是这坚不可摧的基岩下方的数种流体之一，但凭你自己的力量无法触及这些流体储层。\n\n在<link;immersivepetroleum:derrick;§o§n经过特别设计的机器§r>的帮助下，你才能把这些流体矿藏收入囊中。<np>",
-	"ie.manual.entry.reservoirs.oil1": "§o§n震波探测器§r能以反射回来的次声波探测地下的流体储层，而探测用次声波可由<link;bullets;§o§n鹿弹§r;buckshot>产生。需将鹿弹装填至探测器内，再启动仪器，就可产出一张记录有周围流体储层信息的地图，凭此能三角定位出确切位置。\n\n每个流体储层只能产出一种流体，各类型的具体信息已罗列在后页。<np>",
+	"ie.manual.entry.reservoirs.oil1": "§o§n震波探测器§r能以反射回来的次声波探测地下的流体储层，而探测用次声波可由<link;bullets;§o§n鹿弹§r;buckshot>产生。需将鹿弹装填至探测器内，再启动仪器，就可产出一张记录有周围流体储层信息的地图，凭此能三角定位出确切位置。<np>",
+	"ie.manual.entry.reservoirs.oil2": "每个流体储层只能产出一种流体，各类型的具体信息已罗列在后页。<np>",
 	
+	"_comment": "Below are used for Dynamic page generation of all reservoirs",
 	"ie.manual.entry.reservoirs.consonant": "",
 	"ie.manual.entry.reservoirs.vowel": "",
 	
