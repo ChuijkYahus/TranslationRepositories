@@ -1,5 +1,5 @@
 {
-  "itemGroup.supplementaries": "Supplementaries",
+  "itemGroup.supplementaries.supplementaries": "Supplementaries",
   "block.supplementaries.faucet": "Faucet",
   "block.supplementaries.wall_lantern": "Wall Lantern",
   "block.supplementaries.planter": "Planter",
@@ -216,7 +216,6 @@
   "message.supplementaries.potion.splash": "Splash",
   "subtitle.supplementaries.music.pancake": "Pancake Music",
   "block.supplementaries.pancake_disc.desc": "Partyp - Pancake Music",
-  "item.supplementaries.pancake_disc.desc": "Partyp - Pancake Music",
   "message.supplementaries.key.lockable": "Key Lockable",
   "message.supplementaries.placeable": "Placeable",
   "item.supplementaries.red_merchant_spawn_egg": "Red Merchant Spawn Egg",
@@ -393,6 +392,7 @@
   "block.supplementaries.ceiling_banner_red": "Red Banner",
   "block.supplementaries.ceiling_banner_white": "White Banner",
   "block.supplementaries.ceiling_banner_yellow": "Yellow Banner",
+  "block.supplementaries.gunpowder": "Gunpowder",
 
   "item.supplementaries.pancake_disc": "Pancake",
 

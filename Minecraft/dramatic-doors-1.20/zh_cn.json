@@ -385,18 +385,18 @@
   "block.dramaticdoors.tall_bm_swamp_cypress_door": "高落羽杉木门",
   "block.dramaticdoors.tall_bm_willow_door": "高柳木门",
 
-  "block.dramaticdoors.short_blockus_bamboo_door": "矮粗竹门",
   "block.dramaticdoors.short_blockus_blackstone_door": "矮黑石门",
   "block.dramaticdoors.short_blockus_charred_door": "矮烧焦的木门",
   "block.dramaticdoors.short_blockus_obsidian_reinforced_door": "矮黑曜石强化门",
   "block.dramaticdoors.short_blockus_paper_door": "矮纸门",
+  "block.dramaticdoors.short_blockus_raw_bamboo_door": "矮粗竹门",
   "block.dramaticdoors.short_blockus_stone_door": "矮石门",
   "block.dramaticdoors.short_blockus_white_oak_door": "矮白色橡木门",
-  "block.dramaticdoors.tall_blockus_bamboo_door": "高粗竹门",
   "block.dramaticdoors.tall_blockus_blackstone_door": "高黑石门",
   "block.dramaticdoors.tall_blockus_charred_door": "高烧焦的木门",
   "block.dramaticdoors.tall_blockus_obsidian_reinforced_door": "高黑曜石强化门",
   "block.dramaticdoors.tall_blockus_paper_door": "高纸门",
+  "block.dramaticdoors.tall_blockus_raw_bamboo_door": "高粗竹门",
   "block.dramaticdoors.tall_blockus_stone_door": "高石门",
   "block.dramaticdoors.tall_blockus_white_oak_door": "高白色橡木门",
 
@@ -482,6 +482,17 @@
   "block.dramaticdoors.tall_steel_door": "高钢门",
   "block.dramaticdoors.tall_locked_steel_door": "上锁的高钢门",
 
+  "block.dramaticdoors.short_create_andesite_door": "矮安山门",
+  "block.dramaticdoors.short_create_brass_door": "矮黄铜门",
+  "block.dramaticdoors.short_create_copper_door": "矮铜门",
+  "block.dramaticdoors.short_create_framed_glass_door": "矮边框玻璃门",
+  "block.dramaticdoors.short_create_train_door": "矮列车门",
+  "block.dramaticdoors.tall_create_andesite_door": "高安山门",
+  "block.dramaticdoors.tall_create_brass_door": "高黄铜门",
+  "block.dramaticdoors.tall_create_copper_door": "高铜门",
+  "block.dramaticdoors.tall_create_framed_glass_door": "高边框玻璃门",
+  "block.dramaticdoors.tall_create_train_door": "高列车门",
+  
   "block.dramaticdoors.short_andesite_door": "矮安山门",
   "block.dramaticdoors.short_brass_door": "矮黄铜门",
   "block.dramaticdoors.short_copper_door": "矮铜门",
@@ -892,6 +903,9 @@
   "block.dramaticdoors.tall_grongle_door": "高油绿木门",
   "block.dramaticdoors.tall_smogstem_door": "高烟梗木门",
   "block.dramaticdoors.tall_wigglewood_door": "高摇蜿木门",
+
+  "block.dramaticdoors.short_vinery_cherry_door": "矮樱桃木门",
+  "block.dramaticdoors.tall_vinery_cherry_door": "高樱桃木门",
 
   "block.dramaticdoors.short_golden_door": "矮金门",
   "block.dramaticdoors.short_chestnut_door": "矮栗木门",

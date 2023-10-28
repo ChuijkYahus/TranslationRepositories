@@ -482,6 +482,17 @@
   "block.dramaticdoors.tall_steel_door": "Tall Steel Door",
   "block.dramaticdoors.tall_locked_steel_door": "Tall Locked Steel Door",
   
+  "block.dramaticdoors.short_create_andesite_door": "Short Andesite Door",
+  "block.dramaticdoors.short_create_brass_door": "Short Brass Door",
+  "block.dramaticdoors.short_create_copper_door": "Short Copper Door",
+  "block.dramaticdoors.short_create_framed_glass_door": "Short Framed Glass Door",
+  "block.dramaticdoors.short_create_train_door": "Short Train Door",
+  "block.dramaticdoors.tall_create_andesite_door": "Tall Andesite Door",
+  "block.dramaticdoors.tall_create_brass_door": "Tall Brass Door",
+  "block.dramaticdoors.tall_create_copper_door": "Tall Copper Door",
+  "block.dramaticdoors.tall_create_framed_glass_door": "Tall Framed Glass Door",
+  "block.dramaticdoors.tall_create_train_door": "Tall Train Door",
+  
   "block.dramaticdoors.short_andesite_door": "Short Andesite Door",
   "block.dramaticdoors.short_brass_door": "Short Brass Door",
   "block.dramaticdoors.short_copper_door": "Short Copper Door",
@@ -892,6 +903,9 @@
   "block.dramaticdoors.tall_grongle_door": "Tall Grongle Door",
   "block.dramaticdoors.tall_smogstem_door": "Tall Smogstem Door",
   "block.dramaticdoors.tall_wigglewood_door": "Tall Wigglewood Door",
+
+  "block.dramaticdoors.short_vinery_cherry_door": "Short Cherry Door",
+  "block.dramaticdoors.tall_vinery_cherry_door": "Tall Cherry Door",
 
   "block.dramaticdoors.short_golden_door": "Short Golden Door",
   "block.dramaticdoors.short_chestnut_door": "Short Chestnut Door",
