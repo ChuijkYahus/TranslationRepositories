@@ -1,9 +1,141 @@
 {
-	"item.art_of_forging.forged_steel_ingot": "锻造钢锭",
+	"art_of_forging.effect.decaying.name": "衰朽",
+	"art_of_forging.effect.decaying.tooltip": "给予目标§e%2$s秒§r的§e%1$s级§r凋零效果。",
+
+	"art_of_forging.effect.stormcaller.name": "风暴召唤",
+	"art_of_forging.effect.stormcaller.tooltip": "有§e%2$s概率§r在攻击时召唤§e%1$s束闪电§r。",
+
+	"art_of_forging.effect.evokingmaw.name": "唤魔巨口",
+	"art_of_forging.effect.evokingmaw.tooltip": "在攻击时召唤§e%s个唤魔者尖牙§r。",
+
+	"art_of_forging.effect.life_steal.name": "生命偷取",
+	"art_of_forging.effect.life_steal.tooltip": "有§e%2$s概率§r在击中后恢复§e%1$s点生命值§r。",
+
+	"art_of_forging.effect.knockback.name": "击退",
+	"art_of_forging.effect.knockback.tooltip": "击退目标的力度额外增加§e%s点§r（拉近目标的力度也会增加）。",
+
+	"art_of_forging.effect.life_fiber_loss.name": "生命纤维损失",
+	"art_of_forging.effect.life_fiber_loss.tooltip": "对手倒下时，你会获得§e%s秒§r的增强。",
+
+	"art_of_forging.effect.cavalry.name": "骑兵",
+	"art_of_forging.effect.cavalry.tooltip": "骑乘实体时额外造成§e%s点伤害§r。",
+
+	"art_of_forging.effect.dismounting.name": "卸座",
+	"art_of_forging.effect.dismounting.tooltip": "对骑乘中的实体额外造成§e%s点伤害§r，同时有§e%s概率§r将其卸下。",
+
+	"art_of_forging.effect.dragon_mist.name": "龙雾",
+	"art_of_forging.effect.dragon_mist.tooltip": "有§e%2$s概率§r召唤持续§e%1$s秒§r的迷雾。",
+
+	"art_of_forging.effect.disorienting.name": "迷失",
+	"art_of_forging.effect.disorienting.tooltip": "给予目标§e%2$s秒§r的§e%1$s级§r缓慢、虚弱，和反胃效果。",
+
+	"art_of_forging.effect.vengeance.name": "复仇",
+	"art_of_forging.effect.vengeance.tooltip": "在生命值§e小于等于%2$s颗心§r时伤害§e+%1$s%%§r。",
+
+	"art_of_forging.effect.resolve.name": "决心",
+	"art_of_forging.effect.resolve.tooltip": "在生命值§e小于等于%2$s颗心§r时获得§e%1$s秒§r的力量和抗性提升效果。",
+
+	"art_of_forging.effect.devouring.name": "吞噬诅咒",
+	"art_of_forging.effect.devouring.tooltip": "如果一段时间内没有攻击过任何实体，物品就会开始汲取你的生命能量。",
+
+	"art_of_forging.effect.infernal_rebuke.name": "灼狱惩责",
+	"art_of_forging.effect.infernal_rebuke.tooltip": "有§e%2$s概率§r击退敌人并将其点燃§e%1$s秒§r。",
+
+	"art_of_forging.effect.hubris.name": "狂妄诅咒",
+	"art_of_forging.effect.hubris.tooltip": "生命值大于90%%时，额外造成§e%s点伤害§r。失去生命时伤害同时降低，最低在30%%或更低生命值时降至原有伤害的一半。",
+
+	"art_of_forging.effect.slaughtering.name": "宰杀",
+	"art_of_forging.effect.slaughtering.tooltip": "目标生命值高于§e%2$s%%§r时额外造成§e%1$s点伤害§r。",
+
+	"art_of_forging.effect.carnage.name": "屠戮",
+	"art_of_forging.effect.carnage.tooltip": "攻击目标时伤害+10%%。每连续攻击一次，伤害即+10%%，最多+40%%。此效果会在死亡后失去。",
+
+	"art_of_forging.effect.judgement.name": "审判",
+	"art_of_forging.effect.judgement.tooltip": "如果敌人的生命值低于§e%s点§r，则你有§e%s%%概率§r立即击杀它们。",
+
+	"art_of_forging.effect.esoteric_edge.name": "神秘利刃",
+	"art_of_forging.effect.esoteric_edge.tooltip": "§e你伤害的%s%%§r转换为魔法伤害。",
+
+	"art_of_forging.effect.feasting.name": "享宴",
+	"art_of_forging.effect.feasting.tooltip": "有§e%2$s概率§r恢复§e%1$s点§r饥饿值。",
+
+	"art_of_forging.effect.nano_fused.name": "纳米融合",
+	"art_of_forging.effect.nano_fused.tooltip": "有§e%s概率§r改变某些生物的掉落物。",
+
+	"art_of_forging.effect.beheading.name": "斩首",
+	"art_of_forging.effect.beheading.tooltip": "有§e%s概率§r使生物和玩家在死亡时掉落头颅。",
+
+	"art_of_forging.effect.soul_charged.name": "灵魂充能",
+	"art_of_forging.effect.soul_charged.tooltip": "击杀实体时获得1点灵魂充能。获得5点后，即可施放一道火焰并对距你一定范围内目标造成魔法伤害。需要至少II级。",
+
+	"art_of_forging.effect.sonic_shock.name": "音波尖啸",
+	"art_of_forging.effect.sonic_shock.tooltip": "释放一道音波，对目标造成§e%s点伤害§r。",
+
+
+
+	"itemGroup.art_of_forging_tab": "锻造之艺",
+
+
+
+	"effect.art_of_forging.devouring": "吞噬",
+	"effect.art_of_forging.evoking_maw": "唤魔巨口",
+	"effect.art_of_forging.defuse_creeper": "引信拆除",
+
+
+
 	"item.art_of_forging.resonant_alloy": "谐振合金",
+	"item.art_of_forging.forged_steel_ingot": "锻造钢锭",
+	"item.art_of_forging.vobrite_crystal": "白澜水晶",
+	"item.art_of_forging.vobrivium_ingot": "白澜钢锭",
+	"item.art_of_forging.endsteel_ingot": "末地钢锭",
+
+	"item.art_of_forging.life_fiber": "生命纤维",
+	"item.art_of_forging.fang_charm": "唤魔者尖牙护符",
+	"item.art_of_forging.sigil_of_eden": "伊甸印记",
+	"item.art_of_forging.enigmatic_construct": "神秘构件",
+	"item.art_of_forging.ancient_axe": "远古斧头",
+	"item.art_of_forging.ancient_blade": "远古剑刃",
+	"item.art_of_forging.ancient_flail": "远古链锤",
+	"item.art_of_forging.demonic_axe": "湮灭斧头",
+	"item.art_of_forging.demonic_blade": "灾祸剑刃",
+	"item.art_of_forging.demonic_flail": "病痛链锤",
+
+	"item.art_of_forging.nano_insectoid": "纳米类虫体",
+
+	"item.art_of_forging.dragon_soul": "龙魂",
+	"item.art_of_forging.shards_of_malice": "恶意碎片",
+	"item.art_of_forging.potent_mixture": "高能混合物",
+	"item.art_of_forging.heart_of_ender": "末影之心",
+	"item.art_of_forging.eerie_shard": "怪异碎片",
+
+
+
+	"item.enigmatic_construct.tooltip": "用末影龙残破的灵魂制造的奇怪机械构件。很是诡异。",
+	"item.life_fiber.tooltip": "真正物件的人工复制品。",
+	"item.ancient_item.tooltip": "长久之前锻造而成的武器。需要邪恶能量才可唤醒。",
+
+
 
 	"tetra.material.forged_steel_ingot": "锻造钢",
 	"tetra.material.forged_steel_ingot.prefix": "锻造钢",
+
+	"tetra.material.vobrivium_ingot": "白澜钢",
+	"tetra.material.vobrivium_ingot.prefix": "白澜钢",
+
+	"tetra.material.vobrite_crystal": "白澜水晶",
+	"tetra.material.vobrite_crystal.prefix": "§b白澜水晶§r",
+
+	"tetra.material.sigil_of_eden": "伊甸印记",
+	"tetra.material.sigil_of_eden.prefix": "§4伊甸印记§r",
+
+	"tetra.material.fang_charm": "尖牙护符",
+	"tetra.material.fang_charm.prefix": "§e尖牙护符§r",
+
+	"tetra.material.endsteel_ingot": "末地钢",
+	"tetra.material.endsteel_ingot.prefix": "末地钢",
+
+	"tetra.material.life_fiber": "生命纤维",
+	"tetra.material.life_fiber.prefix": "§c生命纤维§r",
 
 
 
@@ -17,9 +149,9 @@
 	"tetra.module.sword/rapier_blade.material_name": "%s迅捷剑剑刃",
 	"tetra.module.sword/rapier_blade.prefix": "%s",
 
-	"tetra/schematic/sword/flamberge_blade.name": "焰形剑剑刃",
-	"tetra/schematic/sword/flamberge_blade.description": "将当前剑刃替换为焰形剑剑刃\n \n材料§f硬度§r增加§f伤害§r",
-	"tetra/schematic/sword/flamberge_blade.slot1": "剑刃材料",
+	"tetra/schematic/sword/flamberge/flamberge_blade.name": "焰形剑剑刃",
+	"tetra/schematic/sword/flamberge/flamberge_blade.description": "将当前剑刃替换为焰形剑剑刃\n \n材料§f硬度§r增加§f伤害§r",
+	"tetra/schematic/sword/flamberge/flamberge_blade.slot1": "剑刃材料",
 
 	"tetra.module.sword/flamberge_blade.item_name": "焰形剑",
 	"tetra.module.sword/flamberge_blade.name": "焰形剑剑刃",
@@ -27,9 +159,9 @@
 	"tetra.module.sword/flamberge_blade.material_name": "%s焰形剑剑刃",
 	"tetra.module.sword/flamberge_blade.prefix": "%s",
 
-	"tetra/schematic/sword/crucible_blade.name": "§c裁决剑剑刃§r",
-	"tetra/schematic/sword/crucible_blade.description": "将当前剑刃替换为裁决剑剑刃\n \n材料§f硬度§r增加§f伤害§r",
-	"tetra/schematic/sword/crucible_blade.slot1": "剑刃材料",
+	"tetra/schematic/sword/crucible/crucible_blade.name": "§c裁决剑剑刃§r",
+	"tetra/schematic/sword/crucible/crucible_blade.description": "将当前剑刃替换为裁决剑剑刃\n \n材料§f硬度§r增加§f伤害§r",
+	"tetra/schematic/sword/crucible/crucible_blade.slot1": "剑刃材料",
 
 	"tetra.module.sword/crucible_blade.item_name": "裁决剑",
 	"tetra.module.sword/crucible_blade.name": "裁决剑剑刃",
@@ -100,7 +232,7 @@
 	"tetra/schematic/double/void_worm_pickaxe/void_worm_pickaxe.slot1": "虚空蠕虫镐",
 
 	"tetra.module.double/void_worm_pickaxe.item_name": "虚空蠕虫镐",
-	"tetra.module.double/void_worm_pickaxe.name": "镐头",
+	"tetra.module.double/void_worm_pickaxe.name": "虚空蠕虫镐",
 	"tetra.module.double/void_worm_pickaxe.description": "用虚空蠕虫大颚做的镐头，这无关私人恩怨，小子",
 	"tetra.variant.void_worm_pickaxe/void_worm_pickaxe": "虚空蠕虫镐",
 
@@ -250,9 +382,39 @@
 	"tetra.module.sword/echo_fuller.description": "以回响碎片制成的附层。可能会散播幽匿侵染",
 	"tetra.variant.echo_fuller/echo_fuller": "§1回响附层§r",
 
+	"tetra/schematic/sword/euclidean_dagger.name": "§6欧几里得匕首§r",
+	"tetra/schematic/sword/euclidean_dagger.description": "由伊甸园的碎片锻造而成的远古匕首。夜晚是你的天地。",
+	"tetra/schematic/sword/euclidean_dagger.slot1": "§6欧几里得匕首§r",
+
+	"tetra.module.sword/euclidean_dagger.item_name": "§6欧几里得匕首§r",
+	"tetra.module.sword/euclidean_dagger.name": "§6欧几里得匕首§r",
+	"tetra.module.sword/euclidean_dagger.description": "由伊甸园的碎片锻造而成的远古匕首。夜晚是你的天地。",
+	"tetra.variant.euclidean_dagger/euclidean_dagger": "§6欧几里得匕首§r",
+
+	"tetra/schematic/double/annihilator_axe/annihilator_axe.name": "§4湮灭§r",
+	"tetra/schematic/double/annihilator_axe/annihilator_axe.description": "由固化的恶魔精华锻造而得的斧头。它渴求血液。",
+	"tetra/schematic/double/annihilator_axe/annihilator_axe.slot1": "§4湮灭§r",
+
+	"tetra.module.double/annihilator_axe.item_name": "§4湮灭§r",
+	"tetra.module.double/annihilator_axe.name": "§4湮灭斧头§r",
+	"tetra.module.double/annihilator_axe.description": "由固化的恶魔精华锻造而得的斧头。它渴求血液。",
+	"tetra.variant.annihilator_axe/annihilator_axe": "§c湮灭§r",
+
+	"tetra/schematic/sword/cataclysm_blade.name": "§4灾祸§r",
+	"tetra/schematic/sword/cataclysm_blade.description": "由固化的恶魔精华锻造而得的剑刃。它渴求血液。",
+	"tetra/schematic/sword/cataclysm_blade.slot1": "§4灾祸§r",
+
+	"tetra.module.sword/cataclysm_blade.item_name": "§4灾祸§r",
+	"tetra.module.sword/cataclysm_blade.name": "§4灾祸§r",
+	"tetra.module.sword/cataclysm_blade.description": "由固化的恶魔精华锻造而得的剑刃。它渴求血液。",
+	"tetra.variant.cataclysm_blade/cataclysm_blade": "§c灾祸§r",
+
 
 	
 	"tetra.synergy.double/quarry_hammer": "采石锤",
+	"tetra.synergy.double/mjolnir": "妙尔尼尔",
+	"tetra.synergy.double/dual_throwing_axe": "双刃斧",
+	"tetra.synergy.sword/murasama": "鬼妖村正",
 
 
 
@@ -268,6 +430,10 @@
 
 	"tetra.improvement.double/utilized.name": "复用",
 
+	"tetra.improvement.head_hone/radius_tier.name": "深掘",
+	"tetra.improvement.head_hone/radius_tier.prefix": "深掘",
+	"tetra.improvement.head_hone/radius_tier.description": "增加挖掘深度",
+
 	"tetra/schematic/double/basic_hammer/hone_radius_1.name": "深掘",
 	"tetra/schematic/double/basic_hammer/hone_radius_1.description": "增加锤的挖掘深度",
 	"tetra/schematic/double/basic_hammer/hone_radius_2.name": "打磨：深掘 II",
@@ -279,9 +445,29 @@
 	"tetra/schematic/double/basic_hammer/hone_radius_5.name": "打磨：深掘 V",
 	"tetra/schematic/double/basic_hammer/hone_radius_5.description": "进一步提升挖掘深度。同时挖掘的方块数提升至54",
 
-	"tetra.improvement.head_hone/radius_tier.name": "深掘",
-	"tetra.improvement.head_hone/radius_tier.prefix": "深掘",
-	"tetra.improvement.head_hone/radius_tier.description": "增加挖掘深度",
+	"tetra.improvement.blade/vengeance_tier.name": "暴怒",
+	"tetra.improvement.blade/vengeance_tier.prefix": "暴怒",
+	"tetra.improvement.blade/vengeance_tier.description": "增加复仇伤害",
+
+	"tetra/schematic/sword/crucible/hone_vengeance_1.name": "暴怒之途",
+	"tetra/schematic/sword/crucible/hone_vengeance_1.description": "低生命值时复仇伤害+5%%。",
+	"tetra/schematic/sword/crucible/hone_vengeance_2.name": "打磨：暴怒 II",
+	"tetra/schematic/sword/crucible/hone_vengeance_2.description": "打磨暴怒改进。低生命值时伤害提升可达15%%。",
+	"tetra/schematic/sword/crucible/hone_vengeance_3.name": "打磨：暴怒 III",
+	"tetra/schematic/sword/crucible/hone_vengeance_3.description": "进一步打磨暴怒改进。低生命值时伤害提升可达20%%。",
+
+	"tetra.improvement.blade/infernal.name": "灼狱",
+	"tetra.improvement.blade/infernal.prefix": "灼狱",
+	"tetra.improvement.blade/infernal.description": "攻击有概率点燃并击退敌人",
+
+	"tetra/schematic/sword/flamberge/hone_infernal_1.name": "灼狱惩责",
+	"tetra/schematic/sword/flamberge/hone_infernal_1.description": "有15%%概率将敌人点燃3秒。",
+	"tetra/schematic/sword/flamberge/hone_infernal_2.name": "打磨：灼狱 II",
+	"tetra/schematic/sword/flamberge/hone_infernal_2.description": "打磨灼狱改进。有20%%概率将敌人点燃4秒。",
+	"tetra/schematic/sword/flamberge/hone_infernal_3.name": "打磨：灼狱 III",
+	"tetra/schematic/sword/flamberge/hone_infernal_3.description": "进一步打磨灼狱改进。有25%%概率将敌人点燃5秒。",
+	"tetra/schematic/sword/flamberge/hone_infernal_4.name": "打磨：灼狱 IV",
+	"tetra/schematic/sword/flamberge/hone_infernal_4.description": "进一步打磨灼狱改进。有30%%概率将敌人点燃6秒。",
 
 
 	"tetra.variant.compound_string/string": "基础复合弓弦",
@@ -295,6 +481,34 @@
 	"tetra.variant.compound_cross_string/leather": "双重皮革绳",
 	"tetra.variant.compound_cross_string/phantom_membrane": "双重拧制幻翼膜",
 	"tetra.variant.compound_cross_string/dragon_sinew": "复合龙筋",
+
+	"tetra/schematic/single/head/halberd_head/serrated_1.name": "锯齿",
+	"tetra/schematic/single/head/halberd_head/serrated_1.description": "给剑刃附上锯齿。有30%%的概率对目标造成共计4点，持续2秒的流血伤害。对亡灵生物无效",
+	"tetra/schematic/single/head/halberd_head/serrated_2.name": "打磨：锯齿 II",
+	"tetra/schematic/single/head/halberd_head/serrated_2.description": "打磨锯齿，将伤害增加至8",
+	"tetra/schematic/single/head/halberd_head/serrated_3.name": "打磨：锯齿 III",
+	"tetra/schematic/single/head/halberd_head/serrated_3.description": "打磨锯齿，将伤害增加至16",
+
+	"tetra.improvement.halberd_head/serrated.name": "锯齿",
+	"tetra.improvement.halberd_head/serrated.prefix": "锯齿",
+	"tetra.improvement.halberd_head/serrated.description": "攻击能够造成流血效果",
+
+	"tetra/schematic/single/head/halberd_head/tempered_1.name": "回火",
+	"tetra/schematic/single/head/halberd_head/tempered_1.description": "对刃进行回火，极大地提升硬度。能够无视护甲造成一些伤害",
+	"tetra/schematic/single/head/halberd_head/tempered_2.name": "打磨：回火 II",
+	"tetra/schematic/single/head/halberd_head/tempered_2.description": "进一步回火，将穿透护甲的伤害增加至3",
+	"tetra/schematic/single/head/halberd_head/tempered_3.name": "打磨：回火 III",
+	"tetra/schematic/single/head/halberd_head/tempered_3.description": "进一步回火，将穿透护甲的伤害增加至5",
+
+	"tetra.improvement.halberd_head/tempered.name": "回火",
+	"tetra.improvement.halberd_head/tempered.prefix": "回火",
+	"tetra.improvement.halberd_head/tempered.description": "攻击无视部分护甲",
+
+	"tetra.improvement.halberd_head_hone/damage.name": "打磨：伤害",
+	"tetra.improvement.halberd_head_hone/damage.description": "增加伤害",
+
+	"tetra.improvement.tomahawk_head_hone/damage.name": "打磨：伤害",
+	"tetra.improvement.tomahawk_head_hone/damage.description": "增加伤害",
 
 
 
@@ -317,57 +531,57 @@
 	"item.tetra.scroll.tetra/flamberge_blade.prefix": "锻造之艺，第I章",
 	"item.tetra.scroll.tetra/flamberge_blade.name": "焰形剑",
 	"item.tetra.scroll.tetra/flamberge_blade.description": "记载着有关制作焰形剑剑刃的知识",
-	"item.tetra.scroll.tetra/flamberge_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.tetra/flamberge_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.single/head/halberd_head/halberd_head.prefix": "锻造之艺，第II章",
 	"item.tetra.scroll.single/head/halberd_head/halberd_head.name": "戟",
 	"item.tetra.scroll.single/head/halberd_head/halberd_head.description": "记载着有关制作戟头的知识",
-	"item.tetra.scroll.single/head/halberd_head/halberd_head.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.single/head/halberd_head/halberd_head.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.sword/key_guard.prefix": "锻造之艺，第III章",
 	"item.tetra.scroll.sword/key_guard.name": "键刃护手",
 	"item.tetra.scroll.sword/key_guard.description": "记载着有关制作键刃护手的知识",
-	"item.tetra.scroll.sword/key_guard.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.sword/key_guard.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.single/head/mace_head/mace_head.prefix": "锻造之艺，第IV章",
 	"item.tetra.scroll.single/head/mace_head/mace_head.name": "钉锤",
 	"item.tetra.scroll.single/head/mace_head/mace_head.description": "记载着有关制作钉锤头的知识",
-	"item.tetra.scroll.single/head/mace_head/mace_head.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.single/head/mace_head/mace_head.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.tetra/crucible_blade.prefix": "锻造之艺，第V章",
 	"item.tetra.scroll.tetra/crucible_blade.name": "裁决剑",
 	"item.tetra.scroll.tetra/crucible_blade.description": "记载着有关制作裁决剑剑刃的知识",
-	"item.tetra.scroll.tetra/crucible_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.tetra/crucible_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.bow/stave/dreadnought_stave.prefix": "锻造之艺，第VI章",
 	"item.tetra.scroll.bow/stave/dreadnought_stave.name": "无畏弓",
 	"item.tetra.scroll.bow/stave/dreadnought_stave.description": "记载着有关制作无畏弓弓体的知识",
-	"item.tetra.scroll.bow/stave/dreadnought_stave.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.bow/stave/dreadnought_stave.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.sword/katana/katana_blade.prefix": "锻造之艺，第VII章",
 	"item.tetra.scroll.sword/katana/katana_blade.name": "武士刀",
 	"item.tetra.scroll.sword/katana/katana_blade.description": "记载着有关制作武士刀刀刃的知识",
-	"item.tetra.scroll.sword/katana/katana_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.sword/katana/katana_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.bow/string/compound_string.prefix": "锻造之艺，第VIII章",
 	"item.tetra.scroll.bow/string/compound_string.name": "复合弓弦",
 	"item.tetra.scroll.bow/string/compound_string.description": "记载着有关制作复合弓弦的知识",
-	"item.tetra.scroll.bow/string/compound_string.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.bow/string/compound_string.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.utilize/hammer.prefix": "锻造之艺，第IX章",
 	"item.tetra.scroll.utilize/hammer.name": "采石锤",
 	"item.tetra.scroll.utilize/hammer.description": "记载着有关如何将锤复用于挖掘隧道的知识",
-	"item.tetra.scroll.utilize/hammer.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.utilize/hammer.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.tetra/rending_scissor_purple.prefix": "锻造之艺，第?章",
 	"item.tetra.scroll.tetra/rending_scissor_purple.name": "断斩之剪",
 	"item.tetra.scroll.tetra/rending_scissor_purple.description": "记载着有关制作断斩之剪的异世界知识",
-	"item.tetra.scroll.tetra/rending_scissor_purple.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.tetra/rending_scissor_purple.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 	"item.tetra.scroll.sword/katana/murasama_blade.prefix": "锻造之艺，第?章",
 	"item.tetra.scroll.sword/katana/murasama_blade.name": "鬼妖村正",
 	"item.tetra.scroll.sword/katana/murasama_blade.description": "记载着有关制作鬼妖村正的异世界知识",
-	"item.tetra.scroll.sword/katana/murasama_blade.description_extended": "§7[§8Shift+右键§7]§8浏览更多信息",
+	"item.tetra.scroll.sword/katana/murasama_blade.description_extended": "§7[§8Shift+右击§7]§8浏览更多信息",
 
 
 
