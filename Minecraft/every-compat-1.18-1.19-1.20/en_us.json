@@ -12,7 +12,7 @@
   "block_type.another_furniture.chair": "%s Chair",
   "block_type.another_furniture.shelf": "%s Shelf",
   "block_type.another_furniture.shutter": "%s Shutter",
-  "block_type.another_furniture.planter_box": "%s Flower Box",
+  "block_type.another_furniture.flower_box": "%s Flower Box",
   "block_type.another_furniture.drawer": "%s Drawer",
   "block_type.another_furniture.bench": "%s Bench",
 
@@ -240,7 +240,7 @@
   "block_type.architects_palette.board_slab": "%s Boards Slab",
 
   "block_type.valhelsia_structures.cut_post": "Cut %s Post",
-  "block_type.valhelsia_structures.stripped_cut_post": "Stripped Cut %s Post",
+  "block_type.valhelsia_structures.cut_stripped_post": "Cut Stripped %s Post",
   "block_type.valhelsia_structures.post": "%s Post",
   "block_type.valhelsia_structures.stripped_post": "Stripped %s Post",
 
@@ -554,10 +554,6 @@
   "block_type.workshop_for_handsome_adventurer.potion_shelf": "Potion Shelf (%s)",
   "item_type.workshop_for_handsome_adventurer.workstation_placer": "Workstation (%s)",
 
-  "block_type.exnihilosequentia.sieve": "%s Sieve",
-  "block_type.exnihilosequentia.barrel": "%s Barrel",
-  "block_type.exnihilosequentia.crucible": "%s Crucible",
-  
   "item_type.buildersdelight.furniture_kit": "%s Furniture Kit",
   "tooltip.everycomp.buildersdelight.furniture_kit": "Place In Stonecutter To Make Furniture",
 
