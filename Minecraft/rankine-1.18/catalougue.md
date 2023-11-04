@@ -48,7 +48,7 @@
 | 木蹄层孔菌       | Tinder Conk Mushroom       | *Fomes fomentarius* | [Wikipedia](https://en.wikipedia.org/wiki/Fomes_fomentarius) |      |
 | 芦笋             | Asparagus                  | *Asparagus officinalis* | [植物智](https://www.iplant.cn/info/Asparagus%20officinalis)<br>[Wikipedia](https://en.wikipedia.org/wiki/Asparagus) |      |
 | 大麦             | Barley                     | *Hordeum vulgare* | [植物智](https://www.iplant.cn/info/Hordeum%20vulgare)<br>[Wikipedia](https://en.wikipedia.org/wiki/Barley) |      |
-| 乞力马扎罗罗勒   | Camphor Basil              | *Ocimum kilimandscharicum* | [植物智](https://www.iplant.cn/info/Ocimum%20kilimandscharicum)<br>[Wikipedia](https://en.wikipedia.org/wiki/Ocimum_kilimandscharicum) |      |
+| 樟脑罗勒         | Camphor Basil              | *Ocimum kilimandscharicum* | [植物智](https://www.iplant.cn/info/Ocimum%20kilimandscharicum)<br>[Wikipedia](https://en.wikipedia.org/wiki/Ocimum_kilimandscharicum) |      |
 | 玉米             | Corn                       | *Zea mays* | [植物智](https://www.iplant.cn/info/Zea%20mays)<br>[Wikipedia](https://en.wikipedia.org/wiki/Maize) |      |
 | 棉花             | Cotton                     | *Gossypium* sp. | [植物智](https://www.iplant.cn/info/Gossypium)<br>[Wikipedia](https://en.wikipedia.org/wiki/Gossypium) |      |
 | 黄麻             | Jute                       | *Corchorus* sp. | [植物智](https://www.iplant.cn/info/Corchorus)<br>[Wikipedia](https://en.wikipedia.org/wiki/Corchorus) |      |
@@ -58,12 +58,12 @@
 | 黑麦             | Rye                        | *Secale cereale* | [植物智](https://www.iplant.cn/info/Secale%20cereale)<br>[Wikipedia](https://en.wikipedia.org/wiki/Rye) |      |
 | 高粱             | Sorghum                    | *Sorghum* sp. | [植物智](https://www.iplant.cn/info/%E9%AB%98%E7%B2%B1%E5%B1%9E)<br>[Wikipedia](https://en.wikipedia.org/wiki/Sorghum) |      |
 | 接骨木莓         | Elderberry                 | *Sambucus* sp. | [植物智](https://www.iplant.cn/info/Sambucus)<br>[Wikipedia](https://en.wikipedia.org/wiki/Sambucus) |      |
-| 毛核木果         | Snowberry                  | *Symphoricarpos* sp. | [植物智](https://www.iplant.cn/info/Symphoricarpos)<br>[Wikipedia](https://en.wikipedia.org/wiki/Symphoricarpos) |      |
+| 雪果             | Snowberry                  | *Symphoricarpos* sp. | [植物智](https://www.iplant.cn/info/Symphoricarpos)<br>[Wikipedia](https://en.wikipedia.org/wiki/Symphoricarpos) |      |
 | 蓝莓             | Blueberry                  | *Vaccinium* sect. *Cyanococcus* | [植物智](https://www.iplant.cn/info/Vaccinium)<br>[Wikipedia](https://en.wikipedia.org/wiki/Blueberry) |      |
 | 树莓             | Raspberry                  | *Rubus idaeus* | [植物智](https://www.iplant.cn/info/Rubus%20idaeus)<br>[Wikipedia](https://en.wikipedia.org/wiki/Rubus_idaeus) | 树莓还是覆盆子（ |
 | 黑莓             | Blackberry                 | *Rubus* sp. | [植物智](https://www.iplant.cn/info/Rubus%20cochinchinensis)<br>[Wikipedia](https://en.wikipedia.org/wiki/Blackberry) |      |
 | 蔓越莓           | Cranberry                  | *Vaccinium oxycoccus* | [植物智](https://www.iplant.cn/info/Vaccinium%20oxycoccus)<br>[Wikipedia](https://en.wikipedia.org/wiki/Cranberry) |      |
-| 洋商陆           | Pokeberry                  | *Phytolacca americana* | [植物智](https://www.iplant.cn/info/Phytolacca%20americana)<br>[Wikipedia](https://en.wikipedia.org/wiki/Phytolacca_americana) |      |
+| 垂序商陆         | Pokeberry                  | *Phytolacca americana* | [植物智](https://www.iplant.cn/info/Phytolacca%20americana)<br>[Wikipedia](https://en.wikipedia.org/wiki/Phytolacca_americana) |      |
 | 草莓             | Strawberry                 | *Fragaria × ananassa* | [植物智](https://www.iplant.cn/info/Fragaria%20%C3%97%20ananassa)<br>[Wikipedia](https://en.wikipedia.org/wiki/Strawberry) |      |
 | 菠萝             | Pineapple                  | *Ananas comosus* | [植物智](https://www.iplant.cn/info/Ananas%20comosus)<br>[Wikipedia](https://en.wikipedia.org/wiki/Pineapple) |      |
 | 浆果丝兰         | Banana Yucca               | *Yucca baccata* | [植物智](https://www.iplant.cn/info/Yucca%20baccata)<br>[Wikipedia](https://en.wikipedia.org/wiki/Yucca_baccata) |      |
@@ -165,7 +165,7 @@
 | 末地石     | End Stone         | 异界岩石     | 末地                 |      |      |
 | 白片岩     | Whiteschist       | 异界岩石     | 主世界<br>高山       | [国家岩矿标本共享](http://www.nimrf.net.cn/yk?zym=White%20schist)<br>[Wikipedia](https://en.wikipedia.org/wiki/Whiteschist) |      |
 | *方镁岩*   | Sommanite         | 异界岩石     | 主世界<br>针叶林     | 未找到 | 1.16旧名<br>Ferropericlase |
-| *林伍德岩* | Ringwoodine       | 异界岩石     | 主世界<br>高山       | [国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2271)<br>[CNKI](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2018&filename=KWXB201805002)<br>[Wikipedia](https://en.wikipedia.org/wiki/Ringwoodite) | `尖晶橄榄岩`易混淆<br>CNKI仅作中英对照 |
+| 尖晶橄榄岩 | Ringwoodine       | 异界岩石     | 主世界<br>高山       | [国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2271)<br>[CNKI](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2018&filename=KWXB201805002)<br>[Wikipedia](https://en.wikipedia.org/wiki/Ringwoodite) | CNKI仅作中英对照 |
 | *瓦兹利岩* | Wadsleyone        | 异界岩石     | 主世界<br>蘑菇岛、海滩、<br>海洋 | [国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2857)<br>[CNKI](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&dbname=CDFDLAST2022&filename=1022401099.nh)<br>[Wikipedia](https://en.wikipedia.org/wiki/Wadsleyite) | 改成`岩`以作区分<br>CNKI仅作中英对照 |
 | *布里奇曼岩* | Bridgmanham     | 异界岩石     | 主世界<br>热带草原、恶地、<br>沙漠、平原 | [CNKI](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=GYWL201906002)<br>[Wikipedia](https://en.wikipedia.org/wiki/Silicate_perovskite) | 改成`岩`以作区分<br>CNKI仅作中英对照 |
 | *后钙钛矿* | Post Perovskite   | 异界岩石     | 主世界<br>河流、沼泽 | [CNKI](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2013&filename=DQKX201303009)<br>[Wikipedia](https://en.wikipedia.org/wiki/Post-perovskite) | CNKI仅作中英对照 |
@@ -295,7 +295,7 @@
 | 雄黄       | Realgar              | $AsS$            | [Mineralogy Database](https://webmineral.com/data/Realgar.shtml)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2241)<br>[Wikipedia](https://en.wikipedia.org/wiki/Realgar) |      |
 | *辉铼矿*   | Rheniite             | $ReS_2$          | [Mineralogy Database](https://webmineral.com/data/Rheniite.shtml)<br>[Wikipedia](https://en.wikipedia.org/wiki/Rheniite) |      |
 | 菱锰矿     | Rhodochrosite        | $MnCO_3$         | [Mineralogy Database](https://webmineral.com/data/Rhodochrosite.shtml)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2258)<br>[Wikipedia](https://en.wikipedia.org/wiki/Rhodochrosite) |      |
-| 林伍德石   | Ringwoodite          | $Mg_2SiO_4$      | [Mineralogy Database](https://webmineral.com/data/Ringwoodite.shtml)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2271)<br>[Wikipedia](https://en.wikipedia.org/wiki/Ringwoodite) |      |
+| 尖晶橄榄石 | Ringwoodite          | $Mg_2SiO_4$      | [Mineralogy Database](https://webmineral.com/data/Ringwoodite.shtml)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2271)<br>[Wikipedia](https://en.wikipedia.org/wiki/Ringwoodite) |      |
 | 金红石     | Rutile               | $TiO_2$          | [Mineralogy Database](https://webmineral.com/data/Rutile.shtml)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2317)<br>[Wikipedia](https://en.wikipedia.org/wiki/Rutile) |      |
 | 钐独居石   | Samarium Monazite    | $SmPO_4$         | [Mineralogy Database](https://webmineral.com/data/Monazite-(Sm).shtml)<br>[Wikipedia](https://en.wikipedia.org/wiki/Monazite-(Sm)) |      |
 | 透长石     | Sanidine             | $(K,Ca)(Si,Al)_4O_8$ | [Mineralogy Database](https://webmineral.com/data/Sanidine.shtml)<br>[国家岩矿标本共享](http://www.nimrf.net.cn/kwx/detail/2341)<br>[Wikipedia](https://en.wikipedia.org/wiki/Sanidine) |      |
