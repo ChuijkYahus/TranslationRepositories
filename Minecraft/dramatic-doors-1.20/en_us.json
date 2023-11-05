@@ -180,6 +180,7 @@
   "block.dramaticdoors.short_timewood_door": "Short Timewood Door",
   "block.dramaticdoors.short_transwood_door": "Short Transwood Door",
   "block.dramaticdoors.short_twilight_oak_door": "Short Twilight Oak Door",
+  "block.dramaticdoors.short_thorn_door": "Short Thorn Door",
   "block.dramaticdoors.short_towerwood_door": "Short Towerwood Door",
   "block.dramaticdoors.tall_canopy_door": "Tall Canopy Door",
   "block.dramaticdoors.tall_darkwood_door": "Tall Darkwood Door",
@@ -189,6 +190,7 @@
   "block.dramaticdoors.tall_timewood_door": "Tall Timewood Door",
   "block.dramaticdoors.tall_transwood_door": "Tall Transwood Door",
   "block.dramaticdoors.tall_twilight_oak_door": "Tall Twilight Oak Door",
+  "block.dramaticdoors.tall_thorn_door": "Tall Thorn Door",
   "block.dramaticdoors.tall_towerwood_door": "Tall Towerwood Door",
   
   "block.dramaticdoors.short_aspen_door": "Short Aspen Door",
@@ -477,11 +479,6 @@
   "block.dramaticdoors.tall_co_weathered_copper_door": "Tall Weathered Copper Door",
   "block.dramaticdoors.tall_co_oxidized_copper_door": "Tall Oxidized Copper Door",
   
-  "block.dramaticdoors.short_steel_door": "Short Steel Door",
-  "block.dramaticdoors.short_locked_steel_door": "Short Locked Steel Door",
-  "block.dramaticdoors.tall_steel_door": "Tall Steel Door",
-  "block.dramaticdoors.tall_locked_steel_door": "Tall Locked Steel Door",
-  
   "block.dramaticdoors.short_create_andesite_door": "Short Andesite Door",
   "block.dramaticdoors.short_create_brass_door": "Short Brass Door",
   "block.dramaticdoors.short_create_copper_door": "Short Copper Door",
@@ -492,6 +489,11 @@
   "block.dramaticdoors.tall_create_copper_door": "Tall Copper Door",
   "block.dramaticdoors.tall_create_framed_glass_door": "Tall Framed Glass Door",
   "block.dramaticdoors.tall_create_train_door": "Tall Train Door",
+  
+  "block.dramaticdoors.short_steel_door": "Short Steel Door",
+  "block.dramaticdoors.short_locked_steel_door": "Short Locked Steel Door",
+  "block.dramaticdoors.tall_steel_door": "Tall Steel Door",
+  "block.dramaticdoors.tall_locked_steel_door": "Tall Locked Steel Door",
   
   "block.dramaticdoors.short_andesite_door": "Short Andesite Door",
   "block.dramaticdoors.short_brass_door": "Short Brass Door",
@@ -519,6 +521,17 @@
   
   "block.dramaticdoors.short_petrified_door": "Short Petrified Door",
   "block.dramaticdoors.tall_petrified_door": "Tall Petrified Door",
+
+  "block.dramaticdoors.short_conberry_door": "Short Conberry Door",
+  "block.dramaticdoors.short_cruderoot_door": "Short Cruderoot Door",
+  "block.dramaticdoors.short_roseroot_door": "Short Roseroot Door",
+  "block.dramaticdoors.short_sunroot_door": "Short Sunroot Door",
+  "block.dramaticdoors.short_yagroot_door": "Short Yagroot Door",
+  "block.dramaticdoors.tall_conberry_door": "Tall Conberry Door",
+  "block.dramaticdoors.tall_cruderoot_door": "Tall Cruderoot Door",
+  "block.dramaticdoors.tall_roseroot_door": "Tall Roseberry Door",
+  "block.dramaticdoors.tall_sunroot_door": "Tall Sunroot Door",
+  "block.dramaticdoors.tall_yagroot_door": "Tall Yagroot Door",
 
   "block.dramaticdoors.short_echo_door": "Short Echo Door",
   "block.dramaticdoors.tall_echo_door": "Tall Echo Door",
