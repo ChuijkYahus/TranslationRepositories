@@ -633,6 +633,11 @@
   "block.dramaticdoors.tall_fungyss_door": "Tall Fungyss Door",
   "block.dramaticdoors.tall_aurum_door": "Tall Aurum Door",
 
+  "block.dramaticdoors.short_framed_door": "Short Framed Door",
+  "block.dramaticdoors.short_framed_iron_door": "Short Framed Iron Door",
+  "block.dramaticdoors.tall_framed_door": "Tall Framed Door",
+  "block.dramaticdoors.tall_framed_iron_door": "Tall Framed Iron Door",
+
   "block.dramaticdoors.short_ft_cherry_door": "Short Cherry Door",
   "block.dramaticdoors.short_ft_cherry_sliding_door": "Short Cherry Sliding Door",
   "block.dramaticdoors.short_ft_citrus_door": "Short Citrus Door",
@@ -912,6 +917,9 @@
   "block.dramaticdoors.tall_terrestria_sakura_door": "Tall Sakura Door",
   "block.dramaticdoors.tall_terrestria_willow_door": "Tall Willow Door",
   "block.dramaticdoors.tall_terrestria_yucca_palm_door": "Tall Yucca Palm Door",
+
+  "block.dramaticdoors.short_rubberwood_door": "Short Rubberwood Door",
+  "block.dramaticdoors.tall_rubberwood_door": "Tall Rubberwood Door",
 
   "block.dramaticdoors.short_traverse_fir_door": "Short Fir Door",
   "block.dramaticdoors.tall_traverse_fir_door": "Tall Fir Door",

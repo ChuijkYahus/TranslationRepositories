@@ -633,6 +633,11 @@
   "block.dramaticdoors.tall_fungyss_door": "高魔菇门",
   "block.dramaticdoors.tall_aurum_door": "高神秘木门",
 
+  "block.dramaticdoors.short_framed_door": "矮门框架",
+  "block.dramaticdoors.short_framed_iron_door": "矮铁门框架",
+  "block.dramaticdoors.tall_framed_door": "高门框架",
+  "block.dramaticdoors.tall_framed_iron_door": "高铁门框架",
+
   "block.dramaticdoors.short_ft_cherry_door": "矮樱木门",
   "block.dramaticdoors.short_ft_cherry_sliding_door": "矮樱木推拉门",
   "block.dramaticdoors.short_ft_citrus_door": "矮柑橘木门",
@@ -913,6 +918,9 @@
   "block.dramaticdoors.tall_terrestria_willow_door": "高柳木门",
   "block.dramaticdoors.tall_terrestria_yucca_palm_door": "高丝兰棕榈木门",
   
+  "block.dramaticdoors.short_rubberwood_door": "矮橡胶木门",
+  "block.dramaticdoors.tall_rubberwood_door": "高橡胶木门",
+
   "block.dramaticdoors.short_traverse_fir_door": "矮冷杉木门",
   "block.dramaticdoors.tall_traverse_fir_door": "高冷杉木门",
 
