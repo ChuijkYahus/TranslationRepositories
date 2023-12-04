@@ -19,6 +19,8 @@
     "item.hexgloop.gloopifact": "Gloopifact",
     "item.hexgloop.synchronous_gloop": "Synchronous Gloop",
     "item.hexgloop.hand_mirror": "Hand Mirror",
+    "item.hexgloop.cosmetic_energizer": "Mind Wrench",
+
     "item.hexgloop.lovely_staff": "Lovely Staff",
     "item.hexgloop.quartz_staff": "Quartz Staff",
     "item.hexgloop.carrot_staff": "Carrot Staff",
@@ -33,6 +35,9 @@
     "item.hexgloop.owl_staff": "Owl Staff",
     "item.hexgloop.celestial_staff": "Celestial Staff",
     "item.hexgloop.longinus_staff": "Staff Of Longinus",
+    "item.hexgloop.candy_cane_staff": "Candy Cane Staff",
+    "item.hexgloop.menorah_staff": "Menorah Staff",
+
     "item.hexgloop.hexxy_plush": "Hexxy Plush",
     "item.hexgloop.hex_blade": "Hex Blade",
     "item.hexgloop.slate_loader": "Ritualist's Inscriber",
@@ -46,6 +51,8 @@
     "item.hexgloop.essence_stone": "Essence Stone",
     "item.hexgloop.script": "Script",
     "item.hexgloop.coping_saw": "Coping Saw",
+    "item.hexgloop.library_card": "Akashic Library Card",
+    "item.hexgloop.library_card.tooltip_dimension": "Bound to %s",
 
     "item.hexgloop.copper_pen_fidget": "Pen Fidget",
     "item.hexgloop.rainbow_amogus_fidget": "Rainbow Amogus Pop It Fidget",
@@ -58,6 +65,9 @@
     "block.hexgloop.sentinel_bed": "Sentinel Bed",
     "block.hexgloop.accelerator": "Accelerator",
     "block.hexgloop.hexxed_glass": "Hexxed Glass",
+    "block.hexgloop.slate_lamp": "Slate Lamp",
+    "block.hexgloop.charged_amethyst_block": "Block of Charged Amethyst",
+    "block.hexgloop.syncetrix": "Syncetrix",
 
     "key.hexgloop.open_iota_wheel": "Open Iota Wheel",
     "key.hexgloop.casting_ring": "Use Casting Ring",
@@ -189,6 +199,7 @@
     "hexgloop.sketchy_foods.title": "The snack that evals back",
     "hexgloop.sketchy_foods.desc": "Eat a hexxed snack, they're probably vegan?",
     
+    "hexgloop.hexdoc.gloopcipe_media_cost": "Costs %d Dust",
 
     "hexgloop.entry.gloopytweaks": "Glooptastic Changes",
     "hexgloop.page.gloopytweaks.0": "I have noticed some absolutely glooptastic changes in the world recently.$(br2)For one, it's much easier to visualize patterns. I can even hear something like \"\\<southeast,deaqq>\" and visualize it perfectly as $(m)$(0)<southeast,deaqq>$(). Additionally, I can hover over these patterns to get a better view of them, or click to copy them for later.",
