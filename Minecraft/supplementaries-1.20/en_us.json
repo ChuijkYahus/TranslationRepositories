@@ -1,6 +1,7 @@
 {
   "itemGroup.supplementaries": "Supplementaries",
   "block.supplementaries.faucet": "Faucet",
+  "block.supplementaries.wall_lantern": "Wall Lantern",
   "block.supplementaries.planter": "Planter",
   "block.supplementaries.bellows": "Bellows",
   "block.supplementaries.wind_vane": "Wind Vane",
@@ -58,7 +59,10 @@
   "block.supplementaries.soul_jar": "Soul Jar",
   "item.supplementaries.flute": "Flute",
   "message.supplementaries.throwable_brick": "Can be thrown",
+  "message.supplementaries.wall_lantern": "Placeable on walls",
   "message.supplementaries.command.configs_reloaded": "Configs reloaded",
+  "block.supplementaries.copper_lantern": "Copper Lantern",
+
   "message.supplementaries.hourglass": "Accepts any dust, sand or powder",
   "message.supplementaries.cage": "[Shift] to place",
   "gui.supplementaries.safe.name": "%1$s's %2$s",
@@ -69,12 +73,17 @@
   "message.supplementaries.sack": "Quite heavy to carry",
   "message.supplementaries.globe": "Sold by the Wandering Trader",
   "message.supplementaries.wind_vane": "Reacts to weather",
+  "message.supplementaries.hanging_pot": "Can be hung",
+  "message.supplementaries.double_cake": "Stackable in block form",
+  "block.supplementaries.double_cake": "Double Cake",
   "message.supplementaries.safe.unbound": "Unbound",
   "block.supplementaries.gold_door": "Gold Door",
   "block.supplementaries.gold_trapdoor": "Gold Trapdoor",
   "block.supplementaries.crimson_lantern": "Crimson Lantern",
   "message.supplementaries.blackboard": "Waxed",
   "gui.supplementaries.blackboard.clear": "Clear",
+  "block.supplementaries.hanging_flower_pot": "Hanging Flower Pot",
+  "block.supplementaries.directional_cake": "Directional Cake",
   "block.supplementaries.rope": "Rope",
   "block.supplementaries.bamboo_spikes": "Bamboo Spikes",
   "item.supplementaries.bamboo_spikes_tipped": "Tipped Bamboo Spikes",
@@ -207,6 +216,7 @@
   "message.supplementaries.potion.splash": "Splash",
   "subtitle.supplementaries.music.pancake": "Pancake Music",
   "block.supplementaries.pancake_disc.desc": "Partyp - Pancake Music",
+  "item.supplementaries.pancake_disc.desc": "Partyp - Pancake Music",
   "message.supplementaries.key.lockable": "Key Lockable",
   "message.supplementaries.placeable": "Placeable",
   "item.supplementaries.red_merchant_spawn_egg": "Red Merchant Spawn Egg",
@@ -331,6 +341,7 @@
   "effect.supplementaries.overencumbered.description": "Prevents sprinting. Further levels reduce jump height hinder walking speed respectively",
   "message.supplementaries.cage.fail": "You can only capture small animals",
   "item.supplementaries.sign_post": "%s Sign Post",
+  "block.supplementaries.hanging_sign": "%s Hanging Sign",
   "block.supplementaries.sugar_cube": "Sugar Cube",
   "item.supplementaries.quiver": "Quiver",
   "message.supplementaries.quiver.tooltip": "%s [%s]",
@@ -382,7 +393,6 @@
   "block.supplementaries.ceiling_banner_red": "Red Banner",
   "block.supplementaries.ceiling_banner_white": "White Banner",
   "block.supplementaries.ceiling_banner_yellow": "Yellow Banner",
-  "block.supplementaries.gunpowder": "Gunpowder",
 
   "item.supplementaries.pancake_disc": "Pancake",
 
@@ -429,6 +439,10 @@
   "item.supplementaries.slice_map": "Slice Map",
   "filled_map.sliced.tooltip": "Slice: %d",
   "message.supplementaries.death_marker": "Last Death",
+  "entity.supplementaries.hat_stand": "Hat Stand",
+  "item.supplementaries.hat_stand": "Hat Stand",
+  "config.jade.plugin_supplementaries.hat_stand": "Hat Stand",
+
 
   "supplementaries.display_source.item_name": "Item Name",
   "supplementaries.display_source.world_position": "World Position",
@@ -437,6 +451,12 @@
   "supplementaries.display_source.fluid_amount": "Fluid Amount",
   "create.display_source.fill_level.fluid_amount": "Fluid Amount",
 
+  "gui.supplementaries.optifine.message": "Before proceeding, please note that Optifine is known to cause issues and crashes.\n\n The mod is not suited for the modded environment and has had many instances of terrible compatibility even with Forge itself.\n\n Moreover, in terms of performance, way better and extremely more performant alterantives exist such as Modern fix, Embeddium as well as Oculus for shaders. \n\nWhether you play modded or vanilla, you should always use the mods listed here below instead.",
+  "gui.supplementaries.optifine.suggestions": "Here's a selection of mods that we recommend using instead.",
+  "gui.supplementaries.optifine.title": "WARNING: OPTIFINE DETECTED",
+  "gui.supplementaries.optifine.turn_off": "Don't show this again",
+
+  "block_type.supplementaries.hanging_sign": "Hanging Sign",
   "block_type.supplementaries.sign_post": "Sign Post",
 
 
