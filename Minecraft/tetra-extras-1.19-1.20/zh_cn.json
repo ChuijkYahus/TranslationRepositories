@@ -1,4 +1,11 @@
 {
+  "tetra.variant_category.gems.label": "宝石",
+
+  "tetra.meterial.amethyst": "紫水晶",
+  "tetra.meterial.amethyst.prefix": "紫水晶",
+  "tetra.meterial.blackopal": "黑欧泊",
+  "tetra.meterial.blackopal.prefix": "黑欧泊",
+
   "tetra.material.enderium_ingot": "末影晶",
   "tetra.material.enderium_ingot.prefix": "末影晶",
 
@@ -55,6 +62,8 @@
 
   "tetra.material.ignitium_ingot": "腾炎",
   "tetra.material.ignitium_ingot.prefix": "腾炎",
+  "tetra.material.cwitherite_ingot": "凋灵合金",
+  "tetra.material.cwitherite_ingot.prefix": "凋灵合金",
 
 
   "tetra.material.cloth": "布料",
