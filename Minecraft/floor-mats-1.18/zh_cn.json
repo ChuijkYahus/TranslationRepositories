@@ -58,7 +58,7 @@
     "command.floormats.help.connections"    : "可在相邻的同种地垫之间建立和断开链接，手持连接控制工具对准两地垫相连部分右击即可。可参阅§a/floormats tools§r。",
     "command.floormats.help.gold"           : "金地垫只可被放置该地垫的玩家触发。玩家并不与某单个地垫方块绑定，因此多个玩家也可触发较小型的地垫，前提是这些玩家放置过与对应地垫相连的地垫而后拆除。只有把所有地垫方块全部拆除，玩家才会解绑。可参阅§a/floormats help modifiers§r。",
     "command.floormats.help.linking"        : "手持链接工具右击处于同维度的多个地垫，就能将所有地垫链接起来。右键双击某地垫则能断开其链接。可参阅§a/floormats tools§r。",
-    "command.floormats.help.modifiers"      : "手持连接工具并在另一只手中持有某些物品时右击地垫，就能改变其功能。可以将其静音。可以反转金地垫和镶金地垫，使它们只会被没有放置该地垫的玩家触发。也可以解锁金地垫和镶金地垫，使它们会被任何玩家触发。可参阅§a/floormats modifiers§r。",
+    "command.floormats.help.modifiers"      : "手持连接工具并在另一只手中持有某些物品时右击地垫，就能改变其功能。可以将其静音。可以反转金地垫和镶金地垫，只有不是放置该地垫的玩家才可触发。也可以解锁金地垫和镶金地垫，从而任何玩家都可触发。可参阅§a/floormats modifiers§r。",
     "command.floormats.help.power"          : "当接收到其所处方块传来的红石信号时，地垫会产生一次脉冲。例如，放置在方块侧面的按钮按下时，放置在该方块上方的地垫产生一次脉冲。",
     "command.floormats.help.types"          : "\n§o木制§r：能被玩家、生物和物品实体触发。\n§o石制§r：能被玩家和生物触发。\n§o金属制§r：只会被玩家触发。可参阅§a/floormats help gold§r。\n§o镶金地垫§r：与金地垫相同。\n§o伪装地垫§r：可参阅§a/floormats help camouflage§r。",
     "command.floormats.help.wiki"           : "更多细节可参阅维基：",
