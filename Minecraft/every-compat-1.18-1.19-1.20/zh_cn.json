@@ -1289,6 +1289,15 @@
   "leaves_type.mysticsbiomes.budding_peony": "含苞的牡丹",
   "leaves_type.mysticsbiomes.peony": "牡丹",
 
+  "wood_type.nature_arise.maple": "枫木",
+  "wood_type.nature_arise.fir": "冷杉木",
+  "leaves_type.nature_arise.maple": "枫树",
+  "leaves_type.nature_arise.red_maple": "红色枫树",
+  "leaves_type.nature_arise.orange_maple": "橙色枫树",
+  "leaves_type.nature_arise.yellow_maple": "黄色枫树",
+  "leaves_type.nature_arise.fir": "冷杉",
+  "leaves_type.nature_arise.silver_birch": "垂枝桦",
+
   "wood_type.natures_spirit.aspen": "白杨木",
   "wood_type.natures_spirit.cypress": "柏木",
   "wood_type.natures_spirit.fir": "冷杉木",
