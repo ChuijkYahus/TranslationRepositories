@@ -1342,6 +1342,9 @@
 
   "leaves_type.occultism.otherworld": "异界",
 
+  "wood_type.organics.hoaky": "霍橡木",
+  "leaves_type.organics.hoaky": "霍橡",
+
   "wood_type.pasterdream.dyedream": "染梦木",
   "leaves_type.pasterdream.dyedream": "染梦",
 
@@ -1754,6 +1757,8 @@
   "wood_type.vinery.cherry": "樱桃木",
   "leaves_type.vinery.grapevine": "葡萄藤",
   "leaves_type.vinery.cherry": "樱桃",
+
+  "wood_type.voidscape.thunder": "雷暴木",
 
   "wood_type.wilderwild.baobab": "猴面包木",
   "wood_type.wilderwild.cypress": "柏木",
