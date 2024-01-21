@@ -21,6 +21,7 @@
   "architects_palette.info.dimension.minecraft.the_nether": "下界",
   "architects_palette.info.dimension.minecraft.the_end": "末地",
   "architects_palette.info.dimension.minecraft.overworld": "主世界",
+  "architects_palette.info.dimension.aether.the_aether": "天境",
   "architects_palette.info.chiseled_chargeable": "在其中放入海洋之心以给它和所有相邻同类方块供能。",
   "architects_palette.info.chargeable": "这些方块能从錾制渊晶石砖中汲取能量，更多信息请查询錾制渊晶石砖。",
   "architects_palette.info.totem_carving": "在图腾上使用斧以切换图腾样式。",
@@ -29,6 +30,7 @@
   "architects_palette.info.heavy_bricks": "每两个相邻方块会连接在一起，便于制造大型砖块状纹理。",
   "architects_palette.info.cage_lanterns": "可由红石信号点亮。控制模式可通过右击反转。",
   "architects_palette.info.nether_brass": "下界黄铜被点燃时，其上火焰会呈现出独特的绿色。",
+  "architects_palette.info.wardstone": "青卫石方块会弹开射到其上的弹射物。",
 
   "architects_palette.advancement.root": "建筑师的调色板",
   "architects_palette.advancement.root.desc": "是时候建点新的东西了。",
