@@ -217,10 +217,10 @@
   "tetra.material.ecologics_walnut.prefix": "核桃木",
   
   
-  "tetra.material.eldritch_end_primordial_wood": "Primordial Wood",
-  "tetra.material.eldritch_end_primordial_wood.prefix": "Primordial",
-  "tetra.material.eldritch_end_spire_stone": "Spire Stone",
-  "tetra.material.eldritch_end_spire_stone.prefix": "Spire Stone",
+  "tetra.material.eldritch_end_primordial_wood": "原始木",
+  "tetra.material.eldritch_end_primordial_wood.prefix": "原始木",
+  "tetra.material.eldritch_end_spire_stone": "尖塔石",
+  "tetra.material.eldritch_end_spire_stone.prefix": "尖塔石",
   
   
   "tetra.material.enderitemod_enderite": "末影合金",
@@ -240,23 +240,23 @@
   "tetra.material.socket_endlessbiomes_riftite_shard.prefix": "§3裂空岩碎片§r",
   
   
-  "tetra.material.enlightened_end_adamantite": "Adamantite",
-  "tetra.material.enlightened_end_adamantite.prefix": "Adamantine",
-  "tetra.material.enlightened_end_cerulean": "Cerulean",
-  "tetra.material.enlightened_end_cerulean.prefix": "Cerulean",
-  "tetra.material.enlightened_end_cerulean_vines": "Cerulean Vines",
-  "tetra.material.enlightened_end_cerulean_vines.prefix": "Cerulean Vines",
-  "tetra.material.enlightened_end_indigo": "Indigo",
-  "tetra.material.enlightened_end_indigo.prefix": "Indigo",
-  "tetra.material.enlightened_end_palerock": "Palerock",
-  "tetra.material.enlightened_end_palerock.prefix": "Palerock",
-  "tetra.material.enlightened_end_void_shale": "Void Shale",
-  "tetra.material.enlightened_end_void_shale.prefix": "Void Shale",
+  "tetra.material.enlightened_end_adamantite": "精金",
+  "tetra.material.enlightened_end_adamantite.prefix": "精金",
+  "tetra.material.enlightened_end_cerulean": "蔚蓝木",
+  "tetra.material.enlightened_end_cerulean.prefix": "蔚蓝木",
+  "tetra.material.enlightened_end_cerulean_vines": "蔚蓝藤",
+  "tetra.material.enlightened_end_cerulean_vines.prefix": "蔚蓝藤",
+  "tetra.material.enlightened_end_indigo": "胶靛木",
+  "tetra.material.enlightened_end_indigo.prefix": "胶靛木",
+  "tetra.material.enlightened_end_palerock": "苍白石",
+  "tetra.material.enlightened_end_palerock.prefix": "苍白石",
+  "tetra.material.enlightened_end_void_shale": "虚空页岩",
+  "tetra.material.enlightened_end_void_shale.prefix": "虚空页岩",
   
-  "tetra.material.socket_enlightened_end_glacium": "Glacium嵌材",
-  "tetra.material.socket_enlightened_end_glacium.prefix": "§bGlacium§r",
-  "tetra.material.socket_enlightened_end_malachite": "Malachite嵌材",
-  "tetra.material.socket_enlightened_end_malachite.prefix": "§aMalachite§r",
+  "tetra.material.socket_enlightened_end_glacium": "冷金嵌材",
+  "tetra.material.socket_enlightened_end_glacium.prefix": "§b冷金§r",
+  "tetra.material.socket_enlightened_end_malachite": "孔雀石嵌材",
+  "tetra.material.socket_enlightened_end_malachite.prefix": "§a孔雀石§r",
   
   
   "tetra.material.epicsamurai_amethyst_steel": "紫水晶覆层钢",

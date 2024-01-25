@@ -1136,6 +1136,9 @@
   "wood_type.eidolon.illwood": "灾厄木",
   "leaves_type.eidolon.illwood": "灾厄",
 
+  "wood_type.eldritch_end.primordial": "原始木",
+  "leaves_type.eldritch_end.primordial": "原始",
+
   "wood_type.emeraldcraft.ginkgo": "银杏木",
   "wood_type.emeraldcraft.palm": "棕榈木",
   "wood_type.emeraldcraft.peach": "桃木",
@@ -1153,6 +1156,9 @@
   "wood_type.enhanced_mushrooms.red_mushroom": "红色蘑菇",
   "wood_type.enhanced_mushrooms.brown_mushroom": "棕色蘑菇",
 
+  "wood_type.eldritch_end.cerulean": "蔚蓝木",
+  "wood_type.eldritch_end.indigo": "胶靛木",
+  "leaves_type.eldritch_end.cerulean": "蔚蓝",
   "wood_type.enlightened_end.congealed": "凝结木",
   "wood_type.enlightened_end.ebony": "阴沉木",
 
