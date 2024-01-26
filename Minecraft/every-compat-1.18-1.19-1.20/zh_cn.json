@@ -794,6 +794,11 @@
   "leaves_type.atmospheric.laurel": "月桂",
   "leaves_type.atmospheric.flowering_morado": "开花酸枝",
 
+  "wood_type.aurorasdeco.azalea": "杜鹃木",
+  "wood_type.aurorasdeco.flowering_azalea": "盛开的杜鹃木",
+  "wood_type.aurorasdeco.jacaranda": "蓝花楹木",
+  "leaves_type.aurorasdeco.jacaranda": "蓝花楹",
+
   "wood_type.autumnity.maple": "枫木",
   "leaves_type.autumnity.maple": "枫树",
   "leaves_type.autumnity.red_maple": "红色枫树",
@@ -1071,7 +1076,7 @@
 
   "wood_type.deep_aether.roseroot": "瑰根木",
   "wood_type.deep_aether.yagroot": "榴根木",
-  "wood_type.deep_aether.cruderoot": "油根木",
+  "wood_type.deep_aether.cruderoot": "朴根木",
   "wood_type.deep_aether.conberry": "孪团木",
   "wood_type.deep_aether.sunroot": "晖根木",
   "leaves_type.deep_aether.roseroot": "瑰根",
@@ -1079,7 +1084,7 @@
   "leaves_type.deep_aether.blue_roseroot": "蓝色瑰根",
   "leaves_type.deep_aether.flowering_blue_roseroot": "盛开的蓝色瑰根",
   "leaves_type.deep_aether.yagroot": "榴根",
-  "leaves_type.deep_aether.cruderoot": "油根",
+  "leaves_type.deep_aether.cruderoot": "朴根",
   "leaves_type.deep_aether.conberry": "孪团",
   "leaves_type.deep_aether.sunroot": "晖根",
   
