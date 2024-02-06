@@ -715,10 +715,11 @@
   "leaves_type.ancient_aether.skyroot_pine": "天根松",
   "leaves_type.ancient_aether.crystal_skyroot": "水晶天根",
   "leaves_type.ancient_aether.highsproot": "高茁",
-  "leaves_type.ancient_aether.frosted_highsproot": "霜结高茁",
   "leaves_type.ancient_aether.sakura": "樱树",
-  "leaves_type.ancient_aether.divine_skyroot": "神圣天根",
+  "leaves_type.ancient_aether.enchanted_skyroot": "神沃天根",
   "leaves_type.ancient_aether.crystal": "水晶",
+  "leaves_type.ancient_aether.frosted_highsproot": "霜结高茁",
+  "leaves_type.ancient_aether.divine_skyroot": "神圣天根",
 
   "wood_type.aoa3.achony": "桉格尼木",
   "wood_type.aoa3.baobab": "猴面包木",
