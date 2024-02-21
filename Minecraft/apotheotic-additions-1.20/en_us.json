@@ -31,7 +31,7 @@
     "block.apotheotic_additions.luminous_glass_pane": "Luminous Glass Pane",
     "block.apotheotic_additions.luminous_glass": "Luminous Glass",
 
-  "comment_id": "/Items",
+    "comment_id": "/Items",
     "rarity.apotheotic_additions:esoteric": "Esoteric",
     "item.apotheotic_additions.heirloom_material": "Core of the Family",
     "item.apotheosis.gem.apotheosis:heirloom": "Ancestral %s",
@@ -844,4 +844,4 @@
     "effect.cataclysm.blessing_of_amethyst.desc": "Grants immunity to Darkness, Abyssal Burn, and Abyssal Fear.",
     "effect.immersiveengineering.flammable.desc": "Increases fire damage taken from fire damage over time.",
     "effect.born_in_chaos_v1.jawattack": "Jaw Attack"
-  }
+}
