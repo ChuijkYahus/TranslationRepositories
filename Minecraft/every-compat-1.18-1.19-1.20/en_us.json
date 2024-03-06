@@ -239,9 +239,9 @@
 
   "block_type.architects_palette.railing": "%s Railing",
   "block_type.architects_palette.boards": "%s Boards",
-  "block_type.architects_palette.board_wall": "%s Boards Wall",
-  "block_type.architects_palette.board_stairs": "%s Boards Stairs",
-  "block_type.architects_palette.board_slab": "%s Boards Slab",
+  "block_type.architects_palette.board_wall": "%s Board Wall",
+  "block_type.architects_palette.board_stairs": "%s Board Stairs",
+  "block_type.architects_palette.board_slab": "%s Board Slab",
 
   "block_type.valhelsia_structures.cut_post": "Cut %s Post",
   "block_type.valhelsia_structures.cut_stripped_post": "Cut Stripped %s Post",
@@ -279,6 +279,8 @@
   "block_type.mcwdoors.swamp_door": "%s Swamp Door",
   "block_type.mcwdoors.tropical_door": "%s Tropical Door",
   "block_type.mcwdoors.western_door": "%s Western Door",
+  "block_type.mcwdoors.waffle_door": "%s Waffle Door",
+
 
   "block_type.mcwfences.picket_fence": "%s Picket Fence",
   "block_type.mcwfences.stockade_fence": "%s Stockade Fence",
@@ -367,7 +369,7 @@
   "block_type.mcwtrpdoors.barn_trapdoor": "%s Barn Trapdoor",
   "block_type.mcwtrpdoors.barred_trapdoor": "%s Barred Trapdoor",
   "block_type.mcwtrpdoors.beach_trapdoor": "%s Beach Trapdoor",
-  "block_type.mcwtrpdoors.blossom_trapdoor": "%s Blossom Trapdoor",
+  "block_type.mcwtrpdoors.blossom_trapdoor": "%s Waffle Trapdoor",
   "block_type.mcwtrpdoors.classic_trapdoor": "%s Classic Trapdoor",
   "block_type.mcwtrpdoors.cottage_trapdoor": "%s Cottage Trapdoor",
   "block_type.mcwtrpdoors.four_panel_trapdoor": "%s Four Panel Trapdoor",
@@ -378,6 +380,7 @@
   "block_type.mcwtrpdoors.ranch_trapdoor": "%s Ranch Trapdoor",
   "block_type.mcwtrpdoors.swamp_trapdoor": "%s Swamp Trapdoor",
   "block_type.mcwtrpdoors.tropical_trapdoor": "%s Tropical Trapdoor",
+  "block_type.mcwtrpdoors.barrel_trapdoor": "%s Barrel Trapdoor",
 
   "block_type.mcwwindows.window": "Resizeable %s Window",
   "block_type.mcwwindows.window2": "Rectangle %s Window",
@@ -524,6 +527,8 @@
   "wood_type.twilightforest.trans": "Transwood",
   "wood_type.twilightforest.sorting": "Sortingwood",
 
+  "wood_type.quark.ancient": "Ashen",
+  "wood_type.quark.blossom": "Trumpet",
   "leaves_type.quark.blue": "Frosty",
   "leaves_type.quark.lavender":"Serene",
   "leaves_type.quark.orange": "Warm",
