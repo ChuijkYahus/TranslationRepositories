@@ -444,6 +444,9 @@
   "affix.apotheotic_additions:spellbook/mob_effect/magnetic": "磁性",
   "affix.apotheotic_additions:spellbook/mob_effect/magnetic.suffix": "磁化",
 
+  "affix.apotheotic_additions:spellbook/mob_effect/instant_mana": "魔力之潮",
+  "affix.apotheotic_additions:spellbook/mob_effect/instant_mana.suffix": "死者之王",
+
   "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear": "弗雷迪",
   "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear.suffix": "啊啊啊啊啊",
 
@@ -575,6 +578,9 @@
 
   "affix.apotheotic_additions:armor/mob_effect/beenergized": "蜂能",
   "affix.apotheotic_additions:armor/mob_effect/beenergized.suffix": "蜂后",
+
+  "affix.apotheotic_additions:armor/mob_effect/dolphin": "海洋",
+  "affix.apotheotic_additions:armor/mob_effect/dolphin.suffix": "海豚",
 
   "affix.apotheotic_additions:shield/mob_effect/strong_armor": "盾护",
   "affix.apotheotic_additions:shield/mob_effect/strong_armor.suffix": "盾护",
@@ -717,7 +723,7 @@
   "gem.apotheotic_additions:alchemy/thermal.pickaxe": "破坏镍矿石时有%s%%概率改为掉落岩石裂骸。",
   "gem.apotheotic_additions:alchemy/decay.pickaxe": "破坏石头与圆石时有%s%%概率改为掉落渊邃石。",
   "gem.apotheotic_additions:alchemy/rat_chef.pickaxe": "破坏铅矿石时有%s%%概率改为掉落奶酪。",
-  "gem.apotheotic_additions:alchemy/witch_queen.pickaxe": "破坏月球方块时有%s%%概率改为掉落神秘废金属。（月球真可怕）",
+  "gem.apotheotic_additions:alchemy/witch_queen.pickaxe": "破坏月石时有%s%%概率改为掉落神秘废金属。",
   "gem.apotheotic_additions:alchemy/felfire.pickaxe": "破坏钻石矿石时有%s%%概率改为掉落暗金属。",
   "gem.apotheotic_additions:alchemy/despicable.pickaxe": "破坏？？时有%s%%概率偷到月亮！",
   "gem.apotheotic_additions:alchemy/draconic_legacy.shovel": "破坏沙砾时有%s%%概率改为掉落龙骨。",
@@ -792,6 +798,7 @@
   "gem_class.curios": "Curios盔甲与珠宝",
   "curios.modifiers.an_focus": "用作法术核心时：",
   "text.apotheosis.category.wand.plural": "法杖",
+  "text.apotheosis.category.curios:spellbook.plural": "法术书",
   "text.apotheosis.category.curios:an_focus.plural": "法术核心",
   "text.apotheosis.category.curios:back.plural": "背饰",
   "text.apotheosis.category.curios:body.plural": "胸饰",

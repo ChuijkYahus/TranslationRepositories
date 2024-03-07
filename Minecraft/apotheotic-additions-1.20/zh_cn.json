@@ -5,6 +5,7 @@
   "apotheotic_additions.time_lost_gate": "失落传送门",
   "apotheotic_additions.caves_gate": "神化洞穴传送门",
   "apotheotic_additions.aether_gate": "神化天境传送门",
+  "apotheotic_additions.endless_boss": "无尽神化Boss传送门",
   "apotheotic_additions.dark_garden": "异寂深园传送门",
 
 
@@ -77,14 +78,22 @@
 
 
   "comment_id": "/Advancements",
-  "advancements.apotheotic_additions:moon": "我们要偷走月亮",
-  "advancements.apotheotic_additions:moon.desc": "使用神偷宝饰犯下世纪大案。",
   "advancements.apotheotic_additions:tower": "力量之塔",
   "advancements.apotheotic_additions:tower.desc": "进入一座神化高塔",
   "advancements.apotheotic_additions:beeshelf": "“蜂箱”信魔法吗？",
   "advancements.apotheotic_additions:beeshelf.desc": "获得一个蜂蜜书架。",
   "advancements.apotheotic_additions:sacrificial_shelf": "血献血神",
   "advancements.apotheotic_additions:sacrificial_shelf.desc": "获得一个献祭符文。",
+  "advancements.apotheotic_additions:salvaging_table": "在这停顿",
+  "advancements.apotheotic_additions:salvaging_table.desc": "获得一个回收台，它可用于拆解废弃装备。",
+  "advancements.apotheotic_additions:simple_reforging_table": "锤子时间",
+  "advancements.apotheotic_additions:simple_reforging_table.desc": "获得一个简易重铸台，它最高能够将装备重铸为稀有品质。",
+  "advancements.apotheotic_additions:materials": "稀有度材料",
+  "advancements.apotheotic_additions:materials.desc": "获得神化的稀有度材料",
+  "advancements.apotheotic_additions:materials_aa": "稀有的稀有度材料",
+  "advancements.apotheotic_additions:materials_aa.desc": "获得神化附加的稀有度材料",
+  "advancements.apotheotic_additions:reforging_table": "神之铸台",
+  "advancements.apotheotic_additions:reforging_table.desc": "获得一个重铸台，它最高能够将装备重铸为神话品质。",
   "advancements.apotheotic_additions:wavebinders_shelf": "海洋之人",
   "advancements.apotheotic_additions:wavebinders_shelf.desc": "获得一个浪卷符文。",
   "advancements.apotheotic_additions:void_shelf": "凝视着你",
@@ -247,17 +256,38 @@
   "affix.apotheotic_additions:curios_jewelry/attribute/gaia": "盖亚",
   "affix.apotheotic_additions:curios_jewelry/attribute/gaia.suffix": "小精灵",
 
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/physical": "精美",
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/physical.suffix": "举止得体",
+
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fire": "狱炎",
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fire.suffix": "焰火后裔",
+
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/explosion": "爆破",
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/explosion.suffix": "爆炸保护",
+
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/runed": "刻符",
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/runed.suffix": "咒法防护",
 
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fall": "摔落",
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fall.suffix": "万丈高山",
 
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/despoil": "腐烂",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/despoil.suffix": "腐朽血肉",
+
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_glowing": "荧光",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_glowing.suffix": "耀眼光辉",
 
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_repellent": "撒有杀虫剂",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_repellent.suffix": "杀虫剂",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/blazing_might": "罪孽",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/blazing_might.suffix": "烈焰巨力",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/spell_damage": "至高木",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/spell_damage.suffix": "至高木森林",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/mana_regen": "魔源蔓缚",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/mana_regen.suffix": "魔源浆果根系",
 
   "affix.apotheotic_additions:curios_jewelry/mob_effect/reinforced": "加固",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/reinforced.suffix": "加固",
@@ -270,6 +300,9 @@
 
   "affix.apotheotic_additions:curios_jewelry/mob_effect/conduit_power": "海洋",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/conduit_power.suffix": "深海",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/jaw_attack": "饥饿",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/jaw_attack.suffix": "饥饿蠕虫",
 
   "comment_id": "/Esoteric Affixes",
   "affix.apotheotic_additions:armor/attribute/esoteric_voidic_res": "虚空侵染",
@@ -422,6 +455,9 @@
   "affix.apotheotic_additions:wand/mob_effect/magnetic": "磁性",
   "affix.apotheotic_additions:wand/mob_effect/magnetic.suffix": "磁化",
 
+  "affix.apotheotic_additions:spellbook/attribute/aa_mana": "大法师",
+  "affix.apotheotic_additions:spellbook/attribute/aa_mana.suffix": "高阶魔力",
+
   "affix.apotheotic_additions:spellbook/attribute/power_blood": "血染",
   "affix.apotheotic_additions:spellbook/attribute/power_blood.suffix": "君主",
 
@@ -460,6 +496,12 @@
 
   "affix.apotheotic_additions:spellbook/mob_effect/magnetic": "磁性",
   "affix.apotheotic_additions:spellbook/mob_effect/magnetic.suffix": "磁化",
+
+  "affix.apotheotic_additions:spellbook/mob_effect/charged": "雷击",
+  "affix.apotheotic_additions:spellbook/mob_effect/charged.suffix": "闪电苦力怕",
+
+  "affix.apotheotic_additions:spellbook/mob_effect/instant_mana": "魔力之潮",
+  "affix.apotheotic_additions:spellbook/mob_effect/instant_mana.suffix": "死者之王",
 
   "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear": "弗雷迪",
   "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear.suffix": "啊啊啊啊啊",
@@ -533,6 +575,12 @@
   "affix.apotheotic_additions:sword/attribute/spell_resist": "反魔法",
   "affix.apotheotic_additions:sword/attribute/spell_resist.suffix": "无效",
 
+  "affix.apotheotic_additions:breaker/mob_effect/node": "维度",
+  "affix.apotheotic_additions:breaker/mob_effect/node.suffix": "荧亮节点",
+
+  "affix.apotheotic_additions:breaker/mob_effect/emptiness": "孤独",
+  "affix.apotheotic_additions:breaker/mob_effect/emptiness.suffix": "孤独",
+
   "affix.apotheotic_additions:breaker/mob_effect/iron_sight": "铁质",
   "affix.apotheotic_additions:breaker/mob_effect/iron_sight.suffix": "铁视野",
 
@@ -575,8 +623,20 @@
   "affix.apotheotic_additions:breaker/attribute/bonus_loot": "视角",
   "affix.apotheotic_additions:breaker/attribute/bonus_loot.suffix": "隐秘视线",
 
+  "affix.apotheotic_additions:breaker/attribute/block_reach": "抓握",
+  "affix.apotheotic_additions:breaker/attribute/block_reach.suffix": "远触",
+
+  "affix.apotheotic_additions:breaker/attribute/artifact_luck": "彩票中奖",
+  "affix.apotheotic_additions:breaker/attribute/artifact_luck.suffix": "许多逝去的失落兔子",
+
+  "affix.apotheotic_additions:breaker/attribute/speed": "流贼",
+  "affix.apotheotic_additions:breaker/attribute/speed.suffix": "奔流江河",
+
   "affix.apotheotic_additions:breaker/mob_effect/beaver": "河狸",
   "affix.apotheotic_additions:breaker/mob_effect/beaver.suffix": "护林人",
+
+  "affix.apotheotic_additions:armor/mob_effect/resilience": "强韧",
+  "affix.apotheotic_additions:armor/mob_effect/resilience.suffix": "基础稳固",
 
   "affix.apotheotic_additions:armor/mob_effect/bad_luck": "不幸",
   "affix.apotheotic_additions:armor/mob_effect/bad_luck.suffix": "霉运",
@@ -686,6 +746,9 @@
   "affix.apotheotic_additions:sword/mob_effect/stun": "震荡",
   "affix.apotheotic_additions:sword/mob_effect/stun.suffix": "晕眩",
 
+  "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop": "迪奥",
+  "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop.suffix": "世界",
+
   "affix.apotheotic_additions:armor/dmg_reduction/explosion": "黑曜石内衬",
   "affix.apotheotic_additions:armor/dmg_reduction/explosion.suffix": "黑曜石之传承",
 
@@ -745,8 +808,10 @@
   "gem.apotheotic_additions:alchemy/rat_chef.pickaxe": "破坏铅矿石时有%s%%概率改为掉落奶酪。",
   "gem.apotheotic_additions:alchemy/witch_queen.pickaxe": "破坏月石时有%s%%概率改为掉落神秘废金属。",
   "gem.apotheotic_additions:alchemy/felfire.pickaxe": "破坏钻石矿石时有%s%%概率改为掉落暗金属。",
-  "gem.apotheotic_additions:alchemy/despicable.pickaxe": "破坏？？时有%s%%概率偷到月亮！",
+  "gem.apotheotic_additions:alchemy/midas.axe": "破坏树叶获取树苗时有%s%%概率改为获得金苹果。",
+  "gem.apotheotic_additions:alchemy/heartland.axe": "破坏原木时有%s%%概率改为剥下树皮。",
   "gem.apotheotic_additions:alchemy/draconic_legacy.shovel": "破坏沙砾时有%s%%概率改为掉落龙骨。",
+  "gem.apotheotic_additions:alchemy/heartland.shovel": "破坏泥土时有%s%%概率改为掉落沃土。",
 
   "comment_id": "/Gems",
 
@@ -773,6 +838,7 @@
   "item.apotheosis.gem.apotheotic_additions:modded/corrupted": "黑暗帝国宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/dracula": "吸血鬼之主宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "魔源宝饰",
+  "item.apotheosis.gem.apotheotic_additions:modded/heartland": "拓荒宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/felfire": "魔火宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/bloodcaster": "鲜血法师宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/mystic": "奥秘宝饰",
@@ -785,7 +851,7 @@
   "item.apotheosis.gem.apotheotic_additions:modded/flesh": "血肉绑缚宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/draconic_legacy": "龙之传承宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/thermal": "热力宝饰",
-  "item.apotheosis.gem.apotheotic_additions:modded/despicable": "神偷宝饰",
+  "item.apotheosis.gem.apotheotic_additions:modded/midas": "迈达斯国王宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/depths": "深渊宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/amber": "封存琥珀宝饰",
   "item.apotheosis.gem.apotheotic_additions:modded/flux": "电力之脑宝饰",
@@ -816,8 +882,10 @@
   "gem_class.ortholance": "螺纹长枪",
   "gem_class.prim_club": "原始大棒",
   "gem_class.flux": "通量工具",
+  "gem_class.axe": "斧",
   "gem_class.resistor_shield": "阻尼盾牌",
   "gem_class.wand": "法杖",
+  "gem_class.knife": "刀",
   "gem_class.spellbook": "法术书",
   "gem_class.curios_armor": "Curios盔甲",
   "gem_class.curios_jewelry": "珠宝",
@@ -827,6 +895,7 @@
   "text.apotheosis.category.wand.plural": "法杖",
   "text.apotheosis.category.curios:an_focus.plural": "法术核心",
   "text.apotheosis.category.curios:back.plural": "背饰",
+  "text.apotheosis.category.curios:spellbook.plural": "法术书",
   "text.apotheosis.category.curios:body.plural": "胸饰",
   "text.apotheosis.category.curios:charm.plural": "护符",
   "text.apotheosis.category.curios:feet.plural": "足饰",
@@ -861,12 +930,14 @@
   "effect.voidscape.aura.desc": "在你周围产生虚空光环，以此攻击四周生物。",
   "effect.alexscaves.irradiated.desc": "阻止恢复生命并使你发光。",
   "effect.alexscaves.rage.desc": "根据生命值的减少程度增加伤害。",
-  "effect.alexscaves.bubbled.desc": "Lowers Oxygen out of Water, causing Drowning.",
-  "effect.occultism.beaver_harvest.desc": "Increases Wood Breaking Speed",
+  "effect.alexscaves.bubbled.desc": "在水体外时减少氧气量，导致溺水。",
+  "effect.occultism.beaver_harvest.desc": "增加破坏木质方块的速度",
   "effect.botania.soul_cross.desc": "击杀生物时恢复生命值。",
   "effect.botania.emptiness.desc": "阻止周围自然生物生成。",
   "effect.botania.bloodthirst.desc": "无视亮度和其他条件生成自然生物。",
   "effect.botania.allure.desc": "以双倍速度取得渔获和垂钓宝藏。",
+  "effect.farmersdelight.nourishment.desc": "阻止劳累工作导致的饥饿值损失。",
+  "effect.farmersdelight.comfort.desc": "在饥饿时依然保持自然生命恢复。",
   "alexsmobs.potion.soulsteal.desc": "造成伤害时恢复等量生命值。",
   "alexsmobs.potion.mosquito_repellent.desc": "阻止绯红蚊子靠近。",
   "alexsmobs.potion.oiled.desc": "在水中漂浮，在雨中飘浮。",
@@ -880,8 +951,8 @@
   "effect.immersiveengineering.flammable.desc": "随时间增加受到的火焰伤害。",
   "effect.born_in_chaos_v1.jawattack": "尖牙攻击",
 
-  "attribute.name.ars_nouveau.mana_regen": "Source Regeneration",
-  "attribute.name.ars_nouveau.max_mana": "Max Source",
-  "ars_nouveau.perk.max_mana": "Max Source",
-  "ars_nouveau.perk.mana_regen": "Source Regen"
+  "attribute.name.ars_nouveau.mana_regen": "魔源再生",
+  "attribute.name.ars_nouveau.max_mana": "最大魔源",
+  "ars_nouveau.perk.max_mana": "最大魔源",
+  "ars_nouveau.perk.mana_regen": "魔源再生"
 }
