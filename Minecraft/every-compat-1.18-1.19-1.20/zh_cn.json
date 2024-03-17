@@ -700,6 +700,11 @@
   "leaves_type.abundant_atmosphere.ash": "梣树",
   "leaves_type.abundant_atmosphere.gourdrot": "棕垂",
 
+  "wood_type.acd_nether.aspen": "白杨木",
+  "wood_type.acd_nether.everfreeze": "永冻木",
+  "leaves_type.acd_nether.aspen": "白杨",
+  "leaves_type.acd_nether.everfreeze": "永冻",
+
   "wood_type.ad_astra.aeronos": "空果木",
   "wood_type.ad_astra.strophar": "孑节木",
   "wood_type.ad_astra.glacian": "融冰木",
