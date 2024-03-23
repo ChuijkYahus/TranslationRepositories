@@ -469,7 +469,7 @@
   "block_type.refurbished_furniture.storage_jar": "%s储藏罐",
   "block_type.refurbished_furniture.toilet": "%s坐便器",
   "block_type.refurbished_furniture.crate": "%s板条箱",
-  "block_type.refurbished_furniture.mailbox": "%s信箱",
+  "block_type.refurbished_furniture.mail_box": "%s信箱",
   "block_type.refurbished_furniture.dark_ceiling_fan": "%s深色吊顶扇",
   "block_type.refurbished_furniture.light_ceiling_fan": "%s浅色吊顶扇",
   "block_type.refurbished_furniture.kitchen_cabinetry": "%s厨房柜台",
@@ -484,6 +484,7 @@
   "block_type.refurbished_furniture.desk": "%s书桌",
   "block_type.refurbished_furniture.cutting_board": "%s砧板",
   "block_type.refurbished_furniture.drawer": "%s排柜",
+  "block_type.refurbished_furniture.hedge": "%s树篱",
 
   "block_type.premium_wood.bookshelf": "%s书架",
   "block_type.premium_wood.crafting_table": "%s工作台",
