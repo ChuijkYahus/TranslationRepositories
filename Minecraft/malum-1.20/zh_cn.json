@@ -1322,17 +1322,17 @@
   "malum.gui.book.entry.runic_brooch": "符文胸针",
   "malum.gui.book.entry.runic_brooch.description": "掌心的力量",
   "malum.gui.book.entry.page.headline.runic_brooch": "符文胸针",
-  "malum.gui.book.entry.page.text.runic_brooch.1": "符文胸针是最简单的胸针。佩戴 符文胸针时，它会剥夺我手上一 枚戒指的位置，然后给予我在双 手掌心分别持有一枚符文的能力。",
+  "malum.gui.book.entry.page.text.runic_brooch.1": "符文胸针是最简单的胸针。它象 征着有代价的力量，以及握着带 刺启迪的鲜血淋漓的双手。佩戴 时，它会移除我手中为戒指力量 留出的一个空位，并给予我在双 手掌心分别刻印一枚符文的能力。",
 
   "malum.gui.book.entry.elaborate_brooch": "精致胸针",
   "malum.gui.book.entry.elaborate_brooch.description": "谨慎交易",
   "malum.gui.book.entry.page.headline.elaborate_brooch": "精致胸针",
-  "malum.gui.book.entry.page.text.elaborate_brooch.1": "胸针象征着牺牲。但若要论及他 人眼光，这种牺牲可能会有些抽 象含混，甚至显得荒诞滑稽。项 链的形态与腰带没有太大区别， 若是剥夺去$i时尚/$的概念，我便能 在脖颈上戴上一份腰带的力量。",
+  "malum.gui.book.entry.page.text.elaborate_brooch.1": "胸针象征着牺牲。但若要论及他 人眼光，这种牺牲可能会有些抽 象含混，甚至显得荒诞滑稽。项 链的形态与腰带没有太大区别， 若是剥夺去$i时尚/$和得体的概念， 我便能在脖颈上戴上一份腰带的 力量。",
 
   "malum.gui.book.entry.glass_brooch": "玻璃胸针",
   "malum.gui.book.entry.glass_brooch.description": "易碎的力量",
   "malum.gui.book.entry.page.headline.glass_brooch": "玻璃胸针",
-  "malum.gui.book.entry.page.text.glass_brooch.1": "符文胸针功效不错，不过力量的 象征性容器不只有双手。我还可 以通过玻璃胸针将其导向我的血 液，以剥夺一部分生命力为代价， 换来在胸口佩戴两枚符文的能力。",
+  "malum.gui.book.entry.page.text.glass_brooch.1": "符文胸针功效不错，不过力量的 象征性容器不只有双手。我还可 以通过玻璃胸针将其导向我的血 液，以剥夺一部分生命力为代价， 换来在胸口刻印两枚符文的能力。",
 
   "malum.gui.book.entry.gluttonous_brooch": "暴食胸针",
   "malum.gui.book.entry.gluttonous_brooch.description": "无尽的饥饿",
