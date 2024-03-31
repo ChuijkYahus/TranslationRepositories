@@ -14,7 +14,7 @@
 	"ars_extended_glyphs.glyph_name.glyph_burrow": "掩埋",
 	"ars_extended_glyphs.glyph_desc.glyph_burrow": "将目标往下掩埋两格。强化增加下降的格数，抑制减少下降的格数。",
 	"ars_extended_glyphs.glyph_name.glyph_summonhostile": "召唤敌对生物",
-	"ars_extended_glyphs.glyph_desc.glyph_summonhostile": "召唤三个常见敌对生物。强化或抑制两次后可改变召唤的数量。以极端增强会生成苦力怕，以敏感增强会减少少见生物的生成量。",
+	"ars_extended_glyphs.glyph_desc.glyph_summonhostile": "召唤三个常见敌对生物。召唤的数量可强化或抑制两次。以极端增强会生成苦力怕，以敏感增强会减少少见生物的生成量。",
 	"ars_extended_glyphs.glyph_name.glyph_extreme": "极端",
 	"ars_extended_glyphs.glyph_desc.glyph_extreme": "增加某些法术产生更危险或更有益效果的概率。魔力消耗很大。",
 	"ars_extended_glyphs.glyph_name.glyph_createsource": "召唤魔源",
@@ -75,7 +75,7 @@
 
 	"tooltip.aeg.tablet_f.air": "装备时会消耗魔力抵消摔落伤害。",
 	"tooltip.aeg.tablet_f.fire": "装备时会消耗魔力抵消火焰和熔岩造成的伤害。",
-	"tooltip.aeg.tablet_f.earth": "装备时会消耗魔力抵消窒息、鞘翅动能，以及地表灼热造成的伤害。",
+	"tooltip.aeg.tablet_f.earth": "装备时会消耗魔力抵消窒息、鞘翅动能，以及灼热方块造成的伤害。",
 	"tooltip.aeg.tablet_f.water": "装备时会消耗魔力抵消溺水和龙息造成的伤害。",
 
 	"jei.aeg.blank_tablet": "这些石板可在沙漠神殿、丛林神庙、地牢、林地府邸、废弃矿井，以及废弃传送门附近找到。",
