@@ -157,6 +157,20 @@
 
   "block_type.graveyard.coffin": "%s棺材",
   
+  "block_type.dawnoftimebuilder.beam": "%s Beam",
+  "block_type.dawnoftimebuilder.couch": "%s Couch",
+  "block_type.dawnoftimebuilder.fancy_fence": "%s Fancy Fence",
+  "block_type.dawnoftimebuilder.footstool": "%s Footstool",
+  "block_type.dawnoftimebuilder.lattice": "%s Lattice",
+  "block_type.dawnoftimebuilder.legless_chair": "%s Legless Chair",
+  "block_type.dawnoftimebuilder.low_table": "%s Low Table",
+  "block_type.dawnoftimebuilder.pergola": "%s Pergola",
+  "block_type.dawnoftimebuilder.planks_edge": "%s Edge",
+  "block_type.dawnoftimebuilder.planks_plate": "%s Plate",
+  "block_type.dawnoftimebuilder.support_beam": "%s Support Beam",
+  "block_type.dawnoftimebuilder.support_slab": "%s Support Slab",
+  "block_type.dawnoftimebuilder.wall": "%s Wall",
+
   "block_type.decorative_blocks.palisade": "%s实心栅栏",
   "block_type.decorative_blocks.support": "%s支架",
   "block_type.decorative_blocks.beam": "%s支撑柱",
@@ -250,6 +264,8 @@
   "block_type.valhelsia_structures.stripped_post": "去皮%s桩",
   
   "block_type.backpacked.backpack_shelf": "%s背包架",
+
+  "block_type.mctb.crafting_table": "%s工作台",
 
   "block_type.mcwbridges.rail_bridge": "%s铁轨桥",
   "block_type.mcwbridges.bridge_pier": "%s桥梁支架",
@@ -464,6 +480,8 @@
   "block_type.cfm.stripped_upgraded_gate": "去皮%s升级门",
   "block_type.cfm.vertical_planks": "竖纹%s板",
 
+  "block_type.mighty_mail.mail_box": "%s信箱",
+
   "block_type.refurbished_furniture.chair": "%s椅",
   "block_type.refurbished_furniture.table": "%s桌",
   "block_type.refurbished_furniture.storage_jar": "%s储藏罐",
@@ -533,6 +551,8 @@
   "block_type.storagedrawers.trim": "%s桥接方块",
 
   "block_type.shutter.shutter": "%s窗扇",
+
+  "block_type.vct.crafting_table": "%s Crafting Table",
 
   "block_type.xercamod.carved_1": "雕纹%s",
   "block_type.xercamod.carved_2": "雕纹%s",
@@ -979,16 +999,16 @@
   "wood_type.botania.livingwood": "活木",
   "wood_type.botania.dreamwood": "梦之木",
 
-  "wood_type.bountifulfares.apple": "苹果木",
-  "wood_type.bountifulfares.lemon": "柠檬木",
-  "wood_type.bountifulfares.orange": "橙子木",
-  "wood_type.bountifulfares.plum": "李子木",
   "wood_type.bountifulfares.walnut": "核桃木",
   "wood_type.bountifulfares.hoary": "朽老木",
   "leaves_type.bountifulfares.apple": "苹果",
   "leaves_type.bountifulfares.lemon": "柠檬",
   "leaves_type.bountifulfares.orange": "橙子",
   "leaves_type.bountifulfares.plum": "李子",
+  "leaves_type.bountifulfares.flowering_apple": "盛开的苹果",
+  "leaves_type.bountifulfares.flowering_lemon": "盛开的柠檬",
+  "leaves_type.bountifulfares.flowering_orange": "盛开的橙子",
+  "leaves_type.bountifulfares.flowering_plum": "盛开的李子",
   "leaves_type.bountifulfares.walnut": "核桃",
   "leaves_type.bountifulfares.hoary": "朽老",
 
