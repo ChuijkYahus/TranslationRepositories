@@ -2063,9 +2063,10 @@
   "wood_type.tconstruct.greenheart": "绿心木",
   "wood_type.tconstruct.skyroot": "天根木",
   "wood_type.tconstruct.bloodshroom": "血菌木",
-  "leaves_type.tconstruct.earth_slime": "黏性",
-  "leaves_type.tconstruct.sky_slime": "黏性",
-  "leaves_type.tconstruct.ender_slime": "黏性",
+  "wood_type.tconstruct.enderbark": "末影皮木",
+  "leaves_type.tconstruct.earth_slime": "大地黏液",
+  "leaves_type.tconstruct.sky_slime": "碧空黏液",
+  "leaves_type.tconstruct.ender_slime": "末影黏液",
 
   "wood_type.techreborn.rubber": "橡胶木",
   "leaves_type.techreborn.rubber": "橡胶",
