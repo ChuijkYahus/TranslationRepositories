@@ -8,6 +8,8 @@
   
   "block_type.missingwilds.fallen_log": "倒下的%s原木",
   
+  "block_type.regions_unexplored.branch": "%s树枝",
+
   "block_type.campchair.camp_chair": "%s小凳",
   
   "block_type.another_furniture.table": "%s桌",
@@ -565,9 +567,12 @@
   
   "block_type.woodworks.boards": "%s直纹板",
   "block_type.woodworks.bookshelf": "%s书架",
+  "block_type.woodworks.chiseled_bookshelf": "%s雕纹书架",
   "block_type.woodworks.ladder": "%s梯子",
   "block_type.woodworks.beehive": "%s蜂箱",
   "block_type.woodworks.leaf_pile": "%s树叶堆",
+  "block_type.woodworks.chest": "%s箱子",
+  "block_type.woodworks.trapped_chest": "%s陷阱箱",
 
   "block_type.woodster.chiseled_bookshelf": "%s雕纹书架",
   "block_type.woodster.ladder": "%s梯子",
