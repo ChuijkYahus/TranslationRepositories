@@ -19,7 +19,7 @@
 | 豹纹鹅膏菌     |                          | Panther Cap                                  | *Amanita pantherina*                                         |
 | 毒鹅膏         | 黄绿毒鹅膏菌             | Death Cap                                    | *Amanita phalloides*                                         |
 | 赭色鹅膏菌     |                          | The Blusher                                  | *Amanita rubescens*                                          |
-| 蜜环菌         | 榛蘑                     | Honey Mushroom                               | *Armillaria sp.*<br>*Armillaria mellea*                      |
+| 蜜环菌         | 榛蘑                     | Honey Mushroom                               | *Armillaria* sp.<br>*Armillaria mellea*                      |
 | 毛木耳         |                          | Cloud Ear                                    | *Auricularia cornea*                                         |
 | 黑木耳         |                          | Wood Ear                                     | *Auricularia heimuer*                                        | 材质貌似和黑木耳不大相似 |
 | 鬼笔状钉灰包   |                          | Sandy Stiltball                              | *Battarrea phalloides*                                       |
@@ -28,6 +28,7 @@
 | 鸡油菌         |                          | Golden Chanterelle                           | *Cantharellus cibarius*                                      |
 | 宽鳞多孔菌     |                          | Pheasant Back                                | *Cerioporus squamosus*                                       |
 | 一色齿毛菌     |                          | Mossy Maze Polypore                          | *Cerrena unicolor*                                           |
+| 紫软韧革菌     |                          | Silverleaf Fungus                            | *Chondrostereum purpureum*                                   |
 | 裂杯菌         | 恶魔雪茄<br>地星状裂杯菌 | Devil's Cigar                                | *Chorioactis geaster*                                        |
 | 阿切氏笼头菌   | 阿切尔笼头菌             | Octupus Stinkhorn                            | *Clathrus archeri*                                           |
 | 柱状笼头菌     |                          | Column Stinkhorn                             | *Clathrus columnatus*                                        |
@@ -53,7 +54,7 @@
 | 树舌灵芝       |                          | Artist's Bracket                             | *Ganoderma applanatum*                                       |
 | 灵芝           |                          | Lingzhi Mushroom                             | *Ganoderma lingzhi*                                          |
 | 松杉树芝       |                          | Hemlock Varnish Shelf                        | *Ganoderma tsugae*                                           |
-| 地星           |                          | Earth Star                                   | *Geastrales sp.*                                             |
+| 地星           |                          | Earth Star                                   | *Geastrales* sp.                                             |
 | 青绿湿伞       |                          | Parrot Toadstool                             | *Gliophorus psittacinus*                                     |
 | 红铆钉菇       |                          | Rosy Spikecap                                | *Gomphidius roseus*                                          |
 | 钉菇           |                          | Pig's Ear                                    | *Gomphus clavatus*                                           |
@@ -64,6 +65,7 @@
 | 蓝圆孢牛肝菌   |                          | Bluing Bolete                                | *Gyroporus cyanescens*                                       |
 | 巢状彩孔菌     |                          | Cinnamon Bracket                             | *Hapalopilus nidulans*                                       |
 | 多洼马鞍菌     |                          | Elfin Saddle                                 | *Helvella lacunosa*                                          |
+|                | 露珠菌<br>露珠半小菇     | Dewdrop Bonnet                               | *Hemimycena tortuosa*                                        |
 | 珊瑚猴头菌     |                          | Coral Tooth Fungus                           | *Hericium coralloides*                                       |
 | 猴头菇         |                          | Lion's Mane                                  | *Hericium erinaceus*                                         |
 | 派克亚齿菌     |                          | Bleeding Tooth Fungus                        | *Hydnellum peckii*                                           |
@@ -83,7 +85,7 @@
 | 蓝绿乳菇       |                          | Indigo Milkcap                               | *Lactarius indigo*                                           |
 | 红乳菇         |                          | Rufous Milkcap                               | *Lactarius rufus*                                            |
 | 毛头乳菇       |                          | Wooly Milkcap                                | *Lactarius torminosus*                                       |
-| 硫磺菌         |                          | Chicken of the Woods                         | *Laetiporus sp.*                                             |
+| 硫磺菌         |                          | Chicken of the Woods                         | *Laetiporus* sp.                                             |
 | 苦白蹄         |                          | Agarikon                                     | *Laricifomes officinalis*                                    |
 | 褐疣柄牛肝菌   |                          | Birch Bolete                                 | *Leccinum scabrum*                                           |
 | 橙黄疣柄牛肝菌 |                          | Scaber Stalk                                 | *Leccinum aurantiacum*                                       |
@@ -93,11 +95,13 @@
 | 马勃           | 网状马勃                 | Common Puffball                              | *Lycoperdon perlatum*                                        |
 | 高大环柄菇     |                          | Parasol Mushroom                             | *Macrolepiota procera*                                       |
 | 小白小皮伞     | 小皮伞                   | Fairy Ring Mushroom                          | *Marasmius rotula*                                           |
+|                | 培根菌                   | *Bacon Agaric*                               | *Marasmius tageticolor*                                      |
 | 大型亚灰树花菌 | 巨肉孔菌                 | Giant Polypore                               | *Meripilus giganteus*                                        |
-| 羊肚菌         |                          | True Morel                                   | *Morchella sp.*                                              |
+| 羊肚菌         |                          | True Morel<br>Yellow Morel                   | *Morchella* sp.                                              |
 | 蓝小菇         |                          | Common Bonnet                                | *Mycena galericulata*                                        |
 | 红紫柄小菇     |                          | Bleeding Fairy Helmet                        | *Mycena haematopus*                                          |
 | 红柄牛肝菌     |                          | Scarletina Bolete                            | *Neoboletus luridiformis*                                    |
+| 鸟巢菌         |                          | Bird's Nest Mushroom                         | *Nidulariaceae* sp.                                          |
 | 橄榄类脐菇     |                          | Jack O' Lantern Mushroom                     | *Omphalotus olearius*                                        |
 | 冬虫夏草       |                          | Caterpillar Fungus                           | *Ophiocordyceps sinensis*                                    |
 | 卷缘桩菇       |                          | Brown Roll-rim                               | *Paxillus involutus*                                         |
@@ -106,7 +110,7 @@
 | 多脂鳞伞       |                          | Chestnut Mushroom                            | *Pholiota adiposa*                                           |
 | 小孢鳞伞       | 滑子蘑                   | Nameko                                       | *Pholiota microspora*                                        |
 | 翅鳞伞         |                          | Scaly Pholiota                               | *Pholiota squarrosa*                                         |
-| 乌鸡油菌       |                          | Blue Chanterelle                             | *Polyozellus sp.*                                            |
+| 乌鸡油菌       |                          | Blue Chanterelle                             | *Polyozellus* sp.                                            |
 | 粉红紫湿伞     |                          | Pink Waxcap                                  | *Porpolomopsis calyptriformis*<br>*Hygrocybe calyptriformis* |
 | 贝形圆孢侧耳   |                          | Angel Wing                                   | *Pleurocybella porrigens*                                    |
 | 金顶侧耳       |                          | Golden Oyster                                | *Pleurotus citrinopileatus*                                  |
@@ -135,6 +139,7 @@
 | 松茸           | 松口蘑                   | Matsutake                                    | *Tricholoma matsutake*                                       |
 | 黑松露         |                          | Black Truffle                                | *Tuber melanosporum*                                         |
 | 毛陀螺菌       |                          | Wooly Chanterelle                            | *Turbinellus floccosus*                                      |
+| 黑盖粉孢牛肝菌 |                          | Black Velvet Bolete                          | *Tylopilus alboater*                                         |
 | 丽干酪菌       |                          | Strawberry Bracket                           | *Tyromyces pulcherrimus*                                     | 未找到确切中文译名       |
 | 红小绒盖牛肝菌 |                          | Red-cracked Bolete                           | *Xerocomellus chrysenteron*                                  |
 | 团炭角菌       |                          | Candlesnuff                                  | *Xylaria hypoxylon*                                          |
