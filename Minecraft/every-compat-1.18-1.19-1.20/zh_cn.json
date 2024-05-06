@@ -2251,5 +2251,8 @@
   "wood_type.windswept.holly": "冬青木",
   "wood_type.windswept.chestnut": "栗木",
   "leaves_type.windswept.holly": "冬青",
-  "leaves_type.windswept.chestnut": "栗树"
+  "leaves_type.windswept.chestnut": "栗树",
+
+  "wood_type.woods_and_mires": "松木",
+  "leaves_type.woods_and_mires": "松树"
 }
