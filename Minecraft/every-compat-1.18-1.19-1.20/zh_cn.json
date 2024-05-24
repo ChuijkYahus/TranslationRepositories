@@ -2283,5 +2283,14 @@
   "leaves_type.windswept.chestnut": "栗树",
 
   "wood_type.woods_and_mires": "松木",
-  "leaves_type.woods_and_mires": "松树"
+  "leaves_type.woods_and_mires": "松树",
+
+  "leaves_type.xkdeco.white_cherry_blossom": "白樱花",
+  "leaves_type.xkdeco.willow": "柳树",
+  "leaves_type.xkdeco.plantable": "生草",
+  "leaves_type.xkdeco.peach_blossom": "桃花",
+  "leaves_type.xkdeco.cherry_blossom": "樱花",
+  "leaves_type.xkdeco.red_maple": "红枫",
+  "leaves_type.xkdeco.ginkgo": "银杏",
+  "leaves_type.xkdeco.orange_maple": "橙枫"
 }
