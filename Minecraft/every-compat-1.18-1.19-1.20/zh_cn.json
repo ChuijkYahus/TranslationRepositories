@@ -157,6 +157,18 @@
   "block_type.chipped.whirlwind_planks": "风车纹%s板",
   "block_type.chipped.wickered_planks": "柳编纹%s板",
 
+  "block_type.chipped.bundled_log": "捆扎%s原木",
+  "block_type.chipped.center_cut_log": "中央切制%s原木",
+  "block_type.chipped.damaged_log": "破损%s原木",
+  "block_type.chipped.edge_cut_log": "边缘切制%s原木",
+  "block_type.chipped.firewood_log": "柴捆式%s原木",
+  "block_type.chipped.flowering_log": "开花%s原木",
+  "block_type.chipped.mixed_log": "混合式%s原木",
+  "block_type.chipped.nailed_log": "饰钉%s原木",
+  "block_type.chipped.overgrown_log": "缠蔓%s原木",
+  "block_type.chipped.planked_log": "饰板%s原木",
+  "block_type.chipped.reinforced_log": "强化%s原木",
+
   "block_type.graveyard.coffin": "%s棺材",
   
   "block_type.dawnoftimebuilder.beam": "%s梁",
@@ -701,6 +713,24 @@
   "tooltip.everycomp.buildersdelight.glass_pane_7": "百叶窗",
   "block_type.buildersdelight.glass_pane_8": "%s框玻璃板",
   "tooltip.everycomp.buildersdelight.glass_pane_8": "绚丽",
+
+  "block_type.lolmcv.chest" : "%s箱子",
+  "block_type.lolmcv.trapped_chest" : "%s陷阱箱",
+
+  "block_type.variantvanillablocks.barrel" : "%s桶",
+  "block_type.variantvanillablocks.beehive" : "%s蜂箱",
+  "block_type.variantvanillablocks.bookshelf" : "%s书架",
+  "block_type.variantvanillablocks.cartography_table" : "%s制图台",
+  "block_type.variantvanillablocks.chest" : "%s箱子",
+  "block_type.variantvanillablocks.chiseled_bookshelf" : "%s雕纹书架",
+  "block_type.variantvanillablocks.composter" : "%s堆肥桶",
+  "block_type.variantvanillablocks.crafting_table" : "%s工作台",
+  "block_type.variantvanillablocks.fletching_table" : "%s制箭台",
+  "block_type.variantvanillablocks.grindstone" : "%s砂轮",
+  "block_type.variantvanillablocks.lectern" : "%s讲台",
+  "block_type.variantvanillablocks.smithing_table" : "%s锻造台",
+  "block_type.variantvanillablocks.smoker" : "%s烟熏炉",
+
 
 
   "wood_type.minecraft.oak": "橡木",
