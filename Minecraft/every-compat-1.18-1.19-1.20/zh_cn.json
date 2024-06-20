@@ -1313,6 +1313,7 @@
   "leaves_type.eternal_tales.lychee": "荔枝",
   "leaves_type.eternal_tales.amberwood": "琥珀",
 
+  "wood_type.evilcraft.undead": "亡灵木",
   "leaves_type.evilcraft.undead": "亡灵",
 
   "wood_type.extendedmushrooms.mushroom": "蘑菇",
@@ -2273,6 +2274,8 @@
 
   "wood_type.valhelsia_structures.lapidified_jungle": "石化丛林木",
 
+  "wood_type.vampirism.dark_spruce": "血杉木",
+  "wood_type.vampirism.cursed_spruce": "诅咒云杉木",
   "leaves_type.vampirism.dark_spruce": "血杉",
 
   "wood_type.vinery.cherry": "樱桃木",
