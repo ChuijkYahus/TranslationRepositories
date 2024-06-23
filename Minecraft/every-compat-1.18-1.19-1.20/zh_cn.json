@@ -731,6 +731,20 @@
   "block_type.variantvanillablocks.smithing_table" : "%s锻造台",
   "block_type.variantvanillablocks.smoker" : "%s烟熏炉",
 
+  "block_type.handcrafted.bench" : "%s长椅",
+  "block_type.handcrafted.couch" : "%s沙发",
+  "block_type.handcrafted.chair" : "%s椅子",
+  "block_type.handcrafted.side_table" : "%s茶几",
+  "block_type.handcrafted.desk" : "%s书桌",
+  "block_type.handcrafted.nightstand" : "%s床头柜",
+  "block_type.handcrafted.table" : "%s桌子",
+  "block_type.handcrafted.fancy_bed" : "%s精致床",
+  "block_type.handcrafted.counter" : "%s厨台",
+  "block_type.handcrafted.cupboard" : "%s橱柜",
+  "block_type.handcrafted.drawer" : "%s抽屉柜",
+  "block_type.handcrafted.shelf" : "%s架子",
+  "block_type.handcrafted.pillar_trim" : "%s柱饰",
+  "block_type.handcrafted.corner_trim" : "%s檐饰",
 
 
   "wood_type.minecraft.oak": "橡木",
