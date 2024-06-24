@@ -745,6 +745,7 @@
   "block_type.handcrafted.shelf" : "%s架子",
   "block_type.handcrafted.pillar_trim" : "%s柱饰",
   "block_type.handcrafted.corner_trim" : "%s檐饰",
+  "block_type.handcrafted.dining_bench" : "%s餐凳",
 
 
   "wood_type.minecraft.oak": "橡木",
