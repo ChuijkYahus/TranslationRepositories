@@ -43,8 +43,8 @@
   "hexcasting.spell.oneironaut:getsoulprint": "Soulprint Reflection",
   "hexcasting.spell.oneironaut:signitem": "Sign Item",
   "hexcasting.spell.oneironaut:checksignature": "Signature Purification",
+
   "this.is.a.comment.2": "Block/Item names--------------------------------------------------------------------------------------------",
-  "block.oneironaut.pseudoamethyst_block": "Pseudoamethyst Block",
   "item.oneironaut.pseudoamethyst_shard": "Pseudoamethyst Shard",
   "item.oneironaut.thought_slurry_bucket": "Thought Slurry Bucket",
   "item.oneironaut.reverberation_rod": "Reverberation Rod",
@@ -57,6 +57,9 @@
   "item.oneironaut.pigment_noosphere": "Noetic Pigment",
   "item.oneironaut.memory_fragment": "Memory Fragment",
   "item.oneironaut.memory_fragment.all": "It seems I've consumed all the memories that this crystal can offer me...",
+  "item.oneironaut.wisp_capture_device": "Wisp Wrangler",
+
+  "block.oneironaut.pseudoamethyst_block": "Pseudoamethyst Block",
   "block.oneironaut.thought_slurry": "Thought Slurry",
   "block.oneironaut.thought_slurry_flowing": "Flowing Thought Slurry",
   "block.oneironaut.noosphere_basalt": "Noosphere Basalt",
@@ -72,13 +75,17 @@
   "block.oneironaut.media_ice": "Sagely Ice",
   "block.oneironaut.media_gel": "Plasmodial Psyche",
   "block.oneironaut.cell": "Dissonant Psyche",
+  "block.oneironaut.wisp_battery": "Wisp Weaver",
+  "block.oneironaut.decorative_wisp_battery": "Lesser Wisp Weaver",
+
   "fluid.oneironaut.thought_slurry": "Thought Slurry",
+
   "this.is.a.comment.3": "Book entry titles--------------------------------------------------------------------------------------------",
   "oneironaut.entry.dim_iotas": "Dimension Iotas",
   "oneironaut.entry.status_iotas": "Status Iotas",
   "oneironaut.entry.noosphere_main": "A Strange Realm",
   "oneironaut.entry.noosphere_materials": "Thoughtful Materials",
-  "oneironaut.entry.wisp_lanterns": "Wisp Lanterns",
+  "oneironaut.entry.wisp_lanterns": "Wisp Devices",
   "oneironaut.entry.slipway_hint": "A Reflection on Slipways",
   "oneironaut.entry.miscpatterns": "Misc. Oneironaut Patterns",
   "oneironaut.entry.super_budding": "Better Media Farming",
@@ -88,6 +95,7 @@
   "oneironaut.entry.raycast_assailant": "Anti-Hex Blocks",
   "oneironaut.entry.mindrender": "Mind Render",
   "oneironaut.entry.soulprints": "Soulprints",
+
   "this.is.a.comment.4": "Book pages--------------------------------------------------------------------------------------------",
   "oneironaut.page.spaceswap.1": "Accepts two lists of two vectors, to define two cuboids, and a Spatial Imprint. These cuboids must have the exact same dimensions and rotation.",
   "oneironaut.page.spaceswap.2": "I'm not quite sure what this one is supposed to do, it's always yelling at me about special dimensions. Perhaps it needs to use this special dimension as an intermediary?",
@@ -105,6 +113,13 @@
   "oneironaut.page.infusemedia.1": "Accepts a vector and infuses media into the corresponding block in order to transmute it. Cost and exact effect vary depending on target.",
   "oneironaut.page.infusemedia.2": "Conceptually, this spell is quite similar to $(l:patterns/spells/blockworks#hexcasting:edify)Edify Sapling$(/l).$(br)However, the media that the target block receives is far more finely-tuned, and can thus achieve far more interesting results.",
   "oneironaut.page.wisp_lanterns.1": "I've found that by using materials unique to the Noosphere, I can create a special jar capable of producing and containing a tiny wisp. While this wisp cannot cast anything, it emits quite a bit of light, and will mimic pigments shown to it.$(br)I can also craft a version with tinted glass, in case the wisp's light would disrupt my study's aesthetic.",
+  "oneironaut.page.wisp_lanterns.2": "Additionally, by feeding this illumination wisp significant amounts of media, I can cause it to undergo mitosis, with the newly-created wisp being seemingly-identical to the wandering wisps produced by slipways.$(br2)The device to split the wisp in this way can be fed media-bearing items via hoppers or similar, and is capable of storing 640 charged amethyst worth of media.",
+  "oneironaut.page.wisp_lanterns.3": "Simply apply a redstone signal to activate. Produces a wisp every four seconds, and consumes two charged amethyst to do so.$(br)The capacity and fill level of the phial used make no difference.",
+  "oneironaut.page.wisp_lanterns.4": "Alternatively, I can create a version which does not consume (or accept) any media, but produces wisps which yield only net-zero media when consumed.$(br2)All the sparkly shiny orbs, none of the prohibitive cost!",
+  "oneironaut.page.wisp_lanterns.5.originaltoolong": "Using similar principles, I've designed a device which can capture (and contain) wisps for their eventual release, though it does not work on wandering wisps due to their instability.$(br)Capturing one of my own wisps always consumes one amethyst shard worth of its (rechargable) 64-charged capacity, and capturing someone else's costs half again as much media as it contains. To capture a wisp, I must simply use the item on a wisp, and it will be sucked into the housing(assuming it has sufficient media and does not already contain a wisp).",
+  "oneironaut.page.wisp_lanterns.5": "Using similar principles, I've designed a device which captures, stores, and releases wisps, though it does not work on unstable wandering wisps. Capturing one of my own wisps uses one amethyst shard from its 64-charged capacity. Capturing someone else's wisp costs half again the media it contains. To capture a wisp, I must simply use the device on it, assuming it has enough media and isn't already occupied.",
+  "oneironaut.page.wisp_lanterns.6": "When releasing a cyclic wisp, it is placed on the side of the block I use the item on. Projectile wisps are launched from my face, retaining their previous speed (but not direction). To discard a contained wisp, I need only use the item while crouching.",
+
   "oneironaut.page.noosphere_materials.1": "A strange fluid which agitates media entering it, preventing amethyst crystal formation. Stimulates my mind in pleasing ways when I immerse myself in it.",
   "oneironaut.page.noosphere_materials.2": "A rock which is primarily composed of media, somehow. Can be used to craft spell circle blocks.",
   "oneironaut.page.noosphere_materials.3.title": "Pseudoamethyst",
@@ -204,10 +219,11 @@
   "oneironaut.page.glow_ambit.1": "Despite diligent research, the source of the special properties of other hexcasters' entity references has eluded me. However, I've discovered a way to bestow one such property upon other beings, at least temporarily (and flashily).$(br)This spell allows casters to affect creatures from great distances just like the infinite-range aspect of a player reference. However, one must still be close to the target in order to perform the initial application.",
   "oneironaut.page.glow_ambit.2": "Accepts a living entity, and allows it to be accessed from anywhere for one minute. Has a base cost of one amethyst shard, plus one additional shard per application before allowing it to expire.",
   "oneironaut.page.glow_ambit.3": "It seems that this effect functions by causing the target to emit some sort of psionic resonance, strong enough to cause its outline to be \"visible\" through all manner of barriers (perhaps hexcasters naturally produce this same resonance, but much subtler?). However, this glow is distinct from that induced by spectral arrows and similar, so don't bet on things to detect that working for this.",
-  "oneironaut.page.soulprints.1": "A soulprint is an iota similar to my player reference in that it represents me, but significantly more limited in use. It is impossible for anyone to obtain my soulprint without my involvement, though it is not subject to the same write-restrictions as ordinary player references.$(br2)Interestingly, soulprints are valid keys for $(l:patterns/idea_scription)Idea Inscription$(/l).",
+  "oneironaut.page.soulprints.1": "A soulprint is an iota similar to my player reference in that it represents me, but significantly more limited in use. It is impossible for anyone to obtain my soulprint without my involvement, though it is not subject to the same write-restrictions as ordinary player references.$(br2)Interestingly, soulprints are valid keys for $(l:oneironaut:patterns/idea_inscription)Idea Inscription$(/l).",
   "oneironaut.page.soulprints.2": "Returns my soulprint, mishapping if cast using anything other than a staff. Costs a negligible amount of media.",
-  "oneironaut.page.soulprints.3": "Invisibly engraves my soulprint onto the item in my other hand, or erases it if it already there. Costs 1 amethyst dust.$(br)I should be careful to seal any focuses or similar that I sign, as acquiring an unsealed signed focus may allow someone to impersonate me, and Erase Item gets rid of the signature.",
+  "oneironaut.page.soulprints.3": "Invisibly engraves my soulprint onto the item in my other hand, or erases it if it is already there. Costs 1 amethyst dust.$(br)I should be careful to seal any focuses or similar that I sign, as acquiring an unsealed signed focus may allow someone to impersonate me, and Erase Item gets rid of the signature.",
   "oneironaut.page.soulprints.4": "Accepts a soulprint, and checks if the item in my other hand is engraved with it. Returns true if so, false otherwise. Costs a negligible amount of media.",
+
   "this.is.a.comment.5": "Advancements--------------------------------------------------------------------------------------------",
   "oneironaut.advancements.noosphere.enter": "A Realm of Thought and Dream",
   "oneironaut.advancements.noosphere.enter.description": "Enter the Noosphere",
@@ -231,6 +247,7 @@
   "oneironaut.advancements.lore.science2.description": "Research into the properties of the Noosphere",
   "oneironaut.advancements.lore.science3": "Scientist's Memory #3",
   "oneironaut.advancements.lore.science3.description": "Research into the structure of pseudoamethyst",
+
   "this.is.a.comment.6": "Mishaps--------------------------------------------------------------------------------------------",
   "hexcasting.mishap.oneironaut:mismatchcubes": "Supplied cuboids are dissimilar.",
   "hexcasting.mishap.oneironaut:uninfusable": "Expected an infusable block at %s, but got %s.",
@@ -256,6 +273,7 @@
   "hexcasting.mishap.invalid_value.class.oneironaut:status": "a status effect",
   "hexcasting.mishap.invalid_value.class.oneironaut:visiblestatus": "a detectable status effect",
   "hexcasting.mishap.invalid_value.class.oneironaut:soulprint": "a soulprint",
+
   "this.is.a.comment.7": "Other---------------------------------------------------------------------------------------------",
   "hexcasting.iota.oneironaut:dim": "Dimension",
   "hexcasting.iota.oneironaut:potion": "Status Effect",
@@ -268,5 +286,7 @@
   "effect.oneironaut.missing": "Broken Potion Iota",
   "enchantment.oneironaut.overcast_damage": "Mind Render",
   "itemGroup.oneironaut.oneironaut": "Oneironaut",
+  "oneironaut.tooltip.wispcapturedevice.haswisp": "Contains a wisp with %s dust and hex signature %s.",
+  "oneironaut.tooltip.wispcapturedevice.nowisp": "No wisp.",
   "text.oneironaut.lorem_ipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 }
