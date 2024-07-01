@@ -915,6 +915,9 @@
   "leaves_type.autumnity.orange_maple": "橙色枫树",
   "leaves_type.autumnity.yellow_maple": "黄色枫树",
 
+  "wood_type.beachparty.palm": "棕榈木",
+  "leaves_type.beachparty.palm": "棕榈",
+
   "wood_type.betterarcheology.rotten": "腐烂木",
 
   "wood_type.betterend.dragon_tree": "龙木",
@@ -1352,6 +1355,20 @@
   "wood_type.forcecraft.force": "力量木",
   "leaves_type.forcecraft.force": "力量",
 
+  "wood_type.fruitfulfun.citrus": "柑橘木",
+  "wood_type.fruitfulfun.redlove": "红心果木",
+  "leaves_type.fruitfulfun.apple": "苹果橡树",
+  "leaves_type.fruitfulfun.cherry": "樱桃",
+  "leaves_type.fruitfulfun.citron": "香橼",
+  "leaves_type.fruitfulfun.grapefruit": "西柚",
+  "leaves_type.fruitfulfun.lemon": "柠檬",
+  "leaves_type.fruitfulfun.lime": "酸橙",
+  "leaves_type.fruitfulfun.orange": "甜橙",
+  "leaves_type.fruitfulfun.pomegranate": "石榴",
+  "leaves_type.fruitfulfun.pomelo": "柚子",
+  "leaves_type.fruitfulfun.redlove": "红心果",
+  "leaves_type.fruitfulfun.tangerine": "橘子",
+
   "wood_type.fruittrees.cherry": "樱木",
   "wood_type.fruittrees.citrus": "柑橘木",
   "leaves_type.fruittrees.cherry": "樱桃",
@@ -1434,6 +1451,9 @@
   "leaves_type.maple_forest.orange_maple": "橙色枫树",
   "leaves_type.maple_forest.red_maple": "红色枫树",
   "leaves_type.maple_forest.brown_maple": "棕色枫树",
+
+  "wood_type.meadow.pine": "松木",
+  "leaves_type.meadow.pine": "松树",
 
   "wood_type.minecells.putrid": "腐烂木",
   "leaves_type.minecells.wilted": "枯",
