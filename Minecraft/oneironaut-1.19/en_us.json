@@ -59,6 +59,7 @@
   "item.oneironaut.memory_fragment.all": "It seems I've consumed all the memories that this crystal can offer me...",
   "item.oneironaut.wisp_capture_device": "Wisp Wrangler",
 
+  "block.oneironaut.noosphere_gate": "Inscrutable Rift",
   "block.oneironaut.pseudoamethyst_block": "Pseudoamethyst Block",
   "block.oneironaut.thought_slurry": "Thought Slurry",
   "block.oneironaut.thought_slurry_flowing": "Flowing Thought Slurry",
@@ -77,6 +78,8 @@
   "block.oneironaut.cell": "Dissonant Psyche",
   "block.oneironaut.wisp_battery": "Wisp Weaver",
   "block.oneironaut.decorative_wisp_battery": "Lesser Wisp Weaver",
+  "block.oneironaut.hover_elevator": "Hexcaster's Hoverlift",
+  "block.oneironaut.hover_repeater": "Hoverlift Repeater",
 
   "fluid.oneironaut.thought_slurry": "Thought Slurry",
 
@@ -95,6 +98,7 @@
   "oneironaut.entry.raycast_assailant": "Anti-Hex Blocks",
   "oneironaut.entry.mindrender": "Mind Render",
   "oneironaut.entry.soulprints": "Soulprints",
+  "oneironaut.entry.hover_elevator": "Hoverlifts",
 
   "this.is.a.comment.4": "Book pages--------------------------------------------------------------------------------------------",
   "oneironaut.page.spaceswap.1": "Accepts two lists of two vectors, to define two cuboids, and a Spatial Imprint. These cuboids must have the exact same dimensions and rotation.",
@@ -171,7 +175,7 @@
   "oneironaut.page.detection_shielding.1": "While conventional invisibility potions work just fine for fooling human senses, they are useless against hexes, so I've yet to find any method of making oneself completely undetectable. However, this spell I've discovered allows me to get closer to that goal, scattering media around a creature like chaff, in order to interfere with hex-based detection methods.",
   "oneironaut.page.detection_shielding.2": "Accepts a living entity and a number ($(o)n$()), and shields the entity from hex-based detection for $(o)n$() seconds. Costs two amethyst dust per second.",
   "oneironaut.page.detection_shielding.3": "Also drains media from the entity at a rate of 1/10 of a dust per second, as the shielding effect collects it to produce the chaff.$(br2)I should be careful with what I apply this to, as creatures with no loose media of their own will have their very minds fractured in order to provide this media.",
-  "oneironaut.page.detection_shielding.4": "While this is very effective at blocking effects such as $(l:patterns/basics#hexcasting:raycast/entity)Scout's Distillation$(/l) and the various forms of $(l:patterns/entities#hexcasting:zone_entity/animal)Zone Distillation$(/l), it has no effect on $(l:patterns/entities#hexcasting:get_entity)Entity Distillation$(/l) variants, as those already have a fairly precise idea of where you are. What's more, the chaff itself produces an energy signautre, which, while dim, is detectable by a specialized pattern.",
+  "oneironaut.page.detection_shielding.4": "While this is very effective at blocking effects such as $(l:patterns/basics#hexcasting:raycast/entity)Scout's Distillation$(/l) and the various forms of $(l:patterns/entities#hexcasting:zone_entity/animal)Zone Distillation$(/l), it has no effect on $(l:patterns/entities#hexcasting:get_entity)Entity Purification$(/l) variants, as those already have a fairly precise idea of where you are. What's more, the chaff itself produces an energy signautre, which, while dim, is detectable by a specialized pattern.",
   "oneironaut.page.detection_shielding.5": "Accepts a vector and a number, and returns a list of unit vectors pointing from the initial vector to shrouded entities within a radius defined by the number.",
   "oneironaut.page.detection_shielding.6": "I've also discovered a spell which applies normal Invisibility. Functions just like the normal $(l:patterns/great_spells/zeniths)Zeniths$(/l), and costs one amethyst dust per three seconds.",
   "oneironaut.page.raycast_assailant.1": "By \"threading\" pseudoamethyst through a block, I can create something which causes any raycast (including entity raycasts) that hits or passes through it to return null, as if it didn't hit anything.",
@@ -223,6 +227,12 @@
   "oneironaut.page.soulprints.2": "Returns my soulprint, mishapping if cast using anything other than a staff. Costs a negligible amount of media.",
   "oneironaut.page.soulprints.3": "Invisibly engraves my soulprint onto the item in my other hand, or erases it if it is already there. Costs 1 amethyst dust.$(br)I should be careful to seal any focuses or similar that I sign, as acquiring an unsealed signed focus may allow someone to impersonate me, and Erase Item gets rid of the signature.",
   "oneironaut.page.soulprints.4": "Accepts a soulprint, and checks if the item in my other hand is engraved with it. Returns true if so, false otherwise. Costs a negligible amount of media.",
+  "oneironaut.page.hover_elevator.1": "By combining materials native to the noosphere with certain ingredients associated with levitation, I can create a device which produces streams of propulsive energy capable of carrying me along them, with minimal risk of falling. To use it, it must be placed facing directly towards another one (which must be facing it in turn). Once I've done this, both ends must be activated with a",
+  "oneironaut.page.hover_elevator.2": "redstone signal, and the energy stream will form between the paired emitters, assuming they are within range of each other (64 meters horizontally, or 128 vertically). By stepping into the stream, I will be held in place until I look towards either end of the stream, at which point I will be accelerated in that direction until I hit a maximum speed proportional to how closely my vision parallels the stream. Crouching causes the stream to hold me in place regardless of my gaze.",
+  "oneironaut.page.hover_elevator.3": "$(o)Best to don some long fall boots the first time I try these.",
+  "oneironaut.page.hover_elevator.meme":"$(o)Bad and naughty hexcasters get sent to the hover cube.",
+  "oneironaut.page.hover_elevator.4": "Additionally, I can create a repeater capable of extending the range of the emitters when placed between them, such that the stream can continue on as if it had just left the emitter. Of course, such an extension requires more powerful components, and even then the stream can only be extended by three repeaters before it becomes too unstable to form.",
+  "oneironaut.page.hover_elevator.5": "Fortunately, this device seems to be rather immaterial for some reason, and I can pass straight through it without having to carefully twist around it in the stream.$(br)$(o)No, it does not make the stream pause for a moment before continuing.",
 
   "this.is.a.comment.5": "Advancements--------------------------------------------------------------------------------------------",
   "oneironaut.advancements.noosphere.enter": "A Realm of Thought and Dream",
@@ -231,6 +241,8 @@
   "oneironaut.advancements.noosphere.find_tower.description": "Discover the tower of an unknown hexcaster",
   "oneironaut.advancements.noosphere.find_media_lab": "Crystallized",
   "oneironaut.advancements.noosphere.find_media_lab.description": "Discover a grim experiment",
+  "oneironaut.advancements.noosphere.find_garden": "Stranded",
+  "oneironaut.advancements.noosphere.find_garden.description": "Discover an unfortunate soul's last reminder of home",
   "oneironaut.advancements.lore.root": "Oneironaut Lore",
   "oneironaut.advancements.lore.root.description": "Memories lost to time",
   "oneironaut.advancements.lore.treatise1": "Hexcaster's Memory #1",
