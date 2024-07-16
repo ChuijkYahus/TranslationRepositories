@@ -15,7 +15,9 @@
                 "block.natures_spirit.{0}_stairs": "{0}楼梯",
                 "block.natures_spirit.{0}_trapdoor": "{0}活板门",
                 "block.natures_spirit.{0}_wood": "{0}",
-                "block.natures_spirit.stripped_{0}_log": "去皮{0}",
+                "block.natures_spirit.stripped_{0}_wood": "去皮{0}",
+                "entity.natures_spirit.{0}_boat": "船",
+                "entity.natures_spirit.{0}_chest_boat": "运输船",
                 "item.natures_spirit.{0}_boat": "{0}船",
                 "item.natures_spirit.{0}_chest_boat": "{0}运输船"
             },
@@ -35,7 +37,7 @@
                     "palo_verde": "扁轴木",
                     "redwood": "红杉木",
                     "saxaul": "梭梭木",
-                    "sugi": "柳杉木",
+                    "sugi": "日本柳杉木",
                     "willow": "柳木",
                     "wisteria": "紫藤木"
                 }
@@ -63,7 +65,7 @@
                     "palo_verde": "扁轴",
                     "redwood": "红杉",
                     "saxaul": "梭梭",
-                    "sugi": "柳杉",
+                    "sugi": "日本柳杉",
                     "willow": "柳木",
                     "wisteria": "紫藤"
                 }
