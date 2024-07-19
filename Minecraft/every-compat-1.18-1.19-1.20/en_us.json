@@ -30,10 +30,18 @@
   "block.everycomp.q.extendedmushrooms.hollow_mushroom_log": "Hollow Mushroom Stem",
   "block.everycomp.q.extendedmushrooms.hollow_poisonous_mushroom_log": "Hollow Poisonous Mushroom Stem",
 
+  "block.everycomp.q.neu.hollow_dragon_log": "Hollow Dragon Stem",
+  "block.everycomp.q.neu.hollow_elder_log": "Hollow Elder Stem",
+  "block.everycomp.q.neu.hollow_frosted_log": "Hollow Frosted Stem",
+
   "block.everycomp.tf.extendedmushrooms.hollow_glowshroom_log": "Hollow Glowshroom Stem",
   "block.everycomp.tf.extendedmushrooms.hollow_honey_fungus_log": "Hollow Honey Fungus Stem",
   "block.everycomp.tf.extendedmushrooms.hollow_mushroom_log": "Hollow Mushroom Stem",
   "block.everycomp.tf.extendedmushrooms.hollow_poisonous_mushroom_log": "Hollow Poisonous Mushroom Stem",
+
+  "block.everycomp.tf.neu.hollow_dragon_log": "Hollow Dragon Stem",
+  "block.everycomp.tf.neu.hollow_elder_log": "Hollow Elder Stem",
+  "block.everycomp.tf.neu.hollow_frosted_log": "Hollow Frosted Stem",
 
   "block_type.twigs.table": "%s Table",
 
@@ -62,6 +70,7 @@
   "block_type.missingwilds.fallen_log": "Fallen %s Log",
 
   "block_type.regions_unexplored.branch": "%s Branch",
+  "block_type.regions_unexplored.shrub": "%s Shrub",
 
   "block_type.campchair.camp_chair": "%s Camp Chair",
 
@@ -330,6 +339,9 @@
   "block_type.valhelsia_structures.cut_stripped_post": "Cut Stripped %s Post",
   "block_type.valhelsia_structures.post": "%s Post",
   "block_type.valhelsia_structures.stripped_post": "Stripped %s Post",
+  "block_type.valhelsia_structures.bundled_posts": "Bundled %s Posts",
+  "block_type.valhelsia_structures.bundled_stripped_posts": "Bundled Stripped %s Posts",
+
 
   "block_type.backpacked.backpack_shelf": "%s Backpack Shelf",
 

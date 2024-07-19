@@ -173,7 +173,7 @@
   "miningmaster.config.option.diveAquamarineEnabled": "深启用潜海蓝宝石",
   "miningmaster.config.tooltip.diveAquamarineEnabled": "决定是否生成深潜海蓝宝石。",
 
-  "miningmaster.config.option.divineBerylEnabled": "启用深潜海蓝宝石",
+  "miningmaster.config.option.divineBerylEnabled": "启用神圣绿柱石",
   "miningmaster.config.tooltip.divineBerylEnabled": "决定是否生成神圣绿柱石。",
 
   "miningmaster.config.option.spiderKunziteEnabled": "启用蜘蛛紫锂辉石",
@@ -220,7 +220,7 @@
   "enchantment.miningmaster.runner.desc": "提升移动速度，疾跑时靴子额外消耗耐久度。",
 
   "enchantment.miningmaster.heartfelt": "生命感召",
-  "enchantment.miningmaster.heartfelt.desc": "提升最大生命值。",
+  "enchantment.miningmaster.heartfelt.desc": "提升最大生命值，耐久度消耗增加。",
 
   "enchantment.miningmaster.floatation": "浮空",
   "enchantment.miningmaster.floatation.desc": "击中时给予飘浮。",
