@@ -96,7 +96,7 @@
   "info_book.integratedscripting.concepts.text5": "后续页面将详细探讨上述三种组件。",
 
   "info_book.integratedscripting.disk": "脚本磁盘",
-  "info_book.integratedscripting.disk.text1": "&l脚本磁盘&r的职能是存储脚本，使用时应当插入&l脚本驱动器&r。将几张&l变量卡&r和&l门山岩&r组合可制成此物品。",
+  "info_book.integratedscripting.disk.text1": "&l脚本磁盘&r的职能是存储脚本，使用时应当插入&l脚本驱动器&r。由&l门山岩&r和几张&l变量卡&r合成。",
   "info_book.integratedscripting.disk.text2": "将&l脚本磁盘&r插入&l脚本驱动器&r后，它们会获得独一无二的数字ID。在&l脚本终端&r中修改该磁盘中脚本时会用到此ID。这项ID也用于&l变量卡&r和脚本元素间的链接。",
   "info_book.integratedscripting.disk.text3": "在不同的&l脚本驱动器&r间移动&l脚本磁盘&r不会损失脚本数据，跨网络移动也是一样。不过，如果磁盘经历了跨网络转移，引用了其中脚本ID的&l变量卡&r就会开始报错，这是因为对应脚本已不再与其处于同一网络。",
   "info_book.integratedscripting.disk.text4": "&l脚本磁盘&r的存储容量没有上限，但为管理方便考虑，推荐将多个脚本分块存储至多个磁盘。",
@@ -127,7 +127,7 @@
 
   "info_book.integratedscripting.writing.variables": "常量与变量",
   "info_book.integratedscripting.writing.variables.text1": "所有动态联合中既定的类型（比如&6整型&0、&9布尔型&0、&8物品&0……）在JavaScript中均有对应，反之亦然。",
-  "info_book.integratedscripting.writing.variables.text2": "在JavaScript中创建值，再把它变成静态的&l变量卡&r，完成这一点的最简单方式便是：在JavaScript中使用&olet&r或&oconst&r声明一个变量。",
+  "info_book.integratedscripting.writing.variables.text2": "在JavaScript中创建值，再把它变成静态的&l变量卡&r值，最直截了当的操作方式便是：在JavaScript中使用&olet&r或&oconst&r声明一个变量。",
   "info_book.integratedscripting.writing.variables.text3": "&olet&r声明的变量可在后续脚本中重新赋值，比如计数器。&oconst&r声明的变量无法再次赋值。",
   "info_book.integratedscripting.writing.variables.text4": "在&l变量卡&r中使用该变量前，需在脚本终端的编辑器中选中该变量的名称，然后往右侧槽位插入空&l变量卡&r。这张&l变量卡&r后续就可像其他变量卡一样使用，比如在&l显示器&r中展示。",
   "info_book.integratedscripting.writing.variables.text5": "在创建定值长字符串这种复杂值时，用JavaScript创建变量尤为实用，同样的任务&l逻辑编程器&r则很难做到。下方是创建此类变量的一些示例。",
