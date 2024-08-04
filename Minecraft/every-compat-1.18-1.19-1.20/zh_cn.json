@@ -750,6 +750,13 @@
   "block_type.handcrafted.corner_trim": "%s檐饰",
   "block_type.handcrafted.dining_bench": "%s餐凳",
 
+  "block_type.decoration_delight.counter": "%s柜台",
+  "block_type.decoration_delight.counter_corner": "%s柜台角落",
+  "block_type.decoration_delight.counter_bend": "%s柜台转角",
+  "block_type.decoration_delight.countertop": "%s台面",
+  "block_type.decoration_delight.stool": "%s凳子",
+  "block_type.decoration_delight.mosaic": "%s马赛克",
+
 
   "wood_type.minecraft.oak": "橡木",
   "wood_type.minecraft.spruce": "云杉木",

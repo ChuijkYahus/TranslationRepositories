@@ -34,6 +34,9 @@
   "block.everycomp.q.neu.hollow_elder_log": "Hollow Elder Stem",
   "block.everycomp.q.neu.hollow_frosted_log": "Hollow Frosted Stem",
 
+  "block.everycomp.q.enlightened_end.hollow_cerulean_log": "Hollow Cerulean Stem",
+  "block.everycomp.q.enlightened_end.hollow_indigo_log": "Hollow Indigo Stem",
+
   "block.everycomp.tf.extendedmushrooms.hollow_glowshroom_log": "Hollow Glowshroom Stem",
   "block.everycomp.tf.extendedmushrooms.hollow_honey_fungus_log": "Hollow Honey Fungus Stem",
   "block.everycomp.tf.extendedmushrooms.hollow_mushroom_log": "Hollow Mushroom Stem",
@@ -42,6 +45,9 @@
   "block.everycomp.tf.neu.hollow_dragon_log": "Hollow Dragon Stem",
   "block.everycomp.tf.neu.hollow_elder_log": "Hollow Elder Stem",
   "block.everycomp.tf.neu.hollow_frosted_log": "Hollow Frosted Stem",
+
+  "block.everycomp.tf.enlightened_end.hollow_cerulean_log": "Hollow Cerulean Stem",
+  "block.everycomp.tf.enlightened_end.hollow_indigo_log": "Hollow Indigo Stem",
 
   "block_type.twigs.table": "%s Table",
 
@@ -814,6 +820,12 @@
   "block_type.handcrafted.shelf": "%s Shelf",
   "block_type.handcrafted.pillar_trim": "%s Pillar Trim",
   "block_type.handcrafted.corner_trim": "%s Corner Trim",
-  "block_type.handcrafted.dining_bench": "%s Dining Bench"
+  "block_type.handcrafted.dining_bench": "%s Dining Bench",
 
+  "block_type.decoration_delight.counter": "%s Counter",
+  "block_type.decoration_delight.counter_corner": "%s Counter Corner",
+  "block_type.decoration_delight.counter_bend": "%s Counter Bend",
+  "block_type.decoration_delight.countertop": "%s Countertop",
+  "block_type.decoration_delight.stool": "%s Stool",
+  "block_type.decoration_delight.mosaic": "%s Mosaic"
 }
