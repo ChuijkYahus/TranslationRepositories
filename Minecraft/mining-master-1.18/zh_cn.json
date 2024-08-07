@@ -1,7 +1,7 @@
 {
   "itemGroup.MiningMasterTab": "挖矿大师",
 
-  "miningmaster.gui.recipebook.toggleRecipes.forgable": "显示可锻造",
+  "miningmaster.gui.recipebook.toggleRecipes.forgable": "仅显示可锻造",
 
   "miningmaster.jei.forging": "宝石锻造",
 
@@ -14,9 +14,9 @@
   "block.miningmaster.divine_beryl_ore": "神圣绿柱石矿石",
   "block.miningmaster.spider_kunzite_ore": "蜘蛛紫锂辉石矿石",
   "block.miningmaster.unbreaking_iolite_ore": "不毁堇青石矿石",
-  "block.miningmaster.heart_rhodonite_ore": "生命玫瑰石矿石",
+  "block.miningmaster.heart_rhodonite_ore": "生命蔷薇辉石矿石",
   "block.miningmaster.power_pyrite_ore": "力量黄铁矿矿石",
-  "block.miningmaster.kinetic_opal_ore": "动能蛋白石矿石",
+  "block.miningmaster.kinetic_opal_ore": "动能欧泊矿石",
   "block.miningmaster.air_malachite_ore": "浮空孔雀石矿石",
 
   "block.miningmaster.deepslate_fire_ruby_ore": "深层火焰红宝石矿石",
@@ -38,9 +38,9 @@
   "block.miningmaster.divine_beryl_block": "神圣绿柱石块",
   "block.miningmaster.spider_kunzite_block": "蜘蛛紫锂辉石块",
   "block.miningmaster.unbreaking_iolite_block": "不毁堇青石块",
-  "block.miningmaster.heart_rhodonite_block": "生命玫瑰石块",
+  "block.miningmaster.heart_rhodonite_block": "生命蔷薇辉石块",
   "block.miningmaster.power_pyrite_block": "力量黄铁矿块",
-  "block.miningmaster.kinetic_opal_block": "动能蛋白石块",
+  "block.miningmaster.kinetic_opal_block": "动能欧泊块",
   "block.miningmaster.air_malachite_block": "浮空孔雀石块",
   "block.miningmaster.malacore": "孔雀石核心",
   "block.miningmaster.malacrust": "孔雀石外壳",
@@ -55,9 +55,9 @@
   "item.miningmaster.divine_beryl": "神圣绿柱石",
   "item.miningmaster.spider_kunzite": "蜘蛛紫锂辉石",
   "item.miningmaster.unbreaking_iolite": "不毁堇青石",
-  "item.miningmaster.heart_rhodonite": "生命玫瑰石",
+  "item.miningmaster.heart_rhodonite": "生命蔷薇辉石",
   "item.miningmaster.power_pyrite": "力量黄铁矿",
-  "item.miningmaster.kinetic_opal": "动能蛋白石",
+  "item.miningmaster.kinetic_opal": "动能欧泊",
   "item.miningmaster.air_malachite": "浮空孔雀石",
 
   "item.miningmaster.fire_ruby_sword": "火焰红宝石剑",
@@ -69,7 +69,7 @@
 
   "item.miningmaster.power_pyrite_axe": "力量黄铁矿斧",
   "item.miningmaster.haste_peridot_axe": "急迫橄榄石斧",
-  "item.miningmaster.kinetic_opal_axe": "动能蛋白石斧",
+  "item.miningmaster.kinetic_opal_axe": "动能欧泊斧",
   "item.miningmaster.ultima_axe": "终极斧",
 
   "item.miningmaster.lucky_citrine_pickaxe": "幸运黄水晶镐",
@@ -96,7 +96,7 @@
 
   "miningmaster.advancements.miningmaster.hidden_power.title": "潜藏的能力",
   "miningmaster.advancements.miningmaster.hidden_power.description": "获得一个宝石",
-  "miningmaster.advancements.miningmaster.top_to_bottom.title": "从头到脚",
+  "miningmaster.advancements.miningmaster.top_to_bottom.title": "上天入地",
   "miningmaster.advancements.miningmaster.top_to_bottom.description": "收集每一种主世界宝石",
   "miningmaster.advancements.miningmaster.infernal_archaeologist.title": "地狱考古学家",
   "miningmaster.advancements.miningmaster.infernal_archaeologist.description": "收集每一种下界宝石",
@@ -133,7 +133,7 @@
   "miningmaster.advancements.miningmaster.a_sword_of_ice_and_fire.description": "锻造出终极剑",
   "miningmaster.advancements.miningmaster.blood_siphon.title": "血液虹吸",
   "miningmaster.advancements.miningmaster.blood_siphon.description": "锻造出终极斧",
-  "miningmaster.advancements.miningmaster.the_breaking_point.title": "孤帆灭枭",
+  "miningmaster.advancements.miningmaster.the_breaking_point.title": "碎岩利镐",
   "miningmaster.advancements.miningmaster.the_breaking_point.description": "锻造出终极镐",
 
   "miningmaster.advancements.miningmaster.chaos_is_power.title": "混沌就是力量",
@@ -148,9 +148,9 @@
   "miningmaster.advancements.miningmaster.its_no_use.description": "将弓上的浮空魔咒升至满级",
   "miningmaster.advancements.miningmaster.power_enriched_by_the_heart.title": "力量由心而生",
   "miningmaster.advancements.miningmaster.power_enriched_by_the_heart.description": "穿上全套均带有生命感召魔咒的盔甲",
-  "miningmaster.advancements.miningmaster.riptide_who.title": "对谁激流？",
+  "miningmaster.advancements.miningmaster.riptide_who.title": "什么是激流？",
   "miningmaster.advancements.miningmaster.riptide_who.description": "同时穿上带有水之恩惠和深海探索者魔咒的盔甲",
-  "miningmaster.advancements.miningmaster.sonic_speed.title": "音速！",
+  "miningmaster.advancements.miningmaster.sonic_speed.title": "索尼克之速！",
   "miningmaster.advancements.miningmaster.sonic_speed.description": "将靴子上的疾跑魔咒升至满级",
 
   "miningmaster.config.title": "挖矿大师配置",
@@ -182,14 +182,14 @@
   "miningmaster.config.option.unbreakingIoliteEnabled": "启用不毁堇青石",
   "miningmaster.config.tooltip.unbreakingIoliteEnabled": "决定是否生成不毁堇青石。",
 
-  "miningmaster.config.option.heartRhodoniteEnabled": "启用生命玫瑰石",
-  "miningmaster.config.tooltip.heartRhodoniteEnabled": "决定是否生成生命玫瑰石。",
+  "miningmaster.config.option.heartRhodoniteEnabled": "启用生命蔷薇辉石",
+  "miningmaster.config.tooltip.heartRhodoniteEnabled": "决定是否生成生命蔷薇辉石。",
 
   "miningmaster.config.option.powerPyriteEnabled": "启用力量黄铁矿",
   "miningmaster.config.tooltip.powerPyriteEnabled": "决定是否生成力量黄铁矿。",
 
-  "miningmaster.config.option.kineticOpalEnabled": "启用动能蛋白石",
-  "miningmaster.config.tooltip.kineticOpalEnabled": "决定是否生成动能蛋白石。",
+  "miningmaster.config.option.kineticOpalEnabled": "启用动能欧泊",
+  "miningmaster.config.tooltip.kineticOpalEnabled": "决定是否生成动能欧泊。",
 
   "miningmaster.config.option.airMalachiteEnabled": "启用浮空孔雀石",
   "miningmaster.config.tooltip.airMalachiteEnabled": "决定是否生成浮空孔雀石。",
@@ -233,7 +233,7 @@
 
   "enchantment.miningmaster.grace": "水之恩惠",
   "enchantment.miningmaster.grace.desc": "给予穿戴者短时间的海豚的恩惠，该效果存在时额外消耗耐久度。需要回到岸上以重新充能。",
-
+  
 
   "tetra.improvement.enchantment/miningmaster_floatation.name": "浮空",
   "tetra.improvement.enchantment/miningmaster_floatation.description": "击中时给予飘浮",
@@ -243,7 +243,7 @@
 
   "tetra.improvement.enchantment/miningmaster_grace.name": "水之恩惠",
   "tetra.improvement.enchantment/miningmaster_grace.description": "给予穿戴者短时间的海豚的恩惠，该效果存在时额外消耗耐久度。需要回到岸上以重新充能",
-
+  
   "tetra.improvement.enchantment/miningmaster_heartfelt.name": "生命感召",
   "tetra.improvement.enchantment/miningmaster_heartfelt.description": "提升最大生命值",
 
