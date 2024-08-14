@@ -6,11 +6,9 @@
   "complexhex.page.complexities.const.1": "Pushes 1 + 0i to the stack.",
   "complexhex.page.complexities.add": "Preforms Addition, num will be treated as num + 0i.",
   "complexhex.page.complexities.sub": "Preforms Subtraction, num will be treated as num + 0i.",
-  "complexhex.page.complexities.mul": "Preforms Scalar Multiplication.",
-  "complexhex.page.complexities.div": "Preforms Scalar Division.",
+  "complexhex.page.complexities.mul": "Preforms Scalar Multiplication or Complex Multiplication, depending on the given arguments.",
+  "complexhex.page.complexities.div": "Preforms Scalar Division or Complex Division, depending on the given arguments.",
   "complexhex.page.complexities.abs": "Pushes the Argument (the length).",
-  "hexcasting.action.complexhex:cmul": "Complex Multiplication",
-  "complexhex.page.complexities.cmul": "Preforms Complex Multiplication.",
   "hexcasting.action.complexhex:real": "Realising Complexities",
   "complexhex.page.complexities.real": "Pushes the real coefficient.",
   "hexcasting.action.complexhex:imaginary": "Imagining Complexities",
@@ -33,11 +31,9 @@
   "complexhex.page.quaternionics.const.k": "Pushes 0 + 0i + 0j + 1k to the stack.",
   "complexhex.page.quaternionics.add": "Preforms Addition",
   "complexhex.page.quaternionics.sub": "Preforms Subtraction",
-  "complexhex.page.quaternionics.mul": "Preforms Scalar Multiplication.",
+  "complexhex.page.quaternionics.mul": "$(br)Preforms Scalar Multiplication or Hamiltonian Multiplication, depending on the given arguments.",
   "complexhex.page.quaternionics.div": "Preforms Scalar Division.",
   "complexhex.page.quaternionics.abs": "Pushes the Argument (the length).",
-  "hexcasting.action.complexhex:qmul": "Quaternionic Multiplication",
-  "complexhex.page.quaternionics.qmul": "Preforms a Hamiltonian Multiplication.",
   "hexcasting.action.complexhex:qw": "Quaterionic Prfn.: 1",
   "complexhex.page.quaternionics.qw": "Pushes the coefficient of 1.",
   "hexcasting.action.complexhex:qx": "Quaterionic Prfn.: i",
@@ -90,5 +86,28 @@
   "hexcasting.mishap.invalid_value.class.complexnumber": "a complex number",
   "hexcasting.mishap.invalid_value.class.bubble": "a bubble",
   "hexcasting.mishap.invalid_value.class.bit": "a BIT",
-  "hexcasting.mishap.bad_item.bit": "a BIT"
+  "hexcasting.mishap.bad_item.bit": "a BIT",
+
+  "itemGroup.complexhex": "Complex Hex",
+  "item.complexhex.burnt_shard": "Burnt Shard",
+  "block.complexhex.burnt_block": "Burnt Block",
+  "item.complexhex.awakened_burnt_shard": "Awakened Burnt Shard",
+
+  "complexhex.entry.burnt": "Burning Amethyst",
+  "complexhex.page.burnt": "When a shard of amethyst is heated - such as during smelting - it starts to act completely differently; It seems \"unhappy\", \"violent\" almost. Ontop of that, this material (henceforth labeled \"Burnt\") has had quite the color change, and interestingly, it seems to cycle colors whenever I am not looking",
+  "complexhex.page.burnt.crafting.shard": "",
+  "complexhex.page.burnt.crafting.block": "As with amethyst, Burnt can also be fashioned into blocks, sharing the same odd optical phenomenon",
+
+  "complexhex.entry.awakened_burnt": "Burnt's Awakening",
+  "complexhex.page.awakened_burnt": "With a mind to guide it, the Burnt is much less violent, but much more controlling; It seems to be influencing the media around it, pulling said media into fractalline swirls around itself.$(br) Interestingly, it seems that a full block of Awakened Burnt is rather unstable, quickly breaking apart until only a stable shard remains.",
+  "complexhex.page.awakened_burnt.crafting": "The level of fidelity to rein in the Burnt requires quite the skilled mind. It also requires quite a lot of media to work the mind into place, just over 100 $(l:items/amethyst)$(item)Charged Amethyst/$ should do it.",
+
+  "item.complexhex.multifact": "Multifact",
+  "complexhex.entry.multifact": "Multifact",
+  "complexhex.page.multifact.1": "This little doohickey is basically multiple artifacts in one, with the advantage being that the stack (but not the ravenmind) is preserved between used until it is reset once the sequence is complete.$(br)However, there are a couple downsides compared to a normal artifact:$(br)For one, the hexes contained can only be cast in order, no jumping about.$(br)And Secondly, each subesquent hex added requires exponentially more media (till a max of 10 hexes)",
+  "complexhex.page.multifact.2": "Whilst a mind alone may have the ability to control the media finely enough for this to work, it would have no spare thoughts with which to store the stack. However, with the inclusion of Burnt to assist controlling the media, the mind is free to remember the stack.",
+  "complexhex.page.multifact.crafting": "*slaps multifact* this bad-boy can fit so many hexes in it!",
+  "complexhex.page.multifact.pattern": "When the first hex is being inserted, there must also be an item entity provided to be the battery, similar to other casting devices. But with subsequent additions, an entity is not required. $(br)The cost of adding hexes increases exponentially, 10 Charged for the first, 20 for the second, 40, 80,... etc."
+
+
 }
