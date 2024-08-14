@@ -11,6 +11,14 @@
   "block.dramaticdoors.short_bamboo_door": "Short Bamboo Door",
   "block.dramaticdoors.short_cherry_door": "Short Cherry Door",
   "block.dramaticdoors.short_iron_door": "Short Iron Door",
+  "block.dramaticdoors.short_copper_door": "Short Copper Door",
+  "block.dramaticdoors.short_exposed_copper_door": "Short Exposed Copper Door",
+  "block.dramaticdoors.short_weathered_copper_door": "Short Weathered Copper Door",
+  "block.dramaticdoors.short_oxidized_copper_door": "Short Oxidized Copper Door",
+  "block.dramaticdoors.short_waxed_copper_door": "Short Waxed Copper Door",
+  "block.dramaticdoors.short_waxed_exposed_copper_door": "Short Waxed Exposed Copper Door",
+  "block.dramaticdoors.short_waxed_weathered_copper_door": "Short Waxed Weathered Copper Door",
+  "block.dramaticdoors.short_waxed_oxidized_copper_door": "Short Waxed Oxidized Copper Door",
   "block.dramaticdoors.tall_oak_door": "Tall Oak Door",
   "block.dramaticdoors.tall_spruce_door": "Tall Spruce Door",
   "block.dramaticdoors.tall_birch_door": "Tall Birch Door",
@@ -23,30 +31,44 @@
   "block.dramaticdoors.tall_bamboo_door": "Tall Bamboo Door",
   "block.dramaticdoors.tall_cherry_door": "Tall Cherry Door",
   "block.dramaticdoors.tall_iron_door": "Tall Iron Door",
-
+  "block.dramaticdoors.tall_copper_door": "Tall Copper Door",
+  "block.dramaticdoors.tall_exposed_copper_door": "Tall Exposed Copper Door",
+  "block.dramaticdoors.tall_weathered_copper_door": "Tall Weathered Copper Door",
+  "block.dramaticdoors.tall_oxidized_copper_door": "Tall Oxidized Copper Door",
+  "block.dramaticdoors.tall_waxed_copper_door": "Tall Waxed Copper Door",
+  "block.dramaticdoors.tall_waxed_exposed_copper_door": "Tall Waxed Exposed Copper Door",
+  "block.dramaticdoors.tall_waxed_weathered_copper_door": "Tall Waxed Weathered Copper Door",
+  "block.dramaticdoors.tall_waxed_oxidized_copper_door": "Tall Waxed Oxidized Copper Door",
+  
   "block.dramaticdoors.short_bop_cherry_door": "Short Cherry Door (Legacy)",
   "block.dramaticdoors.short_bop_dead_door": "Short Dead Door",
+  "block.dramaticdoors.short_bop_empyreal_door": "Short Empyreal Door",
   "block.dramaticdoors.short_bop_fir_door": "Short Fir Door",
   "block.dramaticdoors.short_bop_hellbark_door": "Short Hellbark Door",
   "block.dramaticdoors.short_bop_jacaranda_door": "Short Jacaranda Door",
   "block.dramaticdoors.short_bop_magic_door": "Short Magic Door",
   "block.dramaticdoors.short_bop_mahogany_door": "Short Mahogany Door",
+  "block.dramaticdoors.short_bop_maple_door": "Short Maple Door",
   "block.dramaticdoors.short_bop_palm_door": "Short Palm Door",
+  "block.dramaticdoors.short_bop_pine_door": "Short Pine Door",
   "block.dramaticdoors.short_bop_redwood_door": "Short Redwood Door",
   "block.dramaticdoors.short_bop_umbran_door": "Short Umbran Door",
   "block.dramaticdoors.short_bop_willow_door": "Short Willow Door",
   "block.dramaticdoors.tall_bop_cherry_door": "Tall Cherry Door (Legacy)",
   "block.dramaticdoors.tall_bop_dead_door": "Tall Dead Door",
+  "block.dramaticdoors.tall_bop_empyreal_door": "Tall Empyreal Door",
   "block.dramaticdoors.tall_bop_fir_door": "Tall Fir Door",
   "block.dramaticdoors.tall_bop_hellbark_door": "Tall Hellbark Door",
   "block.dramaticdoors.tall_bop_jacaranda_door": "Tall Jacaranda Door",
   "block.dramaticdoors.tall_bop_magic_door": "Tall Magic Door",
   "block.dramaticdoors.tall_bop_mahogany_door": "Tall Mahogany Door",
+  "block.dramaticdoors.tall_bop_maple_door": "Tall Maple Door",
   "block.dramaticdoors.tall_bop_palm_door": "Tall Palm Door",
+  "block.dramaticdoors.tall_bop_pine_door": "Tall Pine Door",
   "block.dramaticdoors.tall_bop_redwood_door": "Tall Redwood Door",
   "block.dramaticdoors.tall_bop_umbran_door": "Tall Umbran Door",
   "block.dramaticdoors.tall_bop_willow_door": "Tall Willow Door",
-
+  
   "block.dramaticdoors.short_bwg_aspen_door": "Short Aspen Door",
   "block.dramaticdoors.short_bwg_baobab_door": "Short Baobab Door",
   "block.dramaticdoors.short_bwg_bulbis_door": "Short Bulbis Door",
@@ -107,7 +129,7 @@
   "block.dramaticdoors.tall_bwg_zelkova_door": "Tall Zelkova Door",
   "block.dramaticdoors.tall_bwg_blue_enchanted_door": "Tall Blue Enchanted Door",
   "block.dramaticdoors.tall_bwg_green_enchanted_door": "Tall Green Enchanted Door",
-
+  
   "block.dramaticdoors.short_agathoxylon_door": "Short Agathoxylon Door",
   "block.dramaticdoors.short_araucaria_door": "Short Araucaria Door",
   "block.dramaticdoors.short_brachyphyllum_door": "Short Brachyphyllum Door",
@@ -136,7 +158,7 @@
   "block.dramaticdoors.tall_trochodendroides_door": "Tall Trochodendroides Door",
   "block.dramaticdoors.tall_woodworthia_door": "Tall Woodworthia Door",
   "block.dramaticdoors.tall_zamites_door": "Tall Zamites Door",
-
+  
   "block.dramaticdoors.short_rue_baobab_door": "Short Baobab Door",
   "block.dramaticdoors.short_rue_blue_bioshroom_door": "Short Blue Bioshroom Door",
   "block.dramaticdoors.short_rue_green_bioshroom_door": "Short Green Bioshroom Door",
@@ -181,7 +203,7 @@
   "block.dramaticdoors.tall_rue_redwood_door": "Tall Redwood Door",
   "block.dramaticdoors.tall_rue_socotra_door": "Tall Socotra Door",
   "block.dramaticdoors.tall_rue_willow_door": "Tall Willow Door",
-
+  
   "block.dramaticdoors.short_canopy_door": "Short Canopy Door",
   "block.dramaticdoors.short_darkwood_door": "Short Darkwood Door",
   "block.dramaticdoors.short_twilight_mangrove_door": "Short Twilight Mangrove Door",
@@ -202,7 +224,7 @@
   "block.dramaticdoors.tall_twilight_oak_door": "Tall Twilight Oak Door",
   "block.dramaticdoors.tall_thorn_door": "Tall Thorn Door",
   "block.dramaticdoors.tall_towerwood_door": "Tall Towerwood Door",
-
+  
   "block.dramaticdoors.short_aspen_door": "Short Aspen Door",
   "block.dramaticdoors.short_grimwood_door": "Short Grimwood Door",
   "block.dramaticdoors.short_kousa_door": "Short Kousa Door",
@@ -241,7 +263,7 @@
   "block.dramaticdoors.tall_river_door": "Tall River Door",
   "block.dramaticdoors.tall_glass_door": "Tall Glass Door",
   "block.dramaticdoors.tall_tooth_door": "Tall Tooth Door",
-
+  
   "block.dramaticdoors.short_jacaranda_door": "Short Jacaranda Door",
   "block.dramaticdoors.short_redbud_door": "Short Redbud Door",
   "block.dramaticdoors.short_cypress_door": "Short Cypress Door",
@@ -254,12 +276,12 @@
   "block.dramaticdoors.tall_brown_mushroom_door": "Tall Brown Mushroom Door (Legacy)",
   "block.dramaticdoors.tall_red_mushroom_door": "Tall Mushroom Door",
   "block.dramaticdoors.tall_glowshroom_door": "Tall Glowshroom Door (Legacy)",
-
+  
   "block.dramaticdoors.short_ash_door": "Short Ash Door",
   "block.dramaticdoors.short_gourdrot_door": "Short Gourdrot Door",
   "block.dramaticdoors.tall_ash_door": "Tall Ash Door",
   "block.dramaticdoors.tall_gourdrot_door": "Tall Gourdrot Door",
-
+  
   "block.dramaticdoors.short_blaru_door": "Short Blaru Door",
   "block.dramaticdoors.short_bog_door": "Short Bog Door",
   "block.dramaticdoors.short_frozen_door": "Short Frozen Door",
@@ -301,7 +323,7 @@
   "block.dramaticdoors.tall_glacia_door": "Tall Glacia Door",
   "block.dramaticdoors.tall_prismatic_door": "Tall Prismatic Door (Legacy)",
   "block.dramaticdoors.tall_springshroom_door": "Tall Springshroom Door",
-
+  
   "block.dramaticdoors.short_pewen_door": "Short Pewen Door",
   "block.dramaticdoors.tall_pewen_door": "Tall Pewen Door",
   "block.dramaticdoors.short_thornwood_door": "Short Thornwood Door",
@@ -336,7 +358,7 @@
 
   "block.dramaticdoors.short_rotten_door": "Short Rotten Door",
   "block.dramaticdoors.tall_rotten_door": "Tall Rotten Door",
-
+  
   "block.dramaticdoors.short_terminite_door": "Short Terminite Door",
   "block.dramaticdoors.short_thallasium_door": "Short Thallasium Door",
   "block.dramaticdoors.short_dragon_tree_door": "Short Dragon Tree Door",
@@ -361,7 +383,7 @@
   "block.dramaticdoors.tall_pythadendron_door": "Tall Pythadendron Door",
   "block.dramaticdoors.tall_tenanea_door": "Tall Tenanea Door",
   "block.dramaticdoors.tall_umbrella_tree_door": "Tall Umbrella Tree Door",
-
+  
   "block.dramaticdoors.short_anchor_tree_door": "Short Anchor Tree Door",
   "block.dramaticdoors.short_bone_cin_door": "Short Bone-Cincinnasite Door",
   "block.dramaticdoors.short_bone_reed_door": "Short Bone-Reed Door",
@@ -389,7 +411,7 @@
   "block.dramaticdoors.short_be_dry_bamboo_door": "Short Dry Bamboo Door",
   "block.dramaticdoors.tall_be_bamboo_door": "Tall Bamboo Door",
   "block.dramaticdoors.tall_be_dry_bamboo_door": "Tall Dry Bamboo Door",
-
+  
   "block.dramaticdoors.short_nibbletwig_door": "Short Nibbletwig Door",
   "block.dramaticdoors.short_rubber_tree_plank_door": "Short Rubber Tree Plank Door",
   "block.dramaticdoors.short_syrmorite_door": "Short Syrmorite Door",
@@ -398,7 +420,7 @@
   "block.dramaticdoors.tall_rubber_tree_plank_door": "Tall Rubber Tree Plank Door",
   "block.dramaticdoors.tall_syrmorite_door": "Tall Syrmorite Door",
   "block.dramaticdoors.tall_wormwood_door": "Tall Wormwood Door",
-
+  
   "block.dramaticdoors.short_bw_cypress_door": "Short Cypress Door",
   "block.dramaticdoors.short_dragons_blood_door": "Short Dragon's Blood Door",
   "block.dramaticdoors.short_elder_door": "Short Elder Door",
@@ -426,7 +448,7 @@
   "block.dramaticdoors.tall_bm_blighted_balsa_door": "Tall Blighted Balsa Door",
   "block.dramaticdoors.tall_bm_swamp_cypress_door": "Tall Swamp Cypress Door",
   "block.dramaticdoors.tall_bm_willow_door": "Tall Willow Door",
-
+  
   "block.dramaticdoors.short_blockus_blackstone_door": "Short Blackstone Door",
   "block.dramaticdoors.short_blockus_charred_door": "Short Charred Wooden Door",
   "block.dramaticdoors.short_blockus_obsidian_reinforced_door": "Short Obsidian Reinforced Door",
@@ -497,7 +519,7 @@
   "block.dramaticdoors.short_scorched_planks_door": "Short Scorched Planks Door",
   "block.dramaticdoors.tall_mesh_door": "Tall Mesh Door",
   "block.dramaticdoors.tall_scorched_planks_door": "Tall Scorched Planks Door",
-
+  
   "block.dramaticdoors.short_walnut_door": "Short Walnut Door",
   "block.dramaticdoors.tall_walnut_door": "Tall Walnut Door",
 
@@ -518,7 +540,7 @@
 
   "block.dramaticdoors.short_apricorn_door": "Short Apricorn Door",
   "block.dramaticdoors.tall_apricorn_door": "Tall Apricorn Door",
-
+  
   "block.dramaticdoors.short_azule_azalea_door": "Short Azule Azalea Door",
   "block.dramaticdoors.short_bright_azalea_door": "Short Bright Azalea Door",
   "block.dramaticdoors.short_fiss_azalea_door": "Short Fiss Azalea Door",
@@ -533,7 +555,7 @@
   "block.dramaticdoors.tall_tecal_azalea_door": "Tall Tecal Azalea Door",
   "block.dramaticdoors.tall_titanium_azalea_door": "Tall Titanium Azalea Door",
   "block.dramaticdoors.tall_walnut_azalea_door": "Tall Walnut Azalea Door",
-
+  
   "block.dramaticdoors.short_co_copper_door": "Short Copper Door",
   "block.dramaticdoors.short_co_exposed_copper_door": "Short Exposed Copper Door",
   "block.dramaticdoors.short_co_weathered_copper_door": "Short Weathered Copper Door",
@@ -542,7 +564,7 @@
   "block.dramaticdoors.tall_co_exposed_copper_door": "Tall Exposed Copper Door",
   "block.dramaticdoors.tall_co_weathered_copper_door": "Tall Weathered Copper Door",
   "block.dramaticdoors.tall_co_oxidized_copper_door": "Tall Oxidized Copper Door",
-
+  
   "block.dramaticdoors.short_create_andesite_door": "Short Andesite Door",
   "block.dramaticdoors.short_create_brass_door": "Short Brass Door",
   "block.dramaticdoors.short_create_copper_door": "Short Copper Door",
@@ -553,12 +575,12 @@
   "block.dramaticdoors.tall_create_copper_door": "Tall Copper Door",
   "block.dramaticdoors.tall_create_framed_glass_door": "Tall Framed Glass Door",
   "block.dramaticdoors.tall_create_train_door": "Tall Train Door",
-
+  
   "block.dramaticdoors.short_steel_door": "Short Steel Door",
   "block.dramaticdoors.short_locked_steel_door": "Short Locked Steel Door",
   "block.dramaticdoors.tall_steel_door": "Tall Steel Door",
   "block.dramaticdoors.tall_locked_steel_door": "Tall Locked Steel Door",
-
+  
   "block.dramaticdoors.short_andesite_door": "Short Andesite Door",
   "block.dramaticdoors.short_brass_door": "Short Brass Door",
   "block.dramaticdoors.short_copper_door": "Short Copper Door",
@@ -586,7 +608,7 @@
   "block.dramaticdoors.tall_andesite_casing_door": "Tall Andesite Casing Door",
   "block.dramaticdoors.tall_brass_casing_door": "Tall Brass Casing Door",
   "block.dramaticdoors.tall_copper_casing_door": "Tall Copper Casing Door",
-
+  
   "block.dramaticdoors.short_petrified_door": "Short Petrified Door",
   "block.dramaticdoors.tall_petrified_door": "Tall Petrified Door",
 
@@ -610,10 +632,10 @@
 
   "block.dramaticdoors.short_echo_door": "Short Echo Door",
   "block.dramaticdoors.tall_echo_door": "Tall Echo Door",
-
+  
   "block.dramaticdoors.short_charred_door": "Short Charred Door",
   "block.dramaticdoors.tall_charred_door": "Tall Charred Door",
-
+  
   "block.dramaticdoors.short_cardboard_door": "Short Cardboard Door",
   "block.dramaticdoors.short_chain_door": "Short Chain Link Door",
   "block.dramaticdoors.short_industrial_iron_door": "Short Industrial Iron Door",
@@ -750,7 +772,7 @@
 
   "block.dramaticdoors.short_dark_iron_door": "Short Dark Iron Door",
   "block.dramaticdoors.tall_dark_iron_door": "Tall Dark Iron Door",
-
+  
   "block.dramaticdoors.short_fairy_ring_mushroom_door": "Short Fairy Ring Mushroom Door",
   "block.dramaticdoors.tall_fairy_ring_mushroom_door": "Tall Fairy Ring Mushroom Door",
 
@@ -811,7 +833,7 @@
   "block.dramaticdoors.tall_cherry_glass_door": "Tall Cherry Glass Door",
   "block.dramaticdoors.tall_crimson_glass_door": "Tall Crimson Glass Door",
   "block.dramaticdoors.tall_warped_glass_door": "Tall Warped Glass Door",
-
+  
   "block.dramaticdoors.short_morecraft_netherbrick_door": "Short Nether Brick Door",
   "block.dramaticdoors.short_morecraft_netherwood_door": "Short Netherwood Door",
   "block.dramaticdoors.short_morecraft_netherite_door": "Short Netherite Door",
@@ -824,7 +846,7 @@
   "block.dramaticdoors.tall_morecraft_glass_door": "Tall Glass Door",
   "block.dramaticdoors.tall_morecraft_soul_glass_door": "Tall Soul Glass Door",
   "block.dramaticdoors.tall_morecraft_bone_door": "Tall Bone Door",
-
+    
   "block.dramaticdoors.short_md_glass_door": "Short Glass Door",
   "block.dramaticdoors.short_md_tinted_glass_door": "Short Tinted Glass Door",
   "block.dramaticdoors.short_md_black_stained_glass_door": "Short Black Stained Glass Door",
@@ -937,7 +959,7 @@
   "block.dramaticdoors.tall_md_ice_door": "Tall Ice Door",
   "block.dramaticdoors.tall_md_sponge_door": "Tall Sponge Door",
   "block.dramaticdoors.tall_md_sculk_door": "Tall Sculk Door",
-
+  
   "block.dramaticdoors.short_ms_iron_bar_door": "Short Iron Bar Door",
   "block.dramaticdoors.short_ms_bamboo_door": "Short Bamboo Door",
   "block.dramaticdoors.short_ms_cherry_door": "Short Cherry Door",
@@ -994,10 +1016,10 @@
   "block.dramaticdoors.tall_ms_pink_glass_door": "Tall Pink Stained Glass Door",
   "block.dramaticdoors.tall_ms_light_blue_glass_door": "Tall Light Blue Stained Glass Door",
   "block.dramaticdoors.tall_ms_brown_glass_door": "Tall Brown Stained Glass Door",
-
+  
   "block.dramaticdoors.short_powdery_door": "Short Powdery Door",
   "block.dramaticdoors.tall_powdery_door": "Tall Powdery Door",
-
+  
   "block.dramaticdoors.short_mb_cherry_door": "Short Cherry Door (Legacy)",
   "block.dramaticdoors.short_mb_jacaranda_door": "Short Jacaranda Door",
   "block.dramaticdoors.short_mb_maple_door": "Short Maple Door",
@@ -1059,10 +1081,10 @@
 
   "block.dramaticdoors.short_fir_door": "Short Fir Door",
   "block.dramaticdoors.tall_fir_door": "Tall Fir Door",
-
+  
   "block.dramaticdoors.short_azure_door": "Short Azure Door",
   "block.dramaticdoors.tall_azure_door": "Tall Azure Door",
-
+  
   "block.dramaticdoors.short_pokecube_enigma_door": "Short Enigma Door",
   "block.dramaticdoors.short_pokecube_leppa_door": "Short Leppa Door",
   "block.dramaticdoors.short_pokecube_nanab_door": "Short Nanab Door",
@@ -1102,14 +1124,14 @@
   "block.dramaticdoors.tall_pw_silverbell_door": "Tall Silverbell Door",
   "block.dramaticdoors.tall_pw_tiger_door": "Tall Tiger Door",
   "block.dramaticdoors.tall_pw_willow_door": "Tall Willow Door",
-
+  
   "block.dramaticdoors.short_promenade_cherry_oak_door": "Short Cherry Oak Door",
   "block.dramaticdoors.short_promenade_dark_amaranth_door": "Short Dark Amaranth Door",
   "block.dramaticdoors.short_promenade_palm_door": "Short Palm Door",
   "block.dramaticdoors.tall_promenade_cherry_oak_door": "Tall Cherry Oak Door",
   "block.dramaticdoors.tall_promenade_dark_amaranth_door": "Tall Dark Amaranth Door",
   "block.dramaticdoors.tall_promenade_palm_door": "Tall Palm Door",
-
+  
   "block.dramaticdoors.short_pyrowood_door": "Short Pyrowood Door",
   "block.dramaticdoors.short_rotten_planks_door": "Short Rotten Planks Door",
   "block.dramaticdoors.tall_pyrowood_door": "Tall Pyrowood Door",
@@ -1134,7 +1156,7 @@
 
   "block.dramaticdoors.short_gingerbread_door": "Short Gingerbread Door",
   "block.dramaticdoors.tall_gingerbread_door": "Tall Gingerbread Door",
-
+  
   "block.dramaticdoors.short_gold_door": "Short Gold Door",
   "block.dramaticdoors.short_netherite_door": "Short Netherite Door",
   "block.dramaticdoors.short_silver_door": "Short Silver Door",
@@ -1214,7 +1236,7 @@
 
   "block.dramaticdoors.short_stripped_bamboo_door": "Short Stripped Bamboo Door",
   "block.dramaticdoors.tall_stripped_bamboo_door": "Tall Stripped Bamboo Door",
-
+  
   "block.dramaticdoors.short_grongle_door": "Short Grongle Door",
   "block.dramaticdoors.short_smogstem_door": "Short Smogstem Door",
   "block.dramaticdoors.short_wigglewood_door": "Short Wigglewood Door",
@@ -1231,7 +1253,7 @@
   "block.dramaticdoors.tall_golden_door": "Tall Golden Door",
   "block.dramaticdoors.tall_chestnut_door": "Tall Chestnut Door",
   "block.dramaticdoors.tall_holly_door": "Tall Holly Door",
-
+  
   "block.dramaticdoors.short_bloodshroom_door": "Short Bloodshroom Door",
   "block.dramaticdoors.short_greenheart_door": "Short Greenheart Door",
   "block.dramaticdoors.short_skyroot_door": "Short Skyroot Door",
@@ -1251,7 +1273,7 @@
 
   "block.dramaticdoors.short_mystical_oak_door": "Short Mystical Oak Door",
   "block.dramaticdoors.tall_mystical_oak_door": "Tall Mystical Oak Door",
-
+  
   "block.dramaticdoors.short_chipped_barred_oak_door": "Short Barred Oak Door",
   "block.dramaticdoors.short_chipped_beach_oak_door": "Short Beach Oak Door",
   "block.dramaticdoors.short_chipped_boarded_oak_door": "Short Boarded Oak Door",
@@ -1633,14 +1655,14 @@
 
   "block.dramaticdoors.tall_macaw_store_door": "Tall Store Door",
   "block.dramaticdoors.tall_macaw_sliding_glass_door": "Tall Sliding Glass Door",
-
+  
   "block.dramaticdoors.tall_macaw_jail_door": "Tall Jail Door",
   "block.dramaticdoors.tall_macaw_metal_door": "Tall Metal Door",
   "block.dramaticdoors.tall_macaw_metal_hospital_door": "Tall Metal Hospital Door",
   "block.dramaticdoors.tall_macaw_metal_reinforced_door": "Tall Metal Reinforced Door",
   "block.dramaticdoors.tall_macaw_metal_warning_door": "Tall Metal Warning Door",
   "block.dramaticdoors.tall_macaw_metal_windowed_door": "Tall Metal Windowed Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_barn_door": "Tall Acacia Barn Door",
   "block.dramaticdoors.tall_macaw_bamboo_barn_door": "Tall Bamboo Barn Door",
   "block.dramaticdoors.tall_macaw_birch_barn_door": "Tall Birch Barn Door",
@@ -1652,7 +1674,7 @@
   "block.dramaticdoors.tall_macaw_oak_barn_door": "Tall Oak Barn Door",
   "block.dramaticdoors.tall_macaw_spruce_barn_door": "Tall Spruce Barn Door",
   "block.dramaticdoors.tall_macaw_warped_barn_door": "Tall Warped Barn Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_barn_glass_door": "Tall Acacia Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_bamboo_barn_glass_door": "Tall Bamboo Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_birch_barn_glass_door": "Tall Birch Barn Glassed Door",
@@ -1664,7 +1686,7 @@
   "block.dramaticdoors.tall_macaw_oak_barn_glass_door": "Tall Oak Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_spruce_barn_glass_door": "Tall Spruce Barn Glassed Door",
   "block.dramaticdoors.tall_macaw_warped_barn_glass_door": "Tall Warped Barn Glassed Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_stable_door": "Tall Acacia Stable Door",
   "block.dramaticdoors.tall_macaw_bamboo_stable_door": "Tall Bamboo Stable Door",
   "block.dramaticdoors.tall_macaw_birch_stable_door": "Tall Birch Stable Door",
@@ -1688,7 +1710,7 @@
   "block.dramaticdoors.tall_macaw_oak_stable_head_door": "Tall Oak Stable Horse Door",
   "block.dramaticdoors.tall_macaw_spruce_stable_head_door": "Tall Spruce Stable Horse Door",
   "block.dramaticdoors.tall_macaw_warped_stable_head_door": "Tall Warped Stable Horse Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_glass_door": "Tall Acacia Glass Door",
   "block.dramaticdoors.tall_macaw_bamboo_glass_door": "Tall Bamboo Glass Door",
   "block.dramaticdoors.tall_macaw_birch_glass_door": "Tall Birch Glass Door",
@@ -1783,7 +1805,7 @@
   "block.dramaticdoors.tall_macaw_oak_classic_door": "Tall Oak Classic Door",
   "block.dramaticdoors.tall_macaw_spruce_classic_door": "Tall Spruce Classic Door",
   "block.dramaticdoors.tall_macaw_warped_classic_door": "Tall Warped Classic Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_cottage_door": "Tall Acacia Cottage Door",
   "block.dramaticdoors.tall_macaw_bamboo_cottage_door": "Tall Bamboo Cottage Door",
   "block.dramaticdoors.tall_macaw_birch_cottage_door": "Tall Birch Cottage Door",
@@ -1831,7 +1853,7 @@
   "block.dramaticdoors.tall_macaw_oak_nether_door": "Tall Oak Nether Door",
   "block.dramaticdoors.tall_macaw_spruce_nether_door": "Tall Spruce Nether Door",
   "block.dramaticdoors.tall_macaw_warped_nether_door": "Tall Warped Nether Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_paper_door": "Tall Acacia Paper Door",
   "block.dramaticdoors.tall_macaw_bamboo_paper_door": "Tall Bamboo Paper Door",
   "block.dramaticdoors.tall_macaw_birch_paper_door": "Tall Birch Paper Door",
@@ -1843,7 +1865,7 @@
   "block.dramaticdoors.tall_macaw_oak_paper_door": "Tall Oak Paper Door",
   "block.dramaticdoors.tall_macaw_spruce_paper_door": "Tall Spruce Paper Door",
   "block.dramaticdoors.tall_macaw_warped_paper_door": "Tall Warped Paper Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_swamp_door": "Tall Acacia Swamp Door",
   "block.dramaticdoors.tall_macaw_bamboo_swamp_door": "Tall Bamboo Swamp Door",
   "block.dramaticdoors.tall_macaw_birch_swamp_door": "Tall Birch Swamp Door",
@@ -1855,7 +1877,7 @@
   "block.dramaticdoors.tall_macaw_oak_swamp_door": "Tall Oak Swamp Door",
   "block.dramaticdoors.tall_macaw_spruce_swamp_door": "Tall Spruce Swamp Door",
   "block.dramaticdoors.tall_macaw_warped_swamp_door": "Tall Warped Swamp Door",
-
+  
   "block.dramaticdoors.tall_macaw_acacia_tropical_door": "Tall Acacia Tropical Door",
   "block.dramaticdoors.tall_macaw_bamboo_tropical_door": "Tall Bamboo Tropical Door",
   "block.dramaticdoors.tall_macaw_birch_tropical_door": "Tall Birch Tropical Door",
@@ -1879,7 +1901,7 @@
   "block.dramaticdoors.tall_macaw_oak_waffle_door": "Tall Oak Waffle Door",
   "block.dramaticdoors.tall_macaw_spruce_waffle_door": "Tall Spruce Waffle Door",
   "block.dramaticdoors.tall_macaw_warped_waffle_door": "Tall Warped Waffle Door",
-
+  
   "block.dramaticdoors.short_manyideas_copper_bar_door": "Short Copper Bar Door",
   "block.dramaticdoors.short_manyideas_copper_barrel_door": "Short Copper Barrel Door",
   "block.dramaticdoors.short_manyideas_copper_brick_door": "Short Copper Brick Door",
@@ -2100,15 +2122,19 @@
   "block.dramaticdoors.tall_manyideas_warped_origin_door": "Tall Warped Origin Door",
   "block.dramaticdoors.tall_manyideas_warped_rustic_door": "Tall Warped Rustic Door",
   "block.dramaticdoors.tall_manyideas_warped_shoji_door": "Tall Warped Shoji Door",
-
+  
+  "tag.item.dramaticdoors.short_doors": "Short Doors",
+  "tag.item.dramaticdoors.short_wooden_doors": "Short Wooden Doors",
+  "tag.item.dramaticdoors.tall_doors": "Tall Doors",
+  "tag.item.dramaticdoors.tall_wooden_doors": "Tall Wooden Doors",
+  
   "itemGroup.dramaticdoors": "Dramatic Doors",
   "itemGroup.dramaticdoors_chipped": "Dramatic Doors: Chipped",
   "itemGroup.dramaticdoors_macaw": "Dramatic Doors: Macaw's Doors",
   "itemGroup.dramaticdoors_manyideas": "Dramatic Doors: ManyIdeas Doors",
-
+  
   "config.dramaticdoors.waterloggable_doors.name": "Waterloggable Doors",
   "config.dramaticdoors.waterloggable_doors.tooltip": "Allow doors to be waterlogged. Enable to allow waterlogging. Disable for compatibility with certain mods. Requires restart after changing.  Default: true",
   "config.dramaticdoors.waterloggable_fence_gates.name": "Waterloggable Fence Gates",
   "config.dramaticdoors.waterloggable_fence_gates.tooltip": "Allow fence gates to be waterlogged. Enable to allow waterlogging. Disable for compatibility with certain mods. Requires restart after changing.  Default: true"
-
 }
