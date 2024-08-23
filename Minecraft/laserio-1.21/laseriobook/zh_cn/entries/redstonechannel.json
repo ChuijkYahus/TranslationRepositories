@@ -1,12 +1,12 @@
 {
-  "name": "Redstone Channel",
+  "name": "红石频道",
   "sortnum": 11,
   "category": "laserio:mechanics",
   "icon": "laserio:textures/gui/buttons/redstoneignore.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Cards have a 'redstone channel' separate from the main channel.$(br2)This is the channel of Redstone Signal that will affect the card. See more details in the $(l:laserio:redstonemode)Redstone Mode$(/l) and $(l:laserio:card_redstone)Redstone Card$(/l) sections."
+      "text": "物流卡的“红石频道”独立于其“频道”。$(br2)仅该频道上的红石信号会影响该卡。详细信息参见$(l:laserio:redstonemode)红石模式$(/l)和$(l:laserio:card_redstone)红石卡$(/l)条目。"
     }
   ]
 }

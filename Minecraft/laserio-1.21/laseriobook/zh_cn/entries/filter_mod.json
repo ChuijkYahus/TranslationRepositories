@@ -1,12 +1,12 @@
 {
-  "name": "Mod Filter",
+  "name": "模组过滤器",
   "sortnum": 3,
   "category": "laserio:filters",
   "icon": "laserio:filter_mod",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The mod filter will sort based on what mod an item/block comes from. For example, if you place a Laser Wrench in the filter, all LaserIO items and blocks will match that filter."
+      "text": "模组过滤器用于按照槽内物品的来源模组进行过滤。例如，若在过滤器槽内放入激光扳手，则所有 LaserIO 的物品和方块都会匹配。"
     }
   ]
 }

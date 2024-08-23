@@ -1,6 +1,6 @@
 {
-  "name": "Filters",
-  "description": "Filters allow you to control what is, or is not, allowed to be moved around by cards.",
+  "name": "过滤器",
+  "description": "过滤器能让你控制什么可经由物流卡传输，或什么不可传输。",
   "sortnum": 3,
   "icon": "laserio:filter_basic"
 }

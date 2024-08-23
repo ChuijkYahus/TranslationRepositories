@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "title": "未成形的逻辑芯片",
+      "title": "未处理的逻辑芯片",
       "recipe": "laserio:logic_chip_raw"
     },
     {

@@ -1,25 +1,25 @@
 {
-  "name": "Laser Connector",
+  "name": "激光连接器",
   "icon": "laserio:laser_connector",
   "sortnum": 1,
   "category": "laserio:blocks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Multiple $(l:laserio:laser_node)Laser Nodes$(/l) can be connected directly to each other using the $(l:laserio:laser_wrench)Laser Wrench$(/l), however the maximum range is 8 blocks. $(br2)Laser Connectors can act as a cheaper intermediary point between nodes, allowing you to build a network of interconnected inventories."
+      "text": "多个$(l:laserio:laser_node)激光节点$(/l)可由$(l:laserio:laser_wrench)激光扳手$(/l)互相直接连接，但连接长度不得超过 8 格。$(br2)激光连接器是造价较便宜的中介装置，专用于中继节点，由此可构建互相联通的激光网络。"
     },
     {
       "type": "patchouli:image",
-      "title": "Laser Node",
+      "title": "激光节点",
       "images": [
         "laserio:textures/book/entries/laser_connector1.png"
       ],
       "border": true,
-      "text": "Connector between 2 nodes"
+      "text": "连接两个节点的连接器"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Laser Connector",
+      "title": "激光连接器",
       "recipe": "laserio:laser_connector"
     }
   ]
