@@ -26,36 +26,40 @@
 	"item.moresnifferflowers.rebrewed_potion.effect.water": "Rebrewed Potion",
 	"item.moresnifferflowers.rebrewed_splash_potion.effect.water": "Rebrewed Splash Potion",
 	"item.moresnifferflowers.rebrewed_lingering_potion.effect.water": "Rebrewed Lingering Potion",
-	"item.moresnifferflowers.extracted_bottle.effect.empty": "Uncraftable Extracted Potion",
-	"item.moresnifferflowers.rebrewed_potion.effect.empty": "Uncraftable Rebrewed Potion",
-	"item.moresnifferflowers.rebrewed_splash_potion.effect.empty": "Uncraftable Rebrewed Splash Potion",
-	"item.moresnifferflowers.rebrewed_lingering_potion.effect.empty": "Uncraftable Rebrewed Lingering Potion",
+	"item.moresnifferflowers.extracted_bottle.effect.empty": "Extracted Potion",
+	"item.moresnifferflowers.rebrewed_potion.effect.empty": "Rebrewed Potion",
+	"item.moresnifferflowers.rebrewed_splash_potion.effect.empty": "Rebrewed Splash Potion",
+	"item.moresnifferflowers.rebrewed_lingering_potion.effect.empty": "Rebrewed Lingering Potion",
    	"item.moresnifferflowers.rebrewing_stand": "Rebrewing Stand",
    	"item.moresnifferflowers.broken_rebrewing_stand": "Broken Rebrewing Stand",
 	"item.moresnifferflowers.cropressor": "Cropressor",
+	"item.moresnifferflowers.aroma_armor_trim_smithing_template": "Smithing Template",
+	"item.moresnifferflowers.nether_wart_armor_trim_smithing_template": "Smithing Template",
+	"item.moresnifferflowers.tater_armor_trim_smithing_template": "Smithing Template",
+	"item.moresnifferflowers.carotene_armor_trim_smithing_template": "Smithing Template",
+	"item.moresnifferflowers.grain_armor_trim_smithing_template": "Smithing Template",
+	"item.moresnifferflowers.beat_armor_trim_smithing_template": "Smithing Template",
 
 
 	"block.moresnifferflowers.dawnberry_vine": "Dawnberry Vine",
-	"block.moresnifferflowers.ambush_bottom": "Ambush",
-	"block.moresnifferflowers.ambush_top": "Ambush",
+	"block.moresnifferflowers.ambush": "Ambush",
 	"block.moresnifferflowers.amber": "Amber",
 	"block.moresnifferflowers.caulorflower": "Caulorflower",
 	"block.moresnifferflowers.bonmeelia": "Bonmeelia",
-	"block.moresnifferflowers.cropressor_out": "Cropressor",
-	"block.moresnifferflowers.cropressor_center": "Cropressor",
+	"block.moresnifferflowers.cropressor": "Cropressor",
 	"block.moresnifferflowers.giant_potato": "Giant Potato",
 	"block.moresnifferflowers.giant_netherwart": "Giant Nether Wart",
 	"block.moresnifferflowers.giant_carrot": "Giant Carrot",
 	"block.moresnifferflowers.giant_wheat": "Giant Wheat",
 	"block.moresnifferflowers.giant_beetroot": "Giant Beetroot",
-	"block.moresnifferflowers.rebrewing_stand_bottom": "Rebrewing Stand",	
-	"block.moresnifferflowers.rebrewing_stand_top": "Rebrewing Stand",	
+	"block.moresnifferflowers.rebrewing_stand": "Rebrewing Stand",
 	"block.moresnifferflowers.dyespria_plant": "Dyespria",
 
 	"tooltip.dyespria.usage": "Hover+Right-click to insert dye \nRight-click Caulorflower to paint \nSneak to paint whole column\n",
 	"tooltip.dyespria.empty": "Empty",
 	"tooltip.jar_of_bonmeel.usage": "Can be applied to a fully grown 3x3 grid of the following crops: \nCarrot, Potato, Wheat, Beetroot and Nether Wart",
 	"tooltip.amber_shard.usage": "Can be used as an armor trim material",
+	"tooltip.dyespria_seeds": "Shear to hide dye",
 	"bottle_of_extraction.tooltip.usage": "Drink to extract current effects into a bottle",
 
 	"advancements.more_sniffer_flowers.dyespria_plant": "Colorful plants",
@@ -101,9 +105,9 @@
 	"block.minecraft.banner.moresnifferflowers.ambush.purple": "Purple Ambush",
 	"block.minecraft.banner.moresnifferflowers.ambush.magenta": "Magenta Ambush",
 	"block.minecraft.banner.moresnifferflowers.ambush.pink": "Pink Ambush",
-	
+
 	"effect.moresnifferflowers.extracted": "Extracted",
-	
+
 	"tooltip.extracted_bottle.obtain": "Obtainable using Bottle o' Extraction",
 
 	"death.attack.moresnifferflowersveggies": "%s has eaten their veggies",
@@ -112,7 +116,7 @@
 
 	"gui.mores_sniffer_flowers.cropressing_category": "Cropressing",
 
-	"entity.moresnifferflowers.dragonfly": "Dragonfly",
+	"effect.moresnifferflowers.extracted.description":"Prevents the target from extracting their current potion effects via the Bottle o' Extraction.",
 
-	"effect.moresnifferflowers.extracted.description":"Prevents the target from extracting their current potion effects via the Bottle o' Extraction."
+	"entity.moresnifferflowers.dragonfly": "Dragonfly"
 }
