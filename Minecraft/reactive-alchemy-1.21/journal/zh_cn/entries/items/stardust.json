@@ -1,7 +1,8 @@
 {
   "name": "星尘",
   "icon": "reactive:stardust",
-  "category": "reactive:results",
+  "category": "reactive:items",
+  "advancement": "reactive:make_crucible",
   "pages": [
     {
       "type": "reactive:transmute",
