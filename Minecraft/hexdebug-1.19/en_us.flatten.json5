@@ -36,10 +36,12 @@
           copy: "Copy",
           paste: "Paste (Verbatim)",
           paste_splat: "Paste (Flattened)",
+          export: "Export as .hexpattern",
         },
         tooltip: {
           index: "Index: %d",
           signature: "Signature: %s",
+          length: "Length: %d",
         },
       },
     },
