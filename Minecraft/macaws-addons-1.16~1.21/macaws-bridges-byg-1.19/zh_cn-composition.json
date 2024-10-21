@@ -1,0 +1,67 @@
+{
+    "target": "assets/macawsbridgesbyg/lang/zh_cn.json",
+    "entries": [
+        {
+            "templates": {
+                "block.macawsbridgesbyg.{0}_log_bridge_middle": "{0}桥",
+                "block.macawsbridgesbyg.{0}_bridge_pier": "{0}桥梁支架",
+                "block.macawsbridgesbyg.rope_{0}_bridge": "{0}索桥",
+                "block.macawsbridgesbyg.{0}_log_bridge_stair": "{0}桥梯",
+                "block.macawsbridgesbyg.{0}_rope_bridge_stair": "{0}索桥梯",
+                "block.macawsbridgesbyg.{0}_rail_bridge": "{0}铁轨桥"
+            },
+            "parameters": [
+                {
+                    "aspen": "白杨木",
+                    "baobab": "猴面包木",
+                    "blue_enchanted": "蓝色魔法木",
+                    "cherry": "樱桃木",
+                    "cika": "锡卡木",
+                    "cypress": "柏木",
+                    "ebony": "乌木",
+                    "ether": "以太木",
+                    "fir": "冷杉木",
+                    "green_enchanted": "绿色魔法木",
+                    "holly": "冬青木",
+                    "ironwood": "铁色木",
+                    "jacaranda": "蓝花楹木",
+                    "lament": "哀叹木",
+                    "mahogany": "桃花心木",
+                    "maple": "枫木",
+                    "nightshade": "夜影木",
+                    "palm": "棕榈木",
+                    "pine": "松木",
+                    "rainbow_eucalyptus": "彩虹桉木",
+                    "redwood": "红杉木",
+                    "skyris": "天际木",
+                    "white_mangrove": "白色红树木",
+                    "willow": "柳木",
+                    "witch_hazel": "金缕梅木",
+                    "zelkova": "榉木",
+                    "bulbis": "灯状菇木",
+                    "imparius": "异蓝木",
+                    "sythian": "斯基泰木"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.macawsbridgesbyg.{0}_bridge": "{0}桥",
+                "block.macawsbridgesbyg.{0}_bridge_pier": "{0}桥梁支架",
+                "block.macawsbridgesbyg.{0}_bridge_stair": "{0}桥梯",
+                "block.macawsbridgesbyg.balustrade_{0}_bridge": "柱栏{0}桥"
+            },
+            "parameters": [
+                {
+                    "cryptic_stone": "隐秘石",
+                    "dacite_bricks": "英安岩砖",
+                    "polished_travertine": "磨制石灰华",
+                    "purpur_stone": "紫珀石",
+                    "red_rock_bricks": "红岩砖",
+                    "scoria_stone": "熔渣石",
+                    "soapstone_bricks": "皂石砖"
+                }
+            ]
+        }
+    ]
+}
