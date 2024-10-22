@@ -154,7 +154,7 @@
     "text.autoconfig.astrocraft.option.sunAppearance.color.blue": "蓝",
     "text.autoconfig.astrocraft.option.sunAppearance.color.alpha": "Alpha",
 
-    "text.autoconfig.astrocraft.category.overlay": "覆盖层",
+    "text.autoconfig.astrocraft.category.overlay": "叠加层",
     "text.autoconfig.astrocraft.option.showConstellations": "显示星座",
     "text.autoconfig.astrocraft.option.showConstellations.@Tooltip": "在各星体间划线以显示星座",
     "text.autoconfig.astrocraft.option.showEquator": "显示天球赤道",
