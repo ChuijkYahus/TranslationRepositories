@@ -6,7 +6,7 @@ Minecraft Mods Traslation Files
 
 鸣谢各位 CFPAOrg 成员
 
-```csv
-a,b,c,d
-e,f,g,h
+```tsv
+a	b	c	d
+e	f	g	h
 ```
