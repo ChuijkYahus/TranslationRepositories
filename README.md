@@ -5,3 +5,8 @@ Minecraft Mods Traslation Files
 普通的翻译文件
 
 鸣谢各位 CFPAOrg 成员
+
+```csv
+a,b,c,d
+e,f,g,h
+```
