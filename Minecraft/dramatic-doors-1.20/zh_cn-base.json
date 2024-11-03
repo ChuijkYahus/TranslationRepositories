@@ -97,6 +97,9 @@
   "block.dramaticdoors.short_white_wood_door": "白色矮木门",
   "block.dramaticdoors.tall_white_wood_door": "白色高木门",
 
+  "block.dramaticdoors.tall_macaw_crimson_stem_glass_door": "高绯红树皮玻璃门",
+  "block.dramaticdoors.tall_macaw_warped_stem_glass_door": "高诡异树皮玻璃门",
+
   "itemGroup.dramaticdoors": "Dramatic Doors",
   "itemGroup.dramaticdoors_chipped": "Dramatic Doors丨Chipped",
   "itemGroup.dramaticdoors_macaw": "Dramatic Doors丨Macaw的门",
