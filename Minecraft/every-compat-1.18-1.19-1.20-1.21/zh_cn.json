@@ -894,6 +894,7 @@
   "wood_type.minecraft.mangrove": "红树木",
   "wood_type.minecraft.cherry": "樱花木",
   "wood_type.minecraft.bamboo": "竹",
+  "wood_type.minecraft.pale_oak": "苍白橡木",
   "wood_type.minecraft.crimson": "绯红木",
   "wood_type.minecraft.warped": "诡异木",
   "leaves_type.minecraft.oak": "橡树",
@@ -904,6 +905,7 @@
   "leaves_type.minecraft.acacia": "金合欢",
   "leaves_type.minecraft.mangrove": "红树",
   "leaves_type.minecraft.cherry": "樱花",
+  "leaves_type.minecraft.pale_oak": "苍白橡树",
   "leaves_type.minecraft.azalea": "杜鹃",
   "leaves_type.minecraft.flowering_azalea": "盛开的杜鹃",
 
@@ -1175,6 +1177,7 @@
   "wood_type.biomeswevegone.redwood": "红杉木",
   "wood_type.biomeswevegone.sakura": "樱木",
   "wood_type.biomeswevegone.skyris": "天际木",
+  "wood_type.biomeswevegone.spirit": "魂灵木",
   "wood_type.biomeswevegone.white_mangrove": "白色红树木",
   "wood_type.biomeswevegone.willow": "柳木",
   "wood_type.biomeswevegone.witch_hazel": "金缕梅木",
@@ -1208,6 +1211,7 @@
   "leaves_type.biomeswevegone.silver_maple": "银色枫树",
   "leaves_type.biomeswevegone.green_apple_skyris": "青苹果天际",
   "leaves_type.biomeswevegone.flowering_skyris": "盛开的天际",
+  "leaves_type.biomeswevegone.flowering_spirit": "盛开的魂灵",
   "leaves_type.biomeswevegone.flowering_ironwood": "盛开的铁色木",
   "leaves_type.biomeswevegone.white_sakura": "白色樱树",
   "leaves_type.biomeswevegone.yellow_sakura": "黄色樱树",
@@ -1232,6 +1236,7 @@
   "leaves_type.biomeswevegone.rainbow_eucalyptus": "彩虹桉",
   "leaves_type.biomeswevegone.redwood": "红杉",
   "leaves_type.biomeswevegone.skyris": "天际",
+  "leaves_type.biomeswevegone.spirit": "魂灵",
   "leaves_type.biomeswevegone.white_mangrove": "白色红树",
   "leaves_type.biomeswevegone.willow": "柳树",
   "leaves_type.biomeswevegone.witch_hazel": "金缕梅",
@@ -2595,6 +2600,9 @@
 
   "wood_type.thermal.rubberwood": "橡胶木",
   "leaves_type.thermal.rubberwood": "橡胶",
+
+  "wood_type.thingamajigs.rubber_wood": "橡胶木",
+  "leaves_type.thingamajigs.rubber_wood": "橡胶",
 
   "wood_type.traverse.fir": "冷杉木",
   "leaves_type.traverse.fir": "冷杉",
