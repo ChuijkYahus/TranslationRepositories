@@ -288,7 +288,7 @@
   "block.eidolon.bone_pile_slab": "骨堆台阶",
   "block.eidolon.bone_pile_stairs": "骨堆楼梯",
   "block.eidolon.ghost_light": "鬼火",
-  "block.eidolon.scriptorium": "Scriptorium [WIP]",
+  "block.eidolon.scriptorium": "缮写台 [WIP]",
   "entity.eidolon.zombie_brute": "僵尸蛮种",
   "entity.eidolon.giant_skeleton": "巨型骷髅",
   "entity.eidolon.wraith": "幽魂",
@@ -820,5 +820,5 @@
   "magenta": "品红色",
   "light_blue": "淡蓝色",
   "light_gray": "淡灰色",
-  "eidolon.gui.scriptorium": "Scriptorium"
+  "eidolon.gui.scriptorium": "缮写台"
 }
