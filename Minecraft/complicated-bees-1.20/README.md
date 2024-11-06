@@ -1,4 +1,4 @@
-有部分学名的翻译法和词源没什么关系，真正的物种翻译（视频统计法）中也常直接以特征命名而非照搬拉丁学名
+有部分学名的翻译法和词源没什么关系，真正的物种翻译（视频统计法）中也有直接以特征命名而非照搬拉丁学名的
 apis为拉丁语蜜蜂，下不再一一指出
 
 | 蜂种名               | 蜂种学名                              | 词源推测                                                              | 备注                                                      |
@@ -43,7 +43,7 @@ apis为拉丁语蜜蜂，下不再一一指出
 | 石英<br/>Quartz      | 石英珍宝蜂<br/>*Lucrapis vicus*       | lucrum，拉丁语，利益、财富<br/>不知道从哪来的                         | 谷歌搜“quartz latin”有极少数给vicus                       |
 | 荧光<br/>Luminous    | 荧光珍宝蜂<br/>*Lucrapis candentis*   | lucrum，拉丁语，利益、财富<br/>candēns，拉丁语，发光的                |                                                           |
 | 黑煤<br/>Bituminous  | 煤炭珍宝蜂<br/>*Lucrapis pruna*       | lucrum，拉丁语，利益、财富<br/>prūna，拉丁语，燃烧的煤炭、余烬        |                                                           |
-| 导能<br/>Conductive  | 能量珍宝蜂<br/>*Lucrapis potentia*    | lucrum，拉丁语，利益、财富<br/>potentia，拉丁语，力量、能量           |                                                           |
+| 导能<br/>Conductive  | 导能珍宝蜂<br/>*Lucrapis potentia*    | lucrum，拉丁语，利益、财富<br/>potentia，拉丁语，力量、能量           |                                                           |
 | 青金<br/>Lapic       | 青金石珍宝蜂<br/>*Lucrapis lapis*     | lucrum，拉丁语，利益、财富<br/>lapis lazuli，英语，青金石             |                                                           |
 | 紫晶<br/>Amethyst    | 紫水晶珍宝蜂<br/>*Lucrapis thystus*   | lucrum，拉丁语，利益、财富<br/>amethyst，英语，紫水晶                 |                                                           |
 | 金刚<br/>Diamantic   | 贵石珍宝蜂<br/>*Lucrapis iaspis*      | lucrum，拉丁语，利益、财富<br/>iaspis，拉丁语，贵重的石头、碧玉       |                                                           |
