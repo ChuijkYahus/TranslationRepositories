@@ -9,7 +9,7 @@
       {"type": "page", "id": "blood", "icon": "neepmeat:blood_bucket", "text": "血液", "lookup": ["neepmeat:blood_bucket", "neepmeat:sacrificial_dagger"]},
       {"type": "page", "id": "integrator", "icon": "neepmeat:integrator_egg", "text": "融变生物机", "lookup": ["neepmeat:integrator_egg", "neepmeat:advanced_integrator"]},
       {"type": "page", "id": "enlightening", "icon": "neepmeat:pedestal", "text": "启智", "lookup": ["neepmeat:pedestal"]},
-      {"type": "page", "id": "charnel_compactor", "icon": "neepmeat:charnel_compactor", "text": "积尸压缩桶", "lookup": "neepmeat:charnel_compactor"}
+      {"type": "page", "id": "charnel_compactor", "icon": "neepmeat:charnel_compactor", "text": "积骸压缩桶", "lookup": "neepmeat:charnel_compactor"}
     ]},
     {"type": "menu", "id": "power", "icon": "neepmeat:motor_unit", "text": "供能", "entries": [
       {"type": "page", "id": "fluids", "icon": "neepmeat:ethereal_fuel_bucket", "text": "高能流体", "lookup": "neepmeat:ethereal_fuel_bucket"},
@@ -21,14 +21,14 @@
     {"type": "menu", "id": "farming", "icon": "neepmeat:motor_unit", "text": "农业", "entries": [
       {"type": "page", "id": "gland_potato", "icon": "neepmeat:flesh_potato", "text": "腺体马铃薯", "lookup": "neepmeat:gland_potato"},
       {"type": "page", "id": "whisper_wheat", "icon": "neepmeat:whisper_wheat", "text": "呢喃小麦", "lookup": ["neepmeat:whisper_wheat", "neepmeat:whisper_wheat_seeds", "neepmeat:whisper_flour", "neepmeat:whisper_bread"]},
-      {"type": "page", "id": "blood_bubble_tree", "icon": "neepmeat:blood_bubble_sapling", "text": "血珠树", "lookup": ["neepmeat:blood_bubble_sapling", "neepmeat:blood_bubble"]},
+      {"type": "page", "id": "blood_bubble_tree", "icon": "neepmeat:blood_bubble_sapling", "text": "血疱树", "lookup": ["neepmeat:blood_bubble_sapling", "neepmeat:blood_bubble"]},
       {"type": "page", "id": "feeding_trough", "icon": "neepmeat:feeding_trough", "text": "饲料槽", "lookup": ["neepmeat:feeding_trough", "neepmeat:animal_feed_bucket"]}
     ]},
     {"type": "menu", "id": "rotary_machines", "icon": "neepmeat:motor_unit", "text": "回转式机器", "entries": [
         {"type": "page", "id": "mixer", "icon": "neepmeat:mixer", "text": "混合机", "lookup": "neepmeat:mixer"},
         {"type": "page", "id": "trommel", "icon": "neepmeat:small_trommel", "text": "滚筒筛", "lookup": "neepmeat:small_trommel"},
-        {"type": "page", "id": "motor", "icon": "neepmeat:motor_unit", "text": "马达", "lookup": "neepmeat:motor_unit"},
-        {"type": "page", "id": "advanced_motor", "icon": "neepmeat:advanced_motor", "text": "高级马达", "lookup": "neepmeat:advanced_motor"},
+        {"type": "page", "id": "motor", "icon": "neepmeat:motor_unit", "text": "发动机", "lookup": "neepmeat:motor_unit"},
+        {"type": "page", "id": "advanced_motor", "icon": "neepmeat:advanced_motor", "text": "高级发动机", "lookup": "neepmeat:advanced_motor"},
         {"type": "page", "id": "stirling_engine", "icon": "neepmeat:stirling_engine", "text": "斯特林引擎", "lookup": "neepmeat:stirling_engine"},
         {"type": "page", "id": "grinder", "icon": "neepmeat:grinder", "text": "粉碎机", "lookup": "neepmeat:grinder"},
         {"type": "page", "id": "bottler", "icon": "neepmeat:bottler", "text": "灌装机", "lookup": "neepmeat:bottler"},
@@ -38,17 +38,17 @@
     ]},
     {"type": "menu", "id": "fluid_machines", "icon": "neepmeat:motor_unit", "text": "脉管供能机器", "entries": [
       {"type": "page", "id": "heater", "icon": "neepmeat:heater", "text": "加热器", "lookup": "neepmeat:heater"},
-      {"type": "page", "id": "phage_ray", "icon": "neepmeat:phage_ray", "text": "噬灭死光炮", "lookup": "neepmeat:phage_ray"}
+      {"type": "page", "id": "phage_ray", "icon": "neepmeat:phage_ray", "text": "吞噬射线炮", "lookup": "neepmeat:phage_ray"}
     ]},
     {"type": "menu", "id": "living_machines_menu", "icon": "neepmeat:living_machine_controller", "text": "活体机器", "entries": [
       {"type": "page", "id": "living_machines", "icon": "neepmeat:living_machine_controller", "text": "活体机器",
         "lookup":
         ["neepmeat:living_machine_controller", "neepmeat:machine_block", "neepmeat:base_machine_block", "neepmeat:meat_steel_machine_block", "neepmeat:meat_steel_machine_block_2", "neepmeat:skin_machine_block"]},
-      {"type": "page", "id": "phage_ray", "icon": "neepmeat:phage_ray", "text": "噬灭死光炮", "lookup": "neepmeat:phage_ray"},
+      {"type": "page", "id": "phage_ray", "icon": "neepmeat:phage_ray", "text": "吞噬射线炮", "lookup": "neepmeat:phage_ray"},
       {"type": "page", "id": "crusher_segment", "icon": "neepmeat:crusher_segment", "text": "大型粉碎机", "lookup": "neepmeat:crusher_segment"},
       {"type": "page", "id": "large_trommel", "icon": "neepmeat:large_trommel", "text": "大型滚筒筛", "lookup": "neepmeat:large_trommel"},
-      {"type": "page", "id": "tree_vacuum", "icon": "neepmeat:tree_vacuum", "text": "真空吸树器", "lookup": "neepmeat:tree_vacuum"},
-      {"type": "page", "id": "charnel_pump", "icon": "neepmeat:charnel_pump", "text": "积尸泵", "lookup": "neepmeat:charnel_pump"},
+      {"type": "page", "id": "tree_vacuum", "icon": "neepmeat:tree_vacuum", "text": "真空吸树机", "lookup": "neepmeat:tree_vacuum"},
+      {"type": "page", "id": "charnel_pump", "icon": "neepmeat:charnel_pump", "text": "积骸泵", "lookup": "neepmeat:charnel_pump"},
       {"type": "page", "id": "large_compressor", "icon": "neepmeat:large_compressor", "text": "大型压缩机", "lookup": "neepmeat:large_compressor"}
     ]},
     {"type": "menu", "id": "plc", "icon": "neepmeat:plc", "text": "PLC与制造加工", "entries": [
@@ -71,7 +71,7 @@
       {"type": "page", "id": "crucible", "icon": "neepmeat:crucible", "text": "熬脂盆", "lookup": "neepmeat:crucible"},
       {"type": "page", "id": "collector", "icon": "neepmeat:collector", "text": "脂肪收集器", "lookup": "neepmeat:collector"},
       {"type": "page", "id": "press", "icon": "neepmeat:hydraulic_press", "text": "液压机", "lookup": "neepmeat:hydraulic_press"},
-      {"type": "page", "id": "charnel_pump", "icon": "neepmeat:charnel_pump", "text": "积尸泵", "lookup": "neepmeat:charnel_pump"}
+      {"type": "page", "id": "charnel_pump", "icon": "neepmeat:charnel_pump", "text": "积骸泵", "lookup": "neepmeat:charnel_pump"}
     ]},
     {"type": "menu", "id": "meat_processing", "icon": "neepmeat:raw_meat_brick", "text": "肉的处理", "entries": [
       {"type": "page", "id": "meat", "icon": "neepmeat:raw_meat_brick", "text": "肉"},
@@ -95,7 +95,7 @@
     ]},
     {"type": "menu", "id": "misc", "icon": "neepmeat:essential_saltes", "text": "杂项", "entries": [
       {"type": "page", "id": "cloning", "icon": "neepmeat:essential_saltes", "text": "克隆", "lookup": "neepmeat:essential_saltes"},
-      {"type": "page", "id": "synthesiser", "icon": "neepmeat:synthesiser", "text": "精卵合成仪", "lookup": "neepmeat:synthesiser"},
+      {"type": "page", "id": "synthesiser", "icon": "neepmeat:synthesiser", "text": "精卵合成机", "lookup": "neepmeat:synthesiser"},
       {"type": "page", "id": "airtruck", "icon": "meatweapons:airtruck", "text": "空中货车", "lookup": "meatweapons:airtruck"}
     ]},
     {"type": "menu", "id": "weapons", "icon": "meatweapons:assault_drill", "text": "武器", "entries": [
