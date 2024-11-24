@@ -1,0 +1,38 @@
+{
+    "target": "assets/thingamajigs/lang/zh_cn.json",
+    "entries": [
+        {
+            "templates": {
+                "item.thingamajigs.{0}_pumpkin_seeds": "{0}南瓜种子",
+                "block.thingamajigs.{0}_pumpkin": "{0}南瓜",
+                "block.thingamajigs.{0}_carved_pumpkin": "雕刻{0}南瓜",
+                "block.thingamajigs.{0}_pumpkin_stem": "{0}南瓜茎",
+                "block.thingamajigs.attached_{0}_pumpkin_stem": "结果的{0}南瓜茎",
+                "block.thingamajigs.{0}_jol": "{0}南瓜灯",
+                "block.thingamajigs.{0}_glow_block": "{0}发光方块",
+                "block.thingamajigs.{0}_balloon_block": "{0}气球方块",
+                "item.thingamajigs.{0}_balloon_block_item": "{0}气球方块"
+            },
+            "parameters": [
+                {
+                    "white": "白色",
+                    "light_gray": "淡灰色",
+                    "gray": "灰色",
+                    "black": "黑色",
+                    "brown": "棕色",
+                    "red": "红色",
+                    "orange": "橙色",
+                    "yellow": "黄色",
+                    "lime": "黄绿色",
+                    "green": "绿色",
+                    "cyan": "青色",
+                    "light_blue": "淡蓝色",
+                    "blue": "蓝色",
+                    "purple": "紫色",
+                    "magenta": "品红色",
+                    "pink": "粉红色"
+                }
+            ]
+        }
+    ]
+}
