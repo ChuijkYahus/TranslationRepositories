@@ -306,7 +306,7 @@
   "death.attack.scythe_melee.item": "%1$s被%2$s用%3$s切成了两半",
   "death.attack.scythe_sweep": "%1$s被切成了两半",
   "death.attack.scythe_sweep.item": "%1$s被%2$s用%3$s切成了两半",
-  "death.attack.voodoo.player": "%1$s的灵魂被%2$s击碎了",
+  "death.attack.vodooo.player": "%1$s的灵魂被%2$s击碎了",
   "death.attack.vodooo.player.item": "%1$s的灵魂被%2$s用%3$s击碎了",
   "death.attack.vodooo_playerless": "%1$s的灵魂被击碎了",
   "death.attack.vodooo_playerless.player": "%1$s在试图逃离%2$s时被击碎了灵魂",
