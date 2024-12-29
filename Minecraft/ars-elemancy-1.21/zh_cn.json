@@ -81,10 +81,12 @@
   "ars_elemancy.page.armor_set.elemancer": "与所有4种元素学派校准的盔甲。结合了所有4种元素套装的效果。",
   "ars_elemancy.focus.shift_info" : "按住%s显示更多核心信息",
   "tooltip.ars_elemancy.focus_element": "与某一元素校准的核心，能让部分魔符产生新效果。",
-  "tooltip.ars_elemancy.focus_boost": "强化%s学派的魔符，并降低其消耗。",
-  "tooltip.ars_elemancy.focus_malus": "抑制其他元素学派的魔符。",
-  "tooltip.ars_elemancy.focus_element_mana.air": "佩戴者身处高空时给予魔力再生 I。",
-  "tooltip.ars_elemancy.focus_element_mana.fire": "佩戴者身处火焰或熔岩中时给予法术伤害提升 II。",
-  "tooltip.ars_elemancy.focus_element_mana.water": "佩戴者潮湿时给予魔力再生 I，在游泳时给予魔力再生 II与海豚的恩惠。",
-  "tooltip.ars_elemancy.focus_element_mana.earth": "佩戴者身处地下深处时给予魔力再生 I。"
+  "tooltip.ars_elemancy.focus_boost.cinder": "强化火元素与气元素学派的魔符，并降低其消耗。",
+  "tooltip.ars_elemancy.focus_boost.lava": "强化火元素与土元素学派的魔符，并降低其消耗。",
+  "tooltip.ars_elemancy.focus_boost.mire": "强化水元素与土元素学派的魔符，并降低其消耗。",
+  "tooltip.ars_elemancy.focus_boost.tempest": "强化水元素与气元素学派的魔符，并降低其消耗。",
+  "tooltip.ars_elemancy.focus_boost.silt": "强化土元素与气元素学派的魔符，并降低其消耗。",
+  "tooltip.ars_elemancy.focus_boost.vapor": "强化火元素与水元素学派的魔符，并降低其消耗。",
+  "tooltip.ars_elemancy.focus_boost.elemental": "强化所有四个元素学派的魔符，并降低其消耗。",
+  "ars_nouveau.school.elemental": "元素学派"
 }
