@@ -66,10 +66,10 @@ trickster:
     merge_vector: 吸收之曲真
     dot_product: 合向之曲真
     cross_product: 垂直之曲真
-    normalize: 正规之曲真
-    align_vector: 合向正规之曲真
+    normalize: 归一之曲真
+    align_vector: 合向归一之曲真
     invert: 取反之曲真
-    length: 辐长之曲真
+    length: 模长之曲真
 
     two: 基础之错觉
     read_spell: 记事员之错觉
@@ -83,7 +83,7 @@ trickster:
     cost: 消耗之技巧
 
     reflection: 定位之错觉
-    caster_reflection: 精思之错觉
+    caster_reflection: 自审之错觉
     mana_reflection: 权威之错觉
     max_mana_reflection: 加冕之错觉
     facing_reflection: 朝向之错觉
@@ -231,7 +231,7 @@ trickster:
     vector: 向量
     list: 列表
     map: 映射
-    void: Void
+    void: 空类型
     pattern: 图案
     pattern_literal: 图案字面量
     spell_part: 法术
@@ -311,7 +311,7 @@ block.trickster:
   spell_resonator: 法术谐振器
   spell_construct: 法术组构台
   modular_spell_construct: 模块式法术组构台
-  light: 光
+  light: 光源
   scroll_shelf: 卷轴架
 
 effect.trickster:
@@ -325,7 +325,7 @@ tag.item.trickster:
   spell_cost: 法术消耗品
 
 death.attack:
-  mana_overflux: "%1$s的魔术秀迎来了一场不合时宜的终结"
+  mana_overflux: "%1$s的魔术秀不合时宜地终结了"
   mana_overflux.player: "%2$s终止了%1$s的魔术秀"
 
 key:
