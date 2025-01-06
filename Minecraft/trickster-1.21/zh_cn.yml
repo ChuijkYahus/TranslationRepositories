@@ -38,38 +38,38 @@ trickster:
     subtract: 遗弃之谋略
     multiply: 统治之谋略
     divide: 屈从之谋略
-    modulo: 整体之曲真
-    power: 指数之曲真
+    modulo: 整体之曲变
+    power: 指数之曲变
     max: 高贵之谋略
     min: 低位之谋略
-    ceil: 壮丽之曲真
-    floor: 谦卑之曲真
-    round: 客观之曲真
-    sin: 甲型几何之曲真
-    cos: 乙型几何之曲真
-    tan: 丙型几何之曲真
-    arcsin: 甲型反几何之曲真
-    arccos: 乙型反几何之曲真
-    arctan: 丙型反几何之曲真
-    arctan2: 笛卡尔角之曲真
+    ceil: 壮丽之曲变
+    floor: 谦卑之曲变
+    round: 客观之曲变
+    sin: 甲型几何之曲变
+    cos: 乙型几何之曲变
+    tan: 丙型几何之曲变
+    arcsin: 甲型反几何之曲变
+    arccos: 乙型反几何之曲变
+    arctan: 丙型反几何之曲变
+    arctan2: 笛卡尔角之曲变
 
-    if_else: 决策之曲真
+    if_else: 决策之曲变
     equals: 对抵之谋略
     not_equals: 失抵之谋略
     all: 无例外之谋略
     any: 通常态之谋略
     none: 缺失态之谋略
 
-    extract_x: 甲元之曲真
-    extract_y: 乙元之曲真
-    extract_z: 丙元之曲真
-    merge_vector: 吸收之曲真
-    dot_product: 合向之曲真
-    cross_product: 垂直之曲真
-    normalize: 归一之曲真
-    align_vector: 合向归一之曲真
-    invert: 取反之曲真
-    length: 模长之曲真
+    extract_x: 甲元之曲变
+    extract_y: 乙元之曲变
+    extract_z: 丙元之曲变
+    merge_vector: 吸收之曲变
+    dot_product: 合向之曲变
+    cross_product: 垂直之曲变
+    normalize: 归一之曲变
+    align_vector: 合向归一之曲变
+    invert: 取反之曲变
+    length: 模长之曲变
 
     two: 基础之错觉
     read_spell: 记事员之错觉
@@ -120,12 +120,12 @@ trickster:
     range_find_entity: 同命之辑流
 
     execute: 宏伟之谋略
-    execute_same_scope: 静默之曲真
+    execute_same_scope: 静默之曲变
     fork: 器具之谋略
-    fold: 折叠之曲真
+    fold: 折叠之曲变
     try_catch: 谨慎之谋略
     closure: 闭包之谋略
-    supplier: 供给之曲真
+    supplier: 供给之曲变
     kill_thread: 行刑者之技巧
     current_thread: 序数之错觉
     load_argument_1: 甲参之错觉
@@ -140,24 +140,24 @@ trickster:
     list_create: 目录之错觉
     list_add: 扩展之谋略
     list_insert: 膨胀之谋略
-    list_get: 提取之曲真
-    list_index_of: 定目之曲真
+    list_get: 提取之曲变
+    list_index_of: 定目之曲变
     list_remove: 驱散之谋略
     list_remove_element: 放逐之谋略
-    list_size: 计量之曲真
+    list_size: 计量之曲变
 
-    locate_glyph: 定址之曲真
-    locate_glyphs: 发现之曲真
-    retrieve_glyph: 检索之曲真
-    set_glyph: 替换之曲真
-    retrieve_subtree: 伐树之曲真
-    set_subtree: 嫁接之曲真
-    add_subtree: 分枝之曲真
-    remove_subtree: 剪枝之曲真
-    get_subparts: 扎束之曲真
-    escape_pattern: 释义之曲真
+    locate_glyph: 定址之曲变
+    locate_glyphs: 发现之曲变
+    retrieve_glyph: 检索之曲变
+    set_glyph: 替换之曲变
+    retrieve_subtree: 伐树之曲变
+    set_subtree: 嫁接之曲变
+    add_subtree: 分枝之曲变
+    remove_subtree: 剪枝之曲变
+    get_subparts: 扎束之曲变
+    escape_pattern: 释义之曲变
 
-    map_get: 领航员之曲真
+    map_get: 领航员之曲变
     map_insert: 编表之谋略
     map_merge: 海军将领之谋略
     map_remove: 废止之谋略
@@ -192,11 +192,11 @@ trickster:
     get_inventory_slot: 侵入之辑流
     drop_stack_from_slot: 祭献之技巧
     swap_slot: 骗徒之技巧
-    block_from_item: 放置之曲真
-    item_from_block: 拾取之曲真
+    block_from_item: 放置之曲变
+    item_from_block: 拾取之曲变
 
-    type_fragment: 参量之曲真
-    hash_values: 衰朽之曲真
+    type_fragment: 参量之曲变
+    hash_values: 衰朽之曲变
     delay_execution: 挂起之技巧
     pin_chunk: 天钉之技巧
     get_dimension: 维度之错觉
@@ -209,7 +209,7 @@ trickster:
     draw_line: 艺术家之技巧
     get_flecks: 观察者之辑流
 
-    get_scale: 居形之曲真
+    get_scale: 居形之曲变
     set_scale: 居形之技巧
 
     transmog: 幻化之技巧
