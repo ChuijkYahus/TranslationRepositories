@@ -39,7 +39,7 @@ trickster:
     multiply: 统治之谋略
     divide: 屈从之谋略
     modulo: 整体之曲变
-    power: 指数之曲变
+    power: 至尊之曲变
     max: 高贵之谋略
     min: 低位之谋略
     ceil: 壮丽之曲变
@@ -69,10 +69,12 @@ trickster:
     normalize: 归一之曲变
     align_vector: 合向归一之曲变
     invert: 取反之曲变
+    abs: 绝对主义者之曲变
     length: 模长之曲变
 
     two: 基础之错觉
     read_spell: 记事员之错觉
+    clear_spell: 畏真者之技巧
     write_spell: 记事员之技巧
     write_closed_spell: 禁文记事员之技巧
     write_macro_ring: 宏之技巧
@@ -93,9 +95,9 @@ trickster:
     sneaking_reflection: 换立之辑流
     sprinting_reflection: 远足之辑流
     blocking_reflection: 盾护之辑流
-    raycast: 弓箭手之辑流
-    raycast_side: 建筑师之辑流
-    raycast_entity: 侦查员之辑流
+    raycast: 着点之辑流
+    raycast_side: 承座之辑流
+    raycast_entity: 标记之辑流
     get_entity_type: 动机验证之辑流
     get_position: 位置之辑流
     get_eye_position: 视角之辑流
@@ -104,7 +106,8 @@ trickster:
     get_health: 体健之辑流
     get_armour: 垒墙之辑流
     get_velocity: 运动之辑流
-    add_velocity: 驱动之技巧
+    add_velocity: 动能之技巧
+    change_weight: 轻羽之技巧
     store_entity: 收容之技巧
     release_entity: 释脱之技巧
 
@@ -139,6 +142,9 @@ trickster:
 
     list_create: 目录之错觉
     list_add: 扩展之谋略
+    list_add_range: 集合之谋略
+    list_take_range: 孤立之曲变
+    list_reverse: 计数之曲变
     list_insert: 膨胀之谋略
     list_get: 提取之曲变
     list_index_of: 定目之曲变
@@ -188,6 +194,7 @@ trickster:
     other_hand_slot: 抛接之错觉
     get_item_in_slot: 销赃人之辑流
     get_mana_in_slot: 权威之辑流
+    get_count_in_slot: 丰裕之辑流
     get_max_mana_in_slot: 加冕之辑流
     get_inventory_slot: 侵入之辑流
     drop_stack_from_slot: 祭献之技巧
