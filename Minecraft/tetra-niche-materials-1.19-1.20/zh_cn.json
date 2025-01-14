@@ -617,7 +617,7 @@
 	"tetra.module.crossbow/short_limbs.material_name":"%s弩臂",
 	"tetra.module.crossbow/short_limbs.prefix": "%s",
 	"tetra.module.crossbow/shoulder_stock.name":"肩托弩身",
-	"tetra.module.crossbow/shoulder_stock.description":"贴合肩部的弩身，带有便捷的握把，可以稳定持弩。",
+	"tetra.module.crossbow/shoulder_stock.description":"贴合肩部的弩身，带有便捷的握把，方便稳定持弩。",
 	"tetra.module.crossbow/shoulder_stock.material_name":"%s弩身",
 	"tetra.module.crossbow/tetranichematerials_poison_reservoir.name":"毒液罐",
 	"tetra.module.crossbow/tetranichematerials_poison_reservoir.description":"附在弩上的毒液罐，发射箭矢之前会先沾上里面的毒液。主手持弩时箭矢会给予中毒。",
@@ -767,7 +767,7 @@
 	"tetra/schematic/crossbow/attachment/tetranichematerials_pitch_reservoir.name":"焦油罐",
 	"tetra/schematic/crossbow/attachment/tetranichematerials_pitch_reservoir.description":"附在弩上的焦油罐，发射箭矢之前会先沾上里面的煤焦油。主手持弩时箭矢会点燃目标。",
 	"tetra/schematic/crossbow/stock/shoulder_stock.name": "肩托弩身",
-	"tetra/schematic/crossbow/stock/shoulder_stock.description": "贴合肩部的弩身，带有便捷的握把，可以稳定持弩。",
+	"tetra/schematic/crossbow/stock/shoulder_stock.description": "贴合肩部的弩身，带有便捷的握把，方便稳定持弩。",
 	"tetra/schematic/crossbow/stock/shoulder_stock.slot1": "弩身材料",
 	"tetra.variant.shoulder_stock/stick":"简易弩身"
 }
