@@ -304,8 +304,8 @@ item.trickster:
   command_knot: 命令晶结
 
   spell_core: 法术核心
-  rusted_spell_core: 生锈的法术核心
-  ominous_spell_core: 不祥的法术核心
+  rusted_spell_core: 生锈法术核心
+  ominous_spell_core: 不祥法术核心
 
 block.trickster:
   spell_resonator: 法术谐振器
