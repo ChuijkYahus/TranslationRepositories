@@ -77,7 +77,6 @@ trickster:
     clear_spell: 畏真者之技巧
     write_spell: 记事员之技巧
     write_closed_spell: 禁文记事员之技巧
-    write_macro_ring: 宏之技巧
     read_macro_ring: 宏之错觉
     reveal: 展示之谋略
     read_crow_mind: 乌鸦灵思之错觉
@@ -174,7 +173,6 @@ trickster:
     conjure_flower: 花卉之技巧
     conjure_water: 盈水之技巧
     conjure_light: 光辉之技巧
-    drain_fluid: 干旱之技巧
     power_resonator: 谐振之技巧
     heat: 赋权之技巧
     cool: 撤权之技巧
