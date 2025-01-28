@@ -1,17 +1,7 @@
 {
-	"itemGroup.yttr.parent": "Yttr",
-	"itemGroup.yttr.resources": "Resources",
-	"itemGroup.yttr.filtering": "Filtering",
-	"itemGroup.yttr.devices": "Devices",
-	"itemGroup.yttr.mechanisms": "Mechanisms",
-	"itemGroup.yttr.equipment": "Equipment",
-	"itemGroup.yttr.snare": "Full Snares",
-	"itemGroup.yttr.lamp": "Lamps & Lazors",
-	"itemGroup.yttr.decoration": "Decoration",
-	"itemGroup.yttr.potion": "Potions",
-	"itemGroup.yttr.ruined": "Wasteland",
-	"itemGroup.yttr.inred": "Circuitry",
-	"itemGroup.yttr.misc": "Miscellaneous",
+	"itemGroup.yttr": "Yttr",
+	"itemGroup.yttr.lamp": "Yttr Lamps & Lazors",
+	"itemGroup.yttr.snare": "Yttr Snares",
 	
 	"block.yttr.void_filter.tip.1": "§cWIP",
 	"block.yttr.encased_void_filter.tip.1": "§cWIP",
@@ -110,6 +100,28 @@
 	"item.yttr.spark": "Spark",
 	"item.yttr.platforms": "Continuous Platforms",
 	"item.yttr.diffractor": "Continuous Diffractor",
+	"item.yttr.glitchwep": "Metastable §kWeapon",
+	"item.yttr.glitchwep.variant": "Metastable %s",
+	
+	"item.yttr.glitchwep.rifle.1": "Gun",
+	"item.yttr.glitchwep.rifle.2": "Rifle",
+	"item.yttr.glitchwep.rifle.3": "Boomstick",
+	"item.yttr.glitchwep.rifle.4": "Flintlock",
+	"item.yttr.glitchwep.rifle.5": "Blaster",
+	"item.yttr.glitchwep.rifle.6": "Persuader",
+	"item.yttr.glitchwep.rifle.7": "Pistol",
+	"item.yttr.glitchwep.rifle.8": "Shotgun",
+	"item.yttr.glitchwep.rifle.9": "Cannon",
+	
+	"item.yttr.glitchwep.sword.1": "Sword",
+	"item.yttr.glitchwep.sword.2": "Blade",
+	"item.yttr.glitchwep.sword.3": "Knife",
+	"item.yttr.glitchwep.sword.4": "Edge",
+	"item.yttr.glitchwep.sword.5": "Cutlass",
+	"item.yttr.glitchwep.sword.6": "Dagger",
+	"item.yttr.glitchwep.sword.7": "Lance",
+	"item.yttr.glitchwep.sword.8": "Bayonet",
+	"item.yttr.glitchwep.sword.9": "Sabre",
 	
 	"item.yttr.promethium_speck.tip.1": "§5§oRemnants of a time before",
 	"item.yttr.promethium_lump.tip.1": "§5§oRemnants of a time before",
@@ -149,6 +161,8 @@
 	
 	"item.yttr.empty_haemopal.tip.1": "§5§k§ohow could you",
 	
+	"item.yttr.glitchwep.tip.1": "§5§oWhat did you do?",
+	
 	"item.yttr.music_disc_papillons.desc": "xyce & malmen - papillons",
 	"item.yttr.music_disc_void.desc": "§0Aureate - void",
 	"item.yttr.music_disc_desert_heat.desc": "Aureate - desert heat",
@@ -181,6 +195,11 @@
 	"item.yttr.projector.controlhint.normal.2": "{key.use} (Hold)  Create Bridge",
 	"item.yttr.projector.controlhint.normal.1": "{key.use} (On Block)  Immortalize",
 	
+	"item.yttr.projector.controlhint.limited.2": "{key.use}  Create Platform",
+	"item.yttr.projector.controlhint.limited.1": "{key.use} (Hold)  Create Bridge",
+	
+	"item.yttr.projector.controlhint.using.1": "{key.use} (Release)  End Bridge",
+	
 	
 	"item.yttr.shifter.controlhint.normal.4": "{key.attack}  Exchange One",
 	"item.yttr.shifter.controlhint.normal.3": "{key.use}  Exchange All",
@@ -202,6 +221,22 @@
 		
 	"item.yttr.cleaver.controlhint.step2.2": "{key.use}  Finish Cleave",
 	"item.yttr.cleaver.controlhint.step2.1": "{key.attack}  Undo Last Selection",
+
+	"item.yttr.glitchwep.controlhint.sword.1": "{key.use}  Change Form",
+	"item.yttr.glitchwep.controlhint.sword.2": "{key.attack}  Melee",
+	"item.yttr.glitchwep.controlhint.sword.3": "{key.swapOffhand}  Throw",
+
+	"item.yttr.glitchwep.controlhint.rifle.1": "{key.use}  Fire",
+	"item.yttr.glitchwep.controlhint.rifle.2": "{key.attack}  Change Form",
+	"item.yttr.glitchwep.controlhint.rifle.3": "{key.swapOffhand}  Throw",
+
+	"item.yttr.glitchwep.controlhint.rifle.depleted.1": "{key.use}  Fire...?",
+	"item.yttr.glitchwep.controlhint.rifle.depleted.2": "{key.attack}  Change Form to Replenish Ammo",
+	"item.yttr.glitchwep.controlhint.rifle.depleted.3": "{key.swapOffhand}  Throw",
+
+	"item.yttr.glitchwep.controlhint.sword.depleted.1": "{key.use}  Change Form",
+	"item.yttr.glitchwep.controlhint.sword.depleted.2": "{key.attack}  Melee (Hits Replenish Ammo)",
+	"item.yttr.glitchwep.controlhint.sword.depleted.3": "{key.swapOffhand}  Throw",
 	
 	
 	"block.yttr.gadolinite": "Gadolinite",
@@ -311,6 +346,7 @@
 	"block.yttr.transfungus_spores": "Transferent Fungus Spores",
 	"block.yttr.ir_lazor_emitter": "Infrared Lazor Emitter",
 	"block.yttr.ir_lazor_beam": "Infrared Lazor Beam",
+	"block.yttr.tint": "Tint",
 	
 	"block.yttr.black_void_glass": "Black Voidtouched Glass",
 	"block.yttr.gray_void_glass": "Dark Voidtouched Glass",
@@ -428,6 +464,7 @@
 	"entity.yttr.rifle_dummy": "Rifle Dummy",
 	"entity.yttr.slipping_transfungus": "Slipping Transfungus",
 	"entity.yttr.thrown_glowing_gas": "Thrown Glowdamp",
+	"entity.yttr.thrown_glitch_weapon": "Thrown Metastable §kWeapon",
 	
 	"biome.yttr.scorched_summit": "Scorched Summit",
 	"biome.yttr.scorched_terminus": "Scorched Terminus",
@@ -506,6 +543,9 @@
 	"subtitles.yttr.cloak": "Player cloaks",
 	"subtitles.yttr.uncloak": "Player uncloaks",
 	"subtitles.yttr.cloak_expire": "Cloak about to expire",
+	"subtitles.yttr.glitchwep_transform": "Weapon transforms",
+	"subtitles.yttr.glitchrifle_fire": "§kGlitch §rgun fires",
+	"subtitles.yttr.glitchsword_hit": "§kGlitch §rsword strikes",
 	
 	"death.attack.yttr.rifle_overcharge": "%s tasted their own medicine",
 	"death.attack.yttr.rifle": "%s was vaporized by %s",
@@ -524,6 +564,7 @@
 	"death.attack.yttr.lazor": "%s got burned playing with lazors",
 	"death.attack.yttr.magnet": "%s was turned to taffy",
 	"death.attack.yttr.bloque": "%s stepped upon a Bloque® Plastic Construction Building Brick without foot protection",
+	"death.attack.yttr.glitchregen": "%s was too weak to remanifest their weapon",
 	
 	"yttr.rifle_mode.damage": "Beam",
 	"yttr.rifle_mode.teleport": "Teleport",
@@ -826,9 +867,8 @@
 	"tag.yttr.substituted_quartz": "Quartz",
 	"tag.yttr.substituted_redstone": "Redstone",
 	"tag.yttr.substituted_yttrium": "Yttrium",
-	
+
 	"emi.category.yttr.void_filtering": "Void Filtering",
-	"emi.category.yttr.piston_smashing": "Piston Smashing",
 	"emi.category.yttr.centrifuging": "Centrifuging",
 	"emi.category.yttr.soaking": "Soaking",
 	"emi.category.yttr.continuity_gifts": "Gifts",
@@ -845,9 +885,7 @@
 	
 	"emi.category.yttr.continuity_gifts.chance": "%s%%",
 	"emi.category.yttr.continuity_gifts.chance.tooltip": "Chance of any one specific item",
-	
-	"emi.category.yttr.piston_smashing.cloud_output_hint": "Use a Glass Bottle on the resulting cloud",
-	
+
 	"tooltip.yttr.suit_helmet_hud": "HUD Color: %s",
 	
 	"trinkets.slot.feet.sole": "Sole",
