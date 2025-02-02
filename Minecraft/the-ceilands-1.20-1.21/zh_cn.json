@@ -22,6 +22,31 @@
   "block.ceilands.ceilingneous_button": "顶成岩按钮",
   "block.ceilands.ceilingneous_pressure_plate": "顶成岩压力板",
 
+  "block.ceilands.ceilingneous_coal_ore": "顶成煤矿石",
+  "block.ceilands.ceilingneous_copper_ore": "顶成铜矿石",
+  "block.ceilands.ceilingneous_iron_ore": "顶成铁矿石",
+  "block.ceilands.ceilingneous_gold_ore": "顶成金矿石",
+  "block.ceilands.ceilingneous_diamond_ore": "顶成钻石矿石",
+  "block.ceilands.ceilingneous_redstone_ore": "顶成红石矿石",
+  "block.ceilands.ceilingneous_lapis_ore": "顶成青金石矿石",
+  "block.ceilands.ceilingneous_emerald_ore": "顶成绿宝石矿石",
+
+  "block.ceilands.ceilinum_ore": "顶金矿石",
+  "block.ceilands.deepslate_ceilinum_ore": "深层顶金矿石",
+  "block.ceilands.ceilingneous_ceilinum_ore": "顶成顶金矿石",
+
+  "block.ceilands.raw_ceilinum_block": "粗顶金块",
+  "block.ceilands.ceilinum_block": "顶金块",
+
+  "block.ceilands.ceilinum_door": "顶金门",
+  "block.ceilands.ceilinum_trapdoor": "顶金活板门",
+  "block.ceilands.ceilinum_bars": "顶金栏杆",
+
+  "block.ceilands.cut_ceilinum": "切制顶金块",
+  "block.ceilands.cut_ceilinum_stairs": "切制顶金楼梯",
+  "block.ceilands.cut_ceilinum_slab": "切制顶金台阶",
+  "block.ceilands.chiseled_ceilinum": "雕纹顶金块",
+
   "block.ceilands.roofshale": "脊页岩",
   "block.ceilands.roofshale_stairs": "脊页岩楼梯",
   "block.ceilands.roofshale_slab": "脊页岩台阶",
@@ -39,28 +64,6 @@
 
   "block.ceilands.chiseled_roofshale": "雕纹脊页岩",
   "block.ceilands.chiseled_roofshale_bricks": "雕纹脊页岩砖",
-
-  "block.ceilands.ceilingneous_coal_ore": "顶成煤矿石",
-  "block.ceilands.ceilingneous_copper_ore": "顶成铜矿石",
-  "block.ceilands.ceilingneous_iron_ore": "顶成铁矿石",
-  "block.ceilands.ceilingneous_gold_ore": "顶成金矿石",
-  "block.ceilands.ceilingneous_diamond_ore": "顶成钻石矿石",
-  "block.ceilands.ceilingneous_redstone_ore": "顶成红石矿石",
-  "block.ceilands.ceilingneous_lapis_ore": "顶成青金石矿石",
-  "block.ceilands.ceilingneous_emerald_ore": "顶成绿宝石矿石",
-
-  "block.ceilands.ceilinum_ore": "顶金矿石",
-  "block.ceilands.raw_ceilinum_block": "粗顶金块",
-  "block.ceilands.ceilinum_block": "顶金块",
-
-  "block.ceilands.ceilinum_door": "顶金门",
-  "block.ceilands.ceilinum_trapdoor": "顶金活板门",
-  "block.ceilands.ceilinum_bars": "顶金栏杆",
-
-  "block.ceilands.cut_ceilinum": "切制顶金块",
-  "block.ceilands.cut_ceilinum_stairs": "切制顶金楼梯",
-  "block.ceilands.cut_ceilinum_slab": "切制顶金台阶",
-  "block.ceilands.chiseled_ceilinum": "雕纹顶金块",
 
   "block.ceilands.ceiltrunk_log": "垂顶原木",
   "block.ceilands.stripped_ceiltrunk_log": "去皮垂顶原木",
@@ -127,6 +130,10 @@
   "block.ceilands.hollow_luzawood_log_climbable": "空心蓝碧原木",
   "block.ceilands.luzawood_banister": "蓝碧木栏杆",
 
+  "block.ceilands.spider_silk_block": "蛛丝块",
+  "block.ceilands.spider_silk_carpet": "蛛丝地毯",
+  "block.ceilands.spider_silk_bed": "蛛丝床",
+
   "item.ceilands.ceilands_portal_activator": "垂顶之地传送门激活器",
   "item.ceilands.venomous_spear": "剧毒长矛",
   "item.ceilands.grappling_hook": "抓钩",
@@ -135,12 +142,24 @@
   "item.ceilands.castle_lord_leggings": "城堡领主缠腰布",
   "item.ceilands.castle_lord_boots": "城堡领主靴子",
 
+  "item.ceilands.ceilinum_helmet": "顶金头盔",
+  "item.ceilands.ceilinum_chestplate": "顶金胸甲",
+  "item.ceilands.ceilinum_leggings": "顶金护腿",
+  "item.ceilands.ceilinum_boots": "顶金靴子",
+  "item.ceilands.ceilinum_sword": "顶金剑",
+  "item.ceilands.ceilinum_pickaxe": "顶金镐",
+  "item.ceilands.ceilinum_axe": "顶金斧",
+  "item.ceilands.ceilinum_shovel": "顶金锹",
+  "item.ceilands.ceilinum_hoe": "顶金锄",
+
   "item.ceilands.castle_lord_spawn_egg": "城堡领主刷怪蛋",
   "item.ceilands.mad_experimenter_spawn_egg": "疯狂实验员刷怪蛋",
   "item.ceilands.spider_monarch_spawn_egg": "蜘蛛君主刷怪蛋",
   "item.ceilands.spiderling_spawn_egg": "小蛛刷怪蛋",
 
   "item.ceilands.castle_lord_regalia_fragments": "城堡领主礼服碎片",
+  "item.ceilands.spider_monarch_fang": "蜘蛛君主尖牙",
+  "item.ceilands.spider_silk": "蛛丝",
 
   "item.ceilands.raw_ceilinum": "粗顶金",
   "item.ceilands.ceilinum_ingot": "顶金锭",
@@ -168,6 +187,8 @@
   "entity.ceilands.mad_experimenter": "疯狂实验员",
   "entity.ceilands.ceilands_boat": "垂顶之地船",
   "entity.ceilands.ceilands_chest_boat": "垂顶之地运输船",
+
+  "trim_material.ceilands.ceilinum": "顶金质",
 
   "advancements.ceilands.root.title": "垂顶之地",
   "advancements.ceilands.root.description": "欢迎造访垂顶之地——一个只有基岩封顶但没有基岩封底的超现实维度！",
@@ -204,5 +225,14 @@
   "advancements.ceilands.explore_ceilands.title": "绝顶美景",
   "advancements.ceilands.explore_ceilands.description": "造访垂顶之地的所有六个生物群系",
   "advancements.ceilands.long_elytra_glide_in_ceilands.title": "I Believe I Can Fly",
-  "advancements.ceilands.long_elytra_glide_in_ceilands.description": "在垂顶之地里用鞘翅连续滑翔1千米"
+  "advancements.ceilands.long_elytra_glide_in_ceilands.description": "在垂顶之地里用鞘翅连续滑翔1千米",
+
+  "ceilands.subtitles.entity.castle_lord.ambient": "城堡领主：咕哝",
+  "ceilands.subtitles.entity.castle_lord.chasing": "城堡领主：愤怒地吼叫",
+  "ceilands.subtitles.entity.castle_lord.death": "城堡领主：死亡",
+  "ceilands.subtitles.entity.castle_lord.hurt": "城堡领主：受伤",
+  "ceilands.subtitles.entity.spider_monarch.ambient": "蜘蛛君主：嘶嘶",
+  "ceilands.subtitles.entity.spider_monarch.step": "碎步",
+  "ceilands.subtitles.entity.spider_monarch.death": "蜘蛛君主：死亡",
+  "ceilands.subtitles.entity.spider_monarch.hurt": "蜘蛛君主：受伤"
 }

@@ -128,7 +128,7 @@
                     "honeycomb": "蜜脾",
                     "azalea": "杜鹃木",
                     "poise": "幽仪木",
-                    "dark_cherry": "樱桃木",
+                    "plum": "李木",
                     "pine": "松木",
                     "willow": "柳木",
                     "wisteria": "紫藤木",
@@ -225,10 +225,22 @@
                     "be_bamboo": "竹",
                     "be_dry_bamboo": "干制竹",
 
+                    "beachparty_palm": "棕榈木",
+
+                    "giant_root": "巨型树根木",
+                    "giant_root_treated": "防腐巨型树根木",
+                    "hearthgrove": "炉木",
+                    "hearthgrove_treated": "防腐炉木",
                     "nibbletwig": "奇趣枝木",
-                    "rubber_tree_plank": "橡胶木",
+                    "nibbletwig_treated": "防腐奇趣枝木",
+                    "rotten_wood": "腐朽木",
+                    "rotten_wood_treated": "防腐腐朽木",
+                    "rubber_tree_plank": "橡胶树木",
+                    "rubber_tree_plank_treated": "防腐橡胶树木",
+                    "weedwood": "杂草木",
+                    "weedwood_treated": "防腐杂草木",
+                    "scabyst": "痂晶",
                     "syrmorite": "赛摩",
-                    "wormwood": "苦艾木",
 
                     "bw_cypress": "柏木",
                     "dragons_blood": "龙血木",
@@ -290,6 +302,7 @@
 
                     "walnut": "核桃木",
 
+                    "ceilinum": "顶金",
                     "ceiltrunk": "垂顶木",
                     "luzawood": "蓝碧木",
 
@@ -533,8 +546,6 @@
                     "md_sculk": "幽匿",
 
                     "ms_iron_bar": "铁栏杆",
-                    "ms_bamboo": "竹",
-                    "ms_cherry": "樱桃木",
                     "ms_glowood": "荧光木",
                     "ms_hellwood": "地狱木",
                     "ms_maple": "枫木",
