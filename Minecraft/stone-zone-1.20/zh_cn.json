@@ -117,6 +117,15 @@
   "block_type.stonechest.chest": "%s箱子",
   "item_type.stonechest.part": "%s部件",
 
+  "block_type.mcwbridges.brick_bridge":"%s砖桥",
+  "block_type.mcwbridges.mossy_brick_bridge":"覆苔%s砖桥",
+  "block_type.mcwbridges.bridge_pier":"%s桥梁支架",
+  "block_type.mcwbridges.mossy_bridge_pier":"覆苔%s桥梁支架",
+  "block_type.mcwbridges.brick_bridge_stair":"%s砖桥梯",
+  "block_type.mcwbridges.mossy_bridge_stair":"覆苔%s桥梯",
+  "block_type.mcwbridges.balustrade_bricks_bridge":"柱栏%s砖桥",
+  "block_type.mcwbridges.balustrade_mossy_bricks_bridge":"柱栏覆苔%s砖桥",
+
 
 
   "stone_type.minecraft.stone": "石头",
@@ -261,9 +270,9 @@
   "stone_type.deep_aether.aseterite": "紫菀石",
   "stone_type.deep_aether.clorite": "绿蔚石",
   "stone_type.deep_aether.raw_clorite": "粗绿蔚石",
-  "stone_type.deep_aether.aether_mud": "天泥",
   "stone_type.deep_aether.nimbus_stone": "疾雨石",
   "stone_type.deep_aether.light_nimbus_stone": "流光疾雨石",
+  "mud_type.deep_aether.aether_mud": "天泥",
 
   "stone_type.deeperdarker.sculk_stone": "幽匿石",
 
@@ -293,6 +302,8 @@
   "stone_type.quark.myalite": "幻境石",
   "stone_type.quark.permafrost": "永冻石",
   "stone_type.quark.soul_sandstone": "灵魂砂岩",
+  "stone_type.quark.midori": "绿",
+  "stone_type.quark.duskbound": "黯缚",
 
   "stone_type.railcraft.quarried_stone": "采掘岩",
   "stone_type.railcraft.abyssal_stone": "深渊岩",
