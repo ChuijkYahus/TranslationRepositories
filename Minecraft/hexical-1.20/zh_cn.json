@@ -61,13 +61,14 @@
 	"subtitles.hexical.lamp_deactivate": "神灯：终止",
 	"subtitles.hexical.player_slurp": "玩家：啜饮",
 	"subtitles.hexical.replenish_air": "空气：出现",
+	"subtitles.hexical.scarab_chirps": "Scarab chirps",
 	"subtitles.hexical.sudden_realization": "点子：出现",
 	"tooltip.hexical.scroll_aged": "陈化",
 	"tooltip.hexical.scroll_glow": "发光",
 	"tooltip.hexical.scroll_vanished": "隐消",
 
 	"hexical.autograph.header": "由以下人士亲笔签名：",
-	"hexical.scarab.replaces_with": "用%2$s替换%1$s",
+	"hexical.scarab.program": "含有：%s",
 	"hexical.recipe.transmute.media_free": "无需消耗",
 	"hexical.recipe.transmute.media_cost": "消耗%d个紫水晶粉",
 	"hexical.recipe.transmute.media_yield": "产出%d个紫水晶粉",
@@ -164,7 +165,7 @@
 
 	"hexical.page.hexical_changes.title": "Hexical 中的改动",
 	"hexical.page.hexical_changes.0": "我和周围环境中的$(media)媒质$()貌似更同调了。也可以说是更$(o)友好$()。我甚至可以感受到它们在我身边流动，对我的操作做出回应，就像是在向我展示新的法术。$(media)媒质$()也变得更可塑、更$(o)可操纵$()，令媒质产生更精确精细的效果已不是难事。我还可以按下$(thing)$(k:hexical.open_hexbook)$()就打开$(item)咒术笔记$()。",
-	"hexical.page.hexical_changes.1": "我的工具也更顺手了。我无需再全神贯注地使用$(l:items/staff)$(item)法杖$()，而是可在使用时四处走动；之后射线追踪的时候目标就再也跑不出我的视线范围了。不过我也不能太过放松，自然对我失误的惩罚力度依然如旧。我现在还可以用$(l:patterns/readwrite#hexcasting:write)书吏之策略$()直接向$(l:items/abacus)$(item)算盘$()写入。",
+	"hexical.page.hexical_changes.1": "我的工具也更顺手了。我无需再全神贯注地使用$(l:items/staff)$(item)法杖$()，而是可在使用时四处走动；之后射线追踪的时候目标就再也跑不出我的视线范围了。不过我也不能太过放松，自然对我失误的惩罚力度依然如旧。我现在还可以用$(l:patterns/readwrite#hexcasting:write)$(action)书吏之策略$()直接向$(l:items/abacus)$(item)算盘$()写入。",
 	"hexical.page.lightning_rod_staff.0": "我往一支避雷针的末端嵌了一整块紫水晶，就得到了这种造型令人印象深刻的$(l:items/staff)$(item)法杖$()。它拿起来有些沉重，但用起来仿佛在$(o)号令闪电$()。",
 	"hexical.page.lightning_rod_staff.1": "$(o)我知道世上有困难$(br)而且不止一种。$(br)有些自前路而来$(br)有些从身后接近。$(br2)但我买了根球棍。$(br)你看，我已经准备完毕。$(br)现在我的那些麻烦事$(br)马上就要有$(l)麻烦$()了！",
 	"hexical.page.gauntlet_staff.0": "$(l:items/staff)$(item)法杖$()很重，拿着也不趁手。要是对其失去了兴趣，可以换成这个护手一样的设备，以此亲手感知、亲手操控$(media)媒质$()。",
@@ -181,9 +182,11 @@
 	"hexical.page.index_grimoire.summary": "获取副手$(item)咒典$()中所有图案的列表。",
 
 	"hexical.page.scarab.title": "圣甲虫",
-	"hexical.page.scarab.0": "$(item)圣甲虫$()是一件可爱的小饰品。它们对$(media)媒质$()敏感，可以训练它们，让它们将单个图案替换成图案列表。比如说，我可以让$(item)圣甲虫$()把危险的法术替换成无害的警告。$(br2)$(o)不要以不利于我的形式做证。$()",
+	"hexical.page.scarab.0": "$(item)圣甲虫$()是一件可爱的护符。它们对$(media)媒质$()相当敏感；因此在启动后，它们能定位被自然拒绝的图案，并加以替换。特别来说，对自然而言没有意义的图案会压入栈顶，供$(item)圣甲虫$()判别。$(br2)$(o)不要以不利于我的形式做证。$()",
+	"hexical.page.scarab.1": "我可以教导$(item)圣甲虫$()，让它将图案处理成方便使用的形式。比如说，可以让它在碰到给定图案时执行一系列图案，以无缝衔接那些$(o)新$()图案，甚至连$(l:items/hexcasting)$(item)施法物品$()中的图案也行。",
 	"hexcasting.action.hexical:scarab": "圣甲虫",
-	"hexical.page.scarab.summary": "训练$(item)圣甲虫$()，教导它应把什么图案替换成何种图案列表。",
+	"hexical.page.scarab.summary": "教导$(item)圣甲虫$()如何处理无效图案。消耗大约 1 个$(l:items/amethyst)$(item)紫水晶碎片$()。",
+	"hexical.page.scarab.2": "如果需要进一步处理图案，$(l:patterns/pattern_manipulation)用图案操纵图案的元操作$()会很有用。理论上来说，我可以创造出一整族的图案，类似$(l:patterns/numbers)数字面量$()和$(l:patterns/stackmanip#hexcasting:mask)$(action)书吏之策略$()等。",
 
 	"hexical.page.animated_scroll.title": "活线卷轴",
 	"hexical.page.animated_scroll.0": "$(item)活线卷轴$()中混有一小份紫水晶，其上墨迹会像$(l:items/staff)$(item)法杖$()绘制出的图案那样颤动。$(item)活线卷轴$()的神奇之处还不止于此，它还能展示图案列表。$(br2)$(o)不带点疯劲，怎么能叫作家呢？$()",
