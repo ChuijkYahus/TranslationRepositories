@@ -23,7 +23,7 @@ The Level Emitter emits a redstone signal depending on the quantity of an item i
 There is also a version that emits a redstone signal depending on the [energy](../ae2-mechanics/energy.md) stored
 in your network.
 
-Items and fluids can be dragged into the slots from JEI/REI even if you don't actually have any of that item.
+Items and fluids can be dragged into the slot from JEI/REI even if you don't actually have any of that item.
 
 Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item.
 
@@ -63,7 +63,7 @@ is in the emitter's filter slot.
 This "pattern" does not define, or even care about ingredients.
 All it says is "If you emit redstone from this level emitter, the ME system will receive this item at some point in the
 near or distant future". This is usually used to activate and deactivate infinite farms which require no input ingredients,
-or to activate a system that handles [recursive recipes](../example-setups/recursive-crafting-setup.md) (which standard autocafting cannot understand)
+or to activate [a system that handles recursive recipes](../example-setups/recursive-crafting-setup.md) (which standard autocafting cannot understand)
 like, for example, "1 cobblestone = 2 cobblestone" if you have a machine that duplicates cobblestone.
 
 ## Recipe

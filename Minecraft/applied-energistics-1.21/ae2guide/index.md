@@ -4,6 +4,8 @@ navigation:
   position: 0
 ---
 
+![Logo](assets/logo.png)
+
 # 应用能源2是什么？
 
 # 如何使用此指南
@@ -20,8 +22,6 @@ navigation:
 * [AE2机制](ae2-mechanics/ae2-mechanics-index.md)
 * [设施示例](example-setups/example-setups-index.md)
 * [物品、方块与机器](items-blocks-machines/items-blocks-machines-index.md)
-
-[AE2 GitHub](https://github.com/AppliedEnergistics/Applied-Energistics-2)
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/assemblies/autocraft_setup_greebles.snbt" />

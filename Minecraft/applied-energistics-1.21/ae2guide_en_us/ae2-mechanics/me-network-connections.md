@@ -34,7 +34,7 @@ For example, this is 2 separate networks.
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/2_networks_1.snbt" />
 
-  <BoxAnnotation color="#5CA7CD" min="0 0 0" max="1 2 2">
+  <BoxAnnotation color="#915dcd" min="0 0 0" max="1 2 2">
         Network 1
   </BoxAnnotation>
 
@@ -55,7 +55,7 @@ without providing a network connection.
         Network 1
   </BoxAnnotation>
 
-  <BoxAnnotation color="#915dcd" min="1.3 0 0" max="3 2 2">
+  <BoxAnnotation color="#5CA7CD" min="1.3 0 0" max="3 2 2">
         Network 2
   </BoxAnnotation>
 

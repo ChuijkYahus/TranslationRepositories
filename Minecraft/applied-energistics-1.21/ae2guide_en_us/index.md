@@ -4,6 +4,8 @@ navigation:
   position: 0
 ---
 
+![Logo](assets/logo.png)
+
 # What is Applied Energistics 2?
 
 # How To Use This Guide
@@ -26,8 +28,6 @@ quantities of items in stock, crafting more as needed, or simply transfer items 
 * [AE2 Mechanics](ae2-mechanics/ae2-mechanics-index.md)
 * [Example Setups](example-setups/example-setups-index.md)
 * [Items, Blocks, and Machines](items-blocks-machines/items-blocks-machines-index.md)
-
-[AE2 GitHub](https://github.com/AppliedEnergistics/Applied-Energistics-2)
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/assemblies/autocraft_setup_greebles.snbt" />

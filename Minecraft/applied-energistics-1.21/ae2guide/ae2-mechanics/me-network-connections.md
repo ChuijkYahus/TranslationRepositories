@@ -26,7 +26,7 @@ navigation:
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/2_networks_1.snbt" />
 
-  <BoxAnnotation color="#5CA7CD" min="0 0 0" max="1 2 2">
+  <BoxAnnotation color="#915dcd" min="0 0 0" max="1 2 2">
         网络1
   </BoxAnnotation>
 
@@ -46,7 +46,7 @@ navigation:
         网络1
   </BoxAnnotation>
 
-  <BoxAnnotation color="#915dcd" min="1.3 0 0" max="3 2 2">
+  <BoxAnnotation color="#5CA7CD" min="1.3 0 0" max="3 2 2">
         网络2
   </BoxAnnotation>
 

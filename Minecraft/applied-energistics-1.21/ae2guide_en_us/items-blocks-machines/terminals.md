@@ -166,6 +166,7 @@ The central UI changes depending on the type of pattern to be encoded:
 
 *   In processing mode:
     * Left-click or right-click in or drag from JEI/REI the ingredients to specify the inputs and outputs of the recipe.
+    * Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as an ingredient instead of the bucket or tank item.
     * When holding a stack, left-click places the whole stack, right-click places one item. Left-click on an existing ingredient stack to
         remove the whole stack and right-click to decrement the stack by 1. Whatever you have bound to "pick block" (usually middle-click)
         lets you specify a precise amount of the item or fluid.

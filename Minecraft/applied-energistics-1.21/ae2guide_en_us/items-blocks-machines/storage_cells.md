@@ -231,7 +231,7 @@ In addition to the upgrade cards all cells can receive, these also accept <ItemL
   </Row>
 </Column>
 
-# Creative Storage Cells
+# Creative Storage Cell
 
 <Row>
   <ItemImage id="creative_storage_cell" scale="2" />

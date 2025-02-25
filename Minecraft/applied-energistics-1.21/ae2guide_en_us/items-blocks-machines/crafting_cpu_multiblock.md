@@ -51,7 +51,7 @@ Right-clicking one brings up a crafting status UI where you can check the progre
 
 ## Construction
 
-Crafting CPUs are multiblocks, and must be solid rectangular prisms with no gaps. They are made out of several components:
+Crafting CPUs are multiblocks, and must be solid rectangular prisms with no gaps. They are made out of several components.
 
 Each CPU must contain at least 1 crafting storage block (and the minimum viable CPU is in fact just a single 1k crafting storage).
 

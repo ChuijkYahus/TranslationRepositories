@@ -64,7 +64,7 @@ a crafting recipe instead of a bucket.**
 ## Configurations
 
 * The <ItemLink id="pattern_provider" /> (1) is Set to lock crafting "With redstone signal", with the relevant <ItemLink id="processing_pattern" />s.
-
+  
     ![Charger Pattern](../assets/diagrams/water_fill_pattern.png)
     ![Charger Pattern](../assets/diagrams/lava_fill_pattern.png)
 
