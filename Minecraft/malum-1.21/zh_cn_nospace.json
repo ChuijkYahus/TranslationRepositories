@@ -2091,7 +2091,7 @@
   "malum.gui.book.entry.page.headline.void.staves_as_foci.enchanting.capacitor": "容弹",
   "malum.gui.book.entry.page.text.void.staves_as_foci.capacitor.1": "据我所知，精魂晶体含有的能量是有限的……但这只对精魂晶体奇特的非物理物质成立。容弹魔咒能让法杖在同样的物理空间内积累更多能量，每等级足够多存大约一颗法术弹。带有此魔咒的法杖无法再接受速续魔咒。",
   "malum.gui.book.entry.page.headline.void.staves_as_foci.enchanting.replenishing": "速续",
-  "malum.gui.book.entry.page.text.void.staves_as_foci.replenishing.1": "法杖是有物理形态的魔法的接引器具。显然，魔法可以流出也可以流入，有意识地让其流动也并非不可能。近战使用带有速续魔咒的法杖时，有一定概率填补法杖的能量库，大约能填回相当于一颗法术弹的能量。带有此魔咒的法杖无法再接受容弹魔咒。",
+  "malum.gui.book.entry.page.text.void.staves_as_foci.replenishing.1": "法杖能够接引有物理形态的魔法。显然，魔法可以流出也可以流入，有意识地让其流动也并非不可能。近战使用带有速续魔咒的法杖时，有一定概率填补法杖的能量库，大约能填回相当于一颗法术弹的能量。带有此魔咒的法杖无法再接受容弹魔咒。",
   "malum.gui.book.entry.void.staves_as_foci.ring_of_the_endless_well": "无底渊井戒指",
   "malum.gui.book.entry.void.staves_as_foci.ring_of_the_endless_well.description": "存储法术弹",
   "malum.gui.book.entry.page.headline.void.staves_as_foci.ring_of_the_endless_well": "无底渊井戒指",
