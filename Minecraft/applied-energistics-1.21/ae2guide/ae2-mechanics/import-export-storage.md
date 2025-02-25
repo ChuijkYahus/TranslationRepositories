@@ -1,67 +1,80 @@
 ---
 navigation:
   parent: ae2-mechanics/ae2-mechanics-index.md
-  title: 输入、输出，与存储
+  title: Import, Export, and Storage
 ---
 
-# 输入、输出，与存储
+# Import, Export, and Storage
 
-**你的ME系统与世界**
+**your ME system and the world**
 
-AE2中的一个重要概念便是网络存储，也即网络内容存储的地方，通常会是[存储元件](../items-blocks-machines/storage_cells.md)或连接于<ItemLink id="storage_bus" />的容器。大部分AE2[设备](../ae2-mechanics/devices.md)都会与之以某种方式交互。
+An important concept in AE2 is the idea of Network Storage. It is the place in which the contents of a network are stored,
+usually [storage cells](../items-blocks-machines/storage_cells.md) or whatever inventory a <ItemLink id="storage_bus" />
+is connected to. Most AE2 [devices](../ae2-mechanics/devices.md) interact with it in one way or another.
 
-例如：
+For example,
 
-*   <ItemLink id="import_bus" />将事物向网络存储输入
-*   <ItemLink id="export_bus" />将事物从网络存储输出
-*   <ItemLink id="interface" />可向网络存储输入或从网络存储输出
-*   [终端](../items-blocks-machines/terminals.md)在向其中放入、拿取，或填充合成方格时输入或输出物品
-*   <ItemLink id="storage_bus" />并不会对网络存储输入或输出，而是会对所连接的容器执行这些操作，相当于将这些容器视作网络存储（也即是其他设备从*这些总线*输入或输出）
+*   <ItemLink id="import_bus" />ses push things into network storage
+*   <ItemLink id="export_bus" />ses pull things from network storage
+*   <ItemLink id="interface" />s both pull from and push to network storage
+*   [Terminals](../items-blocks-machines/terminals.md) both push to and pull from network storage when you insert or take items, or to refill the crafting slots
+*   <ItemLink id="storage_bus" />ses don't really push to or pull from storage, they push to or pull from the connected inventory
+    in order to use it as network storage (so really other devices push to or pull from *them*)
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/assemblies/import_export_storage.snbt" />
 
   <BoxAnnotation color="#dddddd" min="8 1 1" max="9 1.3 2">
-        输入总线从其面对的容器中提取物品并输入网络存储
+        Import Busses import things from inventories they're pointing at into network storage
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="8 2 1" max="9 3 1.3">
-        从物品栏向终端放入物品视作输入网络存储
+        Inserting something into a terminal from your inventory counts as the network importing it
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="7 0 1" max="8 1 2">
-        接口会将其内部未设置存储的槽位中的物品，以及超出槽位设定存储量的物品输入网络存储，可通过它们将事物输入网络
+        Interfaces will import from their internal inventories if that slot is not configured to stock anything, or there are more
+        items in that slot than are configured to be stocked, so things can be pushed into them to insert into the network
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="6 0 1" max="7 1 2">
-        样板供应器会将返回栏内物品输入网络存储，可通过它们将事物输入网络
+        Pattern Providers will import from their internal return slot inventory, so things can be pushed into them to insert into the network
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 1 1" max="5 2 2">
-        驱动器装有的元件视作网络存储
+        Drives provide the inserted cells as network storage
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3 1 1" max="4 1.3 2">
-        存储总线将其连接的容器视作网络存储
+        Storage Busses use the inventory they're pointing at as network storage
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 1" max="2 1.3 2">
-        输出总线将网络存储中的物品输出到其面对的容器
+        Export Busses export things from network storage into inventories they're pointing at
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 1" max="2 3 1.3">
-        从终端中拿取事物视作从网络存储输出
+        Pulling something out of a terminal counts as the network exporting it
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 1 1" max="1 2 2">
-        接口会将在内部设置有存储的槽位中的物品从网络存储输出，可通过它们从网络中输出事物
+        Interfaces will export to their internal inventories if that slot is configured to stock something,
+        so things can be pulled from them to extract from the network
   </BoxAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-需在设计自动化和物流设施时着重考虑从网络存储中输出和向网络存储输入事物的行为/事件。
+The actions/events of pushing to and pulling from network storage are important to keep in mind when designing automation
+and logistics setups.
 
-## 存储优先级
+## Storage Priority
 
-可点击GUI右上角扳手以设置优先级。输入网络的物品会优先进入最高优先级的存储位置，如果有两个优先级相同的存储位置，则会优先选择已经存有该物品的那个。所有白名单元件在同优先级情况下视作已经存有该物品。从存储中输出的物品会优先从最低优先级的位置输出。这一优先级系统使得在输入输出物品的过程中，高优先级的存储位置会被填满，而低优先级的会被搬空。
+Priorities can be set by clicking the wrench in the top-right of some GUIs.
+Items entering the network will start at the highest priority storage, as
+their first destination, in the case of two storages have the same priority,
+if one already contains the item, they will prefer that storage over any
+other. Any Whitelisted cells will be treated as already containing the item
+when in the same priority group as other storages. Items being removed from storage will
+be removed from the storage with the lowest priority. This priority system means as items are inserted and removed
+from network storage, higher priority storages will be filled and lower priority storages will be emptied.

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 终端
+  title: Terminals
   icon: crafting_terminal
   position: 210
 categories:
@@ -13,22 +13,25 @@ item_ids:
 - ae2:pattern_access_terminal
 ---
 
-# 终端
+# Terminals
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/terminals.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<ItemLink id="pattern_provider" />、<ItemLink id="import_bus" />、<ItemLink id="storage_bus" />等是AE2网络与世界交互的基础方式，终端则是AE2网络与*你*交互的基础方式。终端有多种功能各异的变种。
+While <ItemLink id="pattern_provider" />s, <ItemLink id="import_bus" />ses, <ItemLink id="storage_bus" />ses, and the et cetera
+are the primary method by which an AE2 network interacts with the world, Terminals are the primary method by which an AE2
+network interacts with *you*. There are several variants with differing functions.
 
-终端会继承支持其的[线缆](cables.md)的颜色。
+Terminals will inherit the color of the [cable](cables.md) they are mounted on.
 
-它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+They are [cable subparts](../ae2-mechanics/cable-subparts.md).
 
-## 终端的放置
+## Terminal Placement
 
-终端通常是最先放置的[子部件](../ae2-mechanics/cable-subparts.md)，因此出现放置问题或反着放置等都是正常现象。应当做和不应当做的事见下方示例：
+As a terminal is often the first [subpart](../ae2-mechanics/cable-subparts.md) someone might place,
+it is common to get it wrong and place the terminal backwards. Here is an example of what to do and what not to do:
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/terminal_placement.snbt" />
@@ -41,145 +44,167 @@ item_ids:
   <LineAnnotation color="#33ff33" from="1 .5 .5" to="1.5 1 .5" alwaysOnTop={true} thickness="0.05"/>
 </GameScene>
 
-终端和能源接收器都还在，但终端的方向正确且网络连接正确，整体的空间占用也更优。
+You still have a terminal and an energy acceptor, except now the terminal is the right way around and actually
+connected to the network, and it all fits in a smaller space too.
 
 <a name="terminal-ui"></a>
 
-# 终端搜索
+# Terminal Search
 
-搜索框接受正则表达式，因此可以输入“gtceu:.*ore”以搜索所有Gregtech的矿石。正则表达式的学习则留给读者作为练习。
+The searchbox accepts Regex terms, so you can, for example, write "gtceu:.*ore" to get all ores from Gregtech. Learning
+Regex is left as an exercise for the reader.
 
-# 终端
+# Terminal
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/blocks/terminal.snbt" />
   <IsometricCamera yaw="180" />
 </GameScene>
 
-基础终端，使你能访问[网络存储](../ae2-mechanics/import-export-storage.md)的内容，也可向[自动合成](../ae2-mechanics/autocrafting.md)设施发送请求。
+Your basic terminal, allowing you to view and access the contents of your [network's storage](../ae2-mechanics/import-export-storage.md)
+and request things from your [autocrafting](../ae2-mechanics/autocrafting.md) setup.
 
-## 界面
+## The UI
 
-基础终端的UI分为若干部分。
+There are several sections of a basic terminal's UI
 
-中间部分为网络存储，可向其中存入或从中取出物品。此部分支持若干鼠标/键盘快捷键：
+The center section gives access to your network's storage. You can put things in and take things out. There are several
+mouse/key shortcuts:
 
-*   左击拿出一组，右击拿出半组
-*   如果某物品或流体等允许[自动合成](../ae2-mechanics/autocrafting.md)，绑定至“选取方块”的按键（通常是鼠标中键）会唤起设置自动合成数量的UI。也可输入诸如`3*64/2`的公式，还可输入`=32`以补齐网络存储中距32个物品缺少的数量
-*   按住Shift会将所展示物品固定，防止其在数量变动或物品进入系统时重新组织
-*   手持桶或其他流体容器右击可存入流体，以空流体容器左击终端内流体可将其取出
+*   Left-click grabs a stack, right-click grabs half a stack.
+*   If an item or fluid or etc. is able to be [autocrafted](../ae2-mechanics/autocrafting.md),
+    whatever you have bound to "pick block" (usually middle-click) brings up a UI to specify the amount to be crafted. You can also input formulas like `3*64/2`,
+    or type `=32` to only craft the number of items needed to reach 32 in your storage.
+*   Holding shift will freeze the displayed items in-place, stopping them from re-organizing themselves when quantities change or new items enter the system.
+*   Right-clicking with a bucket or other fluid container will deposit the fluid, left-clicking a fluid in the terminal with
+    an empty fluid container will withdraw the fluid.
 
-左侧部分有如下设置按钮：
+The left section has settings buttons to:
 
-*   按物品名称、物品数量、模组等排序
-*   浏览已存储、可合成，或两者均显示
-*   浏览物品、流体，或两者均显示
-*   更改排序顺序
-*   打开详细终端设置窗口
-*   更改终端UI的高度
+*   Sort by different attributes like name, mod, and quantity
+*   View stored, craftable, or both
+*   View items, fluids, or both
+*   Change the sort order
+*   Open the detailed terminal settings window
+*   Change the height of the terminal UI
 
-右侧部分是<ItemLink id="view_cell" />槽位。
+On the right there are slots for <ItemLink id="view_cell" />s
 
-中间部分的右上角（锤子图标）会显示[自动合成](../ae2-mechanics/autocrafting.md)状态UI，允许查看自动合成的进度和各个[合成CPU](crafting_cpu_multiblock.md)的当前任务。
+The top-right of the center section (hammer button) brings up the [autocrafting](../ae2-mechanics/autocrafting.md) status
+UI, allowing you to see the progress of your autocrafts and what each [crafting CPU](crafting_cpu_multiblock.md) is doing.
 
-## 配方
+## Recipe
 
 <RecipeFor id="terminal" />
 
 <a name="crafting-terminal-ui"></a>
 
-# 合成终端
+# Crafting Terminal
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/blocks/crafting_terminal.snbt" />
   <IsometricCamera yaw="180" />
 </GameScene>
 
-合成终端和普通终端比较相似，它们的UI区域与设置均相同，但合成终端新增了可自动从[网络存储](../ae2-mechanics/import-export-storage.md)中补充的合成方格。按住Shift合成时要小心谨慎！
+The Crafting Terminal is similar to a regular terminal, with all the same settings and sections, but with an added crafting grid that will be automatically
+refilled from [network storage](../ae2-mechanics/import-export-storage.md). Be careful when shift-clicking the output!
 
-应当**尽快**将普通终端升级为合成终端。
+You should upgrade your terminal into a crafting terminal ASAP.
 
-## 界面
+## The UI
 
-合成终端的UI与普通终端的相同，并在中间加入了合成方格。
+The crafting terminal has the same UI as the regular terminal, but with an added crafting grid in the middle.
 
-新增了2个按钮，可将合成方格内物品清空至网络存储或物品栏。
+There are 2 additional buttons, to empty the crafting grid into network storage or your inventory.
 
-## 配方
+## Recipe
 
 <RecipeFor id="crafting_terminal" />
 
 <a name="pattern-encoding-terminal-ui"></a>
 
-# 样板编码终端
+# Pattern Encoding Terminal
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/blocks/pattern_encoding_terminal.snbt" />
   <IsometricCamera yaw="180" />
 </GameScene>
 
-样板编码终端和普通终端比较相似，它们的UI区域与设置均相同，但样板编码终端新增了[样板](patterns.md)编码界面。其和合成终端的UI外形较为相似，不过此处的合成方格并不能真正进行合成。
+The Pattern Encoding Terminal is similar to a regular terminal, with all the same settings and sections, but with an added
+[pattern](patterns.md) encoding interface. It looks similar to a crafting terminal's UI but this crafting grid doesn't actually
+perform crafts.
 
-应当在拥有合成终端后再配一个样板编码终端。
+You should have one of these in addition to a crafting terminal.
 
-## 界面
+## The UI
 
-样板编码终端的UI与普通终端的相同，并在中间加入了[样板](patterns.md)编码界面。
+The crafting terminal has the same UI as the regular terminal, added [pattern](patterns.md) encoding interface.
 
-样板编码界面分为若干区域：
+The pattern encoding interface has several sections:
 
-*   可放入<ItemLink id="blank_pattern" />的槽位
-*   用于编码样板的大箭头
-*   可放入经过编码的样板的槽位；在此处放入经过编码的样板以修改，按下“编码”箭头即可保存
-*   右侧用于更改样板至如下类型的4个选项栏：
-    *   合成
-    *   处理
-    *   锻造台
-    *   切石机
+A slot to insert <ItemLink id="blank_pattern" />s.
 
-中间的UI会根据所选编码类型而变：
+A big arrow to encode the pattern.
 
-*   合成模式：
-    *   左击或从JEI/REI拖拽以将材料加至配方；右击以移除材料
-    *   允许替代配方可支持类似任意木板合成木棍的配方；应当仅在绝对必要时才启用
-    *   流体替代允许使用存储中的流体替代桶装流体
-    *   也可直接从JEI/REI配方界面中编码样板
+A slot for encoded patterns. Place a pattern that has already been encoded in this slot in order to edit it, then click the "encode" arrow.
 
-*   处理模式：
-    * 左击，右击或从JEI/REI拖拽以设定配方的输入和输出
-    * 以桶、流体储罐等流体容器右击可将其中流体，而非将桶或储罐物品本身设为原材料
-    * 持有一组物品时，左击放入整组，右击放入一个物品；左击已有的材料移除整组，右击则减少一个；绑定至“选取方块”的按键（通常是鼠标中键）可精确设定物品或流体所需量
-    * 输出槽中有一个主产物槽和若干副产物槽，方便自动合成算法获取信息
-    * 输入和输出槽都可滚动，共有81个材料槽和26个副产物槽
-    * 也可直接从JEI/REI配方界面中编码样板
+4 tabs on the right to swap the type of pattern to be encoded between
 
-*   锻造台和切石机模式的UI和实际的锻造台与切石机类似。
+*   Crafting
+*   Processing
+*   Smithing
+*   Stonecutting
 
-## 配方
+The central UI changes depending on the type of pattern to be encoded:
+
+*   In crafting mode:
+    *   Left-click in or drag from JEI/REI the ingredients to form the recipe. Right-click to remove the ingredient.
+    *   Enabling substitiutions allows things like crafting sticks from any plank type. This should only be used
+        when absolutely necessary.
+    *   Fluid substitutions allows using stored fluids in place of buckets of fluids.
+    *   You can also directly encode a pattern from the JEI/REI recipe screen.
+
+*   In processing mode:
+    * Left-click or right-click in or drag from JEI/REI the ingredients to specify the inputs and outputs of the recipe.
+    * Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as an ingredient instead of the bucket or tank item.
+    * When holding a stack, left-click places the whole stack, right-click places one item. Left-click on an existing ingredient stack to
+        remove the whole stack and right-click to decrement the stack by 1. Whatever you have bound to "pick block" (usually middle-click)
+        lets you specify a precise amount of the item or fluid.
+    * The output slots have a primary output and space for any secondary outputs you might want the autocrafting algorithm to know about.
+    * Both input and output slots scroll, so you can have 81 different ingredients and 26 secondary outputs
+    * You can also directly encode a pattern from the JEI/REI recipe screen.
+
+*   The smithing and stonecutting mode UIs work similarly to a smithing table and stonecutter respectively.
+
+## Recipe
 
 <RecipeFor id="pattern_encoding_terminal" />
 
 <a name="pattern-access-terminal-ui"></a>
 
-# 样板管理终端
+# Pattern Access Terminal
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/blocks/pattern_access_terminal.snbt" />
   <IsometricCamera yaw="180" />
 </GameScene>
 
-样板管理终端可以解决此类问题：在一整个紧凑的<ItemLink id="pattern_provider" />和<ItemLink id="molecular_assembler" />阵列中无法直接向供应器放入样板。此外，也可解决不想跑到基地其他位置放[样板](patterns.md)的懒惰问题。样板管理终端允许访问网络中的所有样板供应器。
+The Pattern Access Terminal serves to solve a specific issue: in a dense tower of <ItemLink id="pattern_provider" />s
+and <ItemLink id="molecular_assembler" />s, you can't physically access the providers to insert new patterns. Additionally,
+perhaps you're lazy and don't want to walk across your base to insert a [pattern](patterns.md). The pattern access terminal
+allows access to all pattern providers on the network.
 
-## 界面
+## The UI
 
-样板管理终端的UI和其他终端不同。
+This terminal has a different UI to all the other terminals.
 
-此UI有UI高度和显示何种样板供应器的设置。
+It has settings for terminal height and which pattern providers to show.
 
-终端中每一行都对应一个样板供应器。
+Each row in the terminal corresponds to a specific pattern provider.
 
-各样板供应器会根据其连接的方块以及名称（铁砧或<ItemLink id="name_press" />赋予）分类。
+Pattern providers in the terminal are sorted by what blocks they are connected to, or what name you have given them (in an anvil or
+with a <ItemLink id="name_press" />).
 
-## 配方
+## Recipe
 
 <RecipeFor id="pattern_access_terminal" />

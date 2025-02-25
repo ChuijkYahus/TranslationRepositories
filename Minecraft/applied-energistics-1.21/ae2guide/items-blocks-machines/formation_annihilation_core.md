@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 成型与破坏核心
+  title: Formation and Annihilation Cores
   icon: formation_core
   position: 010
 categories:
@@ -11,7 +11,7 @@ item_ids:
 - ae2:annihilation_core
 ---
 
-# 成型与破坏核心
+# Formation and Annihilation Cores
 
 <Row>
   <ItemImage id="formation_core" scale="4" />
@@ -19,9 +19,11 @@ item_ids:
   <ItemImage id="annihilation_core" scale="4" />
 </Row>
 
-这些是AE2输入输出[设备](../ae2-mechanics/devices.md)的基础组件。其中的<ItemLink id="fluix_crystal" />和[逻辑处理器](processors.md)使其能赋予设备输入输出物品、方块，流体等的能力。（没有实际功能，只是中间合成材料。）
+These are the primary components of AE2 input and output [devices](../ae2-mechanics/devices.md). Using the power of <ItemLink id="fluix_crystal" /> and
+a [logic processor](processors.md) it allows devices to input and output items, blocks, fluids, etc. (No actual function, just
+a crafting intermediate)
 
-## 配方
+## Recipes
 
 <RecipeFor id="formation_core" />
 

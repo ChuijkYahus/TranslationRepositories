@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 物质聚合器
+  title: Matter Condenser
   icon: condenser
   position: 310
 categories:
@@ -10,20 +10,26 @@ item_ids:
 - ae2:condenser
 ---
 
-# 物质聚合器
+# The Matter Condenser
 
 <BlockImage id="condenser" scale="8" />
 
-物质聚合器可用作垃圾箱，或是用于制造<ItemLink id="matter_ball" />和[奇点](singularities.md)。它能接受物品，流体等可存储于存储元件的事物。
+The matter condenser can be used as either a trash can or to create <ItemLink id="matter_ball" />s and
+[singularities](singularities.md). It can take any item or fluid or etc. a storage cell can store.
 
-## 设置/可用配方
+## Settings/Recipes
 
-*   在销毁模式下，物质聚合器会销毁所有输入物品。
-*   在物质球模式下，物质聚合器会用输入物品制造<ItemLink id="matter_ball" />。此模式需要在聚合器顶部槽位装有存储元件。制造物质球需消耗256个物品或256桶流体，<ItemLink id="cell_component_1k" />（8192位容量）就已足够。
-*   在奇点模式下，物质聚合器会用输入物品制造[奇点](singularities.md)。此模式需要在聚合器顶部槽位装有存储元件。制造奇点需消耗256000个物品或256000桶流体，<ItemLink id="cell_component_64k" />（524288位容量）就已足够。
+*   In trash can mode, the matter condenser just voids everything that enters it
+*   In matter ball mode the condenser makes <ItemLink id="matter_ball" />s out of whatever you put in it.
+    This mode requires that you put a storage component in the top slot of the condenser. Matter balls take 256 items or buckets
+    each, so a <ItemLink id="cell_component_1k" /> (which provides 8192 bits of capacity) is more than enough.
+*   In matter singularity mode the condenser makes [singularities](singularities.md) out of whatever you put in it.
+    This mode requires that you put a storage component in the top slot of the condenser. Singularities take 256,000 items or buckets
+    each, so a <ItemLink id="cell_component_64k" /> (which provides 524,288 bits of capacity) is more than enough.
 
-注意：在后两者模式下，物质聚合器*有可能*被产出物堵塞；若能量和输出物品缓存均已满，它便不会再接受输入。
+Note that in the latter two modes where some resource is produced, the Matter Condenser *can* back up and will
+not accept any further input if both the energy and output item buffers are completely filled up.
 
-## 配方
+## Recipe
 
 <RecipeFor id="condenser" />

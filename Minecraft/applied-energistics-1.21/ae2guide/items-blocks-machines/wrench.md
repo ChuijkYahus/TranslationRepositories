@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 扳手
+  title: Wrenches
   icon: certus_quartz_wrench
   position: 410
 categories:
@@ -11,7 +11,7 @@ item_ids:
 - ae2:nether_quartz_wrench
 ---
 
-# 扳手
+# Wrenches
 
 <Row>
   <ItemImage id="certus_quartz_wrench" scale="4" />
@@ -19,11 +19,13 @@ item_ids:
   <ItemImage id="nether_quartz_wrench" scale="4" />
 </Row>
 
-扳手可用于旋转AE2设备（右击）和拆卸AE2方块（Shift右击）。也可将单个[子部件](../ae2-mechanics/cable-subparts.md)拆下而不影响同线缆上其他事物。（也可拆下线缆而不影响子部件。）
+Wrenches are used to rotate ae2 devices (right-click), and disassemble ae2 blocks (shift-right-click).
+[Subparts](../ae2-mechanics/cable-subparts.md) can be removed from a cable without breaking everything on the cable
+(or the cable can be removed without breaking the subparts.)
 
-许多AE2方块都可旋转，指南未提及并不意味不能旋转。
+Many ae2 blocks can be rotated, so just because this guide doesn't say you can rotate something doesn't mean you can't.
 
-## 配方
+## Recipes
 
 <Row>
   <RecipeFor id="certus_quartz_wrench" />

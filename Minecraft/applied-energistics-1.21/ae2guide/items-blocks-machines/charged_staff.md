@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 充能手杖
+  title: Charged Staff
   icon: charged_staff
   position: 410
 categories:
@@ -10,14 +10,15 @@ item_ids:
 - ae2:charged_staff
 ---
 
-# 充能手杖
+# The Charged Staff
 
 <ItemImage id="charged_staff" scale="4" />
 
-充能手杖是在末端装有<ItemLink id="charged_certus_quartz_crystal" />的棍子。它能造成6点伤害，每次攻击消耗300AE。
+The Charged Staff is a stick with a <ItemLink id="charged_certus_quartz_crystal" /> on the end. It does 6 damage, using 300 AE
+per attack.
 
-可在<ItemLink id="charger" />中为其充能。
+Its energy can be recharged in a <ItemLink id="charger" />.
 
-## 配方
+## Recipe
 
 <RecipeFor id="charged_staff" />

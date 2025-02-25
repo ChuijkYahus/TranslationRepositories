@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 网络工具
+  title: Network Tool
   icon: network_tool
   position: 410
 categories:
@@ -10,31 +10,35 @@ item_ids:
 - ae2:network_tool
 ---
 
-# 网络工具
+# Network Tool
 
 <ItemImage id="network_tool" scale="4" />
 
-网络工具是修改版本的[扳手](wrench.md)，它能显示网络诊断信息，也能存储[升级卡](upgrade_cards.md)。它仍保留了扳手拆卸[子部件](../ae2-mechanics/cable-subparts.md)等事物的能力，但无法再旋转方块。
+The Network Tool is a modified [wrench](wrench.md) that also shows network diagnostic information and can store [upgrade cards](upgrade_cards.md).
+While it retains the wrench's ability to quickly disassemble things and pull [subparts](../ae2-mechanics/cable-subparts.md)
+off of a cable, it cannot rotate things.
 
-网络工具有9个[升级卡](upgrade_cards.md)存储槽位，当其在物品栏内时，这些升级卡可直接在任意AE2设备UI中访问。
+It has 9 slots in which to store [upgrade cards](upgrade_cards.md), and they will be available in any AE2 device UI if the tool
+is anywhere in your inventory.
 
-与右击<ItemLink id="controller" />类似，手持网络工具右击网络任意一处会显示诊断信息窗口。
-此窗口会显示：
+Right-clicking any part of a network will show a diagnostic info window, similar to right-clicking a <ItemLink id="controller" />.
+This window shows
 
-*   网络中频道占用数
-*   全局切换网络能量单位（AE、E/FE）
-*   网络中当前[能量](../ae2-mechanics/energy.md)总量和最大容量
-*   能量流入和使用量
-*   网络中所有[设备](../ae2-mechanics/devices.md)和组件的列表
+*   The amount of channels in-use on the network
+*   A toggle for the global setting to view energy in AE or E/FE
+*   The amount of [energy](../ae2-mechanics/energy.md) stored in the network, and the network's maximum energy capacity
+*   The amount of energy entering and being used by the network
+*   A list of all the [devices](../ae2-mechanics/devices.md) and components on the network
 
-此窗口在搭建[子网络](../ae2-mechanics/subnetworks.md)时很有用，可用于判断两段线缆是否处于同一网络。
+This window is also helpful for figuring out if two different cables or devices are part of the same network when messing around with
+[Subnetworks](../ae2-mechanics/subnetworks.md).
 
-## 隐藏伪装板
+## Hiding Facades
 
-手持网络工具时[伪装板](facades.md)会自动隐藏。
+<a href="facades.md">Facades</a> will be hidden while holding a network tool in either hand.
 
-此时可以直接与隐藏的伪装板后方的方块交互，无需取下伪装板。
+You can interact with blocks behind hidden facades without having to remove the facades first.
 
-## 配方
+## Recipe
 
 <RecipeFor id="network_tool" />

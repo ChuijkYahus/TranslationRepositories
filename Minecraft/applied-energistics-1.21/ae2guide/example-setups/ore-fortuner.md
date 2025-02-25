@@ -1,61 +1,64 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: 自动时运矿石机
+  title: Automatic Ore Fortuner
   icon: minecraft:raw_iron
 ---
 
-# 自动化时运挖掘矿石
+# Automation of Ore Fortuning
 
-<ItemLink id="annihilation_plane" />接受所有镐魔咒，包括时运，因此其常见用途之一便是给几个面板附上时运，并让<ItemLink id="formation_plane" />和<ItemLink id="annihilation_plane" />迅速放置和破坏矿石。
+The <ItemLink id="annihilation_plane" /> can be enchanted with any pickaxe enchantment, including fortune, so an obvious use case is to
+apply fortune to a few, and have <ItemLink id="formation_plane" />s and <ItemLink id="annihilation_plane" />s rapidly place and
+break ores.
 
-注意<ItemLink id="import_bus" />的运行速度会“缓慢增加”：此设施在启动时较慢，并会在几秒后达到最大速度。
+Note that since <ItemLink id="import_bus" />ses "spin up to speed", the setup will start slow then reach full speed in a few seconds.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/ore_fortuner.snbt" />
 
   <BoxAnnotation color="#dddddd" min="2.7 0 2" max="3 1 3">
-        （1）输入总线：装有若干加速卡。
+        (1) Import Bus: Has a few Acceleration Cards in it.
         <ItemImage id="speed_card" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 0 2" max="2 1 2.3">
-        （2）成型面板：默认配置。
+        (2) Formation Planes: In their default configuration.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 0 0.7" max="2 1 1">
-        （3）破坏面板：无可用GUI，但可附有时运。
+        (3) Annihilation Planes: No GUI to configure, but enchanted with Fortune.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 0 0" max="3 1 1">
-        （4）存储总线：默认配置。
+        (4) Storage Bus: In its default configuration.
   </BoxAnnotation>
 
 <DiamondAnnotation pos="3.5 0.5 2.5" color="#00ff00">
-        输入
+        Input
     </DiamondAnnotation>
 
 <DiamondAnnotation pos="3.5 0.5 0.5" color="#00ff00">
-        输出
+        Output
     </DiamondAnnotation>
 
 <DiamondAnnotation pos="4 0.5 1.5" color="#00ff00">
-        至主网络
+        To Main Network
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 配置
+## Configurations
 
-*   <ItemLink id="import_bus" />（1）中装有若干<ItemLink id="speed_card" />。阵列内成型面板越多则所需加速卡也越多，可使总线一次性拿取更多物品。
-*   <ItemLink id="formation_plane" />（2）处于默认配置。
-*   <ItemLink id="annihilation_plane" />（3）没有GUI且无法配置，附有时运。
-*   <ItemLink id="storage_bus" />（4）处于默认配置。
+*   The <ItemLink id="import_bus" /> (1) has a few <ItemLink id="speed_card" />s in it. More are required the more formation planes
+    are in the array, as they make the import bus pull more items at once.
+*   The <ItemLink id="formation_plane" />s (2) are in their default configurations.
+*   The <ItemLink id="annihilation_plane" />s (3) have no GUI and cannot be configured, but are enchanted with fortune.
+*   The <ItemLink id="storage_bus" /> (4) is in its default configuration.
 
-## 工作原理
+## How It Works
 
-1.  绿色子网络上的<ItemLink id="import_bus" />将方块从第一个木桶中输入[网络存储](../ae2-mechanics/import-export-storage.md)。
-2.  绿色子网络上的存储位置仅有<ItemLink id="formation_plane" />，它们会放置方块。
-3.  橙色子网络上的<ItemLink id="annihilation_plane" />用于破坏方块，需给它们附上时运。
-4.  橙色子网络上的<ItemLink id="storage_bus" />将破坏产物存入第二个木桶。
+1.  The <ItemLink id="import_bus" /> on the green subnet imports blocks from the first barrel into [network storage](../ae2-mechanics/import-export-storage.md)
+2.  The only storage on the green subnet is the <ItemLink id="formation_plane" />, which places the blocks.
+3.  The <ItemLink id="annihilation_plane" /> on the orange subnet breaks the blocks, applying fortune to them.
+4.  The <ItemLink id="storage_bus" /> on the orange subnet stores the results of the breaking in the second barrel.

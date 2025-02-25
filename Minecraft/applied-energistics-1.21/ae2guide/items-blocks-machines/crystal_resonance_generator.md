@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 晶振发电器
+  title: Crystal Resonance Generator
   icon: crystal_resonance_generator
   position: 110
 categories:
@@ -10,14 +10,14 @@ item_ids:
 - ae2:crystal_resonance_generator
 ---
 
-# 晶振发电器
+# The Crystal Resonance Generator
 
 <BlockImage id="crystal_resonance_generator" scale="8" />
 
-此设备无需燃料就能为ME网络产生能量。同时它也会产生晶体振荡，同一个网络也因此只能存在一台这种设备。这种振荡甚至能在<ItemLink id="quartz_fiber" />中传播。
+This device generates energy for your ME network without the need for fuel. Because of the crystal vibrations this device generates, only one can be used in each network. These vibrations even pass through <ItemLink id="quartz_fiber" />.
 
-**发电速率：**<ae2:ConfigValue name="crystalResonanceGeneratorRate"/> AE/t
+**Generation Rate:** <ae2:ConfigValue name="crystalResonanceGeneratorRate"/> AE/t
 
-## 配方
+## Recipes
 
 <RecipeFor id="crystal_resonance_generator" />

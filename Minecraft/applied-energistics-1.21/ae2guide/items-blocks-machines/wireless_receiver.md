@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 无线接收器
+  title: Wireless Receiver
   icon: wireless_receiver
   position: 010
 categories:
@@ -10,12 +10,12 @@ item_ids:
 - ae2:wireless_receiver
 ---
 
-# 无线接收器
+# Wireless Receiver
 
 <ItemImage id="wireless_receiver" scale="4" />
 
-置于反射碟中的<ItemLink id="fluix_pearl" />，是一种短距离无线ME科技组件。
+A <ItemLink id="fluix_pearl" /> in a reflector dish, a component of short-range wireless ME technology.
 
-## 配方
+## Recipe
 
 <RecipeFor id="wireless_receiver" />

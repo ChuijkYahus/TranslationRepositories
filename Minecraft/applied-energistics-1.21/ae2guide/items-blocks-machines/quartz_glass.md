@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 石英玻璃
+  title: Quartz Glass
   icon: quartz_glass
   position: 010
 categories:
@@ -11,15 +11,16 @@ item_ids:
 - ae2:quartz_vibrant_glass
 ---
 
-# 石英玻璃
+# Quartz Glass
 
 <BlockImage id="quartz_glass" scale="8" />
 
-几乎完全通透的玻璃，由<ItemLink id="certus_quartz_dust" />制成。用于制造大多数AE2机械和物品。
+Mostly clear glass made with <ItemLink id="certus_quartz_dust" />.
+Used to make many AE2 machines and items.
 
-其变种聚能石英玻璃可以发光。
+There is a variant, vibrant quartz glass, that emits light.
 
-## 配方
+## Recipes
 
 <RecipeFor id="quartz_glass" />
 

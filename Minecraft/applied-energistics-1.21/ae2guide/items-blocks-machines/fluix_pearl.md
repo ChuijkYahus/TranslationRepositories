@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯珍珠
+  title: Fluix Pearl
   icon: fluix_pearl
   position: 010
 categories:
@@ -10,12 +10,13 @@ item_ids:
 - ae2:fluix_pearl
 ---
 
-# 福鲁伊克斯珍珠
+# Fluix Pearl
 
 <ItemImage id="fluix_pearl" scale="4" />
 
-覆有一层<ItemLink id="fluix_crystal" />的末影珍珠，用于制造若干种AE2组件。
+An ender pearl coated in <ItemLink id="fluix_crystal" />, used in the production of
+several AE2 components.
 
-## 配方
+## Recipe
 
 <RecipeFor id="fluix_pearl" />

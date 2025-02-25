@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 显示元件
+  title: View Cell
   icon: view_cell
   position: 410
 categories:
@@ -10,17 +10,19 @@ item_ids:
 - ae2:view_cell
 ---
 
-# 显示元件
+# View Cell
 
 <ItemImage id="view_cell" scale="2" />
 
-显示元件可过滤[终端](terminals.md)的显示，需在<ItemLink id="cell_workbench" />中为其分区。
+View Cells are used to filter the display of [terminals](terminals.md). You partition them in a <ItemLink id="cell_workbench" />.
 
-例如，也许你会想让某个终端只显示一部分石制建材。将显示元件分区为这些材料并装入终端，终端就只会显示这些物品了。
+For example, say you want a terminal to only display a selection of stone building materials. Partition the view cell to those
+materials and place it in a terminal, and only those items will be shown.
 
-显示元件的效果会叠加，比如装入分区为橡木木板和分区为圆石的显示元件，相应设备两者都会显示。
+View cells are additive, if you have a view cell for oak planks and a view cell for cobblestone, putting both in will show
+both planks and cobblestone.
 
-## 配方
+## Recipe
 
 <Recipe id="network/cells/view_cell_storage" />
 

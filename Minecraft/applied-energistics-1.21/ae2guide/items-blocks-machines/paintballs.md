@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 染色球
+  title: Paintballs
   icon: green_lumen_paint_ball
   position: 410
 categories:
@@ -41,7 +41,7 @@ item_ids:
 - ae2:black_lumen_paint_ball
 ---
 
-# 染色球
+# Paintballs
 
 <Row gap="-8">
   <ItemImage id="white_paint_ball" scale="4" />
@@ -55,11 +55,12 @@ item_ids:
   <ItemImage id="red_paint_ball" scale="4" />
 </Row>
 
-染色球可用于<ItemLink id="color_applicator" />以为[线缆](cables.md)、羊毛、陶瓦、玻璃，混凝土等可染色方块染色。它们也可用于<ItemLink id="matter_cannon" />以射出一小滩染料。
+Paintballs are used in a <ItemLink id="color_applicator" /> in order to paint colorable blocks like [cables](cables.md),
+wool, terracotta, glass, and concrete. They can also be used in a <ItemLink id="matter_cannon" /> to shoot little splotches of paint.
 
-## 配方
+## Recipes
 
-在染料周围放置8个物质球。
+8 matter balls around a dye
 
 <Column>
   <Row>
@@ -81,7 +82,7 @@ item_ids:
   <br />
 </Column>
 
-# 光通染色球
+# Lumen Paintballs
 
 <Row gap="-8">
   <ItemImage id="white_lumen_paint_ball" scale="4" />
@@ -95,11 +96,12 @@ item_ids:
   <ItemImage id="red_lumen_paint_ball" scale="4" />
 </Row>
 
-它们和普通染色球表现相同，不过在<ItemLink id="matter_cannon" />中发射时，它们留下的染料滩会发光。也许适合拿来当信号枪。
+They act identically to regular paintballs but the splotches emit light when shot out of a <ItemLink id="matter_cannon" />.
+Useful as a sort of flaregun I guess.
 
-## 配方
+## Recipes
 
-在荧石粉周围放置8个染色球。
+8 paintballs around a glowstone dust
 
 <Column>
   <Row>

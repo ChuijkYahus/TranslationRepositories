@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 能源接收器
+  title: Energy Acceptor
   icon: energy_acceptor
   position: 110
 categories:
@@ -10,7 +10,7 @@ item_ids:
 - ae2:energy_acceptor
 ---
 
-# 能源接收器
+# The Energy Acceptor
 
 <Row gap="20">
 <BlockImage id="energy_acceptor" scale="8" /> 
@@ -20,22 +20,25 @@ item_ids:
 </GameScene>
 </Row>
 
-能源接收器会将其他科技模组的常见能量系统转换为AE2内部使用的[能量](../ae2-mechanics/energy.md)，AE。虽然<ItemLink id="controller" />也能做到这一点，但控制器的面非常珍贵，一般还是推荐使用能源接收器。
+The energy acceptor converts common forms of energy from other tech mods into AE2's internal form of [energy](../ae2-mechanics/energy.md),
+AE. While the <ItemLink id="controller" /> can also do this, controller faces are valuable so it's often better to use an energy
+acceptor instead.
 
-Forge Energy与Techreborn Energy的转换比为
+The ratios for conversion of Forge Energy and Techreborn Energy are
 
-*   2 FE = 1 AE（Forge）
-*   1 E  = 2 AE（Fabric）
+*   2 FE = 1 AE (Forge)
+*   1 E  = 2 AE (Fabric)
 
-转换速度完全由网络能量容量决定，具体原因参见[此页](../ae2-mechanics/energy.md)。
+The speed of conversion is entirely dependent on how much AE your network can store, for reasons that are explained on
+[this page](../ae2-mechanics/energy.md).
 
-## 变种
+## Variants
 
-能源接收器有2种变种：普通、面板/[子部件](../ae2-mechanics/cable-subparts.md)，便于设计紧凑设施。
+Energy acceptors come in 2 different variants: normal and flat/[subpart](../ae2-mechanics/cable-subparts.md). This allows you to make some setups more compact.
 
-能源接收器的普通和面板形态可在合成方格中转换。
+Energy acceptors can be swapped between normal and flat in a crafting grid.
 
-## 配方
+## Recipe
 
 <RecipeFor id="energy_acceptor" />
 

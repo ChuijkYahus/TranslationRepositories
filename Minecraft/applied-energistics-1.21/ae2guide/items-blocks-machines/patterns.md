@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 样板
+  title: Patterns
   icon: crafting_pattern
   position: 410
 categories:
@@ -14,30 +14,47 @@ item_ids:
 - ae2:stonecutting_pattern
 ---
 
-# 样板
+# Patterns
 
 <ItemImage id="crafting_pattern" scale="4" />
 
-样板是在<ItemLink id="pattern_encoding_terminal" />中以空白样板制作而得的，可装入<ItemLink id="pattern_provider" />和<ItemLink id="molecular_assembler" />。
+Patterns are made in a <ItemLink id="pattern_encoding_terminal" /> out of blank patterns, and inserted in <ItemLink id="pattern_provider" />s
+or <ItemLink id="molecular_assembler" />s.
 
-有若干种不同的样板，分别为不同处理方式设计：
+There are several different types of pattern for different things:
 
-*   <ItemLink id="crafting_pattern" />能编码工作台的配方。可将此类样板直接放入<ItemLink id="molecular_assembler" />以令其在收到材料时自动合成，但是它们的主要用途则是放在与分子装配室相邻的<ItemLink id="pattern_provider" />中。样板供应器在此情况下有特殊行为，会将相关样板和材料输入相邻装配室。因为装配室会将产物自动弹出到相邻容器，相邻放置的装配室和样板供应器就是自动化合成样板所需的一切了。
-
-***
-
-*   <ItemLink id="smithing_table_pattern" />与合成样板非常相似，但编码的是锻造台配方。它们也可通过样板供应器和分子装配室自动化，工作流程也完全一致。实际上，合成、锻造台、切石机样板所需的设施均完全一致。
-
-***
-
-*   <ItemLink id="stonecutting_pattern" />与合成样板非常相似，但编码的是切石机配方。它们也可通过样板供应器和分子装配室自动化，工作流程也完全一致。实际上，合成、锻造台、切石机样板所需的设施均完全一致。
+*   <ItemLink id="crafting_pattern" />s encode recipes made by a crafting table. They can be put directly in a <ItemLink id="molecular_assembler" /> to make it
+    craft the result whenever given the ingredients, but their main use is in a <ItemLink id="pattern_provider" /> next to a molecular assembler.
+    Pattern providers have special behavior in this case, and will send the relevant pattern along with the ingredients to adjacent assemblers.
+    Since assemblers auto-eject the results of crafts to adjacent inventories, an assembler on a pattern provider is all that is needed to automate crafting patterns.
 
 ***
 
-*   <ItemLink id="processing_pattern" />则是自动合成的灵活性所在。它们是最通用的样板类型，简单来说，“如果样板供应器将这些材料输出到相邻容器，则ME系统会在未来某时间点收到这些物品”。它们是配合几乎所有其他模组机器（或者说熔炉类的机器）自动合成的方式。原因在于它们非常通用，且完全不关心输出材料和输入产物间发生的任何事。你大可做些非常古怪的事，比如将材料输入一整条复杂工厂产线进行分拣，再从无限生产的农场中运出其他材料，打印出一整篇《蜜蜂总动员》的剧本，只要ME系统能拿到样板指明的产物，它就完全不会关心这些。实际上，它甚至不会关心材料和产物之间有没有联系。你可以告诉系统“1x 樱花木板 = 1x 下界之星”，然后让凋灵农场每接收到一个樱花木板时杀一只凋灵即可，完全不会出任何问题。
+*   <ItemLink id="smithing_table_pattern" />s are very similar to crafting patterns, but they encode smithing table recipes. They are also automated by a pattern
+    provider and molecular assembler, and function in the exact same way. In fact, crafting, smithing, and stonecutting patterns can be
+    used in the same setup.
 
-多个拥有相同样板的<ItemLink id="pattern_provider" />会并行工作，并且，还可以设置诸如“8x 圆石 = 8x 石头”的配方而非“1x 圆石 = 1x 石头”，样板供应器每次运行都会向烧炼设施输入8个圆石而非每次1个。
+***
 
-## 配方
+*   <ItemLink id="stonecutting_pattern" />s are very similar to crafting patterns, but they encode stonecutter recipes. They are also automated by a pattern
+    provider and molecular assembler, and function in the exact same way. In fact, crafting, smithing, and stonecutting patterns can be
+    used in the same setup.
+
+***
+
+*   <ItemLink id="processing_pattern" />s are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply
+    saying "if a pattern provider pushes these ingredients to adjacent inventories, the ME system will receive these items at some point in the
+    near or distant future". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so
+    general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really funky stuff, like inputting
+    the ingredients into an entire complex factory production chain which will sort out stuff, take in other ingredients from infinitely-producing
+    farms, print the entirety of the Bee Movie script, the ME system does not care as long as it gets the result the pattern specifies. In fact,
+    it doesn't even care if the ingredients are in any way related to the result. You could tell it "1 cherry wood planks = 1 nether star" and have
+    your wither farm kill a wither upon receiving a cherry wood planks and it would work.
+
+Multiple <ItemLink id="pattern_provider" />s with identical patterns are supported and work in parallel. Additionally, you can have a pattern say,
+for example, 8 cobblestone = 8 stone instead of 1 cobblestone = 1 stone, and the pattern provider will insert 8 cobblestone into
+your smelting setup every operation instead of one at a time.
+
+## Recipe
 
 <RecipeFor id="blank_pattern" />

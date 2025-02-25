@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯装饰方块
+  title: Decorative Fluix
   icon: fluix_stairs
   position: 010
 categories:
@@ -12,16 +12,16 @@ item_ids:
 - ae2:fluix_slab
 ---
 
-# 福鲁伊克斯装饰方块
+# Decorative Fluix
 
 <GameScene zoom="4" background="transparent">
 <ImportStructure src="../assets/assemblies/decorative_fluix.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<ItemLink id="fluix_block" />可由合成或切石加工为装饰性建筑方块。
+<ItemLink id="fluix_block" />s can be crafted and stonecut into some decorative building blocks.
 
-## 配方
+## Recipes
 
 <Row>
   <RecipeFor id="fluix_stairs" />

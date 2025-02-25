@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: 设施示例
+  title: Example Setups
   position: 40
 ---
 
-# 设施示例
+# Example Setups
 
 <SubPages />

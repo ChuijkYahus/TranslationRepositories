@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 晶体催生器
+  title: Growth Accelerator
   icon: growth_accelerator
   position: 310
 categories:
@@ -10,32 +10,34 @@ item_ids:
 - ae2:growth_accelerator
 ---
 
-# 晶体催生器
+# The Growth Accelerator
 
 <BlockImage id="growth_accelerator" p:powered="true" scale="8"/>
 
-相邻放置于母岩时，晶体催生器会大幅加快赛特斯石英和紫水晶的[生长](../ae2-mechanics/certus-growth.md)。
+The Growth Accelerator massively accelerates [the growth of](../ae2-mechanics/certus-growth.md) certus or amethyst when placed adjacent to the budding block.
 
-奇怪的是，它*也能*加速各种植物的生长。
+Curiously, it can *also* accelerate the growth of various plants.
 
-这种加速的本质是对周围方块执行“随机刻”，自然产生的随机刻也依然保留。理论上来说，1台催生器就能使得事物的生长速度变为原本的大约90倍，多台催生器的效果加算。
+It does this by applying "random ticks" to the adjacent blocks, in addition to the random ticks that happen naturally.
+In theory this means  1 accelerator should make things grow ~90x faster than normal, and the effect stacks additively.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/growth_accelerator.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-需向其顶面或底面供能，AE2[线缆](cables.md)和其他模组的能量线缆均可。充能器能接受AE2能量（AE）和Forge能量（FE）。
+Power can be provided via the top or bottom, via either AE2's [cables](cables.md), or other mod power cables. It can
+accept either AE2's power (AE) or Forge Energy (FE).
 
-在顶面或底面放置<ItemLink id="crank" />并右击手摇即可手工供能。
+To power it manually, place a <ItemLink id="crank" /> on the top or bottom and right-click it.
 
-顶面和底面可通过粉红色的福鲁伊克斯珠分辨。
+The top and the bottom can be identified by the pink flux greebles on them.
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/accelerator_connections.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 配方
+## Recipe
 
 <RecipeFor id="growth_accelerator" />

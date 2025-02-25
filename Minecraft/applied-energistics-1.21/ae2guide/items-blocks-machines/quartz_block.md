@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 赛特斯石英块
+  title: Certus Quartz Block
   icon: quartz_block
   position: 010
 categories:
@@ -10,12 +10,13 @@ item_ids:
 - ae2:quartz_block
 ---
 
-# 赛特斯石英块
+# The Certus Quartz Block
 
 <BlockImage id="quartz_block" scale="8" />
 
-<ItemLink id="certus_quartz_crystal" />的存储方块。可用于制造[赛特斯石英母岩](budding_certus.md)和[赛特斯石英装饰方块](decorative_certus.md)。
+The storage block for <ItemLink id="certus_quartz_crystal" />. Can be used to make [budding certus blocks](budding_certus.md)
+or [decorative certus blocks](decorative_certus.md).
 
-## 配方
+## Recipe
 
 <RecipeFor id="quartz_block" />

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 空间锚
+  title: Spatial Anchor
   icon: spatial_anchor
   position: 110
 categories:
@@ -10,31 +10,34 @@ item_ids:
 - ae2:spatial_anchor
 ---
 
-# 空间锚
+# The Spatial Anchor
 
 <BlockImage id="spatial_anchor" p:powered="true" scale="8"/>
 
-AE2网络需要所有[设备](../ae2-mechanics/devices.md)均被区块加载才可工作，只有一部分被加载可能导致运行失常。空间锚则解决了这个问题。它会强制加载其所处网络占用的区块。仅是跨过区块边界的单个线缆就足以加载该新区块了。
+An AE2 network needs to be chunkloaded for any of its [devices](../ae2-mechanics/devices.md) to be able to function, and if only some of it is loaded,
+it may not function correctly. The Spatial Anchor solves this problem. It forceloads the chunks that its network occupies.
+A single cable extending across a chunk border is enough to load that new chunk.
 
-其“加载范围”会穿过[量子桥](quantum_bridge.md)，但不会跨维度加载，因此如果有连接至下界的量子桥，则需要在基地和下界都有一个空间锚。
+It will propagate its "loading" across [quantum bridges](quantum_bridge.md), but not cross-dimensionally, so if you
+have a quantum bridge to the nether, you need a spatial anchor on the network in your base and on the network in the nether.
 
-默认情况下，它也会启用加载区块的随机刻，这一特性可被AE2配置关闭。
+By default it will also enable random ticks in its loaded chunks, this can be turned off in the ae2 config.
 
-空间锚可用<ItemLink id="certus_quartz_wrench" />旋转，如果真有需要的话。
+It can be rotated with a <ItemLink id="certus_quartz_wrench" /> if for some reason you want to do that.
 
-## 设置
+## Settings
 
-*   空间锚提供调整全局能量单位（AE、E/FE）的设置。
-*   可在世界内显示被加载区块的全息图。
+*   The spatial anchor provides access to the global setting to view energy in AE or E/FE.
+*   An in-world hologram can be displayed showing the chunks being loaded.
 
-## 能量
+## Energy
 
-空间锚的[能量](../ae2-mechanics/energy.md)消耗遵从如下等式：
+The spatial anchor will use [energy](../ae2-mechanics/energy.md) according to this equation:
 
 e = 80 + (x\*(x+1))/2
 
-x为被加载区块的数量
+where x is the number of chunks being loaded
 
-## 配方
+## Recipe
 
 <RecipeFor id="spatial_anchor" />

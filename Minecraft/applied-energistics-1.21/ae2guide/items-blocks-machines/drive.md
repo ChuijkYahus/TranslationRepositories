@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: ME驱动器
+  title: ME Drive
   icon: drive
   position: 210
 categories:
@@ -10,34 +10,42 @@ item_ids:
 - ae2:drive
 ---
 
-# ME驱动器
+# The ME Drive
 
 <GameScene zoom="8" background="transparent">
   <ImportStructure src="../assets/blocks/drive.snbt" />
 </GameScene>
 
-驱动器是用于放置[存储元件](storage_cells.md)的[设备](../ae2-mechanics/devices.md)，其中元件视作[网络存储](../ae2-mechanics/import-export-storage.md)。其有10个接受单个元件的槽位。
+The Drive is the [device](../ae2-mechanics/devices.md) you plug your [storage cells](storage_cells.md) into in order to use them for
+[network storage](../ae2-mechanics/import-export-storage.md). It has 10 slots which each accept a cell.
 
-如有需求，可使用任意物流方式（如漏斗和AE2总线）抽取或存入元件。
+If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses.
 
-可被<ItemLink id="certus_quartz_wrench" />旋转。
+It can be rotated with a <ItemLink id="certus_quartz_wrench" />.
 
-## 元件状态LED
+## Cell Status LEDs
 
-驱动器中的元件可通过其LED表明其状态：
+The cells in the drive have an LED on them which shows their status:
 
-| 颜色 | 状态                                                          |
-| :--- | :------------------------------------------------------------ |
-| 绿色 | 空                                                            |
-| 蓝色 | 装有事物                                                      |
-| 橙色 | [类型](../ae2-mechanics/bytes-and-types.md)已满，不可新增类型 |
-| 红色 | [字节](../ae2-mechanics/bytes-and-types.md)已满，不可新增物品 |
-| 黑色 | 无能量或驱动器缺少[频道](../ae2-mechanics/channels.md)        |
+| Color  | Status                                                                           |
+| :----- | :------------------------------------------------------------------------------- |
+| Green  | Empty                                                                            |
+| Blue   | Has some contents                                                                |
+| Orange | [Types](../ae2-mechanics/bytes-and-types.md) full, no new types can be added     |
+| Red    | [Bytes](../ae2-mechanics/bytes-and-types.md) full, no more items can be inserted |
+| Black  | No power or drive has no [channel](../ae2-mechanics/channels.md)                 |
 
-## 优先级
+## Priority
 
-可点击GUI右上角扳手以设置优先级。输入网络的物品会优先进入最高优先级的存储位置，如果有两个优先级相同的存储位置，则会优先选择已经存有该物品的那个。经过[分区](cell_workbench.md)的元件在同优先级情况下视作已经存有该物品。从存储中输出的物品会优先从最低优先级的位置输出。这一优先级系统使得在输入输出物品的过程中，高优先级的存储位置会被填满，而低优先级的会被搬空。
+Priorities can be set by clicking the wrench in the top-right of the GUI.
+Items entering the network will start at the highest priority storage as
+their first destination. In the case of two storages or cells have the same priority,
+if one already contains the item, they will prefer that storage over any
+other. Any [partitioned](cell_workbench.md) cells will be treated as already containing the item
+when in the same priority group as other storages. Items being removed from storage will
+be removed from the storage with the lowest priority. This priority system means as items are inserted and removed
+from network storage, higher priority storages will be filled and lower priority storages will be emptied.
 
-## 配方
+## Recipe
 
 <RecipeFor id="drive" />

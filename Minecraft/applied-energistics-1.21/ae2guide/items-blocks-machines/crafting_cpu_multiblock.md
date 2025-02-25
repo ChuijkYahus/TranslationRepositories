@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 合成CPU多方块结构（合成存储器、并行处理单元、合成监控器、合成单元）
+  title: Crafting CPU Multiblock (Storage, Coprocessor, Monitor, Unit)
   icon: 1k_crafting_storage
   position: 210
 categories:
@@ -17,7 +17,7 @@ item_ids:
 - ae2:crafting_unit
 ---
 
-# 合成CPU
+# The Crafting CPU
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/crafting_cpus.snbt" />
@@ -34,29 +34,37 @@ item_ids:
   <BlockImage id="crafting_unit" scale="4" />
 </Row>
 
-合成CPU管理合成请求与合成任务。它们会在执行多步骤合成任务时将中间产物存于自身，并影响合成任务的大小上限，某种程度上也会影响这些任务的完成速度。详细信息见[自动合成](../ae2-mechanics/autocrafting.md)。
+Crafting CPUs manage crafting requests/jobs. They store the intermediate ingredients while crafting jobs with multiple steps are
+being carried out, and affect how big jobs can be, and to some degree how fast they are completed. See [autocrafting](../ae2-mechanics/autocrafting.md)
+for more details.
 
-右击合成CPU会打开合成状态UI，可在此检查CPU正在处理的合成任务进度。
+Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks.
 
-## 设置
+They can be set to handle requests from players, automation (export busses and interfaces), or both.
 
-*   合成CPU可设置为仅接受玩家请求，仅接受自动化系统请求（如装有<ItemLink id="crafting_card" />的<ItemLink id="export_bus" />），或两者均接受。
+Right-clicking one brings up a crafting status UI where you can check the progress on the crafting job the CPU is handling.
 
-## 建造
+## Settings
 
-合成CPU是多方块结构，且必须为没有空隙的实心长方形棱柱。它们由若干组件组成。
+*   The CPU can be set to accept requests from just players, just automation (like <ItemLink id="export_bus" />ses with
+    <ItemLink id="crafting_card" />s), or both.
 
-每个CPU必须包含至少1个合成存储器（可用的最小CPU实际上就是单个1k合成存储器）。
+## Construction
 
-# 合成单元
+Crafting CPUs are multiblocks, and must be solid rectangular prisms with no gaps. They are made out of several components.
+
+Each CPU must contain at least 1 crafting storage block (and the minimum viable CPU is in fact just a single 1k crafting storage).
+
+# Crafting Unit
 
 <BlockImage id="crafting_unit" scale="4" />
 
-（可选）合成单元仅用于填充CPU内空隙，以保证CPU的形状是实心长方形棱柱。没有其他组件时可用此填补。它们也是其他组件的合成材料。
+(Optional) Crafting units simply fill space in a CPU in order to make it a solid rectangular prism, if you don't have enough
+of the other components. They are also a base ingredient in the other components.
 
 <RecipeFor id="crafting_unit" />
 
-# 合成存储器
+# Crafting Storage
 
 <Row>
   <BlockImage id="1k_crafting_storage" scale="4" />
@@ -70,7 +78,9 @@ item_ids:
   <BlockImage id="256k_crafting_storage" scale="4" />
 </Row>
 
-（必需）合成存储器支持所有标准元件大小（1k、4k、16k、64k、256k）。它们会将与合成相关的材料和中间材料存于自身，因此处理所需材料更多的合成任务需要更大的或更多个合成存储器。
+(Required) Crafting storages are available in all the standard cell sizes (1k, 4k, 16k, 64k, 256k). They store the ingredients and
+intermediate ingredients involved in a craft, so larger or more storages are required for the CPU to handle crafting jobs
+with more ingredients.
 
 <Column>
   <Row>
@@ -88,20 +98,28 @@ item_ids:
   </Row>
 </Column>
 
-# 并行处理单元
+# Crafting Co-Processing Unit
 
 <BlockImage id="crafting_accelerator" scale="4" />
 
-（可选）并行处理单元通过提升CPU运转速度让系统从<ItemLink id="pattern_provider" />更为频繁地发送材料批次，以使系统跟上处理速度较快的机器。例如，被<ItemLink id="molecular_assembler" />包围的样板供应器送出材料的速度快于单个装配室的加工速度时，其会将材料批次在各装配室间分配。
+(Optional) Crafting co-processors make the system send out ingredient batches from <ItemLink id="pattern_provider" />s more often
+by making the CPU tick faster.
+This allows them to keep up with machines that process quickly. An example of this is a pattern provider surrounded by
+<ItemLink id="molecular_assembler" />s being able to push ingredients faster than a single assembler can process, and thus
+distributing the ingredient batches between the surrounding assemblers.
 
-某些复杂配方可能包含多个可并行进行的步骤，比如制造书架时并行制造木板和书。在合成状态UI（右击CPU或右击[终端](terminals.md)的锤子图标）中，这些步骤都显示为“计划合成”。每个并行处理单元都可额外使一个上述步骤并行进行（也即显示为“正在合成”）。不过，这点通常不那么重要，因为加入大量并行处理单元的原因通常是为提升发送速度，而非增加加工配方的并行数量。
+Some complex recipes have multiple steps that can be done in parallel, like making planks and books simultaneously for making bookshelves.
+In the crafting status screen (visible by right clicking a CPU or with the hammer icon in a [terminal](terminals.md)), these
+steps will all show up as "scheduled". Each extra coprocessor allows one more of these steps to be done in parallel (and thus show up as "crafting").
+However, this is not as relevant because you'll typically have more coprocessors purely for the insertion speed than a recipe has steps that could conceivably be done in parallel.
 
 <RecipeFor id="crafting_accelerator" />
 
-# 合成监控器
+# Crafting Monitor
 
 <BlockImage id="crafting_monitor" scale="4" />
 
-（可选）合成监控器会显示CPU当前正在处理的任务。其屏幕可用<ItemLink id="color_applicator" />染色。
+(Optional) The crafting monitor displays the job the CPU is handling at the moment.
+The screen can be colored with a <ItemLink id="color_applicator" />.
 
 <RecipeFor id="crafting_monitor" />

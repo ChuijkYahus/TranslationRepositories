@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 赛特斯石英母岩
+  title: Budding Certus Quartz
   icon: flawless_budding_quartz
   position: 010
 categories:
@@ -17,28 +17,35 @@ item_ids:
 - ae2:quartz_cluster
 ---
 
-# 赛特斯石英母岩
+# Budding Certus Quartz
 
-（见[赛特斯石英的生长](../ae2-mechanics/certus-growth.md)）
+(also see [Certus Growth](../ae2-mechanics/certus-growth.md))
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/budding_blocks.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-赛特斯石英芽会从赛特斯石英母岩中生长出来，与紫水晶类似。母岩可在[陨石](../ae2-mechanics/meteorites.md)中找到。共有4种等级的赛特斯石英母岩：无瑕、有瑕、开裂、破损。可由HWYLA、Jade、The One Probe等模组轻松辨别。（F3界面也可。）
+Certus quartz buds will sprout from budding certus blocks, similar to amethyst. These are found in [meteorites](../ae2-mechanics/meteorites.md).
+There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged. They can be most easily identified
+with a mod like HWYLA, Jade, The One Probe, etc. (or the f3 screen)
 
-对于有瑕、开裂、破损的母岩而言，每次石英芽生长时，母岩都有可能降一级，并最终变为普通的<ItemLink id="quartz_block" />。
+With flawed, chipped, and damaged budding certus, every time a bud grows by another stage, the budding block has a chance
+to degrade by one tier, eventually turning into a plain <ItemLink id="quartz_block" />.
 
-无瑕的赛特斯石英母岩不会因石英芽的生长而降级，可用作无限生产源。
+Flawless budding certus will not degrade from growing buds, and act as an infinite source.
 
-若用普通镐破坏，赛特斯石英母岩会降一级。若用精准采集镐破坏，则除无瑕母岩外不会降级。**这也意味着无瑕的赛特斯石英母岩无法用镐完好破坏或搬运**。不过可以用[空间存储](../ae2-mechanics/spatial-io.md)以剪切粘贴无瑕母岩。
+If broken with a regular pickaxe, budding certus blocks will degrade by 1 tier. If broken with a pickaxe
+enchanted with silk touch, they will not degrade, unless they were flawless. **This means that flawless budding certus blocks cannot
+be picked up and moved with a pickaxe**. Instead, [Spatial Storage](../ae2-mechanics/spatial-io.md) can be used to
+cut-and-paste the flawless budding blocks around.
 
-## 配方
+## Recipes
 
-有瑕、开裂、破损的赛特斯石英母岩可通过将上一级母岩（或<ItemLink id="quartz_block" />）和若干个<ItemLink id="charged_certus_quartz_crystal" />投入水中合成。
+Flawed, chipped, and damaged budding certus can be crafted by throwing the previous tier of budding block (or a <ItemLink id="quartz_block" />)
+in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
 
-无瑕的赛特斯石英母岩无法合成，只能在世界中搜寻而得。
+Flawless budding certus cannot be crafted, only found in the world.
 
 <Row>
   <RecipeFor id="damaged_budding_quartz" />

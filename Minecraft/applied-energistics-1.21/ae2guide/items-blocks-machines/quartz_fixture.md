@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 石英火把
+  title: Quartz Fixtures
   icon: quartz_fixture
   position: 010
 categories:
@@ -11,7 +11,7 @@ item_ids:
 - ae2:light_detector
 ---
 
-# 石英火把
+# Quartz Fixtures
 
 <Row>
 <BlockImage id="quartz_fixture" scale="8" />
@@ -19,11 +19,11 @@ item_ids:
 <BlockImage id="light_detector" scale="8" />
 </Row>
 
-充能石英火把是一种能发光的小物件。
+The charged quartz fixture is a little greeble that emits light.
 
-光亮探测器则会根据所处方块的光照等级发出红石信号。
+The light detecting fixture instead emits a redstone signal according to the light level of its block.
 
-## 配方
+## Recipes
 
 <RecipeFor id="quartz_fixture" />
 

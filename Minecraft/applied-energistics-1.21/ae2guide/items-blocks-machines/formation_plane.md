@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 成型面板
+  title: Formation Plane
   icon: formation_plane
   position: 210
 categories:
@@ -10,20 +10,22 @@ item_ids:
 - ae2:formation_plane
 ---
 
-# 成型面板
+# The Formation Plane
 
 <GameScene zoom="8" background="transparent">
   <ImportStructure src="../assets/blocks/formation_plane.snbt" />
 </GameScene>
 
-成型面板能放置方块和投出物品。它会在[设备](../ae2-mechanics/devices.md)（如<ItemLink id="import_bus" />和<ItemLink id="interface" />）将物品存入[网络存储](../ae2-mechanics/import-export-storage.md)时放置或投出它们，与仅存入的<ItemLink id="storage_bus" />工作方式类似。
+The Formation Plane places blocks and drops items. It works similarly to an insert-only <ItemLink id="storage_bus" />,
+placing/dropping when things are "stored" in it by [devices](../ae2-mechanics/devices.md) inserting into [network storage](../ae2-mechanics/import-export-storage.md),
+like <ItemLink id="import_bus" />ses and <ItemLink id="interface" />s.
 
 <GameScene zoom="8" interactive={true}>
   <ImportStructure src="../assets/assemblies/formation_plane_demonstration.snbt" />
   <IsometricCamera yaw="255" pitch="30" />
 </GameScene>
 
-注意，这些设备在[管道子网络](../example-setups/pipe-subnet.md)中类似输入总线 -> 存储总线和接口 -> 存储总线。
+Notice that these are similar to the import bus -> storage bus and interface -> storage bus pipes in [pipe subnets](../example-setups/pipe-subnet.md).
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/import_storage_pipe.snbt" />
@@ -35,36 +37,39 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-在[管道子网络](../example-setups/pipe-subnet.md)等设施中，此[设备](../ae2-mechanics/devices.md)的行为方式类似存储总线；如果需要放置方块或投出物品而非传输的话，也能替代存储总线。
+This [device](../ae2-mechanics/devices.md) makes use of the mechanics used by storage busses in things like [pipe subnets](../example-setups/pipe-subnet.md),
+and can replace storage busses in those setups if you want to drop items/place blocks instead of transport items.
 
-成型面板是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+They are [cable subparts](../ae2-mechanics/cable-subparts.md).
 
-**记得在你认领的区块内允许放置假玩家**
+**REMEMBER TO ENABLE FAKE PLAYERS IN YOUR CHUNK CLAIM**
 
-## 过滤
+## Filtering
 
-默认情况下，成型面板不会放置或投出任何东西。放入其过滤槽的物品会加入白名单，也即只会放置其中指明的事物。
+By default the plane will place/drop anything. Items inserted into its filter slots will act as a whitelist, only
+allowing those specific items to be placed.
 
-如果没有所需物品或流体，可从JEI/REI中拖拽以放入过滤槽。
+Items and fluids can be dragged into the slots from JEI/REI even if you don't actually have any of that item.
 
-用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
+Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item.
 
-## 优先级
+## Priority
 
-单击GUI右上角扳手图标以设置优先级。进入网络的物品会优先送至优先级最高的存储位置。
+Priorities can be set by clicking the wrench in the top-right of the GUI.
+Items entering the network will start at the highest priority storage.
 
-## 设置
+## Settings
 
-*   成型面板可设置为放置方块或投出物品。
+*   The plane can be set to place blocks in-world or drop items
 
-## 升级
+## Upgrades
 
-成型面板支持如下[升级](upgrade_cards.md)：
+The formation plane supports the following [upgrades](upgrade_cards.md):
 
-*   <ItemLink id="capacity_card" />增加过滤槽位数
-*   <ItemLink id="fuzzy_card" />使得面板能按耐久度或忽略物品NBT过滤
-*   <ItemLink id="inverter_card" />将白名单变为黑名单
+*   <ItemLink id="capacity_card" /> increases the amount of filter slots
+*   <ItemLink id="fuzzy_card" /> lets the plane filter by damage level and/or ignore item NBT
+*   <ItemLink id="inverter_card" /> switches the filter from a whitelist to a blacklist
 
-## 配方
+## Recipe
 
 <RecipeFor id="formation_plane" />

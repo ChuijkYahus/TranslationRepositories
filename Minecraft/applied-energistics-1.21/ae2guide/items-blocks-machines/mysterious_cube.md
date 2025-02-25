@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 神秘方块
+  title: Mysterious Cube
   icon: mysterious_cube
   position: 010
 categories:
@@ -11,16 +11,16 @@ item_ids:
 - ae2:not_so_mysterious_cube
 ---
 
-# 神秘方块
+# The Mysterious Cube
 
 <BlockImage id="mysterious_cube" scale="8" />
 
-还记得要找好几颗陨石才能集齐压印模板的岁月吗？这段岁月已然不再！现在陨石都会自带一个神秘方块。
+Remember when you had to find a bunch of meteors to find all the presses? No more! Now meteorites come with a Mysterious Cube.
 
-不知道破坏（不带精准采集）的时候会发生什么事……
+I wonder what happens when you break it (without silk touch)...
 
-也可以制造一个复制翻版——没那么神秘的方块。
+You can also make a replica, the Not So Mysterious Cube
 
-## 配方
+## Recipe
 
 <RecipeFor id="not_so_mysterious_cube" />

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 能源元件
+  title: Energy Cells
   icon: energy_cell
   position: 110
 categories:
@@ -12,7 +12,7 @@ item_ids:
 - ae2:creative_energy_cell
 ---
 
-# 能源元件
+# Energy Cells
 
 <Row gap="20">
   <BlockImage id="energy_cell" scale="8" p:fullness="4" />
@@ -22,9 +22,12 @@ item_ids:
   <BlockImage id="creative_energy_cell" scale="8" />
 </Row>
 
-能源元件给予网络更大的[能量](../ae2-mechanics/energy.md)容量。一定量的能量缓存能减少大量输入输出造成的能量尖峰影响，更大的能量存储容量则使得网络能在脱离供电时（例如晚上的太阳能板阵列）运作，也可处理[空间存储](../ae2-mechanics/spatial-io.md)产生的巨量瞬时能量消耗。
+Energy cells give a network more [energy](../ae2-mechanics/energy.md) storage. Some amount of energy buffer helps to smooth
+out spikes in energy draw when large amounts of items are inserted or extracted, and larger amounts of energy storage
+allow the network to run while energy isn't being generated (like at night with solar panels) or handle the massive instantaneous
+energy draw of [spatial storage](../ae2-mechanics/spatial-io.md).
 
-## 填充条
+## Fill Bars
 
 <Row>
 <BlockImage id="energy_cell" scale="4" p:fullness="0" />
@@ -34,21 +37,23 @@ item_ids:
 <BlockImage id="energy_cell" scale="4" p:fullness="4" />
 </Row>
 
-元件侧面的填充条对应其能量水平。
+The bars on the side of a cell correspond to how much energy it has.
 
-*   充满程度少于25%时为0。
-*   充满程度在25%到50%之间时为1。
-*   充满程度在50%到75%之间时为2。
-*   充满程度在75%到99%之间时为3。
-*   充满程度超过99%时为4。
+*   0 when below 25% charge
+*   1 when between 25% and 50% charge
+*   2 when between 50% and 75% charge
+*   3 when between 75% and 99% charge
+*   4 when above 99% charge
 
-## 元件种类
+## Types Of Cell
 
-*   <ItemLink id="energy_cell" />可存储200kAE，这能轻松应对普通网络的能量尖峰；通常，每个网络中放一个就够了。
-*   <ItemLink id="dense_energy_cell" />可存储1.6MAE，适用于脱离能量供应运行网络的情况和处理大型[空间存储](../ae2-mechanics/spatial-io.md)的巨量瞬时能量消耗。
-*   <ItemLink id="creative_energy_cell" />是用于测试的创造模式物品，能提供无！限！能！量！
+*   The <ItemLink id="energy_cell" /> can store 200k AE, and just one should be sufficient for most use cases, handling the power surges
+    of normal network use with ease.
+*   The <ItemLink id="dense_energy_cell" /> can store 1.6M AE and is for when you want to run a network off of stored power, or
+    handle the massive instantaneous energy draw of large [spatial storage](../ae2-mechanics/spatial-io.md) setups.
+*   The <ItemLink id="creative_energy_cell" /> is a creative item for testing, providing UNLIMITED POWAHHHH or whatever.
 
-## 配方
+## Recipes
 
 <Row>
   <RecipeFor id="energy_cell" />

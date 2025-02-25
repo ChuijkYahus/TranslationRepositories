@@ -1,65 +1,72 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: 熔炉自动化
+  title: Furnace Automation
   icon: minecraft:furnace
 ---
 
-# 熔炉自动化
+# Furnace Automation
 
-需注意，此设施使用了<ItemLink id="pattern_provider" />，也即需与你的[自动合成](../ae2-mechanics/autocrafting.md)设施配合使用。如需独立自动化熔炉，则应使用漏斗，箱子等。
+Note that since this uses a <ItemLink id="pattern_provider" />, it is meant to integrate into your [autocrafting](../ae2-mechanics/autocrafting.md)
+setup. If you just want to automate a furnace standalone, use hoppers and chests and stuff.
 
-自动化<ItemLink id="minecraft:furnace" />相较自动化[充能器](../example-setups/charger-automation.md)之类更为简单的机器来说略显复杂。熔炉需从两个不同面输入，并需从第三个面输出。需烧炼的物品必须从顶面输入，燃料必须从侧面输入，产物必须从底面输出。
+Automation of a <ItemLink id="minecraft:furnace" /> is a bit more complex than automation of simpler machines like a [charger](../example-setups/charger-automation.md).
+A furnace requires input from two separate sides, and extraction from a third. The item to be smelted must be pushed in the top face,
+the fuel must be pushed in a side face, and the result must be pulled out the bottom. 
 
-这可通过在顶面放置<ItemLink id="pattern_provider" />，在侧面放置<ItemLink id="export_bus" />以不断输入燃料，在底面放置<ItemLink id="import_bus" />以返回产物至网络解决。然而，这么做需要占用3个[频道](../ae2-mechanics/channels.md)。
+This could be done via a <ItemLink id="pattern_provider" />
+on the top, an <ItemLink id="export_bus" /> on the side to constantly push in fuel, and an <ItemLink id="import_bus" /> on
+the bottom to import the results into the network. However, this uses 3 [channels](../ae2-mechanics/channels.md).
 
-如下是仅需占用1个频道的方法：
+Here's how you can do it with just 1 channel:
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/furnace_automation.snbt" />
 
 <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-        （1）样板供应器：以赛特斯石英扳手改为方向型，装有相应样板。
+        (1) Pattern Provider: The directional variant, via use of a certus quartz wrench, with the relevant processing patterns.
 
-        ![铁样板](../assets/diagrams/furnace_pattern_small.png)
+        ![Iron Pattern](../assets/diagrams/furnace_pattern_small.png)
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-        （2）接口：默认配置。
+        (2) Interface: In its default configuration.
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="1 1 0" max="1.3 2 1">
-        （3）存储总线#1：过滤煤炭。
+        (3) Storage Bus #1: Filtered to coal.
         <ItemImage id="minecraft:coal" scale="2" />
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="0 2 0" max="1 2.3 1">
-        （4）存储总线#2：通过反相卡设置为排除煤炭。
+        (4) Storage Bus #2: Filtered to blacklist coal, using an inverter card.
         <Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="inverter_card" scale="2" /></Row>
   </BoxAnnotation>
 
 <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-        至主网络
+        To Main Network
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 配置
+## Configurations
 
-* <ItemLink id="pattern_provider" />（1）处于默认配置，装有相应<ItemLink id="processing_pattern" />。已被<ItemLink id="certus_quartz_wrench" />改为方向型。
+* The <ItemLink id="pattern_provider" /> (1) is in its default configuration, with the relevant <ItemLink id="processing_pattern" />s.
+    It is made directional by using a <ItemLink id="certus_quartz_wrench" /> on it.
 
-  ![铁样板](../assets/diagrams/furnace_pattern.png)
+  ![Iron Pattern](../assets/diagrams/furnace_pattern.png)
 
-* <ItemLink id="interface" />（2）处于默认配置。
-* 第一个<ItemLink id="storage_bus" />（3）设置为过滤煤炭或其他燃料。
-* 第二个<ItemLink id="storage_bus" />（4）以<ItemLink id="inverter_card" />通过反相卡设置为排除所用燃料。
+* The <ItemLink id="interface" /> (2) is in its default configuration.
+* The first <ItemLink id="storage_bus" /> (3) is filtered to coal, or whatever fuel you want to use.
+* The second <ItemLink id="storage_bus" /> (4) is filtered to blacklist the fuel you're using, using an <ItemLink id="inverter_card" />.
 
-## 工作原理
+## How It Works
 
-1. <ItemLink id="pattern_provider" />将材料送入<ItemLink id="interface" />。
-   （实际上其会直接向存储总线输出，这些存储总线类似于供应器自身的输出面。物品并不会真正进入接口。）
-2. 接口设置为不存储任何事物，因此其会尝试将材料送入[网络存储](../ae2-mechanics/import-export-storage.md)。
-3. 绿色子网络上的存储位置仅有<ItemLink id="storage_bus" />。过滤煤炭的总线能将煤炭通过熔炉侧面送入燃料槽。过滤非煤炭的总线则将需烧炼的物品通过顶面送入材料槽。
-4. 熔炉干完本职工作。
-5. 漏斗将产物从熔炉底面导出并放入供应器的返回栏，从而将其返回至主网络。
+1. The <ItemLink id="pattern_provider" /> pushes the ingredients into the <ItemLink id="interface" />.
+   (Actually, as an optimization, it pushes directly through the storage busses as if they were extensions of the provider's faces. The items never actually enter the interface.)
+2. The interface is set to store nothing, so it tries to push the ingredients into [network storage](../ae2-mechanics/import-export-storage.md).
+3. The only storage on the green subnet is the <ItemLink id="storage_bus" />ses. The bus filtered to coal places the coal in the furnace's fuel slot through the side face.
+    The bus filtered to NOT coal places the items to be smelted in the top slot, through the top face.
+4. The furnace does its furnacey thing
+5. The hopper pulls the results out the furnace's bottom, and places them in the provider's return slots, returning them to the main network.

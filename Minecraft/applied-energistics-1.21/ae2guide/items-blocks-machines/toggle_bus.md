@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 触发总线
+  title: Toggle Bus
   icon: toggle_bus
   position: 110
 categories:
@@ -11,22 +11,25 @@ item_ids:
 - ae2:inverted_toggle_bus
 ---
 
-# 触发总线
+# The Toggle Bus
 
 <GameScene zoom="8" background="transparent">
 <ImportStructure src="../assets/assemblies/toggle_bus.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-触发总线是与<ItemLink id="fluix_glass_cable" />和其他线缆功能类似的总线，区别在于其连接状态会受红石信号调控。可用其连通或切断[ME网络](../ae2-mechanics/me-network-connections.md)的连接。
+A bus which functions similarly to <ItemLink id="fluix_glass_cable" /> or other cables, but it
+allows its connection state to be toggled via redstone. This allows you to cut
+off a section of a [ME Network](../ae2-mechanics/me-network-connections.md).
 
-触发总线会在收到红石信号时连通连接，<ItemLink id="inverted_toggle_bus" />则行为相反，会在收到红石信号时断开连接。
+When redstone signal supplied the part enables the connection, <ItemLink id="inverted_toggle_bus" /> provides the reverse
+behavior by disabling the connection instead.
 
-需要注意，切换连接状态会导致网络重启并重新统计所连的设备。
+Of note, toggling these may cause the network to reboot and recalculate the connected devices.
 
-它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+They are [cable subparts](../ae2-mechanics/cable-subparts.md).
 
-## 配方
+## Recipes
 
 <RecipeFor id="toggle_bus" />
 

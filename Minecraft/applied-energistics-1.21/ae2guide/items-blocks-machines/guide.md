@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 指南
+  title: Guide
   icon: guide
 categories:
 - tools
@@ -9,15 +9,17 @@ item_ids:
 - ae2:guide
 ---
 
-# 指南
+# The Guide
 
 <ItemImage id="guide" scale="8" />
 
-### 这就是你正在读的指南，适用于所有AE2的指导需求。
+### This guide that you are reading now, for all your AE2 guiding needs.
 
-* 左侧为侧边栏，其中有所有条目的目录。
-* 许多页面都有交互示例图。若示例图旁边有![加号](../assets/diagrams/plus.png)和![减号](../assets/diagrams/minus.png)（缩放）按钮，即可选择和移动视角。左击拖拽以旋转，右击拖拽以平移。
+* Access the sidebar on the left to find a table of contents
+* Many pages have interactive scenes. If a scene has ![Plus](../assets/diagrams/plus.png)
+  and ![Minus](../assets/diagrams/minus.png) (zoom) buttons next to it, you can rotate and move the camera.
+  Left click and drag to rotate, right click and drag to translate.
 
-## 配方
+## Recipe
 
 <RecipeFor id="guide" />

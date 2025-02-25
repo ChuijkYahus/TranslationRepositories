@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 陨石装饰方块
+  title: Decorative Sky Stone
   icon: sky_stone_stairs
   position: 010
 categories:
@@ -23,7 +23,7 @@ item_ids:
 - ae2:sky_stone_small_brick_slab
 ---
 
-# 陨石装饰方块
+# Decorative Sky Stone
 
 <Row>
   <GameScene zoom="3" background="transparent">
@@ -34,9 +34,9 @@ item_ids:
   <BlockImage id="smooth_sky_stone_chest" scale="4" />
 </Row>
 
-<ItemLink id="sky_stone_block" />可由合成或切石加工为装饰性建筑方块。
+<ItemLink id="sky_stone_block" /> blocks can be crafted and stonecut into some decorative building blocks
 
-## 配方
+## Recipes
 
 <Column gap="5">
   <Row>

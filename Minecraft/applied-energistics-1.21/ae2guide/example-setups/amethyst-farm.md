@@ -1,65 +1,76 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: 紫水晶农场
+  title: Amethyst Farm
   icon: minecraft:amethyst_shard
 ---
 
-# 刷取紫水晶
+# Farming of Amethyst
 
-虽然<ItemLink id="growth_accelerator" />对紫水晶有效，但以<ItemLink id="annihilation_plane" />过滤[赛特斯石英芽](../items-blocks-machines/budding_certus.md)的常用方法对紫晶芽无效。不像未长成的赛特斯石英芽能掉落<ItemLink id="certus_quartz_dust" />，未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此破坏面板会一直破坏它们。
+While the <ItemLink id="growth_accelerator" /> works on amethyst, the usual methods of filtering [certus buds](../items-blocks-machines/budding_certus.md)
+with an <ItemLink id="annihilation_plane" /> do not work on amethyst buds. Unlike non-mature certus buds which drop
+<ItemLink id="certus_quartz_dust" />, non-mature amethyst buds drop nothing, so an annihilation plane will always break them
+because a network can always store "nothing".
 
-绕过此问题的方法是将破坏面板附上精准采集。此情况下未长成的紫晶芽就*会*掉落物品（各阶段的紫晶芽本身）了，并可过滤处理。
+The way around this is to enchant the annihilation plane with silk touch. Then the non-mature amethyst buds *do* drop something
+(the various stages of the physical bud blocks), and thus can be filtered.
 
-<ItemLink id="minecraft:amethyst_cluster" />需由<ItemLink id="formation_plane" />再次放置并由不带精准采集的<ItemLink id="annihilation_plane" />再次破坏即可得到<ItemLink id="minecraft:amethyst_shard" />。
+The <ItemLink id="minecraft:amethyst_cluster" /> must then be placed again by a <ItemLink id="formation_plane" />, to then be
+re-broken by an <ItemLink id="annihilation_plane" /> without silk touch, in order to get <ItemLink id="minecraft:amethyst_shard" />s.
 
-注意因为紫水晶簇有方向性，成型面板的对侧应当有一个完整方块面。
+Note that due to the directionality of the cluster, there must be a solid block face directly opposite of the formation plane.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/amethyst_farm.snbt" />
 
   <BoxAnnotation color="#dddddd" min="2.7 1 1" max="3 2 2">
-        （1）破坏面板#1：无可用GUI，附有精准采集。
+        (1) Annihilation Plane #1: No GUI to configure, but enchanted with Silk Touch.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 1 1" max="2.3 2 2">
-        （2）成型面板：过滤紫水晶簇。
+        (2) Formation Plane: Filtered to Amethyst Cluster.
         <ItemImage id="minecraft:amethyst_cluster" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.3 0.7 1" max="2 1 2">
-        （3）破坏面板#2：无可用GUI，可附有时运。
+        (3) Annihilation Plane #2: No GUI to configure, but can be enchanted with Fortune.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 0 1" max="1.3 1 2">
-        （4）存储总线#1：过滤紫水晶碎片。
+        (4) Storage Bus #1: Filtered to Amethyst Shard.
         <ItemImage id="minecraft:amethyst_shard" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 0 .7" max="1 1 1">
-        （5）存储总线#2：过滤紫水晶碎片。优先级高于主存储。
+        (5) Storage Bus #2: Filtered to Amethyst Shard. Has priority set higher than your main storage.
         <ItemImage id="minecraft:amethyst_shard" scale="2" />
   </BoxAnnotation>
 
 <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
-        至主网络
+        To Main Network
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 配置
+## Configurations
 
-* 第一个<ItemLink id="annihilation_plane" />（1）没有GUI且无法配置，但必须附有精准采集。
-* <ItemLink id="formation_plane" />（2）设置为过滤<ItemLink id="minecraft:amethyst_cluster" />。
-* 第二个<ItemLink id="annihilation_plane" />（3）没有GUI且无法配置，可附有时运。
-* 第一个<ItemLink id="storage_bus" />（4）设置为过滤<ItemLink id="minecraft:amethyst_shard" />。
-* 第二个<ItemLink id="storage_bus" />（5）设置为过滤<ItemLink id="minecraft:amethyst_shard" />，且[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)高于主存储。
+* The first <ItemLink id="annihilation_plane" /> (1) has no GUI and cannot be configured, but must be enchanted with silk touch.
+* The <ItemLink id="formation_plane" /> (2) is filtered to <ItemLink id="minecraft:amethyst_cluster" />.
+* The second <ItemLink id="annihilation_plane" /> (3) has no GUI and cannot be configured, but can be enchanted with fortune.
+* The first <ItemLink id="storage_bus" /> (4) is filtered to <ItemLink id="minecraft:amethyst_shard" />.
+* The second <ItemLink id="storage_bus" /> (5) is filtered to <ItemLink id="minecraft:amethyst_shard" />, and has its
+  [priority](../ae2-mechanics/import-export-storage.md#storage-priority) set higher than your main storage.
 
-## 工作原理
+## How It Works
 
-1. 第一个<ItemLink id="annihilation_plane" />会尝试破坏其前方的事物，但由于子网络中唯一存储位置便是过滤为紫水晶簇的<ItemLink id="formation_plane" />，其只会破坏<ItemLink id="minecraft:amethyst_cluster" />。只会在面板附有精准采集时起效，若未附有该魔咒则也会破坏什么都不掉落的未长成晶芽。
-2. <ItemLink id="formation_plane" />将紫水晶簇放置于其对侧的方块。
-3. 第二个<ItemLink id="annihilation_plane" />破坏紫水晶簇而得<ItemLink id="minecraft:amethyst_shard" />。
-4. 第一个<ItemLink id="storage_bus" />将紫水晶碎片存入木桶。由于第二个破坏面板有可能破坏的事物只会是长成的紫水晶簇，此总线实际不需设置过滤。
-5. 第二个<ItemLink id="storage_bus" />使得主网络能访问木桶内的所有紫水晶簇。其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)应高于主网络，由此紫水晶碎片会优先存入木桶而非主存储。
+1. The first <ItemLink id="annihilation_plane" /> attempts to break what is in front of it, but can only break <ItemLink id="minecraft:amethyst_cluster" />
+    because the only storage on the subnet is the <ItemLink id="formation_plane" />, filtered to amethyst cluster. This only works because
+the plane is enchanted with silk touch, otherwise it would be able to break the non-mature buds because they drop nothing.
+2. The <ItemLink id="formation_plane" /> places the cluster on the block opposing it.
+3. The second <ItemLink id="annihilation_plane" /> breaks the cluster, producing <ItemLink id="minecraft:amethyst_shard" />.
+4. The first <ItemLink id="storage_bus" /> stores the shards in the barrel. This technically doesn't need to be filtered because the only
+thing the second annihilation plane should be encountering is fully-grown clusters.
+5. The second <ItemLink id="storage_bus" /> gives the main network access to all of the amethyst shards in the barrel. It is set to
+high [priority](../ae2-mechanics/import-export-storage.md#storage-priority) so that amethyst shards are preferentially
+put back in the barrel instead of in your main storage.

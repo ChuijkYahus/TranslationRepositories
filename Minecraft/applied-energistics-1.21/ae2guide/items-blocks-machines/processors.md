@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 处理器
+  title: Processors
   icon: logic_processor
   position: 010
 categories:
@@ -17,7 +17,7 @@ item_ids:
 - ae2:silicon
 ---
 
-# 处理器
+# Processors
 
 <Row>
   <ItemImage id="logic_processor" scale="4" />
@@ -27,19 +27,21 @@ item_ids:
   <ItemImage id="engineering_processor" scale="4" />
 </Row>
 
-处理器是AE2[设备](../ae2-mechanics/devices.md)和机器的基础合成材料之一。它们也是你遇到的第一个大型自动化挑战。共有三种处理器，分别由金、<ItemLink id="certus_quartz_crystal" />，以及钻石制成。可在<ItemLink id="inscriber" />中以[压印模板](presses.md)和通过一多步合成过程制造（通常通过一系列压印器和带有过滤的管道实现）。
+Processors are one of the primary ingredients in AE2 [devices](../ae2-mechanics/devices.md) and machines. They are also one of your first
+big automation challenges. There are three types of processor, made with gold, <ItemLink id="certus_quartz_crystal" />,
+and diamond respectively. They are made using [presses](presses.md) in an <ItemLink id="inscriber" />, in a multi-step
+process (usually achieved via a series of inscribers and filtered piping).
 
-## 生产步骤
+## Production Steps
 
 <Column gap="5">
-
-  1.  收集/制造所需材料：硅、红石、金、<ItemLink id="certus_quartz_crystal" />、钻石。
+  1.  Gather/make the required ingredients: silicon, redstone, gold, <ItemLink id="certus_quartz_crystal" />, diamond.
 
   <RecipeFor id="silicon" />
 
   <br />
 
-  2.  压印出中间产物电路板
+  2.  Press the prerequisite printed circuit components
 
   <Row>
     <RecipeFor id="printed_silicon" />
@@ -55,7 +57,7 @@ item_ids:
 
   <br />
 
-  3.  最终组装步骤
+  3.  Final assembly
 
   <Row>
     <RecipeFor id="logic_processor" />

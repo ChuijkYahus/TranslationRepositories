@@ -1,46 +1,55 @@
 ---
 navigation:
   parent: ae2-mechanics/ae2-mechanics-index.md
-  title: 赛特斯石英的生长
+  title: Certus Growth
   icon: quartz_cluster
 ---
 
-# 赛特斯石英的生长
+# Certus Growth
 
-## 基本就是从开始与入门那里复制来的
+## Basically just copy-pasted from the getting started page
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/budding_certus_1.snbt" />
 </GameScene>
 
-赛特斯石英芽会从[赛特斯石英母岩](../items-blocks-machines/budding_certus.md)中生长出来，与紫水晶类似。如果破坏未完全生长的石英芽，则会掉落一个<ItemLink id="certus_quartz_dust" />，不受时运影响。如果破坏长成的石英簇，则会掉落四个<ItemLink id="certus_quartz_crystal" />，且会受时运影响而增加掉落量。
+Certus quartz buds will sprout from [budding certus blocks](../items-blocks-machines/budding_certus.md), similar to amethyst. If you break a bud that is not finished
+growing, it will drop one <ItemLink id="certus_quartz_dust" />, unchanged by fortune. If you break a fully grown cluster, it will drop four
+<ItemLink id="certus_quartz_crystal" />s, and fortune will increase this number.
 
-共有4种等级的赛特斯石英母岩：无瑕、有瑕、开裂、破损。可在[陨石](../ae2-mechanics/meteorites.md)里找到它们。
+There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged, and you initially
+find them in [meteorites](../ae2-mechanics/meteorites.md).
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/budding_blocks.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-每次石英芽生长时，母岩都有可能降一级，并最终变为普通的赛特斯石英块。将赛特斯石英母岩或者赛特斯石英块以及若干个<ItemLink id="charged_certus_quartz_crystal" />一起投入水中，就能将其修复并产生新的母岩。
+Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into
+a plain certus quartz block. They can be repaired (and new budding blocks created) by throwing the budding block (or a
+certus quartz block) in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
 
 <RecipeFor id="damaged_budding_quartz" />
 
-无瑕的赛特斯石英母岩不会降级，因而能无限产生赛特斯石英。但是它们无法合成，也无法被镐完好地挖下搬运，就算有精准采集也不行。（不过它们*可以*被[空间存储](../ae2-mechanics/spatial-io.md)移动。）
+Flawless budding certus blocks will not degrade and will generate certus infinitely. However they cannot be crafted or moved
+with a pickaxe, even with silk touch. (they *can* be moved with [spatial storage](../ae2-mechanics/spatial-io.md) though)
 
-赛特斯石英母岩自身的生长非常缓慢。幸运的是，在母岩旁放置<ItemLink id="growth_accelerator" />能大幅加速这一过程。你的第一要务便是制造一些此方块。
+By themselves, certus quartz buds grow very slowly. Luckily the <ItemLink id="growth_accelerator" /> massively
+accelerates this process when placed adjacent to the budding block. You should build a few of these as your first priority.
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/budding_certus_2.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-然而，每个面上，催生晶体和采集晶体是互斥的。因而，晶体催生器每覆盖母岩一面，可供晶芽生长的位置就会减少，并最终抵消催生器提升的效率。实际检验数据如下：
+Complex interactions mean each side of a budding block which is covered slows the cumulative growth rate from the budding block,
+which eventually overpowers the effect of more accelerators. Empirical testing shows thus:
 
-![不同面配置的每分钟物品产量](../assets/diagrams/certus_farm_speed_chart_1.png)
+![Items/min for ratios](../assets/diagrams/certus_farm_speed_chart_1.png)
 
-![常用面配置](../assets/diagrams/certus_farm_speed_chart_2.png)
+![common setups](../assets/diagrams/certus_farm_speed_chart_2.png)
 
-假如没有足够石英制造<ItemLink id="energy_acceptor" />或是<ItemLink id="vibration_chamber" />，可以制造一个<ItemLink id="crank" />并安到催生器上。
+If you don't have enough quartz to also make an <ItemLink id="energy_acceptor" /> or <ItemLink id="vibration_chamber" />,
+you can make a <ItemLink id="crank" /> and stick it on the end of your accelerator.
 
-自动采集赛特斯石英的设计[见此](../example-setups/simple-certus-farm.md)。
+Harvesting the certus automatically is [described here](../example-setups/simple-certus-farm.md).

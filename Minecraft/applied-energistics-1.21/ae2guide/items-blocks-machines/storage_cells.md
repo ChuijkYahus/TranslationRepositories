@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 存储元件
+  title: Storage Cells
   icon: item_storage_cell_1k
   position: 410
 categories:
@@ -26,7 +26,7 @@ item_ids:
 - ae2:fluid_storage_cell_256k
 ---
 
-# 存储元件
+# Storage Cells
 
 <Column>
   <Row>
@@ -54,23 +54,24 @@ item_ids:
   </Row>
 </Column>
 
-存储元件是应用能源中存储的基础方式之一。需将其装入<ItemLink id="drive" />或<ItemLink id="chest" />中。
+Storage Cells are one of the primary methods of storage in Applied Energistics. They go in <ItemLink id="drive" />s
+or <ItemLink id="chest" />s.
 
-有关其字节和类型容量的介绍参见[字节与类型](../ae2-mechanics/bytes-and-types.md)。
+See [Bytes and Types](../ae2-mechanics/bytes-and-types.md) for an explanation of their capacities in bytes and types.
 
-若存储元件为空，则可手持Shift右击以将存储组件从元件外壳中取出。
+Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand.
 
 <Row>
     <Recipe id="upgrade/item_storage_cell_1k_to_4k" />
 
-    在合成方格中将存储元件与更高级的存储组件合成，即可将其升级为更高级的存储元件。元件内的事物会保留，同时会返还较低级的存储组件。
+    You can upgrade storage cells to higher tiers by combining them with higher-tier storage components in a crafting grid. Their content will be retained, and the lower-tier component is  returned.
 </Row>
 
-## 存储容量与类型数变化关系
+## Storage Capacity with Varying Type Count
 
-[每类型预先占用量](../ae2-mechanics/bytes-and-types.md)设计为：存有1个类型的元件的容量是存满63个元件的容量的两倍。
+The [upfront cost of types](../ae2-mechanics/bytes-and-types.md) is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use.
 
-| 元件                                     |                       使用1个类型时总容量 |                        使用63个类型时总容量 |
+| Cell                                     | Total Capacity of Cell With 1 Type In Use | Total Capacity of Cell With 63 Types In Use |
 | ---------------------------------------- | ----------------------------------------: | ------------------------------------------: |
 | <ItemLink id="item_storage_cell_1k" />   |                                     8,128 |                                       4,160 |
 | <ItemLink id="item_storage_cell_4k" />   |                                    32,512 |                                      16,640 |
@@ -79,29 +80,31 @@ item_ids:
 | <ItemLink id="item_storage_cell_256k" /> |                                 2,080,768 |                                   1,064,960 |
 
 
-## 分区
+## Partitioning
 
-与过滤<ItemLink id="storage_bus" />类似，元件可过滤为只接受特定物品。此操作需在<ItemLink id="cell_workbench" />中完成。
+Cells can be filtered to only accept certain items, similar to how <ItemLink id="storage_bus" />ses can be filtered. This is
+done in a <ItemLink id="cell_workbench" />.
 
-如果没有所需物品，可从JEI/REI中拖拽以放入过滤槽。
+Items can be dragged into the slots from JEI/REI even if you don't actually have any of that item.
 
-## 升级
+## Upgrades
 
-存储元件支持如下[升级](upgrade_cards.md)，需用<ItemLink id="cell_workbench" />装入：
+Storage cells support the following [upgrades](upgrade_cards.md), inserted via a <ItemLink id="cell_workbench" />:
 
-*   <ItemLink id="fuzzy_card" />（流体元件不可用）使得元件可按耐久度或忽略NBT分区
-*   <ItemLink id="inverter_card" />将白名单变为黑名单
-*   <ItemLink id="equal_distribution_card" />会为每个类型分配同等大小的扇区，也即单个类型无法填满元件
-*   <ItemLink id="void_card" />会在元件已满（或在装有均分卡时某类型已满）时销毁输入的物品，可避免农场产物堆积。设置分区的时候要小心！
-*   便携元件也接受<ItemLink id="energy_card" />，可增加其能量容量
+*   <ItemLink id="fuzzy_card" /> (not available on fluid cells) lets the cell be partitioned by damage level and/or ignore item NBT
+*   <ItemLink id="inverter_card" /> switches the filter from a whitelist to a blacklist
+*   <ItemLink id="equal_distribution_card" /> allocates the same amount of cell byte space to each type, so one type cannot fill up the entire cell
+*   <ItemLink id="void_card" /> voids items inserted if the cell is full (or that specific type's allocated space in the
+    case of an equal distribution card), useful for stopping farms from backing up. Be careful to partition this!
+*   Portable cells can accept <ItemLink id="energy_card" /> in order to increase their battery capacity
 
-## 染色
+## Coloring
 
-便携物品和流体元件可像皮革盔甲一样染色，与染料合成即可。
+Portable item and fluid cells can be colored similar to leather armor, by crafting them together with dyes.
 
-# 外壳
+# Housings
 
-元件可由存储组件和外壳合成，也可在外壳配方中央放入存储组件：
+Cells can be made with a storage component and a housing or with the housing recipe around a storage component:
 
 <Row>
   <Recipe id="network/cells/item_storage_cell_1k" />
@@ -109,7 +112,7 @@ item_ids:
   <Recipe id="network/cells/item_storage_cell_1k_storage" />
 </Row>
 
-外壳自身的配方如下：
+Housings by themselves are crafted like so:
 
 <Row>
   <RecipeFor id="item_cell_housing" />
@@ -117,9 +120,10 @@ item_ids:
   <RecipeFor id="fluid_cell_housing" />
 </Row>
 
-# 存储组件
+# Storage Components
 
-存储组件是所有AE2元件的核心，决定了元件的容量。每级组件的容量是前一级的4倍，消耗则为3倍。
+Storage Components are the core of all AE2 cells, determining the capacity of the cells. Each tier increases the capacity
+by 4x and costs 3 of the previous tier.
 
 <Column>
   <Row>
@@ -137,9 +141,9 @@ item_ids:
   </Row>
 </Column>
 
-# 物品存储元件
+# Item Storage Cells
 
-物品存储元件可存储最多63种物品，且覆盖所有标准容量。
+Item storage cells can hold up to 63 distinct types of items, and are available in all the standard capacities.
 
 <Column>
   <Row>
@@ -157,13 +161,14 @@ item_ids:
   </Row>
 </Column>
 
-## 便携物体元件
+## Portable Item Storage
 
-它们是口袋版（或者背包版）的<ItemLink id="chest" />。可在<ItemLink id="charger" />中为其充能。
+These act as a tiny <ItemLink id="chest" /> in your pocket, or like a form of backpack. They can be charged in a <ItemLink id="charger" />
 
-和标准的存储元件不同，随着字节容量上升，它们的类型容量会*下降*，且字节容量为标准的一半。
+Unlike standard storage cells, these actually *reduce* in type capacity as their byte capacity increases, and have half the
+total byte capacity.
 
-除其他元件能接受的升级卡外，便携元件也接受<ItemLink id="energy_card" />以增加能量容量。
+In addition to the upgrade cards all cells can receive, these also accept <ItemLink id="energy_card" />s to upgrade their internal batteries.
 
 <Column>
   <Row>
@@ -181,9 +186,9 @@ item_ids:
   </Row>
 </Column>
 
-# 流体存储元件
+# Fluid Storage Cells
 
-流体存储元件可存储最多5种流体，且覆盖所有标准容量。
+Fluid storage cells can hold up to 5 distinct types of fluids, and are available in all the standard capacities.
 
 <Column>
   <Row>
@@ -201,13 +206,14 @@ item_ids:
   </Row>
 </Column>
 
-## 便携流体元件
+## Portable Fluid Storage
 
-它们是口袋版（或者背包版）的<ItemLink id="chest" />。可在<ItemLink id="charger" />中为其充能。
+These act as a tiny <ItemLink id="chest" /> in your pocket, or like a form of backpack. They can be charged in a <ItemLink id="charger" />
 
-和标准的存储元件不同，随着字节容量上升，它们的类型容量会*下降*，且字节容量为标准的一半。
+Unlike standard storage cells, these actually *reduce* in type capacity as their byte capacity increases, and have half the
+total byte capacity.
 
-除其他元件能接受的升级卡外，便携元件也接受<ItemLink id="energy_card" />以增加能量容量。
+In addition to the upgrade cards all cells can receive, these also accept <ItemLink id="energy_card" />s to upgrade their internal batteries.
 
 <Column>
   <Row>
@@ -225,10 +231,11 @@ item_ids:
   </Row>
 </Column>
 
-# 创造存储元件
+# Creative Storage Cell
 
 <Row>
   <ItemImage id="creative_storage_cell" scale="2" />
 </Row>
 
-创造元件**并不能提供无限存储空间**。它们是所[分区](cell_workbench.md)物品或流体的无限供应源和销毁池。
+Creative cells **do not provide infinite storage**. Instead, they act as infinite sources and sinks of whatever
+item or fluid you [partition](cell_workbench.md) them to.

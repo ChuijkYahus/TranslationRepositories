@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 物质炮
+  title: Matter Cannon
   icon: matter_cannon
   position: 410
 categories:
@@ -10,28 +10,32 @@ item_ids:
 - ae2:matter_cannon
 ---
 
-# 物质炮
+# The Matter Cannon
 
 <ItemImage id="matter_cannon" scale="4" />
 
-物质炮是能将小型物品弹射出去的便携式轨道炮，弹药包括<ItemLink id="matter_ball" />和金属粒。伤害由发射的物品决定，金粒（10点伤害）之类较“重”的物品造成的伤害比物质球（2点伤害）之类较轻的物品更多。每次发射基础消耗1600AE。
+The matter cannon is a portable railgun that can fire small items as projectiles, like <ItemLink id="matter_ball" />s and metal nuggets. The damage
+depends on the item being fired, with "heavier" items like gold nuggets (10 damage) doing more damage than light items like matter balls (2 damage).
+It consumes a base energy of 1600 AE per shot.
 
-配置“matterCannonBlockDamage”为true时，物质炮会根据方块硬度和弹药伤害破坏方块。
+When the config option "matterCannonBlockDamage" is true, the cannon will break blocks depending on their hardness and
+the damage of the ammunition.
 
-可在<ItemLink id="charger" />中为其充能。
+Its energy can be recharged in a <ItemLink id="charger" />.
 
-物质炮和[存储元件](storage_cells.md)表现类似，可将其放入<ItemLink id="chest" />的元件槽以补充弹匣。
+Matter cannons act like [storage cells](storage_cells.md), and their ammunition magazine can most easily be filled by sticking
+the cannon in the storage cell slot in a <ItemLink id="chest" />
 
-## 升级
+## Upgrades
 
-物质炮支持如下[升级](upgrade_cards.md)，需用<ItemLink id="cell_workbench" />装入：
+Matter cannons support the following [upgrades](upgrade_cards.md), inserted via a <ItemLink id="cell_workbench" />:
 
-*   <ItemLink id="fuzzy_card" />使得物质炮可按耐久度或忽略NBT分区
-*   <ItemLink id="inverter_card" />将白名单变为黑名单
-*   <ItemLink id="speed_card" />增加每次发射的能量消耗，射出的子弹能量更大
-*   <ItemLink id="void_card" />会在物质炮已满时销毁输入的物品，设置分区的时候要小心！
-*   <ItemLink id="energy_card" />可增加其能量容量
+*   <ItemLink id="fuzzy_card" /> lets the cell be partitioned by damage level and/or ignore item NBT
+*   <ItemLink id="inverter_card" /> switches the filter from a whitelist to a blacklist
+*   <ItemLink id="speed_card" /> increases the energy used each shot, making it fire with more power.
+*   <ItemLink id="void_card" /> voids items inserted if the cell is full. Be careful to partition this!
+*   <ItemLink id="energy_card" /> in order to increase the battery capacity
 
-## 配方
+## Recipe
 
 <RecipeFor id="matter_cannon" />

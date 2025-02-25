@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 接口
+  title: Interface
   icon: interface
   position: 210
 categories:
@@ -11,7 +11,7 @@ item_ids:
 - ae2:cable_interface
 ---
 
-# 接口
+# The Interface
 
 <Row gap="20">
 <BlockImage id="interface" scale="8" />
@@ -20,113 +20,130 @@ item_ids:
 </GameScene>
 </Row>
 
-接口可视作小型箱子和流体储罐，能根据自身设置对[网络存储](../ae2-mechanics/import-export-storage.md)输入输出。其会尝试在单个游戏刻内完成输入输出，也即1游戏刻最多可传输9组物品，这也让其成为一种快速的输入输出手段，适用于快速物品管道。
+Interfaces act like a small chest and fluid tank that fills itself from and empties to [network storage](../ae2-mechanics/import-export-storage.md)
+depending on what you set it to keep a stock of in its slots. It tries to complete this in a single gametick, so it can fill itself with
+or empty itself from up to 9 stacks per gametick, making it a fast method of import or export if you have fast item pipes.
 
-接口还有一个实用特性，大多数流体储罐只能存储1种流体，而接口能存储最多9种，物品也是一样。它们实际上就是带有若干额外功能的箱子/多流体储罐，且可断开网络连接以禁用额外功能。因此，在某些需要存储少量多种事物的特定场合下，它们十分有用。
+Another useful trait is that while most fluid tanks can only store 1 type of fluid, interfaces can store up to 9, as well as items.
+They're essentially just chests/multi-fluid tanks with some extra functionality, and you can prevent that extra functionality by keeping
+them disconnected from any networks.
+Thus, they are useful in some niche cases where you want to store a small amount of a bunch of different stuff.
 
-## 接口内部的工作原理
+## How An Interface Works Internally
 
-正如前文所提，接口本质上就是箱子和储罐，再附上一些超级酷炫的<ItemLink id="import_bus" />和<ItemLink id="export_bus" />以及<ItemLink id="level_emitter" />。
+As previously stated, an interface is essentially a chest/tank with some super duper <ItemLink id="import_bus" />ses and
+<ItemLink id="export_bus" />ses attached, with a bunch of <ItemLink id="level_emitter" />s.
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/assemblies/interface_internals.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1.3 0.3 1.3" max="9.7 1 1.7">
-        一系列标准发信器，用于维持设定的物品数量
+        A bunch of level emitters to control the requested stocking quantity
         <GameScene zoom="4" background="transparent">
         <ImportStructure src="../assets/blocks/level_emitter.snbt" />
         </GameScene>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.3 4 1.3" max="9.7 4.7 1.7">
-        一系列标准发信器，用于维持设定的物品数量
+        A bunch of level emitters to control the requested stocking quantity
         <GameScene zoom="4" background="transparent">
         <ImportStructure src="../assets/blocks/level_emitter.snbt" />
         </GameScene>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.3 1.3 1.3" max="9.7 2 1.7">
-        一系列超级酷炫的输入总线，每游戏刻能传输1组事物
+        A bunch of super duper import busses that can transfer 1 stack per gametick
         <GameScene zoom="4" background="transparent">
         <ImportStructure src="../assets/blocks/import_bus.snbt" />
         </GameScene>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.3 3 1.3" max="9.7 3.7 1.7">
-        一系列超级酷炫的输出总线，每游戏刻能传输1组事物
+        A bunch of super duper export busses that can transfer 1 stack per gametick
         <GameScene zoom="4" background="transparent">
         <ImportStructure src="../assets/blocks/export_bus.snbt" />
         </GameScene>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 1" max="10 3 2">
-        9个独立的内部槽位
+        9 separate internal slots
   </BoxAnnotation>
 
   <IsometricCamera yaw="195" pitch="15" />
 </GameScene>
 
-## 特殊交互
+## Special Interactions
 
-接口和其他AE2[设备](../ae2-mechanics/devices.md)间有若干种特殊交互功能：
+Interfaces also have a few special functionalities with other AE2 [devices](../ae2-mechanics/devices.md):
 
-连接有<ItemLink id="storage_bus" />的未经修改的接口会将其所处网络的[网络存储](../ae2-mechanics/import-export-storage.md)向存储总线所处网络展示，此时接口网络就好像一整个接有存储总线的大箱子。在接口的过滤槽中设置物品会禁用此特性。
+A <ItemLink id="storage_bus" /> on an unconfigured interface will present the entirety of the [network storage](../ae2-mechanics/import-export-storage.md)
+of its network to the storage bus' network, as if the interface's network was one big chest the storage bus was placed on.
+Setting an item to be stocked in the interface's filter slots disables this.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/interface_storage.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-样板供应器和接口有一特殊交互效果——[子网络](../ae2-mechanics/subnetworks.md)：如果接口未经修改（请求槽内无内容），则供应器会跳过接口，直接输出到该子网络的[存储模块](../ae2-mechanics/import-export-storage.md)，而非输出到接口的存储槽；更重要的是，只要对应的存储模块没有足够的空间，下一批物品就不会输出。
+Pattern providers have a special interaction with interfaces on [subnets](../ae2-mechanics/subnetworks.md): if the interface is unconfigured
+the provider will skip the interface entirely and push directly to that subnet's [storage](../ae2-mechanics/import-export-storage.md),
+skipping the interface and not filling it with recipe batches, and more importantly, not inserting the next batch until there's space in storage.
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/provider_interface_storage.snbt" />
 
 <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
-        接口（必须为面板型，不能为方块型）
+        Interface (must be flat, not fullblock)
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="1 0 0" max="1.3 1 4">
-        存储总线
+        Storage Busses
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 4">
-        样板供应目的地（多台机器，或单台机器的多个面）
+        Places you want to pattern-provide to (multiple machines, or multiple faces of 1 machine)
   </BoxAnnotation>
 
 <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
-## 变种
+## Variants
 
-接口有2种变种：普通、面板/[子部件](../ae2-mechanics/cable-subparts.md)。这会影响各面输出材料，接收物品，提供网络连接的能力。
+Interfaces come in 2 different variants: normal and flat/[subpart](../ae2-mechanics/cable-subparts.md). This affects which specific sides their inventories can be accessed
+from and that they provide a network connection to.
 
-*   普通型接口会向各面输出材料，会从各面接收物品，且和大多数AE2机器一样向各面提供网络连接，类似线缆。
+*   Normal interfaces allow things to push to, pull from, and access their inventory from all sides and, like most AE2 machines, act
+    like a cable providing network connection to all sides.
 
-*   面板型接口是[线缆子部件](../ae2-mechanics/cable-subparts.md)因此可在同一线缆上放置多个该种供应器，便于设计紧凑设施。它们能从其存储空间输出，或接收物品至存储空间，并给予其他事物访问其存储空间的权限，但不提供网络连接。
+*   Flat interfaces are [cable subparts](../ae2-mechanics/cable-subparts.md), and so multiple can be placed on the same cable, allowing for compact setups.
+    They allow things to push to, pull from, and access their inventory from their face but do not provide a network connection on their face.
 
-接口的普通和面板形态可在合成方格中转换。
+Interfaces can be swapped between normal and flat in a crafting grid.
 
-## 设置
+## Settings
 
-接口上排槽位设定需要存储于自身的物品。可直接放入或从JEI/REI中拖拽放入，有物品的槽位上方会出现扳手图标，可用其设置数量。
+The upper slots in the interface determine what the interface is set to stock inside itself. When something is placed in
+them or dragged from JEI/REI, a wrench appears that lets you set the quantity.
 
-用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
+Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item.
 
-设置为存储模式的槽位同时不会接受任何其他事物进入其中。
+When you set a slot to stocking mode, it will also prevent external machines from inserting anything else into that slot.
 
-## 升级
+## Upgrades
 
-接口支持以下[升级](upgrade_cards.md)：
+The interface supports the following [upgrades](upgrade_cards.md):
 
-*   <ItemLink id="fuzzy_card" />使得接口能按耐久度或忽略物品NBT过滤
-*   <ItemLink id="crafting_card" />使接口能向[自动合成](../ae2-mechanics/autocrafting.md)系统发送所需物品的请求；其会优先从存储中获取物品，无足够物品才会发送合成请求
+*   <ItemLink id="fuzzy_card" /> lets the bus filter by damage level and/or ignore item NBT
+*   <ItemLink id="crafting_card" /> lets the interface send crafting requests to your [autocrafting](../ae2-mechanics/autocrafting.md)
+    system to get the items it desires. It will pull the items from storage if possible, before making a request
+    for a new item to be crafted.
 
-## 优先级
+## Priority
 
-可点击GUI右上角扳手以设置优先级。高优先级的接口会先于低优先级接口获取物品。
+Priorities can be set by clicking the wrench in the top-right of the GUI. Interfaces with higher priority will get their items
+before those with lower priority,
 
-## 配方
+## Recipes
 
 <Recipe id="network/blocks/interfaces_interface" />
 

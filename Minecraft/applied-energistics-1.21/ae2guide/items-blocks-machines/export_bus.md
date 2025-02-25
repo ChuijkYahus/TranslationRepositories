@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: ME输出总线
+  title: ME Export Bus
   icon: export_bus
   position: 220
 categories:
@@ -10,46 +10,51 @@ item_ids:
 - ae2:export_bus
 ---
 
-# 输出总线
+# The Export Bus
 
 <GameScene zoom="8" background="transparent">
 <ImportStructure src="../assets/blocks/export_bus.snbt" />
 </GameScene>
 
-输出总线会从[网络存储](../ae2-mechanics/import-export-storage.md)中抽出物品和流体（以及附属添加的其他类型），并存入其所连接的容器。
+The export bus pulls items and fluids (and whatever else, given addons) from [network storage](../ae2-mechanics/import-export-storage.md)
+and pushes them into  the inventory it's touching.
 
-为减少卡顿，输出总线会在近期未输出的情况下进入某种“睡眠模式”，此时其工作速度较慢，并会在其输出物品时被唤醒并逐渐进入正常状态（每秒传输4次）。
+For purposes of lag reduction, if the export bus has not exported something recently, it goes into a sort of
+"sleep mode" where it operates slowly, and wakes up and accelerates to full speed (4 operations per second) when it successfully exports something.
 
-输出总线是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+They are [cable subparts](../ae2-mechanics/cable-subparts.md).
 
-## 过滤
+## Filtering
 
-默认情况下，输出总线不会输出任何东西。放入其过滤槽的物品会加入白名单，也即只会输出其中指明的事物。
+By default the bus will not export anything. Items inserted into its filter slots will act as a whitelist,
+allowing those specific items to be exported.
 
-如果没有所需物品或流体，可从JEI/REI中拖拽以放入过滤槽。
+Items and fluids can be dragged into the slots from JEI/REI even if you don't actually have any of that item.
 
-用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
+Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item.
 
-## 升级
+## Upgrades
 
-输出总线支持以下[升级](upgrade_cards.md)：
+The import bus supports the following [upgrades](upgrade_cards.md):
 
-*   <ItemLink id="capacity_card" />增加过滤槽位数，并给予设置输出顺序的功能
-*   <ItemLink id="speed_card" />增加每次传输时移动的物品数
-*   <ItemLink id="fuzzy_card" />使得总线能按耐久度或忽略物品NBT过滤
-*   <ItemLink id="crafting_card" />使总线能向[自动合成](../ae2-mechanics/autocrafting.md)系统发送所需物品的请求；可设置为使用或不使用已存储物品
-*   <ItemLink id="redstone_card" />加入红石控制功能，使其会在高信号、低信号、遇脉冲时启动
+*   <ItemLink id="capacity_card" /> increases the amount of filter slots, and brings up a setting on what order to export what is filtered.
+*   <ItemLink id="speed_card" /> increases the amount of stuff moved per operation
+*   <ItemLink id="fuzzy_card" /> lets the bus filter by damage level and/or ignore item NBT
+*   <ItemLink id="crafting_card" /> lets the bus send crafting requests to your [autocrafting](../ae2-mechanics/autocrafting.md)
+    system to get the items it desires. Can be set to pull the items from storage if possible, or to always make a request
+    for a new item to be crafted.
+*   <ItemLink id="redstone_card" /> adds redstone control, allowing active on high signal, low signal, or once per pulse
 
-## 速度
+## Speeds
 
-| 加速卡数 | 每次传输移动的物品数 |
-|:---------|:---------------------|
-| 0        | 1                    |
-| 1        | 8                    |
-| 2        | 32                   |
-| 3        | 64                   |
-| 4        | 96                   |
+| Acceleration Cards | Items Moved per Operation |
+|:-------------------|:--------------------------|
+| 0                  | 1                         |
+| 1                  | 8                         |
+| 2                  | 32                        |
+| 3                  | 64                        |
+| 4                  | 96                        |
 
-## 配方
+## Recipe
 
-<RecipeFor id="export_bus" />
+<RecipeFor id="import_bus" />

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: ME存储总线
+  title: ME Storage Bus
   icon: storage_bus
   position: 220
 categories:
@@ -10,50 +10,65 @@ item_ids:
 - ae2:storage_bus
 ---
 
-# 存储总线
+# The Storage Bus
 
 <GameScene zoom="8" background="transparent">
 <ImportStructure src="../assets/blocks/storage_bus.snbt" />
 </GameScene>
 
-有想过*不把*箱子仓库换成其他更合理的设施吗？我们为此推出了存储总线！
+Ever wanted to *keep* your chest monster instead of replacing it with something sensible? We present the Storage Bus!
 
-存储总线会将其所连接的容器视为[网络存储](../ae2-mechanics/import-export-storage.md)。它使得网络能查看该容器的内容物，并可对该容器输入输出以满足[设备](../ae2-mechanics/devices.md)的输入输出需求。
+The storage bus turns the inventory it's touching into [network storage](../ae2-mechanics/import-export-storage.md).
+It does this by allowing the network to see the contents of that inventory, and by pushing to and pulling from that
+inventory in order to fulfill [devices](../ae2-mechanics/devices.md) pushing to and pulling from network storage.
 
-鉴于AE2的[设备](../ae2-mechanics/devices.md)功能交互产生<a title="译注：涌现（Emergence），指多个个体间的相互作用遵循简单的规则，而它们所组成的系统拥有了个体不具备的特性，这种特性仅存在于系统的层面。">涌现</a>机制的哲学，存储总线*并不*只具有*存储*功能。如果将[子网络](../ae2-mechanics/subnetworks.md)的*唯一*存储位置设置为若干存储总线，就可将这些总线视为物品传输的起点或终点。（见[“管道”子网络](../example-setups/pipe-subnet.md)。）
+Due to AE2's philosophy of emergent mechanics through interaction of the functions of the [devices](../ae2-mechanics/devices.md), you don't
+necessarily *have* to use a storage bus for *storage*. By using [subnetworks](../ae2-mechanics/subnetworks.md)
+to make a storage bus (or handful of storage busses) the *only* storage on a network, you can use it as a source or destination
+for item transfer. (see ["pipe subnet"](../example-setups/pipe-subnet.md))
 
-注意事项：抽屉这类经过优化的大容器性能表现不错，但巨型箱子等拥有大量槽位的、*未*经优化的大容器和存储总线放在一起时，性能会受到严重影响。
+IMPORTANT NOTE: Big optimized inventories like drawers are fine, but big *un*optimized inventories with many slots, like
+colossal chests, are terrible for performance when used with storage busses.
 
-存储总线是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+They are [cable subparts](../ae2-mechanics/cable-subparts.md).
 
-## 过滤
+## Filtering
 
-默认情况下，存储总线会存储所有事物。放入其过滤槽的物品会加入白名单，也即只会存储其中指明的事物。
+By default the bus will store everything. Items inserted into its filter slots will act as a whitelist, only
+allowing those specific items to be stored.
 
-如果没有所需物品或流体，可从JEI/REI中拖拽以放入过滤槽。
+Items and fluids can be dragged into the slots from JEI/REI even if you don't actually have any of that item.
 
-用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
+Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item.
 
-## 优先级
+## Priority
 
-可点击GUI右上角扳手以设置优先级。输入网络的物品会优先进入最高优先级的存储位置，如果有两个优先级相同的存储位置，则会优先选择已经存有该物品的那个。所有白名单元件在同优先级情况下视作已经存有该物品。从存储中输出的物品会优先从最低优先级的位置输出。这一优先级系统使得在输入输出物品的过程中，高优先级的存储位置会被填满，而低优先级的会被搬空。
+Priorities can be set by clicking the wrench in the top-right of the GUI.
+Items entering the network will start at the highest priority storage as
+their first destination. In the case of two storages have the same priority,
+if one already contains the item, they will prefer that storage over any
+other. Any filtered storages will be treated as already containing the item
+when in the same priority group as other storages. Items being removed from storage will
+be removed from the storage with the lowest priority. This priority system means as items are inserted and removed
+from network storage, higher priority storages will be filled and lower priority storages will be emptied.
 
-## 设置
+## Settings
 
-*   存储总线可分区（过滤）为相邻容器当前的内容物。
-*   可设置相邻容器中无法被总线抽出的物品是否对网络可见（例如，存储总线无法从<ItemLink id="inscriber" />的中间输入槽中抽出物品）。
-*   存储总线可设置为双向过滤或仅过滤存入操作。
-*   存储总线可为双向、仅存入、仅输出。
+*   The bus can be partitioned (filtered) to what is currently in the adjacent inventory
+*   The network can be disallowed or allowed to see items in the adjacent inventory that the bus cannot extract
+    (for example, a storage bus cannot extract items from the middle input slot of an <ItemLink id="inscriber" />)
+*   The bus can filter on both insertion and extraction or just insertion
+*   The bus can be bi-directional, insert-only, or extract-only
 
-## 升级
+## Upgrades
 
-存储总线支持以下[升级](upgrade_cards.md)：
+The storage bus supports the following [upgrades](upgrade_cards.md):
 
-*   <ItemLink id="capacity_card" />增加过滤槽位数
-*   <ItemLink id="fuzzy_card" />使得总线能按耐久度或忽略物品NBT过滤
-*   <ItemLink id="inverter_card" />将白名单变为黑名单
-*   <ItemLink id="void_card" />会在对应容器为满时清空输入的物品，可避免农场产物堆积。设置分区的时候要小心！
+*   <ItemLink id="capacity_card" /> increases the amount of filter slots
+*   <ItemLink id="fuzzy_card" /> lets the bus filter by damage level and/or ignore item NBT
+*   <ItemLink id="inverter_card" /> switches the filter from a whitelist to a blacklist
+*   <ItemLink id="void_card" /> voids items inserted if the attached inventory is full, useful for stopping farms from backing up. Be careful to partition this!
 
-## 配方
+## Recipe
 
 <RecipeFor id="storage_bus" />

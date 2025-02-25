@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯升级锻造模板
+  title: Fluix Smithing Template
   icon: fluix_upgrade_smithing_template
   position: 410
 categories:
@@ -12,12 +12,12 @@ item_ids:
 
 <ItemImage id="fluix_upgrade_smithing_template" scale="8" />
 
-# 福鲁伊克斯升级锻造模板
+# Fluix Smithing Template
 
-和原版的锻造模板不同，这个锻造模板可以直接制造。
+Unlike the vanilla smithing template, you can make this one from scratch.
 
-为[福鲁伊克斯工具](fluix_tools.md)所必需。
+Required for [fluix tools](fluix_tools.md)
 
-## 配方
+## Recipe
 
 <RecipeFor id="fluix_upgrade_smithing_template" />

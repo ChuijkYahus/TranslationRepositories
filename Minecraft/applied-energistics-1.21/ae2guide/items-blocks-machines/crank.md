@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 曲柄
+  title: Crank
   icon: crank
   position: 310
 categories:
@@ -10,15 +10,15 @@ item_ids:
 - ae2:crank
 ---
 
-# 曲柄
+# The Crank
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/crank_on_stuff.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-在没有产能途径时，曲柄可为需要能量的机器（或<ItemLink id="energy_acceptor" />）供能。游戏早期的阵痛，是吧？
+The crank is used to power machines when you don't otherwise have access to power (or an <ItemLink id="energy_acceptor" />). Early-game struggles, am I right?
 
-## 配方
+## Recipe
 
 <RecipeFor id="crank" />
