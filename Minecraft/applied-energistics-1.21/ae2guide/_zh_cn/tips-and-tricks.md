@@ -19,5 +19,5 @@ navigation:
 * 保持网络通畅的最好方式是不放入剑、盔甲之类的生物随机掉落物，每一种魔咒和耐久度的组合都分属不同[类型](ae2-mechanics/bytes-and-types.md)。
 * 传输回[处理样板](items-blocks-machines/patterns.md)的产物时必须发生一次“物品输入系统”事件，例如通过<ItemLink id="import_bus" />、<ItemLink id="interface" />，或是<ItemLink id="pattern_provider" />的返回栏，不能只将产物输入接有<ItemLink id="storage_bus" />的箱子。
 * 切记你可以旋转或缩放带有缩放和显隐注释图标的指南示例图。
-* <ItemLink id="pattern_provider" />只会传出完整的配方材料批次且只会从一面传出。这在避免机器只拿到一部分材料上很有用，但有时会需要材料输入多个位置。这点可用<ItemLink id="interface" />实现，用作[“管道”子网络](example-setups/pipe-subnet.md)，或是利用其能同时存储多种不同的物品组、流体，化学品等的能力作为缓冲箱子/储罐。
+* <ItemLink id="pattern_provider" />只会传出完整的配方材料批次，且只会从一面传出。此特性可避免机器只拿到一部分原材料，但有时会需要把材料供给到多个位置，这项需求可用<ItemLink id="interface" />实现：用作[“管道”子网络](example-setups/pipe-subnet.md)，或是利用其能同时存储多种不同的物品组、流体、化学品等的能力作为缓冲箱子/储罐。
 * 可以旋转或缩放带有缩放和显隐注释图标的指南示例图。

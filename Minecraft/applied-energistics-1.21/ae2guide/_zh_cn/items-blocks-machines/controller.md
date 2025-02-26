@@ -40,7 +40,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-在遵守所有规则且供给能量的情况下，控制器会发光并循环显示颜色。
+在遵守所有规则且供给能量的情况下，控制器会发光并循环变色。
 
 右击控制器可打开和<ItemLink id="network_tool" />相同的GUI。
 

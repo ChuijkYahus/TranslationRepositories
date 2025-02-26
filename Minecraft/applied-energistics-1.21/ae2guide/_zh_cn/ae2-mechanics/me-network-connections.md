@@ -9,11 +9,11 @@ navigation:
 
 ## “网络”是什么意思？
 
-“网络”是一组可像[线缆](../items-blocks-machines/cables.md)一样传输[频道](../ae2-mechanics/channels.md)的连在一起的[设备](../ae2-mechanics/devices.md)或方块形态机器和[设备](../ae2-mechanics/devices.md)。（<ItemLink id="charger" />、<ItemLink id="interface" />、<ItemLink id="drive" />，等等。）单个线缆理论上也算是一个网络。
+“网络”是一组可像[线缆](../items-blocks-machines/cables.md)一样传输[频道](channels.md)的连在一起的[设备](devices.md)或方块形态机器和[设备](devices.md)。（<ItemLink id="charger" />、<ItemLink id="interface" />、<ItemLink id="drive" />等。）单个线缆理论上也算是一个网络。
 
 ## 设备位置简述
 
-对于有特殊网络功能的[设备](../ae2-mechanics/devices.md)（例如向[网络存储](../ae2-mechanics/import-export-storage.md)输入输出的<ItemLink id="interface" />，读取网络存储信息的<ItemLink id="level_emitter" />，作为网络存储的<ItemLink id="drive" />等。）来说，设备本身的物理位置不重要。
+对于有特殊网络功能的[设备](devices.md)（例如向[网络存储](import-export-storage.md)输入输出的<ItemLink id="interface" />，读取网络存储信息的<ItemLink id="level_emitter" />，作为网络存储的<ItemLink id="drive" />等。）来说，设备本身的物理位置不重要。
 
 再提一遍，**设备的物理位置不重要**。重要之处在于设备连上了网络（以及连上了哪个网络）。
 
@@ -37,7 +37,7 @@ navigation:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-如下也是2个独立的网络，因为<ItemLink id="quartz_fiber" />只传输[能量](../ae2-mechanics/energy.md)而不提供网络连接。
+如下也是2个独立的网络，因为<ItemLink id="quartz_fiber" />只传输[能量](energy.md)而不提供网络连接。
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/2_networks_2.snbt" />
@@ -53,7 +53,7 @@ navigation:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-而如下则只有1个网络（不是2个）。[量子桥](../items-blocks-machines/quantum_bridge.md)类似无线的[致密线缆](../items-blocks-machines/cables.md#dense-cable)，因此其两端处于同一网络。
+而如下则只有1个网络（不是2个）。[量子桥](../items-blocks-machines/quantum_bridge.md)类似无线的[致密线缆](../items-blocks-machines/cables.md#致密线缆)，因此其两端处于同一网络。
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/actually_1_network.snbt" />
@@ -79,7 +79,7 @@ navigation:
 
 ## 子网络中的连接
 
-[子网络](../ae2-mechanics/subnetworks.md)通过控制网络连接（主要是**禁止**连接）来限制[设备](../ae2-mechanics/devices.md)对其他设备的访问权。
+[子网络](subnetworks.md)通过控制网络连接（主要是**禁止**连接）来限制[设备](devices.md)对其他设备的访问权。
 
 子网络本质上就是一个独立的网络。
 
@@ -139,7 +139,7 @@ navigation:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-为避免这种情况出现（在与[子网络](../ae2-mechanics/subnetworks.md)相关的自动化设施中相当有用），可手持<ItemLink id="certus_quartz_wrench" />右击供应器以将其变为方向型，它便不会在选中面传输频道。
+为避免这种情况出现（在与[子网络](subnetworks.md)相关的自动化设施中相当有用），可手持<ItemLink id="certus_quartz_wrench" />右击供应器以将其变为方向型，它便不会在选中面传输频道。
 
 <Row gap="40">
 <GameScene zoom="6" background="transparent">
@@ -167,7 +167,7 @@ navigation:
 </GameScene>
 </Row>
 
-其他不提供方向型网络连接的大多是[子部件](../ae2-mechanics/cable-subparts.md)[设备](../ae2-mechanics/devices.md)，例如<ItemLink id="import_bus" />、<ItemLink id="storage_bus" />，和<ItemLink id="cable_interface" />。
+其他不提供方向型网络连接的大多是[子部件](cable-subparts.md)[设备](devices.md)，例如<ItemLink id="import_bus" />、<ItemLink id="storage_bus" />，和<ItemLink id="cable_interface" />。
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/subpart_no_connection.snbt" />

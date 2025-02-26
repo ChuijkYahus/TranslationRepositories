@@ -11,7 +11,7 @@ categories:
 # 福鲁伊克斯研究员
 
 <Row>
-![Fluix Researcher](../assets/diagrams/ae2_villager.png)
+![福鲁伊克斯研究员](../assets/diagrams/ae2_villager.png)
 <BlockImage id="charger" scale="8" />
 </Row>
 

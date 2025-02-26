@@ -16,7 +16,7 @@ item_ids:
 <ImportStructure src="../assets/blocks/chest.snbt" />
 </GameScene>
 
-ME箱子类似于带有<ItemLink id="terminal" />、<ItemLink id="drive" />，以及<ItemLink id="energy_acceptor" />的微缩网络。可将其用作小型网络存储，但其仅能装下单个[存储元件](../items-blocks-machines/storage_cells.md)的容量则限制了其功能性。
+ME箱子类似于带有<ItemLink id="terminal" />、<ItemLink id="drive" />、<ItemLink id="energy_acceptor" />的微缩网络。可将其用作小型网络存储，但其仅能装下单个[存储元件](storage_cells.md)的容量则限制了其功能性。
 
 它在与其中元件单独交互方面非常有用。集成其中的终端只能访问箱子内的元件，而普通网络中的[设备](../ae2-mechanics/devices.md)则能访问任何[网络存储](../ae2-mechanics/import-export-storage.md)位置，包括ME箱子。
 
@@ -24,7 +24,7 @@ ME箱子类似于带有<ItemLink id="terminal" />、<ItemLink id="drive" />，�
 
 可被<ItemLink id="certus_quartz_wrench" />旋转。
 
-其只有一小型AE能量缓存，因此若不配备[能源元件](../items-blocks-machines/energy_cells.md)，对其同时输入输出过多物品可能会导致能量耗尽。
+其只有一小型AE能量缓存，因此若不配备[能源元件](energy_cells.md)，对其同时输入输出过多物品可能会导致能量耗尽。
 
 终端可用<ItemLink id="color_applicator" />染色。
 

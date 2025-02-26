@@ -102,7 +102,7 @@ navigation:
 
 ### 主网络：
 
-* 第三个<ItemLink id="storage_bus" />（7）设置为过滤<ItemLink id="certus_quartz_crystal" />，且其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)高于主网络存储。
+* 第三个<ItemLink id="storage_bus" />（7）设置为过滤<ItemLink id="certus_quartz_crystal" />，且其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)高于主网络存储。
 
 ## 工作原理
 
@@ -129,4 +129,4 @@ navigation:
 
 ### 主网络：
 
-* <ItemLink id="storage_bus" />使得主网络（以及[充能器自动化](charger-automation.md)设施）能够访问木桶中的赛特斯石英水晶。其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)较高，因此赛特斯石英水晶会优先进入木桶而非主网络存储。
+* <ItemLink id="storage_bus" />使得主网络（以及[充能器自动化](charger-automation.md)设施）能够访问木桶中的赛特斯石英水晶。其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)较高，因此赛特斯石英水晶会优先进入木桶而非主网络存储。

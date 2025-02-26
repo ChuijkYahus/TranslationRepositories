@@ -7,7 +7,7 @@ navigation:
 
 # 多种存储方式及保持网络的整洁性
 
-过滤、[分区](../items-blocks-machines/cell_workbench.md)、[存储优先级](../ae2-mechanics/import-export-storage.md#storage-priority)，这些都能助你构建可供多种事物使用的多层级存储。
+过滤、[分区](../items-blocks-machines/cell_workbench.md)、[存储优先级](../ae2-mechanics/import-export-storage.md#存储优先级)，这些都能助你构建可供多种事物使用的多层级存储。
 
 大部分存储可分为：
 * 通用存储，适用于数量大致为几千的各类事物。实现主要使用小型[存储元件](../items-blocks-machines/storage_cells.md)，比如4k和16k存储元件。

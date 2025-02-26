@@ -28,7 +28,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-灵活使用伪装板。提升基地观感，制造各面材质不同的方块，如此种种都能做到。
+灵活使用伪装板。从提升基地观感，到制造各面纹理不同的方块，如此种种都能做到。
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/assemblies/facades_3.snbt" />
@@ -43,6 +43,6 @@ item_ids:
 
 ## 配方
 
-将带有想要伪装成的材质的方块放在4个<ItemLink id="cable_anchor" />中间即可。
+将带有想要伪装成的纹理的方块放在4个<ItemLink id="cable_anchor" />中间即可。
 
 ![伪装板配方](../assets/diagrams/facade_recipe.png)

@@ -7,7 +7,7 @@ navigation:
 
 # 刷取紫水晶
 
-虽然<ItemLink id="growth_accelerator" />对紫水晶有效，但以<ItemLink id="annihilation_plane" />过滤[赛特斯石英芽](../items-blocks-machines/budding_certus.md)的常用方法对紫晶芽无效。不像未长成的赛特斯石英芽能掉落<ItemLink id="certus_quartz_dust" />，未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此破坏面板会一直破坏它们。
+虽然<ItemLink id="growth_accelerator" />对紫水晶有效，但以<ItemLink id="annihilation_plane" />过滤[赛特斯石英芽](../items-blocks-machines/budding_certus.md)的惯用方法对紫晶芽无效。不像未长成的赛特斯石英芽能掉落<ItemLink id="certus_quartz_dust" />，未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此破坏面板会一直破坏它们。
 
 绕过此问题的方法是将破坏面板附上精准采集。此情况下未长成的紫晶芽就*会*掉落物品（各阶段的紫晶芽本身）了，并可过滤处理。
 
@@ -54,7 +54,7 @@ navigation:
 * <ItemLink id="formation_plane" />（2）设置为过滤<ItemLink id="minecraft:amethyst_cluster" />。
 * 第二个<ItemLink id="annihilation_plane" />（3）没有GUI且无法配置，可附有时运。
 * 第一个<ItemLink id="storage_bus" />（4）设置为过滤<ItemLink id="minecraft:amethyst_shard" />。
-* 第二个<ItemLink id="storage_bus" />（5）设置为过滤<ItemLink id="minecraft:amethyst_shard" />，且[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)高于主存储。
+* 第二个<ItemLink id="storage_bus" />（5）设置为过滤<ItemLink id="minecraft:amethyst_shard" />，且[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)高于主存储。
 
 ## 工作原理
 
@@ -62,4 +62,4 @@ navigation:
 2. <ItemLink id="formation_plane" />将紫水晶簇放置于其对侧的方块。
 3. 第二个<ItemLink id="annihilation_plane" />破坏紫水晶簇而得<ItemLink id="minecraft:amethyst_shard" />。
 4. 第一个<ItemLink id="storage_bus" />将紫水晶碎片存入木桶。由于第二个破坏面板有可能破坏的事物只会是长成的紫水晶簇，此总线实际不需设置过滤。
-5. 第二个<ItemLink id="storage_bus" />使得主网络能访问木桶内的所有紫水晶簇。其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)应高于主网络，由此紫水晶碎片会优先存入木桶而非主存储。
+5. 第二个<ItemLink id="storage_bus" />使得主网络能访问木桶内的所有紫水晶簇。其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)应高于主网络，由此紫水晶碎片会优先存入木桶而非主存储。

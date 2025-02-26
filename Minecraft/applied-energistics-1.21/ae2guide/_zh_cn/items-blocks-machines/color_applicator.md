@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="color_applicator" scale="4" />
 
-染色器可为[线缆](cables.md)、羊毛、陶瓦、玻璃，混凝土等可染色方块染色。它需要消耗[染色球](paintballs.md)或染料，如果需要洗去线缆颜色或方块上的染料滩的话，可在其中装入雪球。
+染色器可为[线缆](cables.md)、羊毛、陶瓦、玻璃、混凝土等可染色方块染色。它需要消耗[染色球](paintballs.md)或染料，如果需要洗去线缆颜色或方块上的染料滩的话，可在其中装入雪球。
 
 可在<ItemLink id="charger" />中为其充能。
 

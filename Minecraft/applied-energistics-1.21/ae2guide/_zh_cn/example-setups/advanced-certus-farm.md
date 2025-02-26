@@ -104,7 +104,7 @@ navigation:
 
 ### 主网络：
 
-* 第三个<ItemLink id="storage_bus" />（7）设置为过滤<ItemLink id="certus_quartz_crystal" />，且其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)高于主网络存储。
+* 第三个<ItemLink id="storage_bus" />（7）设置为过滤<ItemLink id="certus_quartz_crystal" />，且其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)高于主网络存储。
 * <ItemLink id="interface" />（8）设置为在自身存储1个有瑕的赛特斯石英母岩，装有<ItemLink id="crafting_card" />。
 
 ## 工作原理
@@ -132,5 +132,5 @@ navigation:
 
 ### 主网络：
 
-* <ItemLink id="storage_bus" />使得主网络（以及[充能器自动化](charger-automation.md)设施）能够访问木桶中的赛特斯石英水晶。其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)较高，因此赛特斯石英水晶会优先进入木桶而非主网络存储。
+* <ItemLink id="storage_bus" />使得主网络（以及[充能器自动化](charger-automation.md)设施）能够访问木桶中的赛特斯石英水晶。其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)较高，因此赛特斯石英水晶会优先进入木桶而非主网络存储。
 * <ItemLink id="interface" />使得放置器子网络能够访问1个<ItemLink id="flawed_budding_quartz" />，并使得赛特斯石英块破坏器子网络能将枯竭的母岩传输回主网络。<ItemLink id="crafting_card" />则允许接口向主网络的[自动合成](../ae2-mechanics/autocrafting.md)系统发送制造母岩的请求。

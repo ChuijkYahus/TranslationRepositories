@@ -23,7 +23,7 @@ item_ids:
   <IsometricCamera yaw="255" pitch="30" />
 </GameScene>
 
-注意，这些设备在[管道子网络](../example-setups/pipe-subnet.md)中类似输入总线 -> 存储总线和接口 -> 存储总线。
+注意，这些设备在[管道子网络](../example-setups/pipe-subnet.md)中类似“输入总线 -> 存储总线”和“接口 -> 存储总线”。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/import_storage_pipe.snbt" />

@@ -72,13 +72,13 @@ navigation:
 * <ItemLink id="interface" />（1）设置为存储所需的额外材料：钻石和下界岩。
 * <ItemLink id="level_emitter" />（2）配置为“下界合金升级锻造模板”，设置为“发出红石信号以合成物品”。
 * 第一个<ItemLink id="import_bus" />（3）设置为过滤接口所存储的物品。装有红石卡。红石模式设置为“有红石信号时激活”。
-* 第一个<ItemLink id="storage_bus" />（4）的[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)需*高于*第二个存储总线。
+* 第一个<ItemLink id="storage_bus" />（4）的[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)需*高于*第二个存储总线。
 * <ItemLink id="molecular_assembler" />（5）装有复制锻造模板的样板，以及一个手动放入的锻造模板。
 
   ![样板](../assets/diagrams/smithing_template_pattern.png)
 
 * 第二个<ItemLink id="import_bus" />（6）处于默认配置。
-* 第二个<ItemLink id="storage_bus" />（7）设置为过滤“下界合金升级锻造模板”。其[优先级](../ae2-mechanics/import-export-storage.md#storage-priority)*低于*第一个存储总线。
+* 第二个<ItemLink id="storage_bus" />（7）设置为过滤“下界合金升级锻造模板”。其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)*低于*第一个存储总线。
 
 ## 工作原理
 

@@ -62,7 +62,7 @@ P2P通道是在网络中传输物品、流体、红石信号、能量、光、[�
 </GameScene>
 
 P2P通道有许多种类，其中只有ME P2P通道才可直接合成，其他则需要以物品右击任意P2P通道：
-- ME P2P通道需手持任意[线缆](../items-blocks-machines/cables.md)右击调谐
+- ME P2P通道需手持任意[线缆](cables.md)右击调谐
 - 红石P2P通道需手持红石元件右击调谐
 - 物品P2P通道需手持箱子或漏斗右击调谐
 - 流体P2P通道需手持铁桶或玻璃瓶右击调谐
@@ -73,9 +73,9 @@ P2P通道有许多种类，其中只有ME P2P通道才可直接合成，其他�
 
 ## P2P通道的最常见用途
 
-P2P通道的最常见用途便是通过ME P2P通道以高效传输[频道](../ae2-mechanics/channels.md)。传输大量频道不再需要一束致密线缆了，一根致密线缆就已足够。
+P2P通道的最常见用途是通过ME P2P通道以高效传输[频道](../ae2-mechanics/channels.md)。传输大量频道不再需要一束致密线缆了，一根致密线缆就已足够。
 
-在此示例中，8个ME P2P通道输入端会从主网络的<ItemLink id="controller" />中传输256（8*32）个频道，其余8个ME P2P输出端则将其送至其他位置。注意每个P2P通道输入和输出端只占用1个频道。如此就可在单根线缆中传输大量频道了。而因为P2P通道均位于专用[子网络](../ae2-mechanics/subnetworks.md)中，它们甚至不会占用主网络的频道！此外，注意P2P通道可直接面向控制器放置，可在两者间放入[致密线缆](../items-blocks-machines/cables.md#smart-cable)以可视化被传输的频道。
+在此示例中，8个ME P2P通道输入端会从主网络的<ItemLink id="controller" />中传输256（8*32）个频道，其余8个ME P2P输出端则将其送至其他位置。注意每个P2P通道输入和输出端只占用1个频道。如此就可在单根线缆中传输大量频道了。而因为P2P通道均位于专用[子网络](../ae2-mechanics/subnetworks.md)中，它们甚至不会占用主网络的频道！此外，注意P2P通道可直接面向控制器放置，可在两者间放入[致密线缆](cables.md#智能线缆)以可视化被传输的频道。
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/assemblies/p2p_compact_channels.snbt" />

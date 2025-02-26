@@ -39,7 +39,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<ItemLink id="quartz_block" />可由合成、烧炼或切石加工为装饰性建筑方块。
+<ItemLink id="quartz_block" />可由合成、烧炼、切石加工为装饰性建筑方块。
 
 ## 配方
 

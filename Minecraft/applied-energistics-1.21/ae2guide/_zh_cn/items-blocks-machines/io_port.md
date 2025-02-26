@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="io_port" p:powered="true" scale="8" />
 
-IO能以[网络存储](../ae2-mechanics/import-export-storage.md)迅速填满或清空[存储元件](../items-blocks-machines/storage_cells.md)。
+IO能以[网络存储](../ae2-mechanics/import-export-storage.md)迅速填满或清空[存储元件](storage_cells.md)。
 
 可被<ItemLink id="certus_quartz_wrench" />旋转。
 

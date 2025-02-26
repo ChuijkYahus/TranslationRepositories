@@ -34,7 +34,7 @@ item_ids:
   <BlockImage id="smooth_sky_stone_chest" scale="4" />
 </Row>
 
-<ItemLink id="sky_stone_block" />可由合成或切石加工为装饰性建筑方块。
+<ItemLink id="sky_stone_block" />可由合成、切石加工为装饰性建筑方块。
 
 ## 配方
 

@@ -26,9 +26,9 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-赛特斯石英芽会从赛特斯石英母岩中生长出来，与紫水晶类似。母岩可在[陨石](../ae2-mechanics/meteorites.md)中找到。共有4种等级的赛特斯石英母岩：无瑕、有瑕、开裂、破损。可由HWYLA、Jade、The One Probe等模组轻松辨别。（F3界面也可。）
+赛特斯石英芽会从赛特斯石英母岩中生长出来，与紫水晶类似。母岩可在[陨石](../ae2-mechanics/meteorites.md)中找到。共有4种等级的赛特斯石英母岩：无瑕、有瑕、开裂、损坏。可由HWYLA、Jade、The One Probe等模组轻松辨别。（F3界面也可。）
 
-对于有瑕、开裂、破损的母岩而言，每次石英芽生长时，母岩都有可能降一级，并最终变为普通的<ItemLink id="quartz_block" />。
+对于有瑕、开裂、损坏的母岩而言，每次石英芽生长时，母岩都有可能降一级，并最终变为普通的<ItemLink id="quartz_block" />。
 
 无瑕的赛特斯石英母岩不会因石英芽的生长而降级，可用作无限生产源。
 
@@ -36,7 +36,7 @@ item_ids:
 
 ## 配方
 
-有瑕、开裂、破损的赛特斯石英母岩可通过将上一级母岩（或<ItemLink id="quartz_block" />）和若干个<ItemLink id="charged_certus_quartz_crystal" />投入水中合成。
+有瑕、开裂、损坏的赛特斯石英母岩可通过将上一级母岩（或<ItemLink id="quartz_block" />）和若干个<ItemLink id="charged_certus_quartz_crystal" />投入水中合成。
 
 无瑕的赛特斯石英母岩无法合成，只能在世界中搜寻而得。
 

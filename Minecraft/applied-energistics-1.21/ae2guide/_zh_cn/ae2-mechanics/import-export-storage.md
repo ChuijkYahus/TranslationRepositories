@@ -8,7 +8,7 @@ navigation:
 
 **你的ME系统与世界**
 
-AE2中的一个重要概念便是网络存储，也即网络内容存储的地方，通常会是[存储元件](../items-blocks-machines/storage_cells.md)或连接于<ItemLink id="storage_bus" />的容器。大部分AE2[设备](../ae2-mechanics/devices.md)都会与之以某种方式交互。
+AE2中的一个重要概念便是网络存储，也即网络内容所存储的地方，通常会是[存储元件](../items-blocks-machines/storage_cells.md)或连接于<ItemLink id="storage_bus" />的容器。大部分AE2[设备](devices.md)都会以某种方式与之交互。
 
 例如：
 

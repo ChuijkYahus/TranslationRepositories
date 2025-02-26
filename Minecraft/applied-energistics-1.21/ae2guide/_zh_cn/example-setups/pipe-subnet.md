@@ -125,7 +125,7 @@ navigation:
 
 ## 接口
 
-貌似除了输入总线和输出总线，还有其他[设备](../ae2-mechanics/devices.md)能将物品存入或取出[网络存储](../ae2-mechanics/import-export-storage.md)！此处提及的这种设备就是<ItemLink id="interface" />。如果接口接收到物品而又未设置存储该物品，则其会将该物品存入网络存储，类似于输入总线 -> 存储总线管道。将接口设置为存储物品，则其会从网络存储中抽取，类似于存储总线 -> 输出总线管道。如果需要，接口还可设置为存储某些物品而非其他物品，即可通过存储总线远程输入输出。
+貌似除了输入总线和输出总线，还有其他[设备](../ae2-mechanics/devices.md)能将物品存入或取出[网络存储](../ae2-mechanics/import-export-storage.md)！此处提及的这种设备就是<ItemLink id="interface" />。如果接口接收到物品而又未设置存储该物品，则其会将该物品存入网络存储，类似于“输入总线 -> 存储总线”管道。将接口设置为存储物品，则其会从网络存储中抽取，类似于“存储总线 -> 输出总线”管道。如果需要，接口还可设置为存储某些物品而非其他物品，即可通过存储总线远程输入输出。
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/interface_pipes.snbt" />
@@ -151,7 +151,7 @@ navigation:
 
 ## 一对多与多对一（以及多对多）
 
-当然，<ItemLink id="import_bus" />、<ItemLink id="export_bus" />，以及<ItemLink id="storage_bus" />并非只能使用一个。
+当然，<ItemLink id="import_bus" />、<ItemLink id="export_bus" />、<ItemLink id="storage_bus" />并非只能使用一个。
 
 <GameScene zoom="3" background="transparent">
 <ImportStructure src="../assets/assemblies/many_to_many_pipe.snbt" />
@@ -163,7 +163,7 @@ navigation:
 
 综合上述设计，即可得出从单个<ItemLink id="pattern_provider" />面向多处运输材料的方式，适用于机器阵列，或是单台机器的多个面。
 
-不采用输入 -> 存储管道以及存储 -> 输出管道，因为<ItemLink id="pattern_provider" />无法存储材料，而是会将材料*输出*至相邻容器。因此我们需要能输入物品的某种相邻容器。
+不采用“输入 -> 存储”管道以及“存储 -> 输出”管道，因为<ItemLink id="pattern_provider" />无法存储材料，而是会将材料*输出*至相邻容器。因此我们需要能输入物品的某种相邻容器。
 
 而符合条件的设备……就是<ItemLink id="interface" />！并且供应器需为方向型或面板型，或接口为面板型，或两个条件均满足，以避免两者形成网络连接。
 

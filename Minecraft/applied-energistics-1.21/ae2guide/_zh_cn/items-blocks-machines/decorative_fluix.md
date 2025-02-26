@@ -19,7 +19,7 @@ item_ids:
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<ItemLink id="fluix_block" />可由合成或切石加工为装饰性建筑方块。
+<ItemLink id="fluix_block" />可由合成、切石加工为装饰性建筑方块。
 
 ## 配方
 

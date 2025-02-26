@@ -71,7 +71,7 @@ navigation:
 
 1. <ItemLink id="pattern_provider" />将材料送入<ItemLink id="interface" />。
    （作为优化，实际上其会直接向存储总线输出，这些存储总线类似于供应器自身的输出面。物品并不会真正进入接口。）
-2. 经过[管道子网络](pipe-subnet.md#providing-to-multiple-places)中所述的设施，铁桶会抵达<ItemLink id="minecraft:dispenser" />。
+2. 经过[管道子网络](pipe-subnet.md#向多处提供材料)中所述的设施，铁桶会抵达<ItemLink id="minecraft:dispenser" />。
 3. <ItemLink id="minecraft:comparator" />检测发射器中的铁桶，并由此同时激活发射器和锁定<ItemLink id="pattern_provider" />。
 4. 发射器将铁桶中的流体倒出，此时发射器内为空桶。
 5. <ItemLink id="import_bus" />将发射器中的空桶抽出，通过<ItemLink id="storage_bus" />存入样板供应器，并返回至主网络。

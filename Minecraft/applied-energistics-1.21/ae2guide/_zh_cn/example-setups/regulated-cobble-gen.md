@@ -7,7 +7,7 @@ navigation:
 
 # 自调控造石机
 
-自动化造石机很简单，把<ItemLink id="annihilation_plane" />朝向一个标准原版手动造石机即可。然而这么做会导致网络被圆石塞满，因此需要一些调控。
+自动化造石机很简单，把<ItemLink id="annihilation_plane" />朝向一个标准原版手动造石机即可。然而这么做会导致网络被圆石塞满，因此需要引入调控。
 
 鉴于破坏面板的工作方式（类似<ItemLink id="import_bus" />），不能直接把<ItemLink id="level_emitter" />面向装有<ItemLink id="redstone_card" />的<ItemLink id="export_bus" />（因为无法在没有中间存储的情况下直接输入输出）。需要稍微绕点路。
 

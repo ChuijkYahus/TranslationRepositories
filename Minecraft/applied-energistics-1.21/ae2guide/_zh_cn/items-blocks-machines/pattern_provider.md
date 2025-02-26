@@ -21,9 +21,9 @@ item_ids:
 </GameScene>
 </Row>
 
-样板供应器是自动合成系统与世界交互的基础方式。它们会将[样板](../items-blocks-machines/patterns.md)指明的材料输出至相邻容器，并且也可向其输入物品以输入网络。通常可将机器的产物传输给附近的样板供应器（通常就是输出材料的那个）以节省频道，而非让<ItemLink id="import_bus" />提取产物。
+样板供应器是自动合成系统与世界交互的基础方式。它们会将[样板](patterns.md)指明的材料输出至相邻容器，并且也可向其输入物品以输入网络。通常可将机器的产物传输给附近的样板供应器（通常就是输出材料的那个）以节省频道，而非让<ItemLink id="import_bus" />提取产物。
 
-需要注意，它们会直接从合成CPU中的[合成存储器](../items-blocks-machines/crafting_cpu_multiblock.md#crafting-storage)中输出物品；因此，模板供应器本身并不储存物品，也就不能直接从此抽取物品：需要将物品输出至另一个容器（比如木桶），再从那里抽取才行。
+需要注意，它们会直接从合成CPU中的[合成存储器](crafting_cpu_multiblock.md#合成存储器)中输出物品；因此，模板供应器本身并不储存物品，也就不能直接从此抽取物品：需要将物品输出至另一个容器（比如木桶），再从那里抽取才行。
 
 此外，供应器会同时输出整份材料，不会输出半份。这一特性是很有用的。
 
@@ -91,9 +91,9 @@ item_ids:
 
 * 普通型样板供应器会向各面输出材料，会从各面接收物品，且和大多数AE2机器一样向各面提供[网络连接](../ae2-mechanics/me-network-connections.md)，类似线缆。
 
-* 方向型样板供应器可由在普通样板供应器上使用<ItemLink id="certus_quartz_wrench" />产生。它们只会向选中面输出材料，会从各面接收物品，并且仅不向选中面提供[网络连接](../ae2-mechanics/me-network-connections.md)。这使得它们能向AE2机器输出物品而不连接网络，在构建子网络上非常有用。
+* 方向型样板供应器可通过对普通样板供应器上使用<ItemLink id="certus_quartz_wrench" />产生。它们只会向选中面输出材料，会从各面接收物品，并且仅不向选中面提供[网络连接](../ae2-mechanics/me-network-connections.md)。这使得它们能向AE2机器输出物品而不连接网络，在构建子网络上非常有用。
 
-* 面板型样板供应器是[线缆子部件](../ae2-mechanics/cable-subparts.md)，因此可在同一线缆上放置多个该种供应器，便于设计紧凑设施。它们和方向型供应器选中面功能类似，输出样板材料，接收物品，且**不**提供[网络连接](../ae2-mechanics/me-network-connections.md)。
+* 面板型样板供应器是[线缆子部件](../ae2-mechanics/cable-subparts.md)，因此可在同一线缆上放置多个该种供应器，便于设计紧凑设施。它们和方向型供应器选中面功能类似：输出样板材料，接收物品，且**不**提供[网络连接](../ae2-mechanics/me-network-connections.md)。
 
 样板供应器的普通和面板形态可在合成方格中转换。
 
@@ -107,13 +107,13 @@ item_ids:
 
 ## 优先级
 
-可点击GUI右上角扳手以设置优先级。在多个[样板](../items-blocks-machines/patterns.md)对应同一物品时，在高优先级供应器中的样板会先于低优先级供应器中样板使用，除非网络无法供给高优先级样板所需材料。
+可点击GUI右上角扳手以设置优先级。在多个[样板](patterns.md)对应同一物品时，在高优先级供应器中的样板会先于低优先级供应器中样板使用，除非网络无法供给高优先级样板所需材料。
 
 ## 常见误解
 
 人们似乎总是会这么想，我不理解为什么，不过希望这一节能帮上忙。（也许人们只是理解错了，认为只有<ItemLink id="export_bus" />才能将物品输出网络，而没意识到样板供应器也能输出。）
 
-如下设置不会如期望运作。正如[线缆](cables.md)中所提，线缆不是物品管道，它们没有内部容器，供应器无法向线缆输出。
+如下设置不会如期望运作。正如[线缆](cables.md)中所提，线缆不是物品管道，它们没有内部存储空间，供应器无法向线缆输出。
 
 <GameScene zoom="8" background="transparent">
   <ImportStructure src="../assets/assemblies/provider_misconception_1.snbt" />
@@ -125,7 +125,7 @@ item_ids:
   <IsometricCamera yaw="95" pitch="5" />
 </GameScene>
 
-因为供应器没有输出的目的地，它不会运作。此处供应器仅作为将<ItemLink id="export_bus" />连接至网络的线缆存在。
+因为供应器没有输出的目的地，所以它不会运作。此处供应器仅作为将<ItemLink id="export_bus" />连接至网络的线缆存在。
 
 供应器同样不会告诉<ItemLink id="export_bus" />要输出什么，输出总线只会输出其过滤槽中的事物。
 
@@ -159,7 +159,7 @@ item_ids:
 
 分子装配室可以从其中的<ItemLink id="crafting_pattern" />、<ItemLink id="smithing_table_pattern" />和<ItemLink id="stonecutting_pattern" />直接获取配方。这在装配线设计中非常有用，但每一种合成配方都需要专用的装配室就太麻烦了。
 
-因此，样板供应器具有配合分子装配室的特殊功能，它们会在输出原材料的同时送出样板的数据。只需在供应器旁放置装配室，就可直接处理各种类型的合成样板、锻造台样板，以及切石机样板了。
+因此，样板供应器具有配合分子装配室的特殊功能，它们会在输出原材料的同时送出样板的数据。只需在供应器旁放置装配室，就可直接处理各种类型的合成样板、锻造台样板、切石机样板了。
 
 真就是这么简单，往供应器里塞样板就行了：
 
