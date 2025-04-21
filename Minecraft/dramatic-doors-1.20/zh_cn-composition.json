@@ -167,7 +167,7 @@
                     "crystal": "水晶木",
                     "fieldsprout": "域茁木",
                     "glacia": "冰川木",
-                    "springshroom": "簧菇木",
+                    "springshroom": "果冻菇木",
 
                     "aerfin": "空翼木",
                     "beladon": "莨菪木",
@@ -181,6 +181,10 @@
                     "thornwood": "荆棘木",
 
                     "twisted": "扭曲木",
+
+                    "archwood": "至高木",
+
+                    "cork": "软木",
 
                     "deadwood": "死树木",
                     "palm": "棕榈木",
@@ -340,10 +344,6 @@
                     "cd_industrial_iron": "工业铁",
                     "zinc": "锌",
 
-                    "andesite_casing": "安山",
-                    "brass_casing": "黄铜",
-                    "copper_casing": "铜",
-
                     "petrified": "石化木",
 
                     "charred_spruce": "焦黑云杉木",
@@ -395,8 +395,8 @@
                     "celestial": "天界木",
                     "murushroom": "穆如菇木",
 
-                    "congealed": "凝结木",
-                    "ee_ebony": "阴沉木",
+                    "cerulean": "蔚蓝木",
+                    "indigo": "靛蓝木",
 
                     "eb_twisted": "扭曲木",
                     "eb_penumbra": "本影木",

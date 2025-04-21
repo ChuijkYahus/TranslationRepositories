@@ -56,6 +56,13 @@
   "block.dramaticdoors.tall_locked_industrial_iron_door": "上锁的高工业铁门",
   "block.dramaticdoors.tall_locked_zinc_door": "上锁的高锌门",
 
+  "block.dramaticdoors.short_andesite_casing_door": "矮安山门（旧版）",
+  "block.dramaticdoors.short_brass_casing_door": "矮黄铜门（旧版）",
+  "block.dramaticdoors.short_copper_casing_door": "矮铜门（旧版）",
+  "block.dramaticdoors.tall_andesite_casing_door": "高安山门（旧版）",
+  "block.dramaticdoors.tall_brass_casing_door": "高黄铜门（旧版）",
+  "block.dramaticdoors.tall_copper_casing_door": "高铜门（旧版）",
+
   "block.dramaticdoors.short_rusty_iron_door": "生锈的矮铁门",
   "block.dramaticdoors.short_rusty_sheet_metal_door": "生锈的矮钣金门",
   "block.dramaticdoors.tall_rusty_iron_door": "生锈的高铁门",
