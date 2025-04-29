@@ -55,3 +55,12 @@ apis为拉丁语蜜蜂，下不再一一指出
 | 爵士<br/>Jazzy       | 披头缪斯蜂<br/>*Musapis beatnik*      | Muses，拉丁语，缪斯<br/>Beatnik，英语，披头族                             |                                                           |
 | 作家<br/>Essayist    | 书文缪斯蜂<br/>*Musapis scribes*      | Muses，拉丁语，缪斯<br/>scribe，英语，书写，书吏<br/>scrībō，拉丁语，书写 |                                                           |
 | 捣蛋<br/>Tricky      | 戏弄缪斯蜂<br/>*Musapis jokairus*     | Muses，拉丁语，缪斯<br/>joke，英语，玩笑                                  |                                                           |
+| 始源<br/>Primordial  | 始源改造蜂<br/>*Mutapis primalis*     | mutation，英语，突变<br/>prīmus，拉丁语，第一，开始                       |                                                           |
+| 原野<br/>Campestral  | 平原改造蜂<br/>*Mutapis campus*       | mutation，英语，突变<br/>campus，拉丁语，平地                             | 平原                                                      |
+| 繁森<br/>Sylvan      | 林地改造蜂<br/>*Mutapis nemus*        | mutation，英语，突变<br/>nemus，拉丁语，林地                              | 森林                                                      |
+| 北境<br/>Boreal      | 寒林改造蜂<br/>*Mutapis silvestre*    | mutation，英语，突变<br/>silvestris，拉丁语，森林                         | 针叶林                                                    |
+| 热带<br/>Tropic      | 丛林改造蜂<br/>*Mutapis saltu*        | mutation，英语，突变<br/>saltus，拉丁语，森林                             | 丛林                                                      |
+| 沼地<br/>Paludal     | 沼地改造蜂<br/>*Mutapis lama*         | mutation，英语，突变<br/>lāma，拉丁语，沼泽                               | 沼泽                                                      |
+| 寒冰<br/>Gelid       | 凇雪改造蜂<br/>*Mutapis niveum*       | mutation，英语，突变<br/>niveus，拉丁语，覆雪的，雪白的                   | 积雪山坡                                                  |
+| 菌丝<br/>Mycelic     | 硕菌改造蜂<br/>*Mutapis boletus*      | mutation，英语，突变<br/>bōlētus，拉丁语，牛肝菌                          | 蘑菇岛                                                    |
+| 旱地<br/>Xeric       | 沙漠改造蜂<br/>*Mutapis harena*       | mutation，英语，突变<br/>harēna，拉丁语，沙子                             | 沙漠                                                      |
