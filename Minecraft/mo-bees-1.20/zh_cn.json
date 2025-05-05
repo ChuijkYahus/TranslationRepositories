@@ -223,6 +223,6 @@
   "gui.widget.power.off": "未开启",
   "gui.widget.power.stored": "能量存量",
   "gui.widget.mutagen.stored": "诱变剂存量",
-  "gui.widget.mutagen.ready": "万事俱备！",
+  "gui.widget.mutagen.ready": "突变准备完毕！",
   "gui.widget.mutagen.insufficient": "诱变剂不足！"
 }
