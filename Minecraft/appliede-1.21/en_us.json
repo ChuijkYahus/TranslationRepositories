@@ -9,7 +9,6 @@
   "item.appliede.transmutation_terminal": "ME Transmutation Terminal",
   "item.appliede.wireless_transmutation_terminal": "Wireless Transmutation Terminal",
   "item.appliede.dummy_emc_item": "Dummy EMC Item",
-  "item.appliede.transmutation_pattern": "Transmutation Pattern",
   "gui.appliede.terminal": "Transmutation Terminal",
   "gui.appliede.are_you_sure": "Are you sure?",
   "gui.appliede.learn_all": "Learn all transmutable items in storage",
@@ -18,9 +17,14 @@
   "gui.appliede.shift_transmuting": "Shift-Click set to Transmute.",
   "gui.appliede.toggle_storage": "Click to switch to Storage mode.",
   "gui.appliede.toggle_transmutation": "Click to switch to Transmutation mode.",
+  "gui.appliede.unlearned": "Unlearned!",
   "key.appliede.emc": "EMC",
   "key.appliede.emc_tiered": "EMC^%s",
   "tooltip.appliede.transmutable": "Transmutable from EMC (Shift+Click/Scroll)",
   "tooltip.appliede.owner": "Owner: %s",
-  "tooltip.appliede.not_installed.ae2wtlib": "AE2WTLib not installed."
+  "tooltip.appliede.not_installed": "%s not installed.",
+  "config.appliede.mapper.recipe": "AE2 Recipe Mapper",
+  "config.appliede.mapper.facade": "Facade Mapper",
+  "config.appliede.mapper.p2p_tunnel": "P2P Tunnel Mapper",
+  "config.appliede.mapper.inventory": "Inventory Item Processor"
 }
