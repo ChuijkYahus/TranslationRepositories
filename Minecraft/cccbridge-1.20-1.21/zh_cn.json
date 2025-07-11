@@ -31,6 +31,9 @@
   "advancements.cccbridge.placed_redrouter.title": "EMOTIONAL DAMAGE",
   "advancements.cccbridge.placed_redrouter.description": "造出一个会有情感波动的朋友",
 
+  "painting.cccbridge.funny_redrouters.title": "Funny RedRounters",
+  "painting.cccbridge.funny_redrouters.author": "Sammy L. Koch",
+
   "cccbridge.screen.config_screen": "CC:C Bridge配置",
   "cccbridge.options.button.save": "保存配置",
   "cccbridge.options.button.saved": "已保存的配置",
