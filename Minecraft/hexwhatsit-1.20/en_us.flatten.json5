@@ -1,0 +1,38 @@
+{
+  hexwhatsit: {
+    book: {
+      patterns: {
+        great_spells: {
+          crystallize_media: {
+            "": "Media Crystallization",
+            lesser_crystallize_media: "Remove a position and a number from the stack, then conjure that number of amethyst dust at the position, at a 5%% loss.",
+            crystallize_media: "Remove a position and a number from the stack, then conjure that number of amethyst shards at the position, at a 10%% loss.",
+            greater_crystallize_media: "Remove a position and a number from the stack, then conjure that number of charged amethyst at the position, at a 15%% loss."
+          }
+        }
+      },
+    },
+  },
+
+  hexcasting: {
+    action: {
+      "hexwhatsit:": {
+        lesser_crystallize_media: "Lesser Crystallize Media",
+        crystallize_media: "Crystallize Media",
+        greater_crystallize_media: "Greater Crystallize Media"
+      },
+
+      // Pattern name abbreviations:
+      book: {
+        "hexwhatsit:": {
+          lesser_crystallize_media: "Less. Crystallize Media",
+          greater_crystallize_media: "Great. Crystallize Media"
+        },
+      },
+    },
+  },
+
+//  text: {
+//    hexwhatsit: {},
+//  },
+}
