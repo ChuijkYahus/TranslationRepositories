@@ -1,6 +1,6 @@
 {
   "mod.twigs.name": "Twigs",
-  "twigs.item_group": "Twigs",
+  "itemGroup.twigs.item_group": "Twigs",
   "mod.twigs.contact.discord": "Discord",
   "item.twigs.twigs": "Twigs",
 
@@ -38,10 +38,10 @@
   "block.twigs.spruce_table": "云杉木桌",
   "block.twigs.birch_table": "白桦木桌",
   "block.twigs.acacia_table": "金合欢木桌",
+  "block.twigs.cherry_table": "樱花木桌",
   "block.twigs.jungle_table": "丛林木桌",
   "block.twigs.dark_oak_table": "深色橡木桌",
   "block.twigs.mangrove_table": "红树木桌",
-  "block.twigs.cherry_table": "樱花木桌",
   "block.twigs.crimson_table": "绯红木桌",
   "block.twigs.warped_table": "诡异木桌",
   "block.twigs.bamboo_table": "竹桌",
@@ -60,6 +60,7 @@
   "block.twigs.mossy_brick_stairs": "覆苔红砖楼梯",
   "block.twigs.mossy_brick_slab": "覆苔红砖台阶",
   "block.twigs.mossy_brick_wall": "覆苔红砖墙",
+  "block.twigs.brick_trail": "Brick Trail",
 
   "block.twigs.gravel_bricks": "沙砾砖",
   "block.twigs.gravel_brick_wall": "沙砾砖墙",
@@ -185,6 +186,7 @@
   "block.twigs.chiseled_silt_bricks": "雕纹粉砂砖块",
   "block.twigs.cracked_silt_bricks": "裂纹粉砂砖块",
   "block.twigs.mixed_silt_bricks": "混合粉砂砖块",
+  "block.twigs.silt_brick_trail": "Silt Brick Trail",
 
   "container.twigs.silt_pot": "粉砂罐",
   "block.twigs.silt_pot": "粉砂罐",
@@ -204,7 +206,7 @@
   "block.twigs.green_silt_pot": "绿色粉砂罐",
   "block.twigs.red_silt_pot": "红色粉砂罐",
   "block.twigs.black_silt_pot": "黑色粉砂罐",
-  "stat.minecraft.open_silt_pot": "粉砂罐打开次数",
+  "stat.twigs.open_silt_pot": "粉砂罐打开次数",
 
   "block.twigs.packed_silt": "粉砂坯",
   "block.twigs.white_packed_silt": "白色粉砂坯",
