@@ -28,7 +28,7 @@
           clear_grid: "清空网格",
           nudge_left: "左移",
           nudge_right: "右移",
-          duplicate: "复制",
+          duplicate: "重复",
           delete: "删除",
           undo: "撤销",
           redo: "重做",

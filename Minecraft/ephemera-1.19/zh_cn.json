@@ -62,7 +62,7 @@
   "hexcasting.mishap.ephemera:missingeffect": "%s本应拥有%s，而实际没有。",
   "ephemera.mishap.noitemframe": "一个物品展示框",
   "ephemera.mishap.entitytypelistplease": "一个实体类型列表",
-  "ephemera.mishap.toolongiota": "一个显示所需字符数少于256的iota",
+  "ephemera.mishap.toolongiota": "一个可用少于256个字符显示的iota",
   "hexcasting.mishap.ephemera:blacklist": "此效果已被标签禁用。",
   "hexcasting.mishap.ephemera:instant": "是如何拿到这个iota的？",
 
