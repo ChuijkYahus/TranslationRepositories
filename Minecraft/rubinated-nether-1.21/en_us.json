@@ -33,6 +33,9 @@
   "block.rubinated_nether.ornate_ruby_glass_pane": "Ornate Ruby Glass Pane",
 
   "block.rubinated_nether.shrine_stone": "Shrine Stone",
+  "block.rubinated_nether.shrine_stone_slab": "Shrine Stone Slab",
+  "block.rubinated_nether.shrine_stone_stairs": "Shrine Stone Stairs",
+  "block.rubinated_nether.shrine_stone_wall": "Shrine Stone Wall",
 
   "block.rubinated_nether.polished_shrine_stone": "Polished Shrine Stone",
   "block.rubinated_nether.polished_shrine_stone_slab": "Polished Shrine Stone Slab",
@@ -43,8 +46,10 @@
   "block.rubinated_nether.shrine_stone_tiles_slab": "Shrine Stone Tile Slab",
   "block.rubinated_nether.shrine_stone_tiles_stairs": "Shrine Stone Tile Stairs",
   "block.rubinated_nether.shrine_stone_tiles_wall": "Shrine Stone Tile Wall",
+  "block.rubinated_nether.rubinated_shrine_stone_tiles": "Rubinated Shrine Stone Tiles",
 
   "block.rubinated_nether.shrine_stone_pillar": "Shrine Stone Pillar",
+  "block.rubinated_nether.rubinated_shrine_stone_pillar": "Rubinated Shrine Stone Pillar",
 
   "block.rubinated_nether.shrine_stone_bricks": "Shrine Stone Bricks",
   "block.rubinated_nether.shrine_stone_bricks_slab": "Shrine Stone Brick Slab",
@@ -53,6 +58,8 @@
   "block.rubinated_nether.rubinated_shrine_stone_bricks": "Rubinated Shrine Stone Bricks",
   "block.rubinated_nether.chiseled_shrine_stone_bricks": "Chiseled Shrine Stone Bricks",
   "block.rubinated_nether.rubinated_chiseled_shrine_stone_bricks": "Rubinated Chiseled Shrine Stone Bricks",
+
+  "block.rubinated_nether.shrine_stone_coffer": "Coffer",
 
   "block.rubinated_nether.ruby_laser": "Ruby Laser",
   "item.rubinated_nether.ruby_lens": "Ruby Lens",
@@ -74,6 +81,18 @@
   "item.rubinated_nether.waxed_corroded_bronze_block": "Waxed Corroded Bronze",
   "item.rubinated_nether.waxed_tarnished_bronze_block": "Waxed Tarnished Bronze",
   "item.rubinated_nether.waxed_crystallized_bronze_block": "Waxed Crystallized Bronze",
+
+  "block.rubinated_nether.chiseled_bronze": "Chiseled Bronze",
+  "block.rubinated_nether.discolored_chiseled_bronze": "Discolored Chiseled Bronze",
+  "block.rubinated_nether.corroded_chiseled_bronze": "Corroded Chiseled Bronze",
+  "block.rubinated_nether.tarnished_chiseled_bronze": "Tarnished Chiseled Bronze",
+  "block.rubinated_nether.crystallized_chiseled_bronze": "Crystallized Chiseled Bronze",
+
+  "item.rubinated_nether.waxed_chiseled_bronze": "Waxed Chiseled Bronze",
+  "item.rubinated_nether.waxed_discolored_chiseled_bronze": "Waxed Discolored Chiseled Bronze",
+  "item.rubinated_nether.waxed_corroded_chiseled_bronze": "Waxed Corroded Chiseled Bronze",
+  "item.rubinated_nether.waxed_tarnished_chiseled_bronze": "Waxed Tarnished Chiseled Bronze",
+  "item.rubinated_nether.waxed_crystallized_chiseled_bronze": "Waxed Crystallized Chiseled Bronze",
 
   "block.rubinated_nether.cut_bronze_pillar": "Cut Bronze Pillar",
   "block.rubinated_nether.discolored_cut_bronze_pillar": "Discolored Cut Bronze Pillar",
@@ -131,12 +150,25 @@
   "item.rubinated_nether.waxed_tarnished_bronze_bulb": "Waxed Tarnished Bronze Bulb",
   "item.rubinated_nether.waxed_crystallized_bronze_bulb": "Waxed Crystallized Bronze Bulb",
 
+  "block.rubinated_nether.bronze_grate": "Bronze Grate",
+  "block.rubinated_nether.discolored_bronze_grate": "Discolored Bronze Grate",
+  "block.rubinated_nether.corroded_bronze_grate": "Corroded Bronze Grate",
+  "block.rubinated_nether.tarnished_bronze_grate": "Tarnished Bronze Grate",
+  "block.rubinated_nether.crystallized_bronze_grate": "Crystallized Bronze Grate",
+
+  "item.rubinated_nether.waxed_bronze_grate": "Waxed Bronze Grate",
+  "item.rubinated_nether.waxed_discolored_bronze_grate": "Waxed Discolored Bronze Grate",
+  "item.rubinated_nether.waxed_corroded_bronze_grate": "Waxed Corroded Bronze Grate",
+  "item.rubinated_nether.waxed_tarnished_bronze_grate": "Waxed Tarnished Bronze Grate",
+  "item.rubinated_nether.waxed_crystallized_bronze_grate": "Waxed Crystallized Bronze Grate",
+
   "item.rubinated_nether.bronze_rod": "Bronze Rod",
   "item.rubinated_nether.bronze_powder": "Bronze Powder",
   "item.rubinated_nether.bronze_shot": "Bronze Shot",
 
   "item.rubinated_nether.bronze_drill": "Bronze Drill",
 
+  "item.rubinated_nether.rune": "Rune",
   "item.rubinated_nether.sloth_rune": "Rune of Sloth",
   "item.rubinated_nether.gluttony_rune": "Rune of Gluttony",
   "item.rubinated_nether.greed_rune": "Rune of Greed",
@@ -152,6 +184,12 @@
   "item.rubinated_nether.studiose_rune": "Rune of Studiose",
   "item.rubinated_nether.ardenter_rune": "Rune of Ardenter",
   "item.rubinated_nether.nimis_rune": "Rune of Nimis",
+  "item.rubinated_nether.ira_rune": "Rune of Ira",
+  "item.rubinated_nether.invidia_rune": "Rune of Invidia",
+  "item.rubinated_nether.gula_rune": "Rune of Gula",
+  "item.rubinated_nether.ignavia_rune": "Rune of Ignavia",
+  "item.rubinated_nether.kenodoxia_rune": "Rune of Kenodoxia",
+  "item.rubinated_nether.philargyria_rune": "Rune of Philargyria",
 
   "container.sloth.clue": "Sloth",
   "container.gluttony.clue": "Gluttony",
@@ -168,6 +206,12 @@
   "container.studiose.clue": "Studiose",
   "container.ardenter.clue": "Ardenter",
   "container.nimis.clue": "Nimis",
+  "container.ira.clue": "Ira",
+  "container.invidia.clue": "Invidia",
+  "container.gula.clue": "Gula",
+  "container.ignavia.clue": "Ignavia",
+  "container.kenodoxia.clue": "Kenodoxia",
+  "container.philargyria.clue": "Philargyria",
 
   "enchantment.rubinated_nether.deficiency_curse": "Curse of Deficiency",
   "enchantment.rubinated_nether.misfortune_curse": "Curse of Misfortune",
@@ -180,9 +224,14 @@
   "enchantment.rubinated_nether.hooking_curse": "Curse of Hooking",
   "enchantment.rubinated_nether.slow_charge_curse": "Curse of Slow Charge",
   "enchantment.rubinated_nether.crooked_shot_curse": "Curse of Crooked Shot",
+  "enchantment.rubinated_nether.recoil_curse": "Curse of Recoil",
+  "enchantment.rubinated_nether.buoyancy_curse": "Curse of Buoyancy",
+  "enchantment.rubinated_nether.sinking_curse": "Curse of Sinking",
 
   "item.rubinated_nether.ritual_offering": "Ritual Offering",
-  "item.rubinated_nether.grand_ritual_offering": "Grand Ritual Offering",
+  "item.rubinated_nether.winding_key": "Winding Key",
+
+  "item.rubinated_nether.bronze_spawn_egg": "Bronze Spawn Egg",
 
   "advancements.rubinated_nether.obtain_bleeding_obsidian.description": "Obtain Bleeding Obsidian",
   "advancements.rubinated_nether.obtain_bleeding_obsidian.title": "Blood For The Blood God!",
@@ -223,6 +272,7 @@
 
   "gui.rubinated_nether.rubination_altar": "Rubination Altar",
 
+  "container.shrine_stone_coffer": "Coffer",
 
   "gui.rubinated_nether.rubination_altar.enchant": "%s",
 
@@ -231,6 +281,11 @@
 
   "rubinated_nether.midnightconfig.category.brazier": "Brazier",
   "rubinated_nether.midnightconfig.category.chandelier": "Chandelier",
-  "rubinated_nether.midnightconfig.category.client": "Client"
+  "rubinated_nether.midnightconfig.category.client": "Client",
+
+  "entity.rubinated_nether.bronze": "Bronze",
+
+  "effect.rubinated_nether.bronze_diseased": "Bronze Diseased",
+  "effect.rubinated_nether.blessed": "Blessed"
 
 }
