@@ -6,11 +6,12 @@
 	"command.hierophantics.disable": "Disabled %s's embedded minds",
 
 	"entity.minecraft.villager.quiltmind": "Quiltmind",
+	"entity.minecraft.villager.hierophantics.quiltmind": "Quiltmind",
 
 	"subtitles.hierophantics.hieromind_cast": "Embedded mind casts",
 
 	"text.autoconfig.hierophantics.title": "Hierophantics Config",
-	"text.autoconfig.hierophantics.option.maxMinds": "Maximum embedded minds per player",
+	"text.autoconfig.hierophantics.option.server.maxMinds": "Maximum embedded minds per player",
 
 	"advancements.hierophantics.embed_mind.title": "Interwoven",
 	"advancements.hierophantics.embed_mind.description": "Embed a villager's mind into your own",
@@ -18,6 +19,8 @@
 	"advancements.hierophantics.waste_mind.description": "Waste a mind by activating an Imbuement Bed with no one in it",
 	"advancements.hierophantics.all_triggers.title": "Ready for Anything",
 	"advancements.hierophantics.all_triggers.description": "Have an embedded mind with each possible trigger type",
+	"advancements.hierophantics.fuse_villagers.title": "Two Into One",
+	"advancements.hierophantics.fuse_villagers.description": "Embed a villager's mind into another villager",
 
 	"hierophantics.tooltip.mind_reference": "Embedded Mind \"%s\"",
 	"hierophantics.tooltip.trigger": "Trigger: When %s",
@@ -124,5 +127,5 @@
 	"hierophantics.page.make_attack_trigger.summary": "Creates a trigger that activates whenever I strike another entity.",
 	"hierophantics.page.make_break_trigger.summary": "Creates a trigger that activates whenever I break a block.",
 	"hierophantics.page.make_jump_trigger.summary": "Creates a trigger that activates whenever I jump.",
-	"hierophantics.page.make_teleport_trigger.summary": "Creates a trigger that activates whenever I teleport. For reasons I cannot discern, this will not detect teleports shorter than 4 blocks in length."
+	"hierophantics.page.make_teleport_trigger.summary": "Creates a trigger that activates whenever I teleport. For reasons I cannot discern, this will not detect teleports shorter than 1.5 blocks in length."
 }
