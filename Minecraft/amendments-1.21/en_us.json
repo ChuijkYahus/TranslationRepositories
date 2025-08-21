@@ -7,6 +7,7 @@
   "block.amendments.wall_lantern": "Wall Lantern",
   "item.minecraft.lingering_potion.effect.empty": "Lingering Mixed Potion",
   "item.minecraft.splash_potion.effect.empty": "Splash Mixed Potion",
+  "item.amendments.dragon_charge": "Dragon Charge",
   "item.minecraft.potion.effect.empty": "Mixed Potion",
   "item.minecraft.lingering_potion.effect.mixed": "Lingering Mixed Potion",
   "item.minecraft.splash_potion.effect.mixed": "Splash Mixed Potion",
@@ -89,5 +90,6 @@
   "item.amendments.dye_bottle.aqua": "Aqua",
   "item.amendments.dye_bottle.slate": "Slate",
   "fluid.amendments.dye": "Dye",
+  "subtitles.amendments.fireball_explosion": "Fireball Explosion",
   "message.amendments.cauldron": "The potion mix seems unstable..."
 }
