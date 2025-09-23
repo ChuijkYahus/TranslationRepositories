@@ -149,7 +149,7 @@
   "moreiotas.page.types.zone_entity/not_type": "从栈顶获取实体类型、位置向量及最大距离，返回该位置给定距离范围内所有不符合给定类型的实体的列表。",
 
   "moreiotas.entry.items": "物品",
-  "moreiotas.page.items.item/prop/item": "接受栈顶$(l:hexcasting:casting/item_iotas)物品组$()，返回对应物品类型。",
+  "moreiotas.page.items.item/prop/item": "接受栈顶$(l:casting/item_iotas)物品组$()，返回对应物品类型。",
   "moreiotas.page.items.item/prop/size": "接受栈顶物品组，返回其中物品数量。",
   "moreiotas.page.items.item/prop/size/set": "接受栈顶物品组，返回其中物品数量。",
   "moreiotas.page.items.item/main_hand": "接受栈顶实体，返回其主手中的物品组。对物品展示框和物品实体同样有效。",
