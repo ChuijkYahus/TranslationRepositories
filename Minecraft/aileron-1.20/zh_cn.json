@@ -3,15 +3,6 @@
   "enchantment.aileron.smokestack.desc": "允许鞘翅存储来自营火的动力以备后用。",
   "enchantment.aileron.cloudskipper": "凌云",
   "enchantment.aileron.cloudskipper.desc": "在云层之上时鞘翅所受水平阻力减小。",
-
-  "attribute.aileron.cloudskipper_drag": "凌云阻力",
-  "attribute.aileron.smokestack_capacity": "腾烟容量",
-
-  "tag.item.aileron.elytra": "鞘翅",
-
-  "key.category.aileron": "侧翅（Aileron）",
-  "key.aileron.smokestack_boost": "腾烟推进",
-
   "aileron.midnightconfig.title": "侧翅（Aileron）配置",
   "aileron.midnightconfig.generalChanges": "通用改动",
   "aileron.midnightconfig.fireworkUseBehaviour": "烟花火箭行为",
@@ -30,5 +21,7 @@
   "aileron.midnightconfig.campfires": "营火",
   "aileron.midnightconfig.campfiresPushPlayers": "推动玩家",
   "aileron.midnightconfig.campfirePushMaxStrength": "最大推动力度",
-  "aileron.midnightconfig.campfirePushBaseStrength": "基础推动力度"
+  "aileron.midnightconfig.campfirePushBaseStrength": "基础推动力度",
+  "key.category.aileron": "侧翅（Aileron）",
+  "key.aileron.smokestack_boost": "腾烟推进"
 }
