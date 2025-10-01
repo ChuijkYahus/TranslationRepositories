@@ -52,7 +52,7 @@
 
   "hexal.spelldata.entity_type": "类型",
   "hexal.spelldata.gate": "门径 %d",
-  "hexal.spelldata.item": "%s x%d",
+  "hexal.spelldata.mote": "%s x%d",
 
   "hexcasting.action.hexal:type/iota": "分类学家之纯化",
   "hexcasting.action.hexal:type/entity": "内科医师之纯化",
@@ -64,7 +64,6 @@
   "hexcasting.action.hexal:zone_entity/not_type": "区域之提整：非类型",
 
   "hexcasting.action.hexal:current_tick": "计时员之精思",
-  "hexcasting.action.hexal:remaining_evals": "塔纳托斯之精思",
   "hexcasting.action.hexal:breath": "潜水员之纯化",
   "hexcasting.action.hexal:health": "护士之纯化",
   "hexcasting.action.hexal:armour": "乡绅之纯化",
@@ -183,7 +182,6 @@
 
   "hexal.entry.hexal_basics": "咒法拓展：基础图案",
   "hexal.page.hexal_basics.current_tick": "返回一个数，这个数似乎与自然记录时间的方式有关。如果先绘制一遍此图案，在 1 秒后再绘制一遍，返回的数会增加 20。",
-  "hexal.page.hexal_basics.remaining_evals": "将咒术在结束前还能运行图案的次数压入栈顶。结果会因$(l:patterns/meta#hexcasting:eval)$(action)赫尔墨斯之策略/$和$(l:patterns/meta#hexcasting:for_each)$(action)托特之策略/$而减少。",
   "hexal.page.hexal_basics.breath": "移除栈顶实体，并返回其剩余氧气值（也即距其溺水还有多少氧气值可消耗）。",
   "hexal.page.hexal_basics.health": "移除栈顶实体，并返回其剩余生命值（也即距其死亡还有多少生命值可损失）。",
   "hexal.page.hexal_basics.armour": "移除栈顶实体，并返回其护甲值。",
@@ -385,10 +383,10 @@
   "text.autoconfig.hexal.option.server.itemSpells.tradeItemCost": "“交易”媒质消耗",
   "text.autoconfig.hexal.option.server.itemSpells.maxItemsReturned": "最大返还物品数",
   "text.autoconfig.hexal.option.server.itemSpells.maxItemsReturned.@Tooltip[0]": "“返还物品”单次最多能返还的物品数量。",
-  "text.autoconfig.hexal.option.server.itemSpells.maxItemsReturned.@Tooltip[1]": "取值范围为640到64,000。",
+  "text.autoconfig.hexal.option.server.itemSpells.maxItemsReturned.@Tooltip[1]": "取值范围为640到64000。",
   "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage": "物元枢纽最大记录条数",
   "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage.@Tooltip[0]": "单个物元枢纽中最多能存储的物元记录条数。",
-  "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage.@Tooltip[1]": "取值范围为128到16,384。",
+  "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage.@Tooltip[1]": "取值范围为128到16384。",
 
 
   "text.autoconfig.hexal.option.server.greatSpells": "卓越法术",
@@ -407,6 +405,6 @@
   "text.autoconfig.hexal.option.server.greatSpells.tickCostPerTicked.@Tooltip[1]": "会与上方常态媒质消耗加算。",
   "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb": "“加速”随机刻的逆概率",
   "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[0]": "“加速”加速方块随机刻的逆概率。",
-  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[1]": "此数越大，越不可能加速随机刻；次数越小，越可能加速随机刻。",
+  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[1]": "此数越大，越不可能加速随机刻；此数越小，越可能加速随机刻。",
   "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[2]": "取值范围为600到2100。"
 }

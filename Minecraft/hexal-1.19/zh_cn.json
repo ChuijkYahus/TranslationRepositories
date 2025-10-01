@@ -16,6 +16,7 @@
   "hexcasting.mishap.no_bound_storage": "未绑定物元枢纽",
   "hexcasting.mishap.storage_unloaded": "绑定的物元枢纽未被加载",
   "hexcasting.mishap.excessive_reproduction": "咒灵%s试图过度复制，每刻仅可召唤1个子咒灵",
+  "hexcasting.mishap.illegal_interworld_iota": "试图将iota%s变为跨世界iota，此类型的iota无法加入永恒之书。",
 
   "hexcasting.mishap.invalid_value.class.linkable": "一个可链接的事物",
   "hexcasting.mishap.invalid_value.class.wisp": "一个咒灵",
@@ -51,14 +52,14 @@
 
   "hexal.spelldata.entity_type": "类型",
   "hexal.spelldata.gate": "门径 %d",
-  "hexal.spelldata.mote": "%s x%d",
+  "hexal.spelldata.item": "%s x%d",
+
 
   "hexcasting.spell.hexal:type/iota": "分类学家之纯化",
   "hexcasting.spell.hexal:type/entity": "内科医师之纯化",
   "hexcasting.spell.hexal:type/block_item": "分拣员之纯化",
   "hexcasting.spell.hexal:type/item_held": "分拣员之精思",
 
-  "hexcasting.spell.hexal:raycast/entity/type": "侦查员之提整",
   "hexcasting.spell.hexal:get_entity/type": "实体之馏化：类型",
   "hexcasting.spell.hexal:zone_entity/type": "区域之提整：类型",
   "hexcasting.spell.hexal:zone_entity/not_type": "区域之提整：非类型",
@@ -215,7 +216,7 @@
   "hexal.page.wisps.wisp/summon/ticking.1": "其初始栈包含一个代表其自身的 iota，而后每次施法开始时会保留上一次施法后的栈和渡鸦之思。这种咒灵的形态较不稳定，常态消耗率远大于弹射式咒灵。其每秒消耗 7/10 个$(l:items/amethyst)$(item)紫水晶粉/$。其影响区域半径为 8 格。",
   "hexal.page.wisps.wisp/self": "返回一个代表施法咒灵的 iota。此操作必须由咒灵执行。尝试用法杖执行会招致可怖的事故。",
   "hexal.page.wisps.wisp/media": "将咒灵媒质库中剩余的媒质量压入栈顶。此操作必须由咒灵执行。尝试用法杖执行会招致可怖的事故。",
-  "hexal.page.wisps.wisp/hex": "移除一个咒灵实体，并返回该咒灵所携带的咒术。所给 iota 必须代表由我召唤的咒灵，或$(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)允许$(action)与施法者或其所有者转送的咒灵。",
+  "hexal.page.wisps.wisp/hex": "移除一个咒灵实体，并返回该咒灵所携带的咒术。所给 iota 必须代表由我召唤的咒灵，或$(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)$(action)允许/$与施法者或其所有者转送的咒灵。",
   "hexal.page.wisps.wisp/owner": "移除一个咒灵实体和一个实体，若该实体是该咒灵的所有者，返回 True；否则返回 False。",
   "hexal.page.wisps.wisp/move/target/set": "移除栈顶位置向量。运行此图案的循环式咒灵会沿直线移动至所给位置（会与途中地形地貌等碰撞），直至抵达该位置处。",
   "hexal.page.wisps.wisp/move/target/get": "返回循环式咒灵当前目标位置的位置向量。",
@@ -259,7 +260,7 @@
   "hexal.page.gates.2": "未锚定门径没有与任何事物绑定，可用于将实体送至任意位置。但其效率也会相应降低，只能将实体送至我所能影响的范围内的位置。门径烧入成功后，我的栈上便会出现一个代表其的 iota。我能以此 iota 标记实体，如此当我关闭门径时，所有被标记的实体就会被传送至门径终点。需注意关闭门径不会将其消耗，获得门径 iota 后便能永久使用。",
   "hexal.page.gates.gate/make": "压入一个新的门径。所有此 iota 的复制品都指向同一个门径。消耗 32 个$(l:items/amethyst)$(item)充能紫水晶/$。若传入 Null，则构造未锚定门径；若传入一个向量，则构造位置锚定门径；若传入一个向量和一个实体，则构造实体锚定门径。",
   "hexal.page.gates.gate/mark": "移除栈顶实体与门径，并标记该实体，被标记的实体会在对应门径关闭时被传送。消耗 1/20 个$(l:items/amethyst)$(item)紫水晶粉/$。",
-  "hexal.page.gates.gate/unmark": "移除栈顶门径与实体，并取消该实体的标记。若其已被$(l:hexal:patterns/spells/gates#hexal:gate/mark)$(action)开启门径/$标记，下一次门径关闭时其将不会被传送。",
+  "hexal.page.gates.gate/unmark": "移除栈顶门径与实体，并取消该实体的标记。若其已被$(l:hexal:patterns/great_spells/gates#hexal:gate/mark)$(action)开启门径/$标记，下一次门径关闭时其将不会被传送。",
   "hexal.page.gates.gate/mark/num/get": "移除栈顶门径，返回被该门径标记的实体的数量。",
   "hexal.page.gates.gate/mark/get": "移除栈顶门径和实体，判断该实体是否被该门径标记。",
   "hexal.page.gates.gate/close": "移除栈顶锚定门径，或未锚定门径与位置向量。将所有被所给门径标记的实体传送至其锚定位置或所给位置。消耗 1/2 个$(l:items/amethyst)$(item)紫水晶碎片/$。若为未锚定门径，则每个实体每传送 1 格额外消耗 1 个$(l:items/amethyst)$(item)紫水晶粉/$。",
@@ -295,20 +296,20 @@
 
   "hexal.entry.great_wisps": "卓越咒灵法术",
   "hexal.page.great_wisps.wisp/consume.0": "移除栈顶咒灵实体，并拆解该咒灵。咒灵携带的图案不可追回，但是如果此法术是由其他咒灵施放的，那么被拆解咒灵所剩的媒质还可再加利用。",
-  "hexal.page.great_wisps.wisp/consume.1": "若咒灵的所有者是我，或其被$(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)允许$(action)与施法者或其所有者转送，消耗 1 个$(l:items/amethyst)$(item)紫水晶碎片/$；若咒灵的所有者是他人且未被允许转送，则消耗该咒灵所拥有的媒质量的一半。媒质的再利用效率不算特别高，会在传输过程中损耗掉被拆解咒灵媒质库容量的 1/20。",
+  "hexal.page.great_wisps.wisp/consume.1": "若咒灵的所有者是我，或其被$(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)$(action)允许/$与施法者或其所有者转送，消耗 1 个$(l:items/amethyst)$(item)紫水晶碎片/$；若咒灵的所有者是他人且未被允许转送，则消耗该咒灵所拥有的媒质量的一半。媒质的再利用效率不算特别高，会在传输过程中损耗掉被拆解咒灵媒质库容量的 1/20。",
   "hexal.page.great_wisps.wisp/seon/set": "在我的咒灵和我之间建立更紧密的联系。我只能同时绑定一个咒灵，但绑定咒灵的常态消耗将大大减少。",
   "hexal.page.great_wisps.wisp/seon/get": "返回我当前绑定的咒灵。（这并不是卓越法术，记载于此是为了方便查找。）",
 
   "hexal.entry.types": "类型",
   "hexal.page.types.type/iota": "移除栈顶元素，并返回该 iota 的类型。",
   "hexal.page.types.type/entity": "移除栈顶实体，并返回该实体的类型。",
-  "hexal.page.types.type/block_item": "移除栈顶位置向量，$(l:hexal:hexal.entry.motes)$(item)物元/$，物品实体或物品展示框，并返回该处方块的类型或对应物品类型。（如草方块、石头、木棍等。）",
+  "hexal.page.types.type/block_item": "移除栈顶位置向量，$(l:hexal:patterns/spells/motes)$(item)物元/$，物品实体或物品展示框，并返回该处方块的类型或对应物品类型。（如草方块、石头、木棍等。）",
   "hexal.page.types.type/item_held": "若施法者副手中有物品，则将其类型压入栈顶；若无，则压入施法用手中物品的类型。",
 
-  "hexal.page.types.raycast/entity/type": "移除栈顶实体类型（或物品类型）、位置向量和方向向量，返回该位置朝向该方向处符合该类型的实体或物品实体（若有）。",
-  "hexal.page.types.get_entity/type": "从栈顶获取实体类型（或物品类型）和位置向量，返回该位置符合该类型的实体或物品实体（若有）。",
-  "hexal.page.types.zone_entity/type": "从栈顶获取实体类型（或物品类型）、位置向量及最大距离，返回该位置给定距离范围内所有符合给定类型的实体或物品实体的列表。",
-  "hexal.page.types.zone_entity/not_type": "从栈顶获取实体类型（或物品类型）、位置向量及最大距离，返回该位置给定距离范围内所有不符合给定类型的实体或物品实体的列表。",
+  "hexal.page.types.raycast/entity/type": "移除栈顶实体类型、位置向量和方向向量，返回该位置朝向该方向处符合该类型的实体或物品实体（若有）。",
+  "hexal.page.types.get_entity/type": "从栈顶获取实体类型和位置向量，返回该位置符合该类型的实体或物品实体（若有）。",
+  "hexal.page.types.zone_entity/type": "从栈顶获取实体类型、位置向量及最大距离，返回该位置给定距离范围内所有符合给定类型的实体或物品实体的列表。",
+  "hexal.page.types.zone_entity/not_type": "从栈顶获取实体类型、位置向量及最大距离，返回该位置给定距离范围内所有不符合给定类型的实体或物品实体的列表。",
 
 
   "hexal.entry.everbook": "永恒之书",
@@ -387,7 +388,7 @@
   "text.autoconfig.hexal.option.server.itemSpells.maxItemsReturned.@Tooltip[1]": "取值范围为640到64,000。",
   "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage": "物元枢纽最大记录条数",
   "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage.@Tooltip[0]": "单个物元枢纽中最多能存储的物元记录条数。",
-  "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage.@Tooltip[1]": "取值范围为128到16,384。",
+  "text.autoconfig.hexal.option.server.itemSpells.maxRecordsInMediafiedStorage.@Tooltip[1]": "取值范围为128到16384。",
 
 
   "text.autoconfig.hexal.option.server.greatSpells": "卓越法术",
@@ -406,6 +407,6 @@
   "text.autoconfig.hexal.option.server.greatSpells.tickCostPerTicked.@Tooltip[1]": "会与上方常态媒质消耗加算。",
   "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb": "“加速”随机刻的逆概率",
   "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[0]": "“加速”加速方块随机刻的逆概率。",
-  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[1]": "此数越大，越不可能加速随机刻；次数越小，越可能加速随机刻。",
+  "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[1]": "此数越大，越不可能加速随机刻；此数越小，越可能加速随机刻。",
   "text.autoconfig.hexal.option.server.greatSpells.tickRandomTickIProb.@Tooltip[2]": "取值范围为600到2100。"
 }

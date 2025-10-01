@@ -16,6 +16,7 @@
   "hexcasting.mishap.no_bound_storage": "No bound Mote Nexus.",
   "hexcasting.mishap.storage_unloaded": "Bound Mote Nexus is unloaded.",
   "hexcasting.mishap.excessive_reproduction": "Wisp %s tried to reproduce excessively; only 1 child per tick.",
+  "hexcasting.mishap.illegal_interworld_iota": "Attempted to bring iota %s interworld, this type of iota cannot be added to the Everbook.",
 
   "hexcasting.mishap.invalid_value.class.linkable": "a linkable",
   "hexcasting.mishap.invalid_value.class.wisp": "a wisp",
@@ -51,14 +52,14 @@
 
   "hexal.spelldata.entity_type": "Type",
   "hexal.spelldata.gate": "Gate %d",
-  "hexal.spelldata.mote": "%s x%d",
+  "hexal.spelldata.item": "%s x%d",
+
 
   "hexcasting.spell.hexal:type/iota": "Classifier's Purification",
   "hexcasting.spell.hexal:type/entity": "Physician's Purification",
   "hexcasting.spell.hexal:type/block_item": "Sorter's Purification",
   "hexcasting.spell.hexal:type/item_held": "Sorter's Reflection",
 
-  "hexcasting.spell.hexal:raycast/entity/type": "Scout's Exaltation",
   "hexcasting.spell.hexal:get_entity/type": "Entity Distillation: Type",
   "hexcasting.spell.hexal:zone_entity/type": "Zone Exaltation: Type",
   "hexcasting.spell.hexal:zone_entity/not_type": "Zone Exaltation: Not-Type",
@@ -215,7 +216,7 @@
   "hexal.page.wisps.wisp/summon/ticking.1": "The first time it casts the stack will start with a reference to itself, from which point it will always start with the stack and ravenmind in the state they finished on the last cast. This wisp has a less stable form making it lose significantly more media every second, losing approximately seven tenths of an $(l:items/amethyst)$(item)Amethyst Dust/$ per second once summoned. It has a range of influence of 8 blocks.",
   "hexal.page.wisps.wisp/self": "Add a reference to the casting wisp to the stack. This must be cast by a wisp; trying to cast it through a staff will fail rather spectacularly.",
   "hexal.page.wisps.wisp/media": "Add the amount of media in the wisp's reservoir to the stack. This must be cast by a wisp; trying to cast it through a staff will fail rather spectacularly.",
-  "hexal.page.wisps.wisp/hex": "Removes a reference to a wisp from the stack, and replaces it with the wisp's contained hex. Must be a wisp you summoned, or a wisp that has $(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)allowed$(action) transfer with the caster or caster's owner.",
+  "hexal.page.wisps.wisp/hex": "Removes a reference to a wisp from the stack, and replaces it with the wisp's contained hex. Must be a wisp you summoned, or a wisp that has $(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)$(action)allowed/$ transfer with the caster or caster's owner.",
   "hexal.page.wisps.wisp/owner": "Removes a reference to a wisp and an entity from the stack, and returns true if that entity owns that wisp, and false otherwise.",
   "hexal.page.wisps.wisp/move/target/set": "Removes a position vector from the stack; The Cyclic Wisp that executed this pattern will move in a straight line towards that position (colliding with terrain in its path) until it reaches it.",
   "hexal.page.wisps.wisp/move/target/get": "Adds to the stack the position vector that the executing Cyclic Wisp is currently moving towards.",
@@ -259,7 +260,7 @@
   "hexal.page.gates.2": "Drifting Gates are not bound at all, and can be used to send entities anywhere, however they lose efficiency as a result, and can only send entities to places that are in my ambit. When a gate is burnt in I will obtain on my stack a reference to that gate. With that gate reference, I can mark entities with that gate, and I can close the gate, which sends all entities marked with that gate to the gate's destination. Note that closing a gate doesn't use it up; once I have acquired a gate iota I can use it in perpetuity.",
   "hexal.page.gates.gate/make": "Adds a new gate iota to the stack. Any copy of this iota will point to the same numbered gate. Costs 32 $(l:items/amethyst)$(item)Charged Amethyst/$. If passed null, makes a Drifting Gate. If passed a vector, makes a Location Anchored Gate, If passed a vector and an entity, makes an Entity Anchored Gate.",
   "hexal.page.gates.gate/mark": "Consumes a gate iota and an entity. Marks that entity to be teleported the next time that gate is closed. Costs one twentieth of an $(l:items/amethyst)$(item)Amethyst Dust/$.",
-  "hexal.page.gates.gate/unmark": "Consumes a gate iota and an entity. Unmarks that entity so that if it was marked with $(l:hexal:patterns/spells/gates#hexal:gate/mark)$(action) Gate's Opening/$ it will no longer be teleported the next time that gate is closed.",
+  "hexal.page.gates.gate/unmark": "Consumes a gate iota and an entity. Unmarks that entity so that if it was marked with $(l:hexal:patterns/great_spells/gates#hexal:gate/mark)$(action) Gate's Opening/$ it will no longer be teleported the next time that gate is closed.",
   "hexal.page.gates.gate/mark/num/get": "Consumes a gate iota, returns how many entities are marked by that gate.",
   "hexal.page.gates.gate/mark/get": "Consumes a gate iota and an entity, returns whether that entity is marked by that gate.",
   "hexal.page.gates.gate/close": "Consumes a non-drifing gate iota, or a drifting gate iota and a position. Transports all the entities marked with the passed gate to the stored or given position, as relevant. Costs half an $(l:items/amethyst)$(item)Amethyst Shard/$, plus an $(l:items/amethyst)$(item)Amethyst Dust/$ per metre transported per entity, if the gate was drifting.",
@@ -295,20 +296,19 @@
 
   "hexal.entry.great_wisps": "Great Wisp Spells",
   "hexal.page.great_wisps.wisp/consume.0": "Remove a wisp from the stack, and disassemble the wisp. The patterns contained are lost, but the media that it contained can be repurposed if this spell is cast by another wisp.",
-  "hexal.page.great_wisps.wisp/consume.1": "Costs either an $(l:items/amethyst)$(item)Amethyst Shard/$ if the wisp is owned by you or has $(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)allowed$(action) transfer with the caster or caster's owner, or half again as much media as the consumed wisp contains if the wisp is owned by another and has now allowed it. Repurposing the media is not completely efficient, losing one twentieth of the consumed wisp's reserve in transfer.",
+  "hexal.page.great_wisps.wisp/consume.1": "Costs either an $(l:items/amethyst)$(item)Amethyst Shard/$ if the wisp is owned by you or has $(l:hexal:patterns/spells/wisps#hexal:wisp/transfer/allow)$(action)allowed/$ transfer with the caster or caster's owner, or half again as much media as the consumed wisp contains if the wisp is owned by another and has now allowed it. Repurposing the media is not completely efficient, losing one twentieth of the consumed wisp's reserve in transfer.",
   "hexal.page.great_wisps.wisp/seon/set": "Bind one of my wisps closer to me; I may only have one bound wisp at a time, but whichever wisp is bound costs significantly less upkeep and increased range.",
   "hexal.page.great_wisps.wisp/seon/get": "Returns my currently bound wisp. A new wisp can only be bound when this returns null. (This is not a great spell, I have simply placed it here for convenience.)",
 
   "hexal.entry.types": "Types",
   "hexal.page.types.type/iota": "Remove an iota from the stack, and adds the type of that iota to the stack.",
   "hexal.page.types.type/entity": "Remove an entity from the stack, and adds the type of the entity at that location to the stack.",
-  "hexal.page.types.type/block_item": "Remove a location, $(l:hexal:hexal.entry.motes)$(item)mote/$, item entity, or item frame from the stack, and adds the type of the block at that location, or type of that item, to the stack (e.g. Grass, Stone, Stick, etc.).",
+  "hexal.page.types.type/block_item": "Remove a location, $(l:hexal:patterns/spells/motes)$(item)mote/$, item entity, or item frame from the stack, and adds the type of the block at that location, or type of that item, to the stack (e.g. Grass, Stone, Stick, etc.).",
   "hexal.page.types.type/item_held": "Adds the type of the item in the caster's offhand to the stack if there is one present, or the type of the casting hand otherwise.",
 
-  "hexal.page.types.raycast/entity/type": "Remove an entity type or item type, a position, and a direction from the stack, and returns an entity or item entity of that type at that position if one exists.",
-  "hexal.page.types.get_entity/type": "Remove an entity type or item type and a position from the stack, and returns an entity or item entity of that type at that position if one exists.",
-  "hexal.page.types.zone_entity/type": "Remove an entity type or item type, a position, and a radius from the stack, and returns a list of all entities or item entities of that type within that radius of that position.",
-  "hexal.page.types.zone_entity/not_type": "Remove an entity type or item type, a position, and a radius from the stack, and returns a list of all entities or item entities not of that type within that radius of that position.",
+  "hexal.page.types.get_entity/type": "Remove an entity type and a position from the stack, and returns an entity of that type at that position if one exists.",
+  "hexal.page.types.zone_entity/type": "Remove an entity type, a position, and a radius from the stack, and returns a list of all entities of that type within that radius of that position.",
+  "hexal.page.types.zone_entity/not_type": "Remove an entity type, a position, and a radius from the stack, and returns a list of all entities not of that type within that radius of that position",
 
 
   "hexal.entry.everbook": "Everbook",
