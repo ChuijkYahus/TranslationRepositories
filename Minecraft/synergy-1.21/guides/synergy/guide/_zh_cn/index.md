@@ -9,4 +9,6 @@ navigation:
 
 各种东西组成的模组，没有什么主题。
 
-<SubPages />
+## 模块
+
+<CategoryIndex category="main"></CategoryIndex>

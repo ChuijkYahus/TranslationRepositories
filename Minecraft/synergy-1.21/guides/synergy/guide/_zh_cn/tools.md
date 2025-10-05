@@ -3,6 +3,8 @@ navigation:
   title: 工具与小装置
   icon: "synergy:green_battery"
   position: 3
+categories:
+  - main
 ---
 
 # 工具与小装置

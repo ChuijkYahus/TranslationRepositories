@@ -3,6 +3,8 @@ navigation:
   title: 农作物与蘑菇
   icon: "minecraft:sweet_berries"
   position: 4
+categories:
+  - main
 ---
 
 # 农作物与蘑菇
