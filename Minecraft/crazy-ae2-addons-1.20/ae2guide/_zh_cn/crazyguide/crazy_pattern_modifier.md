@@ -19,6 +19,9 @@ item_ids:
 
 还可向样板编入特定配置的电路ID，以供电路样板供应器和格雷科技（GregTech）的机器使用。
 
+## [忽略NBT视频教程](https://youtu.be/FSIh5NOEOzg&list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r)
+## [其他特性](https://youtu.be/__CiwpU4bbg&list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r)
+
 ## 使用方法
 
 手持疯狂样板修改工具右击可打开其界面。对样板供应器方块右击时，会同时打开供应器的界面。界面中只有单个槽位，用于放置处理样板。由两个按钮用于修改设置：

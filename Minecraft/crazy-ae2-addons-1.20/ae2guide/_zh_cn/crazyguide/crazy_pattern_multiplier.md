@@ -13,6 +13,8 @@ item_ids:
 
 <ItemImage id="crazyae2addons:crazy_pattern_multiplier" scale="4"></ItemImage>
 
+## [视频教程](https://youtu.be/__CiwpU4bbg&list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r)
+
 疯狂样板倍增工具是一种便捷工具，能轻松修改处理样板中的材料数量，无需重新手动制作。可借此将输入和输出均乘以任意正数。可以设置上限，倍增工具不会倍增在其之上的样板。也可以批量修改所有样板的电路号。
 
 乘数输入框支持数学表达式，如`2*(3+1)`。
