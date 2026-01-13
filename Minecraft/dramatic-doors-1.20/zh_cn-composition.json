@@ -180,14 +180,21 @@
                     "pewen": "南洋杉木",
                     "thornwood": "荆棘木",
 
+                    "ancient": "远古木",
+                    "demonic": "恶魔木",
+                    "soul": "灵魂木",
+
                     "twisted": "扭曲木",
 
                     "archwood": "至高木",
 
+                    "sourcestone": "魔源石",
+                    "polished_sourcestone": "磨制魔源石",
+
                     "cork": "软木",
 
                     "deadwood": "死树木",
-                    "palm": "棕榈木",
+                    "atum_palm": "棕榈木",
                     "limestone": "石灰岩",
                     "limestone_cracked": "裂纹石灰岩",
                     "limestone_brick_small": "小型石灰岩砖",
@@ -240,7 +247,7 @@
                     "rotten_wood": "腐朽木",
                     "rotten_wood_treated": "防腐腐朽木",
                     "rubber_tree_plank": "橡胶树木",
-                    "rubber_tree_plank_treated": "防腐橡胶树木",
+                    "rubber_tree_treated": "防腐橡胶树木",
                     "weedwood": "杂草木",
                     "weedwood_treated": "防腐杂草木",
                     "scabyst": "痂晶",
@@ -330,11 +337,19 @@
 
                     "co_copper": "铜",
 
+                    "lychee": "荔枝木",
+                    "mango": "芒果木",
+
                     "create_andesite": "安山",
                     "create_brass": "黄铜",
                     "create_copper": "铜",
                     "create_framed_glass": "边框玻璃",
                     "create_train": "列车",
+
+                    "tfmg_aluminum": "铝",
+                    "tfmg_steel": "钢",
+                    "tfmg_heavy_casing": "重型外壳",
+                    "tfmg_heavy_plated": "重型钢板",
 
                     "steel": "钢",
 
@@ -356,9 +371,12 @@
                     "sunroot": "晖根木",
                     "yagroot": "榴根木",
 
+                    "bloom": "繁花木",
                     "echo": "回响木",
 
                     "charred": "烧焦的",
+
+                    "wormwood": "蠕虫木",
 
                     "cardboard": "纸板",
                     "chain": "铁丝网",
@@ -392,14 +410,24 @@
                     "ebony": "黑漆木",
                     "pream": "梦兰木",
 
+                    "dark_steel": "玄钢",
+
                     "celestial": "天界木",
                     "murushroom": "穆如菇木",
 
-                    "cerulean": "蔚蓝木",
-                    "indigo": "靛蓝木",
+                    "ee_cerulean": "蔚蓝木",
+                    "ee_indigo": "靛蓝木",
 
                     "eb_twisted": "扭曲木",
                     "eb_penumbra": "本影木",
+
+                    "banyin": "阴榕树木",
+                    "cradlewood": "摇篮木",
+                    "jinglestem": "海铃茎",
+                    "lunar": "月辉木",
+                    "northland": "北地木",
+                    "scarlet": "猩红木",
+                    "torreya": "榧木",
 
                     "deorum": "圣金",
                     "arcane_edelwood": "神秘埃德木",
@@ -439,6 +467,45 @@
 
                     "runewood": "符文木",
                     "soulwood": "灵魂木",
+
+                    "bleached": "漂色",
+                    "black": "黑色",
+                    "gray": "灰色",
+                    "light_gray": "淡灰色",
+                    "white": "白色",
+                    "red": "红色",
+                    "orange": "橙色",
+                    "yellow": "黄色",
+                    "lime": "黄绿色",
+                    "green": "绿色",
+                    "cyan": "青色",
+                    "blue": "蓝色",
+                    "purple": "紫色",
+                    "pink": "粉红色",
+                    "magenta": "品红色",
+                    "light_blue": "淡蓝色",
+                    "brown": "棕色",
+
+                    "acorn": "橡棕色",
+                    "amber": "琥珀色",
+                    "artichoke": "洋蓟绿色",
+                    "banana": "香蕉黄色",
+                    "cerulean": "蔚蓝色",
+                    "fuchsia": "洋红色",
+                    "grape": "葡萄紫色",
+                    "indigo": "靛蓝色",
+                    "maroon": "栗红色",
+                    "mauve": "槿紫色",
+                    "mint": "薄荷绿色",
+                    "mold": "霉绿色",
+                    "navy": "藏青色",
+                    "peach": "岩桃色",
+                    "periwinkle": "长春花紫色",
+                    "sage": "鼠尾草绿色",
+                    "sap": "暗绿色",
+                    "shamrock": "三叶草绿色",
+                    "velvet": "丝绒红色",
+                    "vermilion": "朱红色",
 
                     "carved": "刻纹木",
                     "cindered": "焦焰木",
@@ -606,6 +673,9 @@
 
                     "fir": "冷杉木",
 
+                    "lead": "铅",
+                    "goopy_lead": "Goopy Lead",
+
                     "azure": "碧蓝木",
 
                     "pokecube_enigma": "谜芝果木",
@@ -651,7 +721,6 @@
                     "gold": "金",
                     "netherite": "下界合金",
                     "silver": "银",
-                    "lead": "铅",
 
                     "rubber": "橡胶木",
 
@@ -707,6 +776,9 @@
                     "smogstem": "烟梗木",
                     "wigglewood": "摇蜿木",
 
+                    "vf_golden_chain": "金锁链",
+                    "vf_wisteria": "紫藤木",
+
                     "vinery_cherry": "樱桃木",
 
                     "golden": "金",
@@ -719,6 +791,7 @@
 
                     "ww_baobab": "猴面包木",
                     "ww_cypress": "柏木",
+                    "ww_maple": "枫木",
                     "ww_palm": "棕榈木",
 
                     "soul_copper": "魂铜",
