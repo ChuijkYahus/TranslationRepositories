@@ -78,7 +78,7 @@ trickster:
     arctan: 丙型反几何之曲变
     arctan2: 笛卡尔角之曲变
 
-    if_else: 决策之曲变
+    if_else: 决策之谋略
     equals: 对抵之谋略
     not_equals: 失抵之谋略
     all: 无例外之谋略
@@ -426,6 +426,11 @@ tag.item.trickster:
   holdable_hat: 可手持的帽子
   scrolls: 卷轴
   spell_cost: 法术消耗品
+
+death.attack:
+  levitating_block: "%1$s被%2$s砸成了碎末"
+  levitating_block.attacker: "%1$s被%3$s用%2$s砸成了碎末"
+  levitating_block.player: "%1$s在试图逃离%3$s时被%2$s砸成了碎末"
 
 key:
   categories:
