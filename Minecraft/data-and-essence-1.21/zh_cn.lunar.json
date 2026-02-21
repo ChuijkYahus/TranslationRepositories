@@ -460,7 +460,7 @@
   "data_tablet.pages.integration_refinedstorage.page1.text": "我们发现了一份网络式存储系统的设计图：物品和流体可转换成数据进行存储，也可被一台大型电脑使用。我们很快注意到这种系统所需材料的制造方式中的低效之处，为此我们提出了能一定程度简化操作的创新。",
   "data_tablet.pages.integration_pastel_hue_shifter.name": "彩绘世界：色相调整器",
   "data_tablet.pages.integration_pastel_hue_shifter.page1.incomplete_text": "[这份数据需要对墨水有基础的理解才能读懂。继续精进你的技艺吧，工厂管理者。]",
-  "data_tablet.pages.integration_pastel_hue_shifter.page1.text": "古代的故事中曾提到过某种能把物质变为光的火焰。我们虽然还无法制造原理类似的墨水生成设备，但确实找到了利用月辉涨落改变颜色的方法。例如，暖化红色会产出品红色，冷化它则会产出紫色。这一加工过程并不适用于所有颜色，不过不管怎么说还是有它的用处的。",
+  "data_tablet.pages.integration_pastel_hue_shifter.page1.text": "古代的故事中曾提到过某种能把物质变为光的火焰。我们虽然还无法制造原理类似的墨水生成设备，但确实找到了利用月辉汐流改变颜色的方法。例如，暖化红色会产出品红色，冷化它则会产出紫色。这一加工过程并不适用于所有颜色，不过不管怎么说还是有它的用处的。",
   "data_tablet.pages.integration_pastel_hue_shifter.page2.text": " ◇ 会从以下方向接受物品输入：下、北、南\n ◇ 对其使用导向器可切换色相调整方向\n ◇ 冷化产物需从左侧取出；暖化产物需从右侧取出",
   "data_tablet.pages.integration_pastel_intro.name": "联动：彩绘世界",
   "data_tablet.pages.integration_pastel_intro.page1.text": "这个领域似乎*曾有*除我们熟悉的菲纽阿人之外的居民，因为我们很快发现，此处的构物远超先前对菲纽阿的认知……\n\n试图交叉融合两条路径的研究员应当潜心钻研两者。只有这样，秘密才能被阐明。",
