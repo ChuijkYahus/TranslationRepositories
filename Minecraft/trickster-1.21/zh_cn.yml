@@ -77,6 +77,7 @@ trickster:
     arccos: 乙型反几何之曲变
     arctan: 丙型反几何之曲变
     arctan2: 笛卡尔角之曲变
+    avg: 共识之谋略
 
     if_else: 决策之谋略
     equals: 对抵之谋略
@@ -257,6 +258,7 @@ trickster:
     clear_bar: 混淆之技巧
 
     highlight: 繁盛之技巧
+    spell_particle: 光耀之技巧
 
     draw_spell: 营销员之技巧
     draw_line: 艺术家之技巧
@@ -283,6 +285,10 @@ trickster:
     message_send: 派遣之技巧
     message_listen: 收据之技巧
 
+    item_to_color: 染色剂之辑流
+    item_to_glow_color: 明色之辑流
+    paint: 染色之技巧
+
   fragment:
     trickster:
       type: 类型
@@ -303,6 +309,7 @@ trickster:
       entity_type: 实体类型
       string: 字符串
       dimension: 维度
+      color: 颜色
     class:
       Fragment: 任意
       AddableFragment: 可加
@@ -413,6 +420,7 @@ block.trickster:
   scroll_shelf: 卷轴架
   charging_array: 充能阵列
   inert_spawner: 惰性刷怪笼
+  color_block: 灌注陶块
 
 entity.trickster:
   levitating_block: 受重力影响的方块
