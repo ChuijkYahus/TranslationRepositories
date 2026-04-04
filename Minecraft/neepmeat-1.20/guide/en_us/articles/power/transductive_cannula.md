@@ -11,7 +11,7 @@ The Transductive Cannula imbues a working substrate with received heat, producin
 ## Usage
 
 The Transductive Cannula must be incorporated into the structure shown below. It must be placed above a tank of water with a heat source below. Heat sources include lit furnaces, lava, lava cauldrons and magma blocks, although lit furnaces provide the most energy. 
-Ethereal fuel is ejected at pressure from the top of the dome.
+Transient Ichor is ejected at pressure from the top of the dome.
 
 Reservoirs can provide a steady source of water.
 
