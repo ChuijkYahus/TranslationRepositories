@@ -40,7 +40,7 @@
   "hexcasting.mishap.invalid_value.class.visage": "示像",
 
   "mediaworks.entry.astral_projection": "魂灵投射",
-  "mediaworks.page.astral_projection.1": "终于，不需再受我会衰老躯壳的禁锢了！此法术会将我的意识$(l:mediaworks:greatwork/astral_self)$(thing)投射/$出我的身体，所给数代表投射秒数，这几秒内我会获得多种有用的能力。",
+  "mediaworks.page.astral_projection.1": "终于，我不需再受衰老躯壳的禁锢了！此法术会将我的意识$(l:mediaworks:greatwork/astral_self)$(thing)投射/$出我的身体，所给数代表投射秒数，这几秒内我会获得多种有用的能力。",
   "mediaworks.page.astral_projection.2": "如今亲眼见到无意识操控的身体的惰性和脆弱，我想此法术只会以施法者为目标也算是一种益处。$(p)施放法术后，每秒持续时间消耗大约 2 个$(l:items/amethyst)$(item)紫水晶粉/$。$(br)如果在施放此法术时我的$(l:patterns/readwrite#hexcasting:local)$(thing)渡鸦之思/$中存有 iota，则该 iota 会在整段投射过程中被捕获为$(thing)魂灵 iota/$。",
   "mediaworks.page.astral_projection.3": "在如此大型的范式转移过程中，人很难维持集中力，也因此我绘制的所有图案和前一个栈中的所有 iota 都会消失。$(p)最后，在魂灵离体后我无法再延长投射时间。试图这么做会导致$(l:casting/mishaps)$(thing)实体免疫/$事故。",
 
