@@ -13,10 +13,10 @@ It can replace the pneumatic motor on a Drill Chassis, allowing it to run withou
 
 # Refuelling
 
-A tool organism runs on metabolic substrates such as Meat, Animal Feed or Liquid Food. Refilling can be done with a Bottler, or by right-clicking a tank.
+A tool organism runs on metabolic substrates such as Meat, Animal Feed or Reconstituted Food. Refilling can be done with a Bottler, or by right-clicking a tank.
 
 # Energy Values
 
 - Animal Feed: 500 durability per bucket
 - Meat: 750 durability per bucket
-- Liquid Food: 81000 * hunger / 600
+- Reconstituted Food: 81000 * hunger / 600

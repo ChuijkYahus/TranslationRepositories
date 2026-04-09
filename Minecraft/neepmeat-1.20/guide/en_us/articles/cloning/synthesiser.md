@@ -4,7 +4,7 @@ id: synthesiser
 
 # Oviparous Synthesiser
 
-To cast off the vestige of nature is to inch towards revelation; to replicate the natural forms of flesh - finding wisdom in their madness - is to step towards Enlightenment.
+To indiscriminately cast off the vestige of nature is understandable but foolish zealotry. It is better to find use in the meaninglessness chaos of flesh and discard the remainder.
 
 ## Usage
 

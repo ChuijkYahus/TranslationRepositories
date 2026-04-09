@@ -67,6 +67,6 @@ lookup: meatweapons:basic_pistol, meatweapons:meatgun_pistol
 
 - 动物饲料
 - 肉浆
-- 液态食物（产出量由饥饿值决定）
+- 合成食物（产出量由饥饿值决定）
 
 粗制肉枪默认拥有此植入物，可在改装台和植入物管理器中取出。

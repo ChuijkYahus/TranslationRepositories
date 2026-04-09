@@ -5,7 +5,7 @@ lookup: neepmeat:metaboliser_segment,
 
 # Metaboliser
 
-The Metaboliser consumes liquid foods to provide a power source.
+The Metaboliser consumes reconstituted foods to provide a power source.
 
 It consists of a Stomach and multiple Metaboliser Segments. Each extra segment increases the rate at which food is consumed and energy is released. Power is injected directly into a vascular network via the segments.
 

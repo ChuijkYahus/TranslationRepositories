@@ -21,6 +21,7 @@ Reservoirs can provide a steady source of water.
 
 - Lava: 40eJ/t
 - Lava Cauldron: 40eJ/t
+- Fire: 40eJ/t
 - Magma Block: 40eJ/t
 - Lit Furnace: 150eJ/t
 - Flame Jet: 500eJ/t

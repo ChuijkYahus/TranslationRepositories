@@ -16,7 +16,7 @@ The Drill Chassis is a modular mining tool. By default, it has a Pneumatic Motor
 - Compressor Minecart
 - Compressor Scutter - follows the player that placed it
 
-The drill's core implant can be replaced with a Tool Organism using a PLC. This allows the drill to run on liquid food sources, such as Animal Feed and Liquid Food.
+The drill's core implant can be replaced with a Tool Organism using a PLC. This allows the drill to run on reconstituted food sources, such as Animal Feed and Reconstituted Food.
 
 The Drill Chassis is also compatible with Meatgun Modules. Heads and modules can be swapped with a Tinker Table.
 

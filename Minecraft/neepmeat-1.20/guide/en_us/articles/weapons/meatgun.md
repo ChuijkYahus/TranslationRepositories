@@ -67,6 +67,6 @@ The accepted metabolic substrates are the same as those used by the Tool Organis
 
 - Animal Feed
 - Meat
-- Liquid Food (amount depends on hunger)
+- Reconstituted Food (amount depends on hunger)
 
 The Raw Gun contains this implant by default, but it can be extracted with the Tinker Table or an Implant Manager.

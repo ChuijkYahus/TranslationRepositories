@@ -25,7 +25,7 @@
   "item.meatweapons.meat_steel_barrel": "肉钢枪管",
 
   "item.meatweapons.basic_pistol": "粗制肉枪",
-  "item.meatweapons.basic_pistol.lore_0": "由复活的血肉随意拼接而成。\n自带手枪模块。\n会常态使用食物生成弹药。\n在物品栏中使用食物物品点击它即可喂食。",
+  "item.meatweapons.basic_pistol.lore_0": "由复活的血肉随意拼接而成。\n自带手枪模块。\n会常态使用代谢底物生成弹药。\n在物品栏中使用食物物品点击它即可喂食。",
   "item.meatweapons.meatgun_pistol": "手枪",
   "item.meatweapons.meatgun_pistol.lore_0": "轻量级肉质武器基座，附带手枪握把。",
   "item.meatweapons.meatgun_staff": "手杖",

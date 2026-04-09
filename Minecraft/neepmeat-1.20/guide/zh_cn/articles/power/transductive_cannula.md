@@ -21,6 +21,7 @@ icon: neepmeat:transducer
 
 - 熔岩：40eJ/t
 - 装有熔岩的炼药锅：40eJ/t
+- 火：40eJ/t
 - 岩浆块：40eJ/t
 - 点燃的熔炉：150eJ/t
 - 火焰喷口：500eJ/t

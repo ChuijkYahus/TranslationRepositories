@@ -481,7 +481,7 @@
   "block.neepmeat.power_flower_growth": "能量花增生体",
   "block.neepmeat.power_flower_growth.lore_0": "能量花结构的基础。\n上方与空气接触的增生体会特化为光合器官，其余增生体会增加呼吸速率。\n施加骨粉或肉类时会扩散。\n可用精准采集取下。",
   "block.neepmeat.power_flower_fluid_port": "能量花流体口",
-  "block.neepmeat.power_flower_fluid_port.lore_0": "能将水和液态食物吸入能量花。",
+  "block.neepmeat.power_flower_fluid_port.lore_0": "能将水和合成食物吸入能量花。",
   "block.neepmeat.power_flower_controller": "能量花核心",
   "block.neepmeat.power_flower_controller.lore_0": "能量花产出的瞬变浆液自此流出。\n需向能量花流体口送入水。\n可直接破坏取下。",
   "block.neepmeat.fluid_exciter": "心脏机",
@@ -567,7 +567,7 @@
 
   "block.neepmeat.mincer": "大型绞碎机",
   "block.neepmeat.item_mincer": "物品绞碎机",
-  "block.neepmeat.item_mincer.lore_0": "将食物物品绞成液态食物。\n原食物回复的饥饿值和饱和度会以产物品质体现。\n不同品质的液态食物可在NEEPMeat储罐中混合。",
+  "block.neepmeat.item_mincer.lore_0": "将食物物品绞成合成食物。\n原食物回复的饥饿值和饱和度会以产物品质体现。\n不同品质的合成食物可在NEEPMeat储罐中混合。",
   "block.neepmeat.homogeniser": "均质器",
 
   "block.neepmeat.feeding_trough": "饲料槽",
@@ -788,8 +788,9 @@
   "item.neepmeat.milk_carton": "盒装巴氏杀菌奶",
   "item.neepmeat.milk_carton.lore_0": "能清除效果，可堆叠。",
   "item.neepmeat.meat_carton": "盒装肉浆",
-  "item.neepmeat.meat_carton.hunger": "饥饿值：%s",
-  "item.neepmeat.meat_carton.saturation": "饱和度：%s",
+  "item.neepmeat.food_carton": "盒装食物",
+  "item.neepmeat.food_carton.hunger": "饥饿值：%s",
+  "item.neepmeat.food_carton.saturation": "饱和度：%s",
 
   "block.neepmeat.cronencake": "呻吟蛋糕",
   "block.neepmeat.cronencake.lore_0": "别管那些尖叫。这蛋糕大概没有意识。",
@@ -831,8 +832,8 @@
   "item.neepmeat.meat_bucket": "肉浆桶",
   "block.neepmeat.meat": "肉浆",
 
-  "item.neepmeat.coarse_meat_bucket": "液态食物桶",
-  "block.neepmeat.coarse_meat": "液态食物",
+  "item.neepmeat.coarse_meat_bucket": "合成食物桶",
+  "block.neepmeat.coarse_meat": "合成食物",
 
   "item.neepmeat.tissue_slurry_bucket": "组织浆液桶",
   "block.neepmeat.tissue_slurry": "组织浆液",
@@ -963,7 +964,7 @@
   "implant.neepmeat.shield.desc_0": "使用此物品时抵消部分伤害。",
   "item.neepmeat.living_tool_implant": "工具生物体",
   "implant.neepmeat.living_tool": "工具生物体",
-  "implant.neepmeat.living_tool_implant.desc_0": "将任意工具和盔甲改装成消耗液态食物的生物体。可在灌装机中恢复此类物品的耐久度。",
+  "implant.neepmeat.living_tool_implant.desc_0": "将任意工具和盔甲改装成消耗合成食物的生物体。可在灌装机中恢复此类物品的耐久度。",
   "item.neepmeat.pneumatic_motor": "气动发动机",
   "implant.neepmeat.pneumatic_motor": "气动发动机",
   "implant.neepmeat.pneumatic_motor.desc_0": "适用于钻具底盘。会使用附近的压缩机为挖掘头充能。",

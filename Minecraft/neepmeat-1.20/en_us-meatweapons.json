@@ -25,7 +25,7 @@
   "item.meatweapons.meat_steel_barrel": "Meat Steel Barrel",
 
   "item.meatweapons.basic_pistol": "Raw Gun",
-  "item.meatweapons.basic_pistol.lore_0": "Cobbled together from reanimated flesh.\nComes with a pistol module preinstalled.\nPassively generates ammunition from food.\nClick with a food item in an inventory to feed.",
+  "item.meatweapons.basic_pistol.lore_0": "Cobbled together from reanimated flesh.\nComes with a pistol module preinstalled.\nPassively generates ammunition from metabolic substrate.\nClick with a food item in an inventory to feed.",
   "item.meatweapons.meatgun_pistol": "Pistol",
   "item.meatweapons.meatgun_pistol.lore_0": "A lightweight Meatgun base with a pistol grip.",
   "item.meatweapons.meatgun_staff": "Staff",

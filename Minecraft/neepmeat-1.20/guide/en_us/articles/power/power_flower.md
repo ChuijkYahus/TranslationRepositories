@@ -5,7 +5,7 @@ lookup: neepmeat:power_flower_seeds, neepmeat:power_flower_growth, neepmeat:powe
 
 # Power Flower
 
-The Power Flower is an organism that can synthesise Transient Ichor from sunlight and by liquid food.
+The Power Flower is an organism that can synthesise Transient Ichor from sunlight and by reconstituted food.
 
 ## Usage
 

@@ -5,7 +5,7 @@ lookup: neepmeat:power_flower_seeds, neepmeat:power_flower_growth, neepmeat:powe
 
 # 能量花
 
-能量花能借由阳光和液态食物合成瞬变浆液。
+能量花能使用阳光和合成食物制造瞬变浆液。
 
 ## 使用方法
 
@@ -19,4 +19,4 @@ lookup: neepmeat:power_flower_seeds, neepmeat:power_flower_growth, neepmeat:powe
 
 - 肉浆：每消耗1滴产出3eJ/t
 - 动物饲料：每消耗1滴产出4eJ/t
-- 液态食物：每消耗1滴产出(1 + ceil(饥饿值)) eJ/t
+- 合成食物：每消耗1滴产出(1 + ceil(饥饿值)) eJ/t
