@@ -457,6 +457,8 @@
   "block.neepmeat.advanced_flex_tank": "高级变容储罐",
   "block.neepmeat.advanced_flex_tank.lore_0": "方块越多，容量越大。",
   "block.neepmeat.advanced_flex_tank.lore_1": "每个方块可装下16桶流体。",
+  "block.neepmeat.flex_silo": "变容筒仓",
+  "block.neepmeat.flex_silo.lore_0": "每个方块有16槽位，每槽可存储256个物品。",
 
   "block.neepmeat.fluid_buffer": "流体缓冲池",
   "block.neepmeat.fluid_buffer.lore_0": "能容纳1桶流体。",
@@ -612,7 +614,7 @@
   "screen.neepmeat.process_interface.use_interrupts": "发出PLC中断",
   "screen.neepmeat.process_interface.use_interrupts.tooltip": "在配方的所有原料均到达后，发出PLC中断请求。\n适合用于在配方预备完毕时触发PLC以合成配方。",
   "screen.neepmeat.process_interface.delay_interrupts": "延迟中断",
-  "screen.neepmeat.process_interface.delay_interrupts.tooltip": "减少大量合成任务堆积导致的问题。\n配方的原料到达后，发出中断并进入等待，直到配方产物提交之后再继续发出中断。",
+  "screen.neepmeat.process_interface.delay_interrupts.tooltip": "减少大量合成任务堆积导致的问题。\n配方的原料到达后，发出中断并进入等待，直到配方产物提交之后再继续发出中断。\n示例：\nEXTFETCH @(1 2 3)\n此指令会在栈顶压入批次数，后跟随物品ID。",
   "screen.neepmeat.process_interface.record_queue": "请求队列",
   "screen.neepmeat.process_interface.record_queue.tooltip": "将各请求存储于队列。\n可用`EXTFETCH`指令访问（和移除）队列元素。\n可让PLC处理同一处理接口发出的多种配方请求。",
   "item.neepmeat.process_card": "处理卡",

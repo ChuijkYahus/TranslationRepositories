@@ -457,6 +457,8 @@
   "block.neepmeat.advanced_flex_tank": "Advanced Flex Tank",
   "block.neepmeat.advanced_flex_tank.lore_0": "Capacity is increased by adding more blocks",
   "block.neepmeat.advanced_flex_tank.lore_1": "Holds 16 buckets per block",
+  "block.neepmeat.flex_silo": "Flex Silo",
+  "block.neepmeat.flex_silo.lore_0": "16 slots of 256 items per block.",
 
   "block.neepmeat.fluid_buffer": "Fluid Buffer",
   "block.neepmeat.fluid_buffer.lore_0": "Holds a bucket's worth of fluid.",
@@ -614,7 +616,7 @@
   "screen.neepmeat.process_interface.delay_interrupts": "Delay interrupts",
   "screen.neepmeat.process_interface.delay_interrupts.tooltip": "Reduces issues when multiple crafts are queued for this block.\nWhen the ingredients for a recipe have arrived, emit an interrupt and then wait for the result of the recipe to be returned before sending further interrupts.",
   "screen.neepmeat.process_interface.record_queue": "Request queue",
-  "screen.neepmeat.process_interface.record_queue.tooltip": "Store all requests in a queue.\nAccess (and remove) elements from the queue using the `EXTFETCH` instruction.\nUseful for allowing a PLC to craft multiple recipes from the same Process Interface.",
+  "screen.neepmeat.process_interface.record_queue.tooltip": "Store all requests in a queue.\nAccess (and remove) elements from the queue using the `EXTFETCH` instruction.\nUseful for allowing a PLC to craft multiple recipes from the same Process Interface.\nExample:\nEXTFETCH @(1 2 3)\nThis will end up with the number of batches on the top of the stack, followed by the item ID.",
   "item.neepmeat.process_card": "Process Card",
   "item.neepmeat.process_card.full": "Process Card (%s)",
   "item.neepmeat.process_card.lore_0": "Stores the requirements of any recipe.\nInstall in a Process Interface to make the recipe available to a pipe network.\n§eClick to configure the stored recipe.",
