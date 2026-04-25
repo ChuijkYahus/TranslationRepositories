@@ -7,11 +7,24 @@
   "item.extra_gauges.counter_gauge": "计数仪表",
   "item.extra_gauges.passive_gauge": "被动仪表",
   "item.extra_gauges.string_gauge": "字符串仪表",
+  "item.extra_gauges.expression_gauge": "表达式仪表",
+  "item.extra_gauges.filter_gauge": "过滤仪表",
   "block.extra_gauges.integer_selector": "整数选择器",
   "block.extra_gauges.display_collector": "显示集信器",
+  "block.extra_gauges.linked_lever": "无线拉杆终端",
+  "block.extra_gauges.linked_button": "无线按钮终端",
+  "block.extra_gauges.redstone_port": "红石端口",
+  "block.extra_gauges.rose_quartz_port": "玫瑰石英端口",
 
-  "extra_gauges.panel.panels_connected": "%s现已指向%s",
-  "extra_gauges.panel.custom_panel_on_restocker": "定制仪表不得处于补货模式",
+  "block.extra_gauges.linked_lever.tooltip.summary": "与无线红石信号终端类似，额外配备了一个拉杆。可连接至仪表，且会在信号变化时立即产生更新。",
+  "block.extra_gauges.linked_button.tooltip.summary": "与无线红石信号终端类似，额外配备了一个按钮。可连接至仪表，且会在信号变化时立即产生更新。",
+
+  "block.extra_gauges.redstone_port.tooltip.summary": "将真实的红石元件连接至仪表（仅开/关）",
+  "block.extra_gauges.redstone_port.tooltip.condition1": "对其使用扳手时",
+  "block.extra_gauges.redstone_port.tooltip.behaviour1": "在输出和输入间切换",
+  "block.extra_gauges.rose_quartz_port.tooltip.summary": "将真实的红石元件连接至仪表（数值，0-15）",
+  "block.extra_gauges.rose_quartz_port.tooltip.condition1": "对其使用扳手时",
+  "block.extra_gauges.rose_quartz_port.tooltip.behaviour1": "在输出和输入间切换",
 
   "create.logistics.logic_gate": "逻辑门",
   "logic_gauge.gate.or": "或（任意输入激活时激活）",
@@ -25,33 +38,62 @@
   "integer_gauge.mode.add": "加（求所有输入的和）",
   "integer_gauge.mode.subtract": "减（求所有输入和的相反数）",
   "integer_gauge.mode.multiply": "乘（求所有输入的积）",
+  "integer_gauge.mode.memory": "存储（无红石信号时存储各输入的和）",
 
-  "create.logistics.comparator_value": "选择比较用常量",
+  "create.logistics.comparator_value": "选择比较器模式",
+  "comparator_gauge.mode.static": "静态（使用固定值与各输入的和比较）",
+  "comparator_gauge.mode.advanced": "高级（自行选择比较哪些输入值）",
   "comparator_gauge.mode.equals": "输入等于常量",
   "comparator_gauge.mode.different": "输入不等于常量",
   "comparator_gauge.mode.greater": "输入大于常量",
   "comparator_gauge.mode.greater_equals": "输入大于等于常量",
   "comparator_gauge.mode.less": "输入小于常量",
   "comparator_gauge.mode.less_equals": "输入小于等于常量",
-  "create.logistics.comparator_gauge.title": "会先求各输入的和",
+
+  "comparator_gauge.info.title": "拖放变量",
+  "comparator_gauge.info.line_1": "在仪表外用扳手查看各连接的变量，",
+  "comparator_gauge.info.line_2": "再将它们拖放至等式的任意一侧",
+
+  "expression_gauge.info.title": "变量是什么？",
+  "expression_gauge.info.line_1": "每个向仪表输入的连接",
+  "expression_gauge.info.line_2": "均视作表达式中可用的数值",
+  "expression_gauge.info.line_3": "手持扳手看向连接即可查看对应变量",
+
+  "create.string_panel.input_in_rewrite_mode": "输入仪表不得处于替换模式",
 
   "create.logistics.counter_threshold": "选择阈值",
 
   "create.display_collector.set": "已选择来源位置",
   "create.display_collector.success": "成功绑定到来源位置",
 
+  "filter_panel.no_filter": "未选择过滤器",
+  "filter_panel.active": "过滤仪表已启动",
+
+  "create.logistics.int_selection": "选择整数值",
+
+  "extra_gauges.gui.string_panel.join": "拼接符：",
+  "extra_gauges.gui.string_panel.regex": "正则表达式：",
+  "extra_gauges.gui.string_panel.replacement": "替换文本：",
+
+  "extra_gauges.counter_panel.no_limit": "无上限",
+
+  "extra_gauges.gui.filter_panel.eject": "弹出过滤器",
+
+  "extra_gauges.gui.variable_connection.info_header": "所选连接",
+  "extra_gauges.gui.variable_connection.name": "变量：",
+
   "extra_gauges.ponder.logic_gauge.header": "使用逻辑仪表传输红石信号",
   "extra_gauges.ponder.logic_gauge.text_1": "逻辑仪表可在多种附着于墙面的组件间传输红石信号",
   "extra_gauges.ponder.logic_gauge.text_2": "对于输入端，可使用§9拉杆§r、§9模拟拉杆§r、§9接收模式下的红石信号终端§r、§6其他仪表",
   "extra_gauges.ponder.logic_gauge.text_3": "对于输出端，可使用§9发送模式下的红石信号终端§r，也同样接受§6其他仪表",
-  "extra_gauges.ponder.logic_gauge.text_4": "§e注意：§r拉杆和模拟拉杆§c不会立即产生更新§r，红石信号终端则会立即产生",
+  "extra_gauges.ponder.logic_gauge.text_4": "§e注意：§r拉杆和模拟拉杆§c不会立即产生更新§r，而红石信号终端会立即产生",
   "extra_gauges.ponder.logic_gauge.text_5": "是不是很简单？现在来看§6有多个输入的情况",
   "extra_gauges.ponder.logic_gauge.text_6": "在默认的§6或§r模式下，此仪表会在一号拉杆§l或§r二号拉杆拉下时激活",
   "extra_gauges.ponder.logic_gauge.text_7": "长按右键可改变逻辑门的类别，例如改为§6与",
   "extra_gauges.ponder.logic_gauge.text_8": "现在，在§6与§r模式下，此仪表只会在一号拉杆§l与§r二号拉杆同时拉下时激活",
   "extra_gauges.ponder.logic_gauge.text_9": "最后，可通过显示链接器将仪表的当前值在世界中展示出来！",
   "extra_gauges.ponder.logic_gauge_storage.header": "让逻辑仪表与工厂仪表交互",
-  "extra_gauges.ponder.logic_gauge_storage.text_1": "逻辑仪表显然是为于其他仪表交互设计的",
+  "extra_gauges.ponder.logic_gauge_storage.text_1": "逻辑仪表显然是为与其他仪表交互设计的",
   "extra_gauges.ponder.logic_gauge_storage.text_2": "当工厂仪表的目标数量已达成（§9现有64/64个钻石§r）……",
   "extra_gauges.ponder.logic_gauge_storage.text_3": "……逻辑仪表即会接收到§c红石信号输入§r！",
   "extra_gauges.ponder.logic_gauge_storage.text_4": "另一方面，逻辑仪表也可指向工厂仪表，§c阻止其§r自动合成！",
@@ -61,12 +103,12 @@
   "extra_gauges.ponder.integer_gauge.text_2": "§9拉杆§r拉下后会发送数值15……",
   "extra_gauges.ponder.integer_gauge.text_3": "……§9模拟拉杆§r和§9红石信号终端§r会根据状态发送0到15间的数值……",
   "extra_gauges.ponder.integer_gauge.text_4": "……§9整数选择器§r输入数值的范围更大",
-  "extra_gauges.ponder.integer_gauge.text_5": "§e注意：§r拉杆和模拟拉杆§c不会立即产生更新§r，红石信号终端和§9整数选择器§r则会立即产生",
+  "extra_gauges.ponder.integer_gauge.text_5": "§e注意：§r拉杆和模拟拉杆§c不会立即产生更新§r，而红石信号终端和§9整数选择器§r会立即产生",
   "extra_gauges.ponder.integer_gauge.text_6": "要是把两个整数仪表连接起来……",
   "extra_gauges.ponder.integer_gauge.text_7": "存在§92个输入§r的情况下，此仪表会输出两者的§6和§r（不再需要用15+7凑了）",
   "extra_gauges.ponder.integer_gauge.text_8": "长按右键可改变仪表的运算符，可改为§6减§r或者§6乘",
   "extra_gauges.ponder.integer_gauge_storage.header": "让整数仪表与工厂仪表交互",
-  "extra_gauges.ponder.integer_gauge_storage.text_1": "整数仪表显然是为于其他仪表交互设计的",
+  "extra_gauges.ponder.integer_gauge_storage.text_1": "整数仪表显然是为与其他仪表交互设计的",
   "extra_gauges.ponder.integer_gauge_storage.text_2": "库存物品的数量产生变化时……",
   "extra_gauges.ponder.integer_gauge_storage.text_3": "……整数仪表就能捕捉到变动！",
   "extra_gauges.ponder.integer_gauge_storage.text_4": "另一方面，整数仪表可设置工厂仪表的§a目标数量",
@@ -75,7 +117,7 @@
   "extra_gauges.ponder.passive_gauge.text_1": "被动仪表和§9工厂仪表§r功能一致……",
   "extra_gauges.ponder.passive_gauge.text_2": "……但不用指定要制造§9多少个§r物品",
   "extra_gauges.ponder.passive_gauge.text_3": "如果缺少了木棍……",
-  "extra_gauges.ponder.passive_gauge.text_4": "……被动仪表会尝试将库存恰好维持在§9所需的量",
+  "extra_gauges.ponder.passive_gauge.text_4": "……被动仪表即会尝试将库存恰好维持在§9所需的量",
   "extra_gauges.ponder.passive_gauge.text_5": "后继配方开始合成时，被动仪表会自动§c停止§r运作",
 
   "extra_gauges.ponder.comparator_gauge.header": "使用比较仪表将数值转换成布尔值",
@@ -105,7 +147,7 @@
   "extra_gauges.ponder.string_gauge.text_9": "……然后把它们替换成§a替换文本",
   "extra_gauges.ponder.string_gauge.text_10": "§cHouse §r-> §aBase",
   "extra_gauges.ponder.string_gauge_storage.header": "让字符串仪表与其他仪表交互",
-  "extra_gauges.ponder.string_gauge_storage.text_1": "字符串仪表显然是为于其他仪表交互设计的",
+  "extra_gauges.ponder.string_gauge_storage.text_1": "字符串仪表显然是为与其他仪表交互设计的",
   "extra_gauges.ponder.string_gauge_storage.text_2": "此类仪表可从工厂仪表读取物品名称和数量……",
   "extra_gauges.ponder.string_gauge_storage.text_3": "……然后把值写到另一个仪表的地址处！",
   "extra_gauges.ponder.string_gauge_storage.text_4": "而且还不止这些！字符串仪表指向§9整数仪表§r或§c逻辑仪表§r时……",
@@ -120,22 +162,19 @@
   "extra_gauges.ponder.display_collector.text_5": "打开菜单以开始发信",
 
   "extra_gauges.ponder.expanded_factory_recipes.header": "在更大的自动合成设施上合成物品",
-  "extra_gauges.ponder.expanded_factory_recipes.text_1": "§9更多仪表§r让工厂仪表能合成更大型的配方",
+  "extra_gauges.ponder.expanded_factory_recipes.text_1": "§9更多仪表§r能让工厂仪表合成更大型的配方",
   "extra_gauges.ponder.expanded_factory_recipes.text_2": "当然，需要配备更大号的自动合成设施",
   "extra_gauges.ponder.expanded_factory_recipes.text_3": "不过，小型配方也可兼容大型自动合成设施，在§eGUI§r中增加§9宽度§r即可",
-  "extra_gauges.ponder.expanded_factory_recipes.text_4": "不必担心设施高度出问题，只要其达到配方的最小高度需求就可以了！",
+  "extra_gauges.ponder.expanded_factory_recipes.text_4": "不必担心设施高度出问题，只要达到配方的最小高度需求就可以了！",
 
-  "create.logistics.int_selection": "选择整数值",
+
+
   "extra_gauges.gui.factory_panel.crafting_input_tip_1": "动力合成器（%s格宽）",
   "extra_gauges.gui.factory_panel.crafting_input_tip_2": "最小高度：%s格",
   "extra_gauges.gui.factory_panel.auto_crafting_input": "配方过大，无法渲染",
   "extra_gauges.gui.factory_panel.extend_width": "加长宽度（%s）",
   "extra_gauges.gui.factory_panel.reduce_width": "缩短宽度（%s）",
-  "extra_gauges.gui.passive_panel.no_recipe": "缺少配方",
+  "extra_gauges.gui.passive_panel.no_recipe": "缺少配方"
 
-  "extra_gauges.gui.string_panel.join": "拼接符：",
-  "extra_gauges.gui.string_panel.regex": "正则表达式：",
-  "extra_gauges.gui.string_panel.replacement": "替换文本：",
 
-  "extra_gauges.counter_panel.no_limit": "无上限"
 }
