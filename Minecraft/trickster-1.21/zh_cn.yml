@@ -220,8 +220,8 @@ trickster:
     conjure_water: 盈水之技巧
     conjure_light: 光辉之技巧
     power_resonator: 谐振之技巧
-    heat: 赋权之技巧
-    cool: 撤权之技巧
+    heat: 授能之技巧
+    cool: 撤能之技巧
     erode: 损蚀之技巧
 
     get_block_hardness: 硬度之辑流
