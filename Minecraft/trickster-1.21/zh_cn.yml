@@ -152,6 +152,7 @@ trickster:
     summon_fireball: 火焰术师之技巧
     summon_dragon_breath: 巨龙之技巧
     summon_tnt: 爆破师之技巧
+    summon_wind_charge: 安昂之技巧
 
     block_find_entity: 怀抱之辑流
     range_find_entity: 同命之辑流
@@ -293,6 +294,26 @@ trickster:
     item_to_glow_color: 明色之辑流
     paint: 染色之技巧
 
+  revision: （抄绘图案）
+  revision.trickster:
+    add_subcircle: 延枝之修订
+    add_inner_circle: 内环之修订
+    to_subcircle: 分枝之修订
+    to_inner_circle: 生长之修订
+    remove_self: 嫁接之修订
+    remove_self_recursive: 剪枝之修订
+    remove_outer: 登升之修订
+    add_outer_subcircle: 奉献之修订
+    rotate_cw: 旋移之修订
+    rotate_ccw: 反向旋移之修订
+    swap: 对换之修订
+    splice: 记事员之修订
+    splice_inner: 内环记事员之修订
+    splice_evaluate: 宏伟之修订
+    write: 剽窃者之修订
+    quote_pattern: 释义之修订
+    write_path: 地址之修订
+
   fragment:
     trickster:
       type: 类型
@@ -346,6 +367,7 @@ trickster:
     overweight_fragment: 传出的片段超重（%2$s/%3$s），结果为%1$s
     expected_overweight_fragment: 传出的片段超重（%d/%d）
     missing_fragment: 索引%d处参数缺失，本应传入%s
+    unknown_trick: 图案不与任何已知戏法对应
 
   storage:
     caster: 施法者
@@ -395,7 +417,7 @@ item.trickster:
   written_scroll_yellow: 黄色定稿卷轴
 
   warding_charm: 戒守护符
-  spell_ink: 法术墨水
+  esoteric_mana: 隐秘魔力
   top_hat: 高顶礼帽
   witch_hat: 女巫帽
   fez: 菲斯帽
