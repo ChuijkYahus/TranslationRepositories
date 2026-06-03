@@ -141,7 +141,9 @@ trickster:
     get_velocity: 运动之辑流
     add_velocity: 动能之技巧
     change_weight: 羽落之技巧
+    prepare_displace: 获权者之技巧
     displace: 篡夺者之技巧
+    get_displacements: 暴君之辑流
     store_entity: 收容之技巧
     release_entity: 释脱之技巧
 
@@ -245,6 +247,7 @@ trickster:
     get_fluid_container: 液仓之辑流
     get_slots: 收藏家之辑流
     get_inventory_size: 容展之辑流
+    filter_container: 辨别之辑流
     drop_stack_from_slot: 祭献之技巧
     swap_slot: 骗徒之技巧
     move_resource: 组织者之技巧
@@ -258,7 +261,7 @@ trickster:
     type_fragment: 参量之曲变
     hash_values: 衰退之曲变
     pin_chunk: 天钉之技巧
-    get_dimension: 维度之错觉
+    get_dimension: 维度之辑流
     show_bar: 清晰之技巧
     clear_bar: 混淆之技巧
 
@@ -266,6 +269,8 @@ trickster:
     spell_particle: 光耀之技巧
 
     draw_spell: 营销员之技巧
+    entity_draw_spell: 迅捷营销员之技巧
+    entity_head_draw_spell: 机警营销员之技巧
     draw_line: 艺术家之技巧
     get_flecks: 观察者之辑流
     delete_fleck: 奥威尔之技巧
@@ -335,6 +340,7 @@ trickster:
       entity_type: 实体类型
       string: 字符串
       dimension: 维度
+      displace: 位移
       color: 颜色
     class:
       Fragment: 任意
@@ -376,6 +382,9 @@ trickster:
     slot: '%2$s中的槽位%1$d'
     merged: '%d个仓储对象'
 
+  displace:
+    reference: 位移 %s
+
 item.trickster:
   tome_of_tomfoolery: 魔术把戏秘典
   mirror_of_evaluation: 执行手镜
@@ -397,6 +406,22 @@ item.trickster:
   scroll_and_quill_red: 红色卷轴与笔
   scroll_and_quill_white: 白色卷轴与笔
   scroll_and_quill_yellow: 黄色卷轴与笔
+  scroll_and_quill_maroon: 褐红色卷轴与笔
+  scroll_and_quill_rose: 玫红色卷轴与笔
+  scroll_and_quill_coral: 珊瑚红色卷轴与笔
+  scroll_and_quill_ginger: 姜橙色卷轴与笔
+  scroll_and_quill_tan: 淡棕色卷轴与笔
+  scroll_and_quill_beige: 米黄色卷轴与笔
+  scroll_and_quill_amber: 琥珀黄色卷轴与笔
+  scroll_and_quill_olive: 橄榄黄色卷轴与笔
+  scroll_and_quill_forest: 森绿色卷轴与笔
+  scroll_and_quill_verdant: 翠绿色卷轴与笔
+  scroll_and_quill_teal: 鸭绿色卷轴与笔
+  scroll_and_quill_mint: 薄绿色卷轴与笔
+  scroll_and_quill_aqua: 水蓝色卷轴与笔
+  scroll_and_quill_slate: 岩蓝色卷轴与笔
+  scroll_and_quill_navy: 藏蓝色卷轴与笔
+  scroll_and_quill_indigo: 蓝紫色卷轴与笔
 
   written_scroll: 定稿卷轴
   written_scroll_black: 黑色定稿卷轴
@@ -415,9 +440,25 @@ item.trickster:
   written_scroll_red: 红色定稿卷轴
   written_scroll_white: 白色定稿卷轴
   written_scroll_yellow: 黄色定稿卷轴
+  written_scroll_maroon: 褐红色定稿卷轴
+  written_scroll_rose: 玫红色定稿卷轴
+  written_scroll_coral: 珊瑚红色定稿卷轴
+  written_scroll_ginger: 姜橙色定稿卷轴
+  written_scroll_tan: 淡棕色定稿卷轴
+  written_scroll_beige: 米黄色定稿卷轴
+  written_scroll_amber: 琥珀黄色定稿卷轴
+  written_scroll_olive: 橄榄黄色定稿卷轴
+  written_scroll_forest: 森绿色定稿卷轴
+  written_scroll_verdant: 翠绿色定稿卷轴
+  written_scroll_teal: 鸭绿色定稿卷轴
+  written_scroll_mint: 薄绿色定稿卷轴
+  written_scroll_aqua: 水蓝色定稿卷轴
+  written_scroll_slate: 岩蓝色定稿卷轴
+  written_scroll_navy: 藏蓝色定稿卷轴
+  written_scroll_indigo: 蓝紫色定稿卷轴
 
-  warding_charm: 戒守护符
   esoteric_mana: 隐秘魔力
+  luminous_bottle: 荧光瓶
   top_hat: 高顶礼帽
   witch_hat: 女巫帽
   fez: 菲斯帽
@@ -427,6 +468,8 @@ item.trickster:
   collar: 侍者的缚环
   leash: 法师的捆索
   torment_on_a_chain: 磨难链坠
+  monocle: 单片镜
+  glasses: 眼镜
 
   amethyst_knot: 紫水晶晶结
   cracked_amethyst_knot: 开裂的紫水晶晶结
@@ -498,6 +541,7 @@ key:
   trickster:
     take_hat: 取下帽子
     modify_spell: 修改法术（仅创造）
+    show_fragment_text: 揭示法术片段
 
 accessories.slot:
   collar: 颈环
@@ -508,11 +552,21 @@ text.config.trickster-config:
     accessibility: 辅助功能
     client: 客户端
     server: 服务端
+    circle-customization: 圆视效自定义
     aurora-client: Aurora的专属客户端微调
   option:
     dotEmphasis: 界面中着重强调点
     dotEmphasisColor: 界面中点的强调色
     subcircleDividerPinColor: 分隔销的颜色
+
+    patternSize: 图案描线粗细
+    dotSize: 图案点尺寸
+    circleOpacity: 法术圆的不透明度
+    ponderOpacity: 未聚焦圆的不透明度
+    patternOpacity: 图案不透明度
+    patternEdgeGap: 图案描线边距
+    outlinePatterns: 为图案绘制边框
+
     manaTransferEfficiency: 善流之技巧与恶流之技巧的效率
     whorlMaxMana: 螺坠最大魔力，以G计
     whorlRechargeRate: 螺坠充能速度，以M计
@@ -520,13 +574,13 @@ text.config.trickster-config:
     invertTopHatScrolling: 反转帽子滚选方向
     allowScrollInSpellScreen: 编辑时允许滚动滚轮缩放
     keyZoomSpeed: 编辑时滚轮缩放速度
-    revealToHotbar: 展示的值显示到动作栏中
     maxExecutionsPerSpellPerTick: 每个法术每刻最大执行操作次数
-    allowSwapBedrock: 允许交换基岩
     maxBlockBreakingHardness: 摧毁之技巧可摧毁方块的最大硬度
+    allowUnbreakableBlockSwap: 允许替换不可破坏的方块
+    allowExtendedPistonSwap: 允许替换伸出的活塞
 
     dragDrawing: 拖动绘制
-    animateLines: 启用图案符记动效
+    animateLines: 启用图案动效
     barsHorizontal: 水平显示条栏
     disableOffhandScrollOpening: 主手持有卷轴才可修改
     adjacentPixelCollisionOffset: 相邻像素的偏移因数
