@@ -142,7 +142,7 @@
     akashic_: {
       record: "阿卡夏记录",
       bookshelf: "阿卡夏书架",
-      connector: "阿卡夏桥接块",
+      ligature: "阿卡夏桥接块",
     },
 
     slate: {
@@ -364,10 +364,6 @@
           "": "单击切换绘制与否",
           "@Tooltip": "单击即可开始或结束绘制，无需按住拖动",
         },
-        alwaysShowListCommas: {
-          "": "在所有情况下都显示列表逗号",
-          "@Tooltip": "是否用逗号分隔列表中各种类型的iota（默认情况下，图案iota不会使用逗号分隔）",
-        },
         advancedTooltipsShowsIotaNBT: {
           "": "高级提示文本显示iota NBT",
           "@Tooltip": "启用高级提示文本（F3+H）时是否应当显示核心、法术书等物品所包含iota的完整NBT",
@@ -393,19 +389,11 @@
         },
         actionDenyList: {
           "": "禁用操作列表",
-          "@Tooltip": "被禁用操作的资源位置；试图执行此类操作会导致事故。例如，“hexcasting:get_caster”会禁用意识之精思。",
+          "@Tooltip": "被禁用操作的资源位置；试图执行此类操作会导致事故。例如，“hexcasting:get_caster”会禁用意识之精思",
         },
         circleActionDenyList: {
           "": "法术环禁用操作列表",
-          "@Tooltip": "法术环中被禁用操作的资源位置；试图执行此类操作会导致事故。例如，“hexcasting:get_caster”会禁用意识之精思。",
-        },
-        globalCostScaling: {
-          "": "全局消耗倍数",
-          "@Tooltip": "除去#hexcasting:cannot_modify_cost标签下的操作，其余操作的媒质消耗均会乘以该数。若希望调整该标签下操作的消耗，请使用“操作消耗倍数”配置。",
-        },
-        costRescaleListRaw: {
-          "": "操作消耗倍数",
-          "@Tooltip": "资源位置与对应操作媒质消耗倍数的映射。例如，“hexcasting:add_motion 3”会让驱动的消耗变为3倍。",
+          "@Tooltip": "法术环中被禁用操作的资源位置；试图执行此类操作会导致事故。"
         },
         greaterTeleportSplatsItems: {
           "": "卓越传送散落物品",
@@ -1054,6 +1042,7 @@
 
       wrong_dimension: "无法在%2$s中影响到%1$s",
       entity_too_far: "%s超出影响范围",
+      entity_not_found: "无法找到%s，可能是因其已死亡或未被加载",
       immune_entity: "无法影响到%s",
       eval_too_much: "运行了过多图案",
       no_item: "需要%s，而实际无对应物品",
@@ -1526,6 +1515,9 @@
         "true_name.title": "违犯他人",
         true_name: "试图在某种永久性媒介中$(l:patterns/readwrite#hexcasting:write)$(action)存储/$代表另一位玩家的 iota。$(br2)产生黑色火花，并致盲大约一分钟。",
 
+        "entity_not_found.title": "实体失踪",
+        entity_not_found: "试图影响已不存在的实体。有两种可能性，其一是实体已死。其二也是相对来说更奇怪的，是实体距离过远以至于无法被“观测”。$(br2)产生棕色火花，并让我反胃恶心一小会，就像久坐后快速起身一样。",
+
         "disabled.title": "禁用操作",
         disabled: "试图执行被服务器管理员禁用的操作。$(br2)产生黑色火花。",
 
@@ -1556,7 +1548,7 @@
         "1": "我发现了若干骇人的新事故。我绝不能向它们屈服。",
 
         "bad_mindflay.title": "惰性剥离",
-        bad_mindflay: "试图剥离已被剥除意识的生物的意识，或是试图剥离不适用于目标方块的生物的意识。$(br2)产生暗绿色火花。已被剥离过的生物会直接死亡，而只是不适用的则仅会遭受轻微伤害。",
+        bad_mindflay: "试图剥离已被剥除意识的生物的意识，或是试图剥离不适用于目标方块的生物的意识。$(br2)产生暗绿色火花，并杀死对应生物。倘若被村民看到了，他们应该不会对此有什么好评价。",
 
         "no_circle.title": "缺失法术环",
         no_circle: "试图直接执行只能在法术环内执行的操作。$(br2)产生淡蓝色火花，并将我物品栏中所有物品散落在地。",
