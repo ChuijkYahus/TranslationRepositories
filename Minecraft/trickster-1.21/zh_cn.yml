@@ -40,6 +40,26 @@ trickster:
     complete: "法术：完成"
     cast: "法术：施放"
     collar_bell: "缚环铃铛：鸣响"
+    use_esoteric_mana: "隐秘魔力：倒在物品上"
+    leash_link: "捆索：链接至缚环"
+    knot_tick: "晶结：嘀嗒"
+    place_construct_knot: "晶结：被放入组构台"
+    remove_construct_knot: "晶结：被拿出组构台"
+    place_construct_core: "核心：被插入组构台"
+    remove_construct_core: "核心：被抽出组构台"
+    place_charging_array_knot: "晶结：被放入阵列"
+    remove_charging_array_knot: "晶结：被拿出阵列"
+    place_scroll: "卷轴：被放入卷轴架"
+    remove_scroll: "卷轴：被拿出卷轴架"
+    displacement_teleport: "传送：完成"
+    displacement_trigger: "传送：发起"
+    use_luminous_bottle: "荧光墨水：噗"
+    knot_crack: "晶结：破裂"
+    trigger_resonator: "谐振器：谐振"
+
+  mana_cost:
+    costs_mana: 消耗魔力
+    type: "所需类型：%s"
 
   gandalf:
     stored: "存有：%s"
@@ -47,6 +67,12 @@ trickster:
     idling: "空闲"
     draining: "消耗：%.2f"
     filling: "充能：%.2f"
+  mana:
+    type: "类型：%s"
+    stability: "稳定度：%s%%"
+    color: "颜色：%s"
+  knot:
+    desired_color: "带着%s颜色的淡淡微光"
 
   item_group: 戏法师
 
@@ -239,9 +265,13 @@ trickster:
     other_hand: 杂耍之错觉
     other_hand_slot: 抛接之错觉
     get_item_in_slot: 销赃人之辑流
-    get_mana_in_slot: 权威之辑流
     get_count_in_slot: 丰裕之辑流
+    get_mana_color_in_slot: 色泽之辑流
+    get_mana_type_in_slot: 魔衍之辑流
+    get_mana_in_slot: 权威之辑流
     get_max_mana_in_slot: 加冕之辑流
+    get_durability: 稳固之辑流
+    get_max_damage: 坚忍之辑流
     get_slot: 侵入之辑流
     get_item_container: 物仓之辑流
     get_fluid_container: 液仓之辑流
@@ -289,6 +319,8 @@ trickster:
     battery_creation: 望月者之技巧
     push_mana: 善流之技巧
     pull_mana: 恶流之技巧
+    convert_mana: 阿斯特拉菲尔之技巧
+    trigger_converter: 泰拉菲尔之技巧
 
     drain_matter: 栽培师之技巧
 
@@ -298,6 +330,10 @@ trickster:
     item_to_color: 染色剂之辑流
     item_to_glow_color: 明色之辑流
     paint: 染色之技巧
+    suck_color: 绝望者之技巧
+    color_distance: 镉彩之曲变
+
+    summon_lightning: 暴怒者之技巧
 
   revision: （抄绘图案）
   revision.trickster:
@@ -336,12 +372,14 @@ trickster:
       container: 容器
       zalgo: §kZalgo
       item_type: 物品
+      fluid_type: 流体
       block_type: 方块
       entity_type: 实体类型
       string: 字符串
       dimension: 维度
       displace: 位移
       color: 颜色
+      mana: 魔力
     class:
       Fragment: 任意
       AddableFragment: 可加
@@ -368,6 +406,17 @@ trickster:
       EntityTypeFragment: 实体类型
       StorageFragment: 仓储对象
       ResourceVariantFragment: 资源类型
+      ColorFragment: 颜色
+      ManaFragment: 魔力
+
+  mana.trickster:
+    traditional: 常规
+    storm: 风暴
+    color: 多彩
+    anti: 衰弱
+    astral:
+      default: 星辰
+      named: 星辰（%s）
 
   blunder:
     overweight_fragment: 传出的片段超重（%2$s/%3$s），结果为%1$s
@@ -483,6 +532,8 @@ item.trickster:
   cracked_echo_knot: 开裂的回响晶结
   astral_knot: 星辰晶结
   cracked_astral_knot: 开裂的星辰晶结
+  prismatic_knot: 彩晶晶结
+  cracked_prismatic_knot: 开裂的彩晶晶结
   command_knot: 命令晶结
 
   spell_core: 法术核心
@@ -496,10 +547,13 @@ block.trickster:
   spell_construct: 法术组构台
   modular_spell_construct: 模块式法术组构台
   light: 光源
-  light_sconce: 光灯台
+  light_sconce: 光源灯台
   scroll_shelf: 卷轴架
   charging_array: 充能阵列
   inert_spawner: 惰性刷怪笼
+  tattered_wool: 破旧的羊毛
+  tattered_carpet: 破旧的地毯
+  worn_concrete: 磨损的混凝土
   color_block: 灌注陶块
   gilded_tuff: 镶金凝灰岩
   gilded_tuff_stairs: 镶金凝灰岩楼梯
@@ -542,6 +596,7 @@ key:
     take_hat: 取下帽子
     modify_spell: 修改法术（仅创造）
     show_fragment_text: 揭示法术片段
+    ponder: 聚焦至圆
 
 accessories.slot:
   collar: 颈环
@@ -576,10 +631,11 @@ text.config.trickster-config:
     keyZoomSpeed: 编辑时滚轮缩放速度
     maxExecutionsPerSpellPerTick: 每个法术每刻最大执行操作次数
     maxBlockBreakingHardness: 摧毁之技巧可摧毁方块的最大硬度
-    allowUnbreakableBlockSwap: 允许替换不可破坏的方块
-    allowExtendedPistonSwap: 允许替换伸出的活塞
+    allowMovingUnbreakableBlock: 允许戏法移动不可破坏的方块
+    allowMovingExtendedPiston: 允许戏法移动伸出的活塞
 
     dragDrawing: 拖动绘制
+    moreEmphasis: 着重强调图案的结束点
     animateLines: 启用图案动效
     barsHorizontal: 水平显示条栏
     disableOffhandScrollOpening: 主手持有卷轴才可修改
