@@ -127,7 +127,6 @@ trickster:
     abs: 绝对主义者之曲变
     length: 模长之曲变
 
-    two: 基础之错觉
     read_spell: 记事员之辑流
     clear_spell: 畏真者之技巧
     write_spell: 记事员之技巧
@@ -180,7 +179,7 @@ trickster:
     summon_fireball: 火焰术师之技巧
     summon_dragon_breath: 巨龙之技巧
     summon_tnt: 爆破师之技巧
-    summon_wind_charge: 安昂之技巧
+    summon_wind_charge: 海员之技巧
 
     block_find_entity: 怀抱之辑流
     range_find_entity: 同命之辑流
@@ -209,7 +208,6 @@ trickster:
     load_argument_7: 庚参之错觉
     load_argument_8: 辛参之错觉
 
-    list_create: 目录之错觉
     list_add: 扩展之谋略
     list_add_range: 集合之谋略
     list_take_range: 孤立之曲变
@@ -236,7 +234,6 @@ trickster:
     escape_pattern: 释义之曲变
     weight: 存忆之曲变
 
-    map_create: 制图师之错觉
     map_get: 领航员之曲变
     map_insert: 编表之谋略
     map_merge: 海军将领之谋略
@@ -355,6 +352,10 @@ trickster:
     quote_pattern: 释义之修订
     write_path: 地址之修订
 
+    two: 基础之修订
+    empty_list: 目录之修订
+    empty_map: 舆图之修订
+
   fragment:
     trickster:
       type: 类型
@@ -413,7 +414,7 @@ trickster:
     traditional: 常规
     storm: 风暴
     color: 多彩
-    anti: 衰弱
+    impotent: 衰弱
     astral:
       default: 星辰
       named: 星辰（%s）
@@ -435,7 +436,8 @@ trickster:
     reference: 位移 %s
 
 item.trickster:
-  tome_of_tomfoolery: 魔术把戏秘典
+  guidebook: 授业者的语言
+  guidebook.author: 阿莱利·哈戎 著
   mirror_of_evaluation: 执行手镜
 
   scroll_and_quill: 卷轴与笔

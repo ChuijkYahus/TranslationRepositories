@@ -50,7 +50,7 @@
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=笔记：盔甲架|>向盔甲架注入魔力，即可改变它们的属性，可改变的属性及其编号见后页。向量参数为欧拉角，旋转单位为度，尺寸缩放所受的限制要强于[居形之技巧](^trickster:ploys/entity#5)。
+<|page-title@lavender:book_components|title=笔记：盔甲架|>向盔甲架注入魔力，即可改变它们的属性，可改变的属性及其编号见后页。向量为欧拉角，旋转单位为度，尺寸缩放所受的限制要强于[居形之技巧](^trickster:ploys/entity#5)。
 
 
 也可以通过魔法控制物品展示框的物品朝向、展示框隐形与否，以及展示框是否受保护。朝向为0到7的数。
