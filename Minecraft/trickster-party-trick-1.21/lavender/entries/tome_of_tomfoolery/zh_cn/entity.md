@@ -89,12 +89,16 @@
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=partytrick:move_armor_stand,cost=距离^2 * 1G|>
+<|ploy@trickster:templates|trick-id=partytrick:move_armor_stand,cost=距离^2 * 0.5G|>
 
 按照所给向量移动给定盔甲架或其他装饰性实体。试图移动无效实体会导致失策。
 
 ;;;;;
 
+消耗的计算方式与[动能之技巧](^trickster:ploys/entity#3)一致。
+
+;;;;;
+
 <|ploy@trickster:templates|trick-id=partytrick:summon_spit,cost=20G + 1G * 距离 ^ (距离 / 3)|>
 
-若可行，从给定生物或从施法者口中抽出唾沫。计算消耗所用的距离为唾沫来源和给定位置间的距离。
+若可行，从给定生物或从施法者口中抽出唾沫。计算消耗公式中所用的距离，是指唾沫来源和给定位置间的距离。
