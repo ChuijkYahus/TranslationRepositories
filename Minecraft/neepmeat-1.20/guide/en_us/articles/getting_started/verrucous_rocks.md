@@ -9,6 +9,8 @@ Due to the increasing abundance of Enlightened animalcules in the environment, i
 
 # Usage
 
-The glandular secretion of verrucous rocks is an analogue of Transient Ichor, and can be used to power machines. The fluid often seeps from sores in the rock's hard surface. Fluid can be redirected with pipes and used as a passive power source. Multiple sores can be present in a single rock.
+\columns[fit=second]{The glandular secretion of verrucous rocks is an analogue of Transient Ichor, and can be used to power machines. The fluid often seeps from sores in the rock's hard surface. Fluid can be redirected with pipes and used as a passive power source. Multiple sores can be present in a single rock.
+}{\item_render[height=70]{neepmeat:verrucous_stone_port}
+\centering{A port that emits fluid.}}
 
 Each rock produces 10eJ/t per block. This is split equally between each port.

@@ -1,6 +1,6 @@
 ---
-id: router
-lookup: neepmeat:item_router, neepmeat:advanced_item_router
+id: item_sorter
+lookup: neepmeat:item_router, neepmeat:advanced_router
 ---
 
 # 物品分拣器
@@ -10,3 +10,5 @@ lookup: neepmeat:item_router, neepmeat:advanced_item_router
 物品可通过管道和漏斗送入。
 
 高级版本的分拣器支持更细致的过滤器。
+
+\columns{\item_render[height=30]{neepmeat:router}}{\item_render[height=30]{neepmeat:advanced_router}}
