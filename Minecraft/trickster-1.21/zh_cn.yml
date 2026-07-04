@@ -34,6 +34,7 @@ trickster:
   tooltip:
     collar_link: "链接：%s"
     unlinked: 未链接
+    face_height: 位于%d，右击以修改。
 
   subtitle:
     draw: "法术：绘制"
@@ -389,6 +390,7 @@ trickster:
       MultiplicableFragment: 可乘
       RoundableFragment: 可舍入
       SubtractableFragment: 可减
+      AverageableFragment: 可平均
       TypeFragment: 类型
       NumberFragment: 数
       BooleanFragment: 布尔值
