@@ -333,6 +333,9 @@ trickster:
 
     summon_lightning: 暴怒者之技巧
 
+    project_position: 飞行员之辑流
+    project_direction: 导航员之辑流
+
   revision: （抄绘图案）
   revision.trickster:
     add_subcircle: 延枝之修订
@@ -627,8 +630,8 @@ text.config.trickster-config:
     outlinePatterns: 为图案绘制边框
 
     manaTransferEfficiency: 善流之技巧与恶流之技巧的效率
-    whorlMaxMana: 螺坠最大魔力，以G计
-    whorlRechargeRate: 螺坠充能速度，以M计
+    whorlMaxMana: 螺坠最大魔力（G）
+    whorlRechargeRate: 螺坠充能速度（M）
     topHatInterceptScrolling: 副手持帽子时拦截快捷栏滚选
     invertTopHatScrolling: 反转帽子滚选方向
     allowScrollInSpellScreen: 编辑时允许滚动滚轮缩放
