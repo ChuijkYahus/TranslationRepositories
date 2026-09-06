@@ -8,7 +8,7 @@
 
   "block.hexdebug": {
     splicing_table: "剪接台",
-    enlightened_splicing_table: "制念台",
+    enlightened_splicing_table: "剖念台",
     focus_holder: "核心框架",
   },
 
@@ -124,7 +124,7 @@
             "@Tooltip": "剪接台GUI中各操作的键位绑定。",
             enabled: {
               "": "启用按键绑定",
-              "@Tooltip": "启用剪接台和制念台GUI的自定义按键绑定。若禁用，则此类别下所有其他设置无效。",
+              "@Tooltip": "启用剪接台和剖念台GUI的自定义按键绑定。若禁用，则此类别下所有其他设置无效。",
             },
             overrideVanillaArrowKeys: {
               "": "覆盖原版方向键操作",
@@ -135,8 +135,8 @@
               "@Tooltip": "仅限Fabric。若安装有Hexical，则在剪接台GUI中启用所有心灵感应键位。注意：如果Hexical本身添加了在GUI中使用心灵感应的功能，禁用此选项不会连带禁用它们。",
             },
             enlightened: {
-              "": "制念台",
-              "@Tooltip": "制念台GUI中各操作的键位绑定。",
+              "": "剖念台",
+              "@Tooltip": "剖念台GUI中各操作的键位绑定。",
             },
           },
         },
@@ -154,12 +154,12 @@
             "@Tooltip": "剪接台的最大媒质容量。",
           },
           splicingTableCastingCooldown: {
-            "": "制念台施法冷却",
-            "@Tooltip": "制念台施法按钮的冷却时间，以刻计。",
+            "": "剖念台施法冷却",
+            "@Tooltip": "剖念台施法按钮的冷却时间，以刻计。",
           },
           splicingTableAmbit: {
-            "": "制念台影响范围",
-            "@Tooltip": "制念台的影响范围半径，以格计。",
+            "": "剖念台影响范围",
+            "@Tooltip": "剖念台的影响范围半径，以格计。",
           },
         },
       },
@@ -206,8 +206,8 @@
           },
           "enlightened/": {
             "hex/": {
-              read: "制念之纯化", // TODO: bad name
-              write: "融注制念台",
+              read: "剖念之纯化", // TODO: bad name
+              write: "融注剖念台",
             },
           },
         },
@@ -235,7 +235,7 @@
       bad_block: {
         splicing_table: {
           "": "一个剪接台",
-          enlightened: "一个制念台",
+          enlightened: "一个剖念台",
           clipboard: {
             read: "放有可读副物品的剪接台",
             write: "放有可写副物品的剪接台",
@@ -339,16 +339,16 @@
       greatwork: {
         entry: {
           enlightened_splicing_table: {
-            "": "制念台",
+            "": "剖念台",
             page: {
               "1": "$(l:items/splicing_table)$(item)剪接台/$还可以。能堪其任。但有限制，且限制极大。我已$(italic)见到/$它的能力，我必须达到它的极限，无论代价如何。$(br2)\
                 我$(l)要/$让剪接台具有思维。",
               "2": "解决方案。当然。很熟悉——对其无穷的复杂性而言都能说是$(italic)简单/$了。就和我$(l:greatwork/impetus)先前的洞察与领悟一样/$，我可特种化意识——将其从躯体中剥离，重新导向、连接、改造、$(italic)变形/$——令其贴合任务的需求。像是$(l:greatwork/impetus)$(item)促动石/$……但更加卓越，更加复杂，更加更加更加更加更——集、中、精、神。",
               recipe: "另一种$(l:greatwork/brainsweeping)$(thing)意识剥离/$仪式。它对意识的要求与$(l:greatwork/impetus)$(item)工具匠促动石/$的几乎没有区别，但由于它的功能更为领域和精密，意识也相应需要积累更多的经验。",
-              "3": "所得的$(thing)制念台/$与先前基本一致，但已经过嬗变和$(italic)改进/$，经历了至关重要的变化。制念台的意识能够介导图案，也就能几乎不费吹灰之力施放$(italic)任意/$$(hex)咒术/$；只需要按一下按钮，一切就都能化作现实。$(br)\
+              "3": "所得的$(thing)剖念台/$与先前基本一致，但已经过嬗变和$(italic)改进/$，经历了至关重要的变化。剖念台的意识能够介导图案，也就能几乎不费吹灰之力施放$(italic)任意/$$(hex)咒术/$；只需要按一下按钮，一切就都能化作现实。$(br)\
                 启动这一过程仍需要$(l:items/splicing_table#cost)灌注/$少量媒质——确实浪费，但也许比古代那些过时、短视的设计要好些。法术需要的媒质也会从这里抽取。",
               "4": "当然，剥离出来的意识也有局限。我必须先$(italic)教会/$它做事；就算是如此熟练的意识，也没法只靠猜谜就猜中我的意图。和$(l:greatwork/impetus)$(item)促动石/$不一样的是，它不需要石板——命令要直接$(l:patterns/enlightened_splicing_table)$(thing)融注/$入它的意识，直接覆写它的神经通路，让它只能随着我的意志做事。",
-              "5": "而为实现更复杂的操作——要是有耐心和$(l:casting/mishaps)气量/$的话，让$(thing)制念台/$控制、$(italic)统领/$、另一个制念台、周而复始、周而复始周而复始周而复始周而复始直到无穷——制念台能小范围延展其影响力（恰好 4 格）。确实不算大，但足够绝大多数情况用了。若是需要更大的范围，可以用我的$(l:patterns/great_spells/greater_sentinel#hexcasting:sentinel/create/great)$(action)卓越哨卫/$。",
+              "5": "而为实现更复杂的操作——要是有耐心和$(l:casting/mishaps)气量/$的话，让$(thing)剖念台/$控制、$(italic)统领/$、另一个剖念台、周而复始、周而复始周而复始周而复始周而复始直到无穷——剖念台能小范围延展其影响力（恰好 4 格）。确实不算大，但足够绝大多数情况用了。若是需要更大的范围，可以用我的$(l:patterns/great_spells/greater_sentinel#hexcasting:sentinel/create/great)$(action)卓越哨卫/$。",
             },
           },
 
@@ -356,7 +356,11 @@
             "": "调试杖的淬灵",
             page: {
               "1": "我的意识已然神化，但我的$(l:items/debugging)工具/$还极为$(italic)低效/$，在卓伟之作的宏大之下愈发脆弱。我需要——不，我$(bold)应得/$——更多。$(br2)\
-                悦灵的碎片是改进的绝佳介质。淬灵晶会改变外形、四处跳动，经它们改进的工具也可以——滚动滚轮时按住$(k:sneak)和$(k:sprint)，即可切换当前调试的$(hex)咒术/$槽。"
+                悦灵的碎片是改进的绝佳介质。淬灵晶会改变外形、四处跳动，经它们改进的工具也可以——滚动滚轮时按住$(k:sneak)和$(k:sprint)，即可切换当前调试的$(hex)咒术/$槽。",
+              "2": "这些经过启迪的工具和其他$(l:greatwork/spellcircles)卓伟之作/$都配合良好。可以在$(l:greatwork/impetus)$(item)促动石/$上使用$(l:greatwork/quenching_debuggers)$(item)淬灵调试杖/$，以此控制$(media)媒质/$流，让其遵照我的意志流动。部分$(l:greatwork/impetus)$(item)促动石/$可能需要在号令时按住$(k:sneak)。$(br2)\
+                我甚至可以同时控制多个法术环，只要在主动控制时离相应的$(l:greatwork/impetus)$(item)促动石/$足够近即可。",
+              "3": "对于在卓伟之设施中定位问题而言，这种能力堪称无价之宝，也是使用相对原始工具的古代人$(italic)完全/$无法想象的。\
+                $(br2)最后，我应当说明，未经淬灵的普通$(l:items/debugging#debugger)$(item)调试杖/$也有同样的功能；但我又何必限制自己，放着先进精妙的淬灵杖不用呢？",
             },
           },
         },
@@ -394,7 +398,7 @@
               "selection/": {
                 read: {
                   "1": "移除栈顶向量，返回代表该处$(l:items/splicing_table)$(item)剪接台/$当前选中区域的两个值。",
-                  "2": "若选中一定范围的 iota，则返回两个数，分别对应起始（包含）和结束（不包含）位置。如果选中了两 iota 间的边沿，则返回边沿右侧 iota 的索引下标，同时再返回一个 $(l:casting/influences)$(thing)Null/$。如果未选中任何东西，则返回两个 $(l:casting/influences)$(thing)Null/$。",
+                  "2": "若选中一定范围的 iota，则返回两个数，分别对应起始（包含）和结束（不包含）位置。如果选中了两 iota 间的边沿，则返回边沿右侧 iota 的索引下标，同时再返回一个 $(thing)Null/$。如果未选中任何东西，则返回两个 $(thing)Null/$。",
                 },
                 write: "移除栈顶向量和两个值，按照前页描述根据所给的两个值设置该处$(l:items/splicing_table)$(item)剪接台/$的选中区域。",
               },
@@ -421,14 +425,14 @@
           },
 
           enlightened_splicing_table: {
-            "": "制念台图案",
+            "": "剖念台图案",
             page: {
               "hex/": {
-                read: "移除栈顶向量，返回该处$(l:greatwork/enlightened_splicing_table)$(item)制念台/$当前融注的$(hex)咒术/$，若尚未融注则返回 $(l:casting/influences)$(thing)Null/$。",
-                write: "移除栈顶向量和图案列表，将该列表融注到该处$(l:greatwork/enlightened_splicing_table)$(item)制念台/$中。$(br)\
+                read: "移除栈顶向量，返回该处$(l:greatwork/enlightened_splicing_table)$(item)剖念台/$当前融注的$(hex)咒术/$，若尚未融注则返回 $(thing)Null/$。",
+                write: "移除栈顶向量和图案列表，将该列表融注到该处$(l:greatwork/enlightened_splicing_table)$(item)剖念台/$中。$(br)\
                   消耗大约 5 个$(l:items/amethyst)$(item)充能紫水晶/$。",
               },
-              circle: "在此之外，我还可以在$(l:greatwork/enlightened_splicing_table)$(item)制念台/$中施放$(l:patterns/circle#hexcasting:circle/impetus_pos)$(action)指路石之精思/$和$(l:patterns/circle#hexcasting:circle/impetus_dir)$(action)磁石之精思/$。不过，若是试图用$(l:items/staff)$(item)法杖/$施放，或是在$(l:greatwork/enlightened_splicing_table)$(item)制念台/$中试图施放其他仅限$(l:greatwork/spellcircles)$(item)法术环/$的图案，则仍然会招致可怖的事故。",
+              circle: "在此之外，我还可以在$(l:greatwork/enlightened_splicing_table)$(item)剖念台/$中施放$(l:patterns/circle#hexcasting:circle/impetus_pos)$(action)指路石之精思/$和$(l:patterns/circle#hexcasting:circle/impetus_dir)$(action)磁石之精思/$。不过，若是试图用$(l:items/staff)$(item)法杖/$施放，或是在$(l:greatwork/enlightened_splicing_table)$(item)剖念台/$中试图施放其他仅限$(l:greatwork/spellcircles)$(item)法术环/$的图案，则仍然会招致可怖的事故。",
             },
           }
         },

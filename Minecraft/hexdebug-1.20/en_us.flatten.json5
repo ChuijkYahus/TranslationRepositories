@@ -356,7 +356,11 @@
             "": "Quenching Debuggers",
             page: {
               "1": "My mind has been apotheosized, but my $(l:items/debugging)tools/$ are still so $(italic)limited/$, bursting at the seams with the enormity of the Work. I need -- no, DESERVE -- more.$(br2)\
-                The shards of an Allay make an excellent medium for the task. As they twist and jump around, so too can these tools -- holding $(k:sneak) and $(k:sprint) while scrolling will switch between slots for _Hexes to debug."
+                The shards of an Allay make an excellent medium for the task. As they twist and jump around, so too can these tools -- holding $(k:sneak) and $(k:sprint) while scrolling will switch between slots for _Hexes to debug.",
+              "2": "These enlightened tools also synergize nicely with other $(l:greatwork/spellcircles)great works/$. I can use a $(l:greatwork/quenching_debuggers)$(item)Quenched Debugger/$ on an $(l:greatwork/impetus)$(item)Impetus/$ to take control of the wave of _media, holding it back according to my will. For certain types of $(l:greatwork/impetus)$(item)Impeti/$, I may also have to initially hold $(k:sneak) for my command to be recognized.$(br2)\
+                I can even control multiple spell circles at once, so long as I remain close enough to the relevant $(l:greatwork/impetus)$(item)Impetus/$ when actively advancing it.",
+              "3": "This ability seems to be extraordinarily useful for finding problems in my grand assemblies, something the ancients could $(italic)never/$ have done so easily with their primitive tools.$(br2)\
+                Finally, I suppose I should note that a regular, unquenched $(l:items/debugging#debugger)$(item)Debugger/$ can also be used for this purpose, but why would I limit myself to such crude and unsophisticated methods?",
             },
           },
         },
@@ -394,7 +398,7 @@
               "selection/": {
                 read: {
                   "1": "Remove a vector from the stack, then push two values representing the current selection in the $(l:items/splicing_table)$(item)Splicing Table/$ at that position.",
-                  "2": "If a range of iotas is selected, two numbers are pushed, representing the start (inclusive) and end (exclusive) of the selected range. If the edge between two iotas is selected, the index of the iota to the right of the selected edge is pushed, followed by $(l:casting/influences)$(thing)Null/$. And if nothing is selected, $(l:casting/influences)$(thing)Null/$ is pushed twice.",
+                  "2": "If a range of iotas is selected, two numbers are pushed, representing the start (inclusive) and end (exclusive) of the selected range. If the edge between two iotas is selected, the index of the iota to the right of the selected edge is pushed, followed by $(thing)Null/$. And if nothing is selected, $(thing)Null/$ is pushed twice.",
                 },
                 write: "Remove a vector and two values from the stack, then set the selection of the $(l:items/splicing_table)$(item)Splicing Table/$ at that position as previously described.",
               },
@@ -424,7 +428,7 @@
             "": "Mindsplice Table Patterns",
             page: {
               "hex/": {
-                read: "Remove a vector from the stack, then push the _Hex currently imbued to the $(l:greatwork/enlightened_splicing_table)$(item)Mindsplice Table/$ at that position, or $(l:casting/influences)$(thing)Null/$ if it has not yet been imbued.",
+                read: "Remove a vector from the stack, then push the _Hex currently imbued to the $(l:greatwork/enlightened_splicing_table)$(item)Mindsplice Table/$ at that position, or $(thing)Null/$ if it has not yet been imbued.",
                 write: "Remove a vector and list of patterns from the stack, then imbue the list of patterns into the $(l:greatwork/enlightened_splicing_table)$(item)Mindsplice Table/$ at that position.$(br)\
                   Costs about five $(l:items/amethyst)$(item)Charged Amethyst/$.",
               },
