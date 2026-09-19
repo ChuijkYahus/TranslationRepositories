@@ -119,5 +119,6 @@
   "chalk.configuration.chalk_box_tooltip_contents": "粉笔盒提示框内容物",
   "chalk.configuration.symbols": "图案",
   "chalk.configuration.unlocking": "解锁",
-  "chalk.configuration.unlocking_chat_message": "解锁发送聊天消息"
+  "chalk.configuration.unlocking_chat_message": "解锁发送聊天消息",
+  "chalk.configuration.glowing_mark_particles": "发光标记粒子"
 }
