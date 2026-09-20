@@ -497,7 +497,7 @@
   "message.supplementaries.throwable_brick": "可投掷",
   "message.supplementaries.timber_frame": "接受任意完整方块",
   "message.supplementaries.trapdoor.locked": "活板门已上锁",
-  "message.supplementaries.wind_vane": "对天气变化有反应",
+  "message.supplementaries.wind_vane": "会对天气变化产生反应",
   "message.supplementaries.cannon_maneuver": "按下%1$s来脱离，按下%2$s来发射",
   "message.supplementaries.lunch_box.tooltip.open": "已打开",
   "message.supplementaries.lunch_box.tooltip.closed": "已关上",
