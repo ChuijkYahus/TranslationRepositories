@@ -10,11 +10,13 @@ navigation:
 
 The Wrench is the tool you use for everything related to nodes — opening their configuration, removing them, copying setups between nodes, and bulk-placing lots of nodes at once.
 
-It has three modes, and every mode does something different. Cycle through them with **Modifier Key 1 (default: Shift) + Mouse Wheel** while holding the wrench. The current mode is shown in the HUD overlay at the top of the screen.
+It has three modes. Hold **R** while holding the wrench to open the mode wheel, point at a mode, then release to select it. Release in the centre or press Escape to cancel. Remap the wheel key in Minecraft's Controls menu.
+
+You can also cycle modes with **Modifier Key 1 (default: Shift) + Mouse Wheel**. The HUD beside the hotbar shows the active mode: blue for Wrench, green for Copy / Paste, and gold for Mass Placement.
 
 ## Modes at a Glance
 
-- [Wrench](wrench-mode.md) — the default. Open a node's configuration, remove nodes, and (with AE2 installed) toggle AE2 linking.
+- [Wrench](wrench-mode.md) — the default. Open or remove nodes, place nodes, and link an AE2 or Refined Storage network.
 - [Copy / Paste](copy-paste.md) — clone a node's entire setup — channels, filters, upgrades, label — onto another node. Supports bulk-paste to every connected node of the same block type.
 - [Mass Placement](mass-placement.md) — select a two-corner area, choose a target block type, then place configured nodes on matching blocks with **Primary Interaction (default: Left Click)**.
 
@@ -22,7 +24,7 @@ It has three modes, and every mode does something different. Cycle through them 
 
 | Mode | Secondary Interaction (default: Right Click) | Modifier Key 1 + Secondary Interaction | Modifier Key 2 (default: Ctrl) + Secondary Interaction |
 |------|-------------|---------------------|--------------------|
-| Wrench | Open node config | Remove node (or toggle AE2 link) | — |
+| Wrench | Open node config | Remove a node, place a node, or toggle a storage link | — |
 | Copy / Paste | Copy node → clipboard (or open Clipboard Editor on air) | Paste clipboard → node | Paste to every connected same-block-type node |
 | Mass Placement | Set area corners (or open Placement Menu on air) | Open Placement Menu | — |
 
