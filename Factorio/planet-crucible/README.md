@@ -1,2 +1,2 @@
-version=1.1.27
+version=1.2.0
 info-included=true,in-planet-crucible

@@ -1,2 +1,2 @@
-version=4.24.17
-info-included=only-name
+version=4.24.18
+info-included=true,only-name
