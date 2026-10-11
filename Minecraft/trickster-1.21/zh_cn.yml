@@ -89,7 +89,8 @@ trickster:
     subtract: 遗弃之谋略
     multiply: 统治之谋略
     divide: 屈从之谋略
-    modulo: 整体之曲变
+    remainder: 整体之左曲变
+    modulo: 整体之右曲变
     power: 至尊之曲变
     logarithm: 至劣之曲变
     max: 高贵之谋略
@@ -235,7 +236,9 @@ trickster:
     escape_pattern: 释义之曲变
     weight: 存忆之曲变
 
+    map_get_keys: 凯恩斯之曲变
     map_get: 领航员之曲变
+    map_get_values: 观光者之曲变
     map_insert: 编表之谋略
     map_merge: 海军将领之谋略
     map_remove: 废止之谋略
@@ -273,6 +276,7 @@ trickster:
     get_slot: 侵入之辑流
     get_item_container: 物仓之辑流
     get_fluid_container: 液仓之辑流
+    get_accessories_container: 饰品之辑流
     get_slots: 收藏家之辑流
     get_inventory_size: 容展之辑流
     filter_container: 辨别之辑流
@@ -385,35 +389,42 @@ trickster:
       displace: 位移
       color: 颜色
       mana: 魔力
-    class:
+
+    class.dev.enjarai.trickster.spell:
       Fragment: 任意
-      AddableFragment: 可加
-      DivisibleFragment: 可除
-      FoldableFragment: 可折叠
-      MultiplicableFragment: 可乘
-      RoundableFragment: 可舍入
-      SubtractableFragment: 可减
-      AverageableFragment: 可平均
-      TypeFragment: 类型
-      NumberFragment: 数
-      BooleanFragment: 布尔值
-      VectorFragment: 向量
-      ListFragment: 列表
-      MapFragment: 映射
-      VoidFragment: 空类型
-      PatternGlyph: 图案
-      Pattern: 图案字面量
-      SpellPart: 法术
-      EntityFragment: 实体
-      SlotFragment: 槽位
-      ZalgoFragment: §kZalgo
-      ItemTypeFragment: 物品
-      BlockTypeFragment: 方块
-      EntityTypeFragment: 实体类型
-      StorageFragment: 仓储对象
-      ResourceVariantFragment: 资源类型
-      ColorFragment: 颜色
-      ManaFragment: 魔力
+      
+      fragment:
+        AddableFragment: 可加
+        DivisibleFragment: 可除
+        FoldableFragment: 可折叠
+        MultiplicableFragment: 可乘
+        RoundableFragment: 可舍入
+        SubtractableFragment: 可减
+        AverageableFragment: 可平均
+        TypeFragment: 类型
+        NumberFragment: 数
+        BooleanFragment: 布尔值
+        VectorFragment: 向量
+        ListFragment: 列表
+        MapFragment: 映射
+        VoidFragment: 空类型
+        PatternGlyph: 图案
+        Pattern: 图案字面量
+        SpellPart: 法术
+        EntityFragment: 实体
+        ZalgoFragment: §kZalgo
+        ItemTypeFragment: 物品
+        BlockTypeFragment: 方块
+        EntityTypeFragment: 实体类型
+        ColorFragment: 颜色
+        ManaFragment: 魔力
+
+        storage:
+          ResourceVariantFragment: 资源类型
+          StorageFragment: 仓储对象
+          ContainerFragment: 容器
+          SlotFragment: 槽位
+
 
   mana.trickster:
     traditional: 常规
@@ -424,14 +435,80 @@ trickster:
       default: 星辰
       named: 星辰（%s）
 
+  exception:
+    format: "%1$s：%2$s"
+    uncaught:
+      trick: "执行戏法时遇到了未捕获的异常：%1$s：%2$s"
+      fragment: "执行片段时遇到了未捕获的异常：%1$s：%2$s"
+      executor: "执行法术时遇到了未捕获的异常：%1$s：%2$s"
+
   blunder:
-    overweight_fragment: 传出的片段超重（%2$s/%3$s），结果为%1$s
+    unknown_trick:
+      fragment: 未知
+      message: 图案不与任何已知戏法对应
+
+    invalid_inputs:
+      with_trick: |-
+        输入无效，该戏法的有效签名如下：%1$s
+        给出的输入如下：%2$s
+      without_trick: 输入无效
+
+    invalid_block:
+      null_block: 方块类型无效
+      nonnull_block: 方块类型无效，不应为%1$s
+
+    missing_argument: 在索引%1$s处缺失参数
+    execution_limit_reached: 已达到执行上限
+    illegal_operation_in_atomic_chunk: 原子法术中有不合法操作
+    nan: 数参数必须为数
+    address_not_in_tree: "法术在如下地址处没有圆：%1$s"
+    assertion: "该值的断言失败：%1$s"
+    atomic_chunk_too_large: 原子法术过大，无法在单刻内运行
+    block_occupied: "%1$s处的方块已被占用"
+    block_too_hard: 方块无法被法术破坏
+    block_unoccupied: "%1$s处的方块未被占用"
+    cannot_place_block: 无法在%2$s处放置%1$s
+    cannot_edit_block: 无法编辑方块（%1$s），被操作符限制
+    divide_by_zero: 除以零
+    entity_already_stored: 副手物品中已存有实体
+    entity_cannot_be_displaced: 无法位移%1$s
+    entity_cannot_be_stored: 无法存储%1$s
     expected_overweight_fragment: 传出的片段超重（%d/%d）
-    missing_fragment: 索引%d处参数缺失，本应传入%s
-    unknown_trick: 图案不与任何已知戏法对应
+    immutable_item: 物品不可变，无法写入法术
+    incompatible_dimension: 不兼容的维度
+    incompatible_source: 不兼容的施法来源
+    incompatible_types: 不兼容的类型
+    index_out_of_bounds: "索引越界：%1$s"
+    invalid_displacement: 位移已失效或已使用
+    invalid_entity: 实体无效
+    invalid_slot: 槽位变种无效
+    invalid_storage: 仓储对象变种无效
+    invalid_item: 物品无效
+    missing_cost: 物品栏中紫水晶不足
+    missing_item: 缺少物品
+    no_free_slot: 没有空闲的物品槽
+    no_free_spell_slot: 没有可用的空闲法术槽
+    no_inventory: 没有可用的物品栏
+    no_player: 没有可用的玩家
+    no_such_fleck: 视形%1$s不存在
+    no_such_slot: 物品槽不存在
+    no_such_spell_slot: 所给法术槽不存在
+    not_enough_mana: 魔力不足，至少需要%1$s点%2$s
+    not_enough_room_to_displace: "%2$s处没有足够容纳%1$s的空间"
+    not_loaded: 无法访问方块（%1$s）
+    not_slotted_storage: 仓储对象无法按槽位索引
+    number_is_infinite: 数参数不可为无穷
+    number_too_large: 数过大，接受小于等于%1$s的数
+    number_too_small: 数过小，接受大于等于%1$s的数
+    out_of_range: "范围越界：%1$s多于%2$s"
+    overlap: "位置重叠：%1$s，%2%s"
+    overweight_fragment: 传出的片段超重（%2$s/%3$s），结果为%1$s
+    too_many_displacements: "%1$s位移得太过频繁"
+    unknown_entity: 未知实体
 
   storage:
     caster: 施法者
+    accessories: 类似%s的饰品
     block: '%d, %d, %d'
     entity: '%s'
     slot: '%2$s中的槽位%1$d'
@@ -521,6 +598,7 @@ item.trickster:
   wand: 魔杖
   macro_ring: 宏戒指
   amethyst_whorl: 紫水晶螺坠
+  charging_belt: 充能腰带
   collar: 侍者的缚环
   leash: 法师的捆索
   torment_on_a_chain: 磨难链坠
@@ -585,7 +663,6 @@ effect.trickster:
   mana_deficiency: 魔力降流
 
 tag.item.trickster:
-  can_evaluate_dynamically: 可动态执行
   holdable_hat: 可手持的帽子
   scrolls: 卷轴
   spell_cost: 法术消耗品
