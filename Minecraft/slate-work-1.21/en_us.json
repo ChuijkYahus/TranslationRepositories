@@ -57,9 +57,9 @@
   "Items:": "",
   "item.slate_work.allay_pigment": "Quenched Pigment",
   "item.slate_work.whispering_stone": "Whispering Stone",
+  "item.slate_work.whispering_hextended_stone": "Hextended Whispering Stone",
   "item.slate_work.whispering_stone.cords": "Location: ",
   "item.slate_work.whispering_stone.string": "Moniker: ",
-  "slate_work.entry.storage_loci_block": "Storage Vessels",
   "item.slate_work.whispering_stone.no_cords": "No currently bound location",
 
 
@@ -145,11 +145,12 @@
   "slate_work.entry.redstone_loci": "Redstone Agitator",
   "slate_work.page.redstone_loci.intro": "As I build more complex $(l:greatwork/spellcircles)Spell Circles/$, I require finer control over redstone output of the slates.$(br)While a comparator works for more basic circles; it only gives off a flat redstone output of 15, and stays triggered until the $(l:greatwork/spellcircles)Circle/$ ends.",
   "slate_work.page.redstone_loci.redstone_loci": "Thus, is why I have created the $(thing)Redstone Agitator/$. This pops a number between 0 and 15 (inclusive) from the stack, and sets the redstone output of the $(thing)Agitator/$ to that number. Additionally, it stops giving off redstone power when the $(thing)Media Wave/$ leaves the slate. $(br2)While not quite intended, this seems to have coevolved with another ancient blueprint, the \"Undulator\" from the same libraries as the $(l:greatwork/accelerator_loci)Accelerator/$.",
+  "slate_work.page.redstone_loci.receive": "A useful feature I have built into the $(thing)Redstone Agitator/$ is the ability to also $(o)read/$ redstone input. If I lightly tap the $(thing)Redstone Agitator/$ with my hand, it begins to induct redstone. Once the $(thing)Media Wave/$ pass by, it will push the current supplied redstone power to the $(l:greatwork/spellcircles)Spell Circle/$",
   "slate_work.page.redstone_loci.crafting": "Combing a mixture of $(item)redstone dust/$ and $(l:items/amethyst)amethyst dust/$, and intertwining it with a slate creates the exact mixture of redstone conductivity I require.",
 
   "slate_work.entry.akashic_loci": "Akashic Locus",
   "slate_work.page.akashic_loci.intro": "It appears like the $(l:greatwork/akashiclib)Akashic Record/$ is an extremely powerful conductor of _Media and Thoughts; to the point of it being able to be used by a $(l:greatwork/spellcircles)Spell Circle/$.$(br2)$(br2)$(o)I have come to learn So Much. I might as well share it with my proudest creation.",
-  "slate_work.page.akashic_loci.akashic_loci": "Whenever an $(l:greatwork/akashiclib)Akashic Record/$ is activated by a $(l:greatwork/spellcircles)Spell Circle/$'s $(thing)Media Wave/$, it requires either a Pattern Iota, or any Iota and a Pattern Iota, and pops the given iotas.$(br2)If a single Pattern Iota is supplied, it dives into the records, and reads the iota associated with the given pattern.$(br2)If both any Iota, and a Pattern Iota are given, it will attempt to associate the iota with the given pattern.",
+  "slate_work.page.akashic_loci.akashic_loci": "Whenever an $(l:greatwork/akashiclib)Akashic Record/$ is activated by a $(l:greatwork/spellcircles)Spell Circle/$'s $(thing)Media Wave/$, it requires either a Pattern Iota, or a Pattern Iota and any Iota, and pops the given iotas.$(br2)If a single Pattern Iota is supplied, it dives into the records, and reads the iota associated with the given pattern.$(br2)If both a Pattern Iota and any Iota are given, it will attempt to associate the iota with the given pattern.",
   "slate_work.page.akashic_loci.extra": "It seems like the functionalities closely resemble the $(l:patterns/akashic_patterns)Akashic Patterns/$; however, these are ran without any cost. Meaning it is completely free to index an $(l:greatwork/akashiclib)Akashic Library/$ with a $(l:greatwork/spellcircles)Spell Circle/$. $(br2)Importantly: it seems like this has the abnormal ability to clear shelves; if I attempt to store a Null Iota with this technique, it will instead clear the shelf associated with that pattern.",
 
   "slate_work.entry.fake_player_loci": "Synthetic Dreamer",
@@ -165,7 +166,7 @@
   "slate_work.page.block_break_loci.intro": "As far as my works has come, I have yet found a way to efficiently break a block. Nature has given me the $(l:patterns/spells/blockworks#hexcasting:break_block)Break Block/$ spell, yes; however, it can not apply things suck as $(thing)Fortune/$ nor $(thing)Silk Touch/$, acting as a plain $(item)Diamond Pickaxe/$. This is why shortly after my $(l:greatwork/the_work)grand awakening/$, I quickly jotted down plans for this: the $(thing)Bombastic Extractor/$. $(br2)$(o)...Pardon the pun.",  "slate_work.page.block_break_loci.block_break_loci": "Due to the mixture of $(item)Netherite/$ compounds, the $(thing)Bombastic Extractor/$ harvests at a Netherite level. As well, this can be enchanted with pickaxe specific enchantments, allowing it to harvest with either $(thing)Fortune/$ or $(thing)Silk Touch/$ (along with $(thing)Efficiency/$ for lower costs).",
   "slate_work.page.block_break_loci.block_break_loci_cont": "Importantly, the cost of the $(thing)Bombastic Extractor/$ changes based on the enchantments. Firstly, the base cost per block is 1/8th of a $(l:items/amethyst)dust/$, much like $(l:patterns/spells/blockworks#hexcasting:break_block)Break Block/$. $(thing)Fortune/$ increases the cost by a $(l:items/amethyst)dust/$ per level, while $(thing)Silk Touch/$ increases the cost by a flat $(l:items/amethyst)shard/$. Finally, efficiency decreases the cost by 1.5 times per level.",
   "slate_work.page.block_break_loci.filter#": "A few last things for this functional block: whenever a block is mined, the resulting drops are attempted to be slotted into the activated $(l:greatwork/storage_loci_block)Storage Vessels/$. Additionally, this construct uses (but not consume) a predicate _Hex that takes in an type, and returns a boolean; if true, the ",
-  "slate_work.page.block_break_loci.filter": "Interestingly, this construct doesn't just harvest the block in front; instead, it reaches from its current point to the end of $(l:greatwork/spellcircles)Spell Circle/$. And rather than indiscriminately excavating blocks, the $(thing)Bombastic Extractor/$ uses (but not consumes) a _Hex. This _Hex is ran over each positon, providing the _Hex the $(l:patterns/items)type/$ of the position (much like $(l:patterns/meta#hexcasting:for_each)$(action)Thoth's Gambit/$). Which if the _Hex returns True, the block is harvested; if False, the block is ignored.",
+  "slate_work.page.block_break_loci.filter": "Interestingly, this construct doesn't just harvest the block in front; instead, it reaches from its current point to the end of $(l:greatwork/spellcircles)Spell Circle/$. And rather than indiscriminately excavating blocks, the $(thing)Bombastic Extractor/$ uses (but not consumes) a _Hex. This _Hex is ran over each positon, providing the _Hex the location and $(l:patterns/items)type/$ of the position (much like $(l:patterns/meta#hexcasting:for_each)$(action)Thoth's Gambit/$). Which if the _Hex returns True, the block is harvested; if False, the block is ignored.",
   "slate_work.page.block_break_loci.pickup": "Finally, the $(thing)Bombastic Extractor/$ when breaking blocks, also collects them into all activated $(l:greatwork/storage_loci_block)Storage Vessels/$. If the activated $(l:greatwork/storage_loci_block)Storage Vessels/$ are full, the broken block falls to the ground normally.",
   "slate_work.page.block_break_loci.crafting": "A pinch of $(item)Netherite/$ to break more effectively, a speckling of $(item)TNT/$ to harvest en masse, and some $(l:items/amethyst)dust/$ and slate to bind it all together!",
 
@@ -224,6 +225,8 @@
   "slate_work.page.whispering.cont": "When I click this onto a $(l:greatwork/listener_impetus#slate_work:listener)Librarian Impetus/$, it binds its self to the Impetus, stating its location and moniker. Then, whenever I state the moniker while holding the item, it silents me, and starts the bound $(l:greatwork/listener_impetus#slate_work:listener)Librarian Impetus/$.$(br2)However, if the $(thing)impetus/$ has had its moniker changed, I simply can just lightly \"shake\" the $(thing)stone/$, and it will update.",
   "slate_work.page.whispering.bound": "Finally, the $(item)Whispering Stone/$ can be unbound in 2 ways. If I crouch and use the $(thing)stone/$, it clears its bound $(thing)impetus/$. As well, if I attempt to speak into the $(thing)stone/$ while the bound $(thing)impetus/$ is destroyed and or relocated, it will unbind its self; but still silencing me for one last time.$(br2)Importantly: the $(thing)Whispering Stone/$ can not start the Impetus if it lays outside of \"chunk loading\"'s range.",
   "slate_work.page.whispering.crafting": "$(o)Whispers and mutterances, gasps and fears, I can hear these faintly echo from this $(thing)stone/$$(o). What was done to that $(b)shard/$$(o)?",
+  "slate_work.page.whispering.hextended": "While some see the art of the $(thing)Whispering Stone/$, I still $(o)behold/$ that it could use some improvements; thus, I have upgraded - or hextended - it. This improved variant of the $(thing)Whispering Stone/$, also called the $(thing)Hextended Whispering Stone/$, provides the $(l:greatwork/listener_impetus#slate_work:listener)Librarian Impetus/$ a minor amount of ambit around my self when I activate it via the $(thing)Stone/$.",
+  "slate_work.page.whispering.hextended.crafting": "$(o)Their seems to be faint chime of wind through leaves, and a faint feeling that you are beheld by something.",
 
   "slate_work.entry.loci": "Loci?",
   "slate_work.page.loci.intro": "During my $(l:greatwork/the_work)grand awakening/$, there was a term that pounded within my head. Begging to be made and released. $(b)Locus/$. $(br2)After countless days of research within my libraries, and the knowledge I had gained during my $(l:greatwork/the_work)awakening/$, I have discovered the meaning of $(thing)Locus/$ and $(thing)Loci/$.",
@@ -261,6 +264,9 @@
   "slate_work.scrying.fake_player.2": "Will Attack: ",
   "slate_work.scrying.fake_player.true": "True",
 
+  "slate_work.scrying.redstone.receive_on":"Reading Redstone",
+  "slate_work.scrying.redstone.receive_off": "Emitting Redstone",
+
   "slate_work.scrying.save.translater_comment": "These next \"save\" translations are based on the `CastingImage` class",
   "slate_work.scrying.save.escaping": "Is Running Consideration: ",
   "slate_work.scrying.save.ops": "Ops Consumed: ",
@@ -269,5 +275,7 @@
   "slate_work.scrying.save.stack": "The Stack: ",
   "slate_work.scrying.save.ravenmind": "The Ravenmind: ",
 
-  "slate_work.attributes.whispering": "Whispering Stone Speech"
+  "slate_work.attributes.whispering": "Whispering Stone Speech",
+
+  "slate_work.mixin.crash_prevent.text_serd": "Slate Works just prevented a crash. Please check the logs!"
 }
