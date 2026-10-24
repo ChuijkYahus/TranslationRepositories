@@ -261,6 +261,11 @@ trickster:
     get_redstone_power: 逻辑之辑流
     light_level: 光辉之辑流
 
+    create_item_container: 物仓之曲变
+    create_fluid_container: 液仓之曲变
+    create_accessories_container: 饰品之曲变
+    create_slot: 侵入之曲变
+    filter_container: 辨别之曲变
     check_hat: 颅骨之错觉
     set_hat: 颅骨挪移之技巧
     other_hand: 杂耍之错觉
@@ -273,13 +278,8 @@ trickster:
     get_max_mana_in_slot: 加冕之辑流
     get_durability: 稳固之辑流
     get_max_damage: 坚忍之辑流
-    get_slot: 侵入之辑流
-    get_item_container: 物仓之辑流
-    get_fluid_container: 液仓之辑流
-    get_accessories_container: 饰品之辑流
     get_slots: 收藏家之辑流
     get_inventory_size: 容展之辑流
-    filter_container: 辨别之辑流
     drop_stack_from_slot: 祭献之技巧
     swap_slot: 骗徒之技巧
     move_resource: 组织者之技巧
@@ -640,6 +640,7 @@ block.trickster:
   tattered_carpet: 破旧的地毯
   worn_concrete: 磨损的混凝土
   color_block: 灌注陶块
+  feyflower: 仙灵花
   gilded_tuff: 镶金凝灰岩
   gilded_tuff_stairs: 镶金凝灰岩楼梯
   gilded_tuff_slab: 镶金凝灰岩台阶
