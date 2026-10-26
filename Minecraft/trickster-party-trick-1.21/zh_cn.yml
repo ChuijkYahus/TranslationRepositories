@@ -1,0 +1,52 @@
+item.partytrick:
+  pepernoot: 胡椒小饼
+
+partytrick:
+  subtitle:
+    clicker: 卡扣：咔哒
+    whip: 捆索：抽打
+
+  blunder:
+    invalid_dye: "%1$s没有%2$s变种"
+    invalid_number: "数无效：应接受下述之一：%1$s，实际接受了%2$s"
+    invalid_pattern: "图案无效，本不应接受%1$s"
+    invalid_property_input: "属性%1$s的输入无效，本应接受%2$s，实际接受了%3$s"
+    too_few_inputs: "可变输入个数过少，本应接受至少%2$s个，实际接受了%1$s个"
+
+trickster:
+  fragment.partytrick:
+    sound: 声音
+
+  trick.partytrick:
+    pepernoot_creation: 圣尼古拉斯之技巧
+    set_custom_model_data: 虚荣之技巧
+
+    get_dye_color: 吸管之辑流
+    set_dye_color: 画家之技巧
+    remove_dye_color: 清教徒之技巧
+    get_color: 着染之辑流
+    set_color: 着染之技巧
+    glow: 突显之技巧
+
+    get_sound: 麦克风之辑流
+    play_sound: 警笛之技巧
+    muffle_sound: 消音耳罩之技巧
+
+    get_vehicle: 同伴之辑流
+    ride_entity: 激策之技巧
+    dismount_entity: 离座之技巧
+
+    get_breeding_age: 纪岁之辑流
+    add_breeding_age: 时岁之技巧
+
+    get_decorative_entity_property: 匹诺曹之辑流
+    set_decorative_entity_property: Cleo之技巧
+    move_decorative_entity: 木偶之技巧
+
+    summon_spit: 羊驼之技巧
+    get_cooldown: 镇定之辑流
+
+text.config.partytrick-config.option:
+  minimumArmorStandScale: 盔甲架尺寸修饰符最小值
+  maximumArmorStandScale: 盔甲架尺寸修饰符最大值
+  additionalNamespacesForColorVariants: 改变颜色时额外检查的各命名空间

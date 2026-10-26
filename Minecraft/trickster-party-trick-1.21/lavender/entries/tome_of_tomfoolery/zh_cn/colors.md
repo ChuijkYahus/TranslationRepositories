@@ -38,13 +38,13 @@
 
 <|trick@trickster:templates|trick-id=partytrick:set_color|>
 
-将所给可染色物品染为所给颜色。未指定颜色则移除颜色。
+将所给物品染为所给颜色。未指定颜色则移除颜色。
 
 ;;;;;
 
 <|trick@trickster:templates|trick-id=partytrick:get_color|>
 
-返回所给可染色物品的确切颜色，无色则返回null。
+返回所给物品的确切颜色，无色则返回void。
 
 ;;;;;
 
