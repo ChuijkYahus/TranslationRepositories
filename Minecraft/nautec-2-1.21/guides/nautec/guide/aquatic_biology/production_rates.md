@@ -37,6 +37,8 @@ items per minute = progress per tick x 12 x items per cycle
 
 ## <Color id="gold">Strain Yield</Color>
 
+Every strain can be bred to the same Production Rate cap, 2.0 by default. Strain Yield multiplies that stat afterward; it does not lower the cap. Follow the [Mutator's stat-breeding steps](mutator.md#stat-breeding) to improve a colony without risking your best template.
+
 | Strain Yield | NauTec strains | Other mods' materials |
 |---|---|---|
 | 1 | Lithophiles (stone), Silicophiles (sand), Calciophiles (bone meal), Cryobionts (ice), Carnivorous Bacteria (rotten flesh), and every wood, plant, crop, fungus and mushroom strain | aluminum, bauxite, brass, bronze, graphite, lead, pig iron, steel, tin and zinc ingots; apatite |
@@ -47,7 +49,7 @@ items per minute = progress per tick x 12 x items per cycle
 | 0.12 | Adamantophiles (diamonds) | netherite, allthemodium, vibranium, unobtainium, neutronium, plutonium and terrasteel ingots |
 | 0.1 | Smaragdophiles (emeralds) | |
 
-Strains for other mods' materials only exist when a mod that uses that material is in the pack. When several mods add the same material, the reactor makes the item from the first mod listed in `preferredTagNamespaces` in `config/nautec-common.toml` (default: `minecraft`), and otherwise the first item id in alphabetical order. Cyanobacteria, Halobacteria, Methanogens and Thermophiles make nothing, so their Strain Yield does not matter.
+Strains for other mods' materials only exist when a mod that uses that material is in the pack. When several mods add the same material, the reactor makes the item from the first mod listed in `preferredTagNamespaces` in `config/nautec-common.toml` (default: `minecraft`), and otherwise the first item id in alphabetical order. Cyanobacteria, Halobacteria, Methanogens, Prismatophiles and Thermophiles make nothing, so their Strain Yield does not matter.
 
 JEI's Bio Reactor category and an analyzed dish's tooltip both show a strain's Strain Yield. Packs can set it with the optional `production_multiplier` field in a strain's json, which defaults to 1.
 

@@ -23,13 +23,15 @@ item_ids:
 
 纯度由光束源给定。合并光束会让纯度稍稍下降，聚焦透镜则能让纯度上升。
 
-| 来源                                                | 纯度    |
-| --------------------------------------------------- | ------- |
-| 燃烧海晶碎片的<ItemLink id="aquatic_catalyst"/>     | 0.4     |
-| 燃烧海晶砂粒的海蓝催化器                            | 0.8     |
-| 燃烧海晶水晶碎片的海蓝催化器                        | 1.2     |
-| <ItemLink id="bacterial_fuel_cell"/>                | 最高2.5 |
-| <ItemLink id="prismarine_crystal"/>，从侧面射入光束 | 3.0     |
+| 来源                                                | 纯度                                |
+| --------------------------------------------------- | ----------------------------------- |
+| 燃烧海晶碎片的<ItemLink id="aquatic_catalyst"/>     | 0.4                                 |
+| 燃烧海晶砂粒的海蓝催化器                            | 0.8                                 |
+| 燃烧海晶水晶碎片的海蓝催化器                        | 1.2                                 |
+| <ItemLink id="bacterial_fuel_cell"/>                | 最高2.5                             |
+| <ItemLink id="prismarine_crystal"/>，从侧面射入光束 | 3.0，或人造水晶本身的纯度（最高12） |
+
+人造水晶的纯度可通过[细菌富集催化机](bacterial_enrichment_catalyst.md)提升至6.0之上。
 
 每有一个海晶母岩接触海蓝催化器，可向光束追加0.1的纯度，最高至2.0。参见[激光功率](nautec:getting_started/laser_power.md)。
 

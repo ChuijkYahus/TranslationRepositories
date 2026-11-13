@@ -77,7 +77,7 @@ item_ids:
 
 光束在发射时就确定了纯度。催化器光束的纯度由燃料的纯度决定，可为0.4到1.2，再加海晶母岩增益。有两条及以上光束射向同一个方块时，最终功率是所有光束功率的和，最终纯度则接近于其中纯度最高者。详细计算方法为：最高纯度减去其与平均纯度差值的四分之一（`beamMergePurityDrop`），纯度3.0的光束和纯度0的光束汇合，最终纯度会是2.6左右。
 
-高纯度需要使用<ItemLink id="prismarine_crystal"/>（天然为3.0，培育所得为3.00-6.00）或<ItemLink id="bacterial_fuel_cell"/>（最高2.5），也可用<ItemLink id="focusing_lens"/>提高现有光束的纯度。[激光光学](nautec:deep_engineering/beam_optics.md)中介绍了激光的转向、分叉和聚焦。
+高纯度需要使用<ItemLink id="prismarine_crystal"/>（天然为3.0，培育所得为3.00-6.00，最高可富集至12）或<ItemLink id="bacterial_fuel_cell"/>（最高2.5），也可用<ItemLink id="focusing_lens"/>提高现有光束的纯度。[激光光学](nautec:deep_engineering/beam_optics.md)中介绍了激光的转向、分叉和聚焦。
 
 ***
 
@@ -86,7 +86,7 @@ item_ids:
   ### <Color id="aqua">海晶水晶</Color>
 </Row>
 
-出现于海床下方水晶晶洞（参见[结构](structures.md)）内的六格高水晶。它能将所有光束变为纯度3.0的光束。天然的水晶无法搬走，但你可以自行培育出能被搬走的水晶，其光束纯度会在水晶长成时于3.00-6.00间抽选：参见[水晶培育](nautec:deep_engineering/crystal_cultivation.md)。
+出现于海床下方水晶晶洞（参见[结构](structures.md)）内的六格高水晶。它能将所有光束变为纯度3.0的光束。天然的水晶无法搬走，但你可以自行培育出能被搬走的水晶，其光束纯度会在水晶长成时于3.00-6.00间抽选：参见[水晶培育](nautec:deep_engineering/crystal_cultivation.md)。[细菌富集催化机](nautec:deep_engineering/bacterial_enrichment_catalyst.md)可将纯度进一步提高到12。
 
 可向水晶的侧面发射光束。水晶所有六个方块的四个侧面都接受光束，且会汇总各光束。这之后，顶部方块会向上发射光束，底部方块会向下发射，两光束的纯度均与水晶的相同：天然水晶为3.0，培育所得的水晶则会在长成时随机抽选一个固定值。只有其中一条抵达接收端时，该光束会携带所有输入功率；若两条都能抵达，则会在两者间均分。水晶的AP输出量不会超过输入量。光束直到抵达接收端或固体方块才会停止，在天花板和地板出留出空间就可让光束穿过。
 
