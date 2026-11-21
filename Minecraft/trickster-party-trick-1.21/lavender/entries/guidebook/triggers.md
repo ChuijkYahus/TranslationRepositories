@@ -20,37 +20,37 @@ Additional spell triggers added by Party Trick. For more info check the [Trigger
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Builder's Passion|>After placing a block,
+<|page-title@feyflower:book_components|title=Builder's Passion|>After placing a block,
 the Builder's Passion casts the spell inscribed on the placed block. The position of the block is received as the first argument. Spell constructs don't trigger this effect.
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Sniper’s Aim-assist|>When a ranged weapon shoots,
+<|page-title@feyflower:book_components|title=Sniper’s Aim-assist|>When a ranged weapon shoots,
 the Sniper’s Aim-assist casts the spell inscribed on the ranged weapon. The projectile is received as the first argument.
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Archer’s Focus|>When a projectile hits,
+<|page-title@feyflower:book_components|title=Archer’s Focus|>When a projectile hits,
 the Archer’s Focus casts the spell inscribed on the projectile item. The hit entity or position is received as the first argument.
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Angler’s Fury|>When a fishing rod is reeled in,
+<|page-title@feyflower:book_components|title=Angler’s Fury|>When a fishing rod is reeled in,
 the Angler’s Fury casts the spell inscribed on the rod. The caught entity or position of the bobber is received as the first argument.
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Handyworker's Hoard|>When a tool is used,
+<|page-title@feyflower:book_components|title=Handyworker's Hoard|>When a tool is used,
 the Handyworker's Hoard casts the spell inscribed on the tool. The entity on which it was used, position of where it was used, or void is provided as first argument.
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Protector's Nuh Uh|>When a shield delects,
+<|page-title@feyflower:book_components|title=Protector's Nuh Uh|>When a shield delects,
 the Protector's Nuh Uh casts the spell inscribed on the shield. The attacker and projectile get received as arguments.
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Glutton’s Hunger|>On food and drink items, 
+<|page-title@feyflower:book_components|title=Glutton’s Hunger|>On food and drink items, 
 the Glutton’s Hunger casts the inscribed spell when consumed.
 
 ;;;;;

@@ -21,7 +21,7 @@ Moves the given decorative entity by the given vector. Cost compounds the same w
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=Note: Properties|>Some properties of decorative entities can be altered directly. Every property is represented by a pattern, a combination of which can be used to affected multiple properties at once, in the listed order.
+<|page-title@feyflower:book_components|title=Note: Properties|>Some properties of decorative entities can be altered directly. Every property is represented by a pattern, a combination of which can be used to affected multiple properties at once, in the listed order.
 
 
 Vectors represent Euler angles, rotation is in radians, and scale is more restrictive than [Ploy of Occupation](^trickster:ploys/entity#5).

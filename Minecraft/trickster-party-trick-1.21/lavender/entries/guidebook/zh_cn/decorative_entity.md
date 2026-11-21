@@ -21,7 +21,7 @@
 
 ;;;;;
 
-<|page-title@lavender:book_components|title=笔记：属性|>装饰性实体的部分属性可以直接修改。所有属性都与图案相对应，组合使用图案即可一次性按列表序修改多个属性。
+<|page-title@feyflower:book_components|title=笔记：属性|>装饰性实体的部分属性可以直接修改。所有属性都与图案相对应，组合使用图案即可一次性按列表序修改多个属性。
 
 
 向量为欧拉角，旋转单位为弧度，尺寸缩放所受的限制要强于[居形之技巧](^trickster:ploys/entity#5)。
