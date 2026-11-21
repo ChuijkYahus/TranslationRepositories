@@ -1,12 +1,21 @@
 ```json
 {
-  "title": "衰弱",
+  "title": {
+    "text": "衰弱",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:glass_bottle",
-  "category": "trickster:mana_types",
-  "required_advancements": [
-    "trickster:trigger/prismatic_knot_or_impotent_mana"
-  ],
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "condition": {
+    "type": "feyflower:any",
+    "any_of": [
+      "trickster:impotent_mana",
+      "trickster:prismatic_knot",
+      "trickster:cracked_prismatic_knot"
+    ]
+  },
+  "book_texture_override": "trickster:white_note"
 }
 ```
 

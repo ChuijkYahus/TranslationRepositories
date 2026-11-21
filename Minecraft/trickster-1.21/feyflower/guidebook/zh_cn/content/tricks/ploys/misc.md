@@ -1,13 +1,7 @@
 ```json
 {
   "title": "杂项技巧术",
-  "icon": "minecraft:iron_ingot",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "天钉之技巧",
-    "清晰之技巧",
-    "混淆之技巧"
-  ]
+  "icon": "minecraft:iron_ingot"
 }
 ```
 
@@ -15,13 +9,21 @@
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:pin_chunk,cost=4G|>
+#<trickster:trick id="trickster:summon_lightning" cost="5kG + 1.1G ^ 距离" mana-type="trickster:storm" />
+
+尝试向给定位置落雷。
+
+;;;;;
+
+#<trickster:trick id="trickster:pin_chunk" cost="4G" />
 
 将包含所给位置的区块完全加载4秒。
 
 ;;;;;
 
-<|page-title@feyflower:book_components|title=笔记：条栏|>法术可在施法者的视野中将任意值显示为条栏。
+#<trickster:note title="条栏" />
+
+法术可在施法者的视野中将任意值显示为条栏。
 
 
 条栏由数标识，且可借此数随时修改。条栏的颜色由其标识符决定，同样的标识符必定产生同样的颜色。
@@ -35,12 +37,12 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:show_bar|>
+#<trickster:trick id="trickster:show_bar" />
 
 在施法者的视野中显示一个条栏，使用第一个数作为标识符，并显示第二个数。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:clear_bar|>
+#<trickster:trick id="trickster:clear_bar" />
 
 立即清除施法者视野中标识符为所给数的条栏。

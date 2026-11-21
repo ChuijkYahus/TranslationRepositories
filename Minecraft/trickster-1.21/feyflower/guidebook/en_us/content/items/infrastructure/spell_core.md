@@ -2,16 +2,17 @@
 {
   "title": "Spell Core",
   "icon": "trickster:spell_core",
-  "category": "trickster:infrastructure",
-  "ordinal": 30
+  "ordinal": 30,
+  "associated_items": [
+    "trickster:spell_core"
+  ]
 }
 ```
 
-Spell Cores may be inserted into a [Modular Spell Construct](^trickster:items/infrastructure/modular_spell_construct), 
-where they will run the spell inscribed onto them at 75% the speed of a player's.
+Spell Cores may be inserted into a [Modular Spell Construct](*trickster:items/infrastructure/modular_spell_construct), 
+where they will run the spell inscribed onto them at <trickster:cpt multiplier="0.75" /> circles per tick.
 
-;;;;;
 
 To construct a Spell Core, one must have a shard of amethyst as a *channel*, a pearl of the End as a *heart*, a thread of gold as a *mind*, and a wrapping of leather as a *guard*.
 
-<recipe;trickster:spell_core>
+<feyflower:crafting id="trickster:spell_core" />

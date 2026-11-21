@@ -1,13 +1,18 @@
 ```json
 {
-  "title": "Torment Spell Core",
+  "title": {
+    "text": "Torment Spell Core",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:spawner_spell_core",
-  "category": "trickster:infrastructure",
-  "required_advancements": [
-    "trickster:spawner_spell_core"
-  ],
+  "condition": "trickster:spawner_spell_core",
   "ordinal": 60,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:spawner_spell_core"
+  ]
 }
 ```
 
@@ -24,5 +29,5 @@ It might make a nice souvenir.
 
 
 Regardless, with my core now powered by the essence of a spawner,
-it executes its inscribed spell at one and a half(!!!) times the rate of player spells. 
+it executes its inscribed spell at <trickster:cpt multiplier="1.5" /> circles per tick! 
 However, similar to its origin, if no player is within 16 blocks, it will pause completely.

@@ -2,8 +2,7 @@
 {
   "title": "Delusions & Ingresses",
   "icon": "trickster:mirror_of_evaluation",
-  "ordinal": 0,
-  "parent": "trickster:tricks"
+  "ordinal": 0
 }
 ```
 

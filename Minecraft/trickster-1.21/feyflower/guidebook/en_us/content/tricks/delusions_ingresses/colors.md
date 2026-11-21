@@ -1,12 +1,7 @@
 ```json
 {
   "title": "Colors",
-  "icon": "minecraft:cyan_dye",
-  "category": "trickster:delusions_ingresses",
-  "additional_search_terms": [
-    "Pigment Ingress",
-    "Vibrant Ingress"
-  ]
+  "icon": "minecraft:cyan_dye"
 }
 ```
 
@@ -49,7 +44,7 @@ Flooring and ceiling a color coerces it to the nearest result of Pigment and Vib
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:item_to_color|>
+#<trickster:trick id="trickster:item_to_color" />
 
 ;;;;;
 
@@ -63,7 +58,7 @@ Given a vector, gets the color that has been imbued into the magical block at th
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:item_to_glow_color|>
+#<trickster:trick id="trickster:item_to_glow_color" />
 
 ;;;;;
 

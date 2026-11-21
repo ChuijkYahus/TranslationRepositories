@@ -1,22 +1,7 @@
 ```json
 {
   "title": "施法上下文",
-  "icon": "trickster:wand",
-  "category": "trickster:delusions_ingresses",
-  "additional_search_terms": [
-    "定位之错觉",
-    "朝向之错觉",
-    "自审之错觉",
-    "维度之辑流",
-    "权威之错觉",
-    "加冕之错觉",
-    "序数之错觉",
-    "框选之错觉",
-    "抛接之错觉",
-    "杂耍之错觉",
-    "颅骨之错觉",
-    "宏之错觉"
-  ]
+  "icon": "trickster:wand"
 }
 ```
 
@@ -30,50 +15,50 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:reflection|>
+#<trickster:trick id="trickster:reflection" />
 
 返回法术施放的位置。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:facing_reflection|>
+#<trickster:trick id="trickster:facing_reflection" />
 
 将施法者的朝向返回为单位向量。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:caster_reflection|>
+#<trickster:trick id="trickster:caster_reflection" />
 
 若可行，返回施放法术的实体。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:mana_reflection|>
+#<trickster:trick id="trickster:mana_reflection" />
 
 返回法术直接可用的魔力的量。
 
 ;;;;;
 
-这则错觉术会统计施法者持有和佩戴的所有魔力存储物品，如[晶结](^trickster:items/mana/knots)和[螺坠](^trickster:items/mana/amethyst_whorl)。
+这则错觉术会统计施法者持有和佩戴的所有魔力存储物品，如[晶结](*trickster:items/mana/knots)和[充能腰带](*trickster:items/mana/charging_belt)。
 
 
-若由[法术组构台](^trickster:items/infrastructure/spell_construct)施放，则只统计组构台中的晶结。
+若由[法术组构台](*trickster:items/infrastructure/spell_construct)施放，则只统计组构台中的晶结。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:max_mana_reflection|>
+#<trickster:trick id="trickster:max_mana_reflection" />
 
 返回施法者最多能持有的魔力量，具体判断流程与前一则错觉术类似。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:current_thread|>
+#<trickster:trick id="trickster:current_thread" />
 
 返回运行此法术的法术槽；若不在法术槽中运行，则返回void。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:read_macro_ring|>
+#<trickster:trick id="trickster:read_macro_ring" />
 
 获取施法者所佩戴所有戒指上的映射，将其合并为单个映射后返回。不是有效宏的键值对会被移除。
 
@@ -82,34 +67,34 @@
 此戏法的输出与判定宏用到的映射一致。
 
 
-更多细节参见[宏](^trickster:concepts/macro)页面。
+更多细节参见[宏](*trickster:concepts/macro)页面。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:hotbar_reflection|>
+#<trickster:trick id="trickster:hotbar_reflection" />
 
 若可行，返回施法者选中的快捷栏槽位。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:check_hat|>
+#<trickster:trick id="trickster:check_hat" />
 
-返回施法者[帽子](^trickster:items/writing_casting/top_hat)的所选槽位。
+返回施法者[帽子](*trickster:items/writing_casting/hats)的所选槽位。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:other_hand|>
+#<trickster:trick id="trickster:other_hand" />
 
 返回施法者副手中物品的类型。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:other_hand_slot|>
+#<trickster:trick id="trickster:other_hand_slot" />
 
 返回施法者副手的槽位引用。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:get_dimension|>
+#<trickster:trick id="trickster:get_dimension" />
 
 返回施法位置所处的维度。

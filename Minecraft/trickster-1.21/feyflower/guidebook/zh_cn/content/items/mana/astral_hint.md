@@ -1,14 +1,16 @@
 ```json
 {
-  "title": "地底的星星……",
+  "title": {
+    "text": "地底的星星……",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:nether_star",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:trigger/nether_star"
-  ],
+  "condition": "trickster:trigger/nether_star",
   "secret": true,
   "ordinal": 300,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 
@@ -17,7 +19,6 @@
 
 这种光正是庞大力量的体现。我怀疑，制造这种物品可能需要数以*昆甘道夫*计的魔力。
 
-;;;;;
 
 凋灵拥有如此强大的力量，为何它又会被击倒？
 

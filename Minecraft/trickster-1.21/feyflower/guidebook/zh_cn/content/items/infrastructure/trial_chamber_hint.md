@@ -1,14 +1,16 @@
 ```json
 {
-  "title": "真是不祥……",
+  "title": {
+    "text": "真是不祥……",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:trial_spawner",
-  "category": "trickster:infrastructure",
-  "required_advancements": [
-    "minecraft:adventure/minecraft_trials_edition"
-  ],
+  "condition": "minecraft:adventure/minecraft_trials_edition",
   "secret": true,
   "ordinal": 310,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 
@@ -17,6 +19,5 @@
 
 它们和刚造好的建筑一样崭新，原因未知；密室里的宝库和刷怪笼很精妙，极尽工艺之精深。
 
-;;;;;
 
 不过，强制提取它们的精华似乎并无太大意义。顺着建造者设计的游戏玩下去，可能会更有收获……

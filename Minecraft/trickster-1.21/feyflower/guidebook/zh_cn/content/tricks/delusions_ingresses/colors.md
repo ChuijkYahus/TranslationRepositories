@@ -1,12 +1,7 @@
 ```json
 {
   "title": "颜色",
-  "icon": "minecraft:cyan_dye",
-  "category": "trickster:delusions_ingresses",
-  "additional_search_terms": [
-    "染色剂之辑流",
-    "明色之辑流"
-  ]
+  "icon": "minecraft:cyan_dye"
 }
 ```
 
@@ -43,7 +38,7 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:item_to_color|>
+#<trickster:trick id="trickster:item_to_color" />
 
 ;;;;;
 
@@ -57,7 +52,7 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:item_to_glow_color|>
+#<trickster:trick id="trickster:item_to_glow_color" />
 
 ;;;;;
 

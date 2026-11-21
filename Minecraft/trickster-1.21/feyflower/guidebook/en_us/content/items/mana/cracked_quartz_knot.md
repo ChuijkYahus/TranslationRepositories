@@ -1,13 +1,18 @@
 ```json
 {
-  "title": "Cracked Quartz Knot",
+  "title": {
+    "text": "Cracked Quartz Knot",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:cracked_quartz_knot",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:cracked_quartz_knot"
-  ],
+  "condition": "trickster:cracked_quartz_knot",
   "ordinal": 60,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:cracked_quartz_knot"
+  ]
 }
 ```
 
@@ -19,7 +24,6 @@ The results are of much interest to me.
 Quartz Knots already aren't known for their mana-related capabilities, 
 but their cracked variant holds **no mana at all**.
 
-;;;;;
 
 On the other hand, its ability to accelerate constructs is enhanced.
 When inserted into a construct, its casting speed is increased by 50%.

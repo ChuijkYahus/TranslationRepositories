@@ -1,14 +1,7 @@
 ```json
 {
   "title": "物品栏操纵",
-  "icon": "minecraft:chest",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "祭献之技巧",
-    "组织者之技巧",
-    "骗徒之技巧",
-    "颅骨挪移之技巧"
-  ]
+  "icon": "minecraft:chest"
 }
 ```
 
@@ -26,28 +19,27 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:drop_stack_from_slot|>
+#<trickster:trick id="trickster:drop_stack_from_slot" />
 
 在给定位置处丢出给定槽位中的物品，并返回该物品实体。丢出数目可选。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:move_resource|>
+#<trickster:trick id="trickster:move_resource" />
 
 在仓储空间之间移动资源。
 
-;;;;;
 
 可给定数以设定移动上限，也可指定资源类型或其列表以进行筛选。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:swap_slot|>
+#<trickster:trick id="trickster:swap_slot" />
 
 交换给定槽位内的资源。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:set_hat|>
+#<trickster:trick id="trickster:set_hat" />
 
-将施法者[帽子](^trickster:items/writing_casting/top_hat)的所选槽位设为该数，根据成功与否返回布尔值。
+将施法者[帽子](*trickster:items/writing_casting/hats)的所选槽位设为该数，根据成功与否返回布尔值。

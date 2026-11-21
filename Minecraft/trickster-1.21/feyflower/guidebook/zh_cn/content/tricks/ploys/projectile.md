@@ -1,14 +1,7 @@
 ```json
 {
   "title": "弹射物",
-  "icon": "minecraft:fire_charge",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "弩炮之技巧",
-    "火焰术师之技巧",
-    "巨龙之技巧",
-    "爆破师之技巧"
-  ]
+  "icon": "minecraft:fire_charge"
 }
 ```
 
@@ -19,30 +12,30 @@
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_arrow,cost=20G + 1G * 距离 ^ (距离 / 3)|>
+#<trickster:trick id="trickster:summon_arrow" cost="20G + 1G * 距离 ^ (距离 / 3)" />
 
 在给定位置召唤一根箭，并返回其实体。需要消耗箭。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_fireball,cost=20G + 1G * 距离 ^ (距离 / 3)|>
+#<trickster:trick id="trickster:summon_fireball" cost="20G + 1G * 距离 ^ (距离 / 3)" />
 
 在给定位置召唤一个火球，并返回其实体。需要消耗火焰弹。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_dragon_breath,cost=20G + 1G * 距离 ^ (距离 / 3)|>
+#<trickster:trick id="trickster:summon_dragon_breath" cost="20G + 1G * 距离 ^ (距离 / 3)" />
 
 在给定位置召唤一个末影龙火球，并返回其实体。需要消耗龙息和火焰弹。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_wind_charge,cost=20G + 1G * 距离 ^ (距离 / 3)|>
+#<trickster:trick id="trickster:summon_wind_charge" cost="20G + 1G * 距离 ^ (距离 / 3)" />
 
 在给定位置召唤一个风弹，并返回其实体。需要消耗风弹。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_tnt,cost=20G + 1G * 距离 ^ (距离 / 3)|>
+#<trickster:trick id="trickster:summon_tnt" cost="20G + 1G * 距离 ^ (距离 / 3)" />
 
 在给定位置召唤一个激活的TNT，并返回其实体。需要消耗TNT。

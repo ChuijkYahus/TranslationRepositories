@@ -1,14 +1,7 @@
 ```json
 {
   "title": "射线追踪",
-  "icon": "minecraft:spectral_arrow",
-  "category": "trickster:delusions_ingresses",
-  "additional_search_terms": [
-    "着点之辑流",
-    "承座之辑流",
-    "标记之辑流",
-    "着处之辑流"
-  ]
+  "icon": "minecraft:spectral_arrow"
 }
 ```
 
@@ -26,28 +19,24 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_block|>
+#<trickster:trick id="trickster:raycast_block" />
 
 返回射线追踪所命中方块的位置。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_entity|>
+#<trickster:trick id="trickster:raycast_entity" />
 
 返回射线追踪命中的实体。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_side|>
-
-;;;;;
+#<trickster:trick id="trickster:raycast_side" />
 
 返回射线追踪命中的方块的面，以单位向量表示。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_pos|>
-
-;;;;;
+#<trickster:trick id="trickster:raycast_pos" />
 
 返回射线与方块间交叉点的精确位置。

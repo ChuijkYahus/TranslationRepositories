@@ -7,13 +7,10 @@
 }
 ```
 
-With my recent discovery of [Tempest](*trickster:mana_types/storm_mana) mana, 
-I've finally figured out how to use this ploy!
+继我近期发现[风暴](*trickster:mana_types/storm_mana)魔力之后，我总算是找到使用这则技巧术的方法了！
 
 
-Unfortunately, if the stability of the Tempest mana is not lesser than 50%, 
-it is unusable for this ploy.
+可惜的是，要是风暴魔力的稳定度不小于50%，这则技巧术就没法用它。
 
 
-I don't think there is any way for me to keep Tempest mana permanently unstable either, 
-though I *can* delay its stabilization.
+让风暴魔力一直稳定不下来也应该是不可能的，不过我*的确*可以延缓它的稳定。

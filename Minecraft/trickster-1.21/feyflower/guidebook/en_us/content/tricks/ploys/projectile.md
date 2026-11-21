@@ -1,14 +1,7 @@
 ```json
 {
   "title": "Projectiles",
-  "icon": "minecraft:fire_charge",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "Ballista's Ploy",
-    "Pyromancer's Ploy",
-    "Dragon's Ploy",
-    "Demolitionist's Ploy"
-  ]
+  "icon": "minecraft:fire_charge"
 }
 ```
 
@@ -21,35 +14,35 @@ They should ideally be used at positions as near to the caster as possible.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_arrow,cost=20G + 1G * distance ^ (distance / 3)|>
+#<trickster:trick id="trickster:summon_arrow" cost="20G + 1G * distance ^ (distance / 3)" />
 
 Summons an arrow at the given position, returning it. 
 Requires an arrow.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_fireball,cost=20G + 1G * distance ^ (distance / 3)|>
+#<trickster:trick id="trickster:summon_fireball" cost="20G + 1G * distance ^ (distance / 3)" />
 
 Summons a fireball at the given position, returning it. 
 Requires a fire charge.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_dragon_breath,cost=20G + 1G * distance ^ (distance / 3)|>
+#<trickster:trick id="trickster:summon_dragon_breath" cost="20G + 1G * distance ^ (distance / 3)" />
 
 Summons a ball of dragon's breath at the given position, returning it. 
 Requires a bottle of dragon's breath and a fire charge.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_wind_charge,cost=20G + 1G * distance ^ (distance / 3)|>
+#<trickster:trick id="trickster:summon_wind_charge" cost="20G + 1G * distance ^ (distance / 3)" />
 
 Summons a wind charge at the given position, returning it.
 Requires a wind charge.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:summon_tnt,cost=20G + 1G * distance ^ (distance / 3)|>
+#<trickster:trick id="trickster:summon_tnt" cost="20G + 1G * distance ^ (distance / 3)" />
 
 Summons lit TNT at the given position, returning it.
 Requires TNT.

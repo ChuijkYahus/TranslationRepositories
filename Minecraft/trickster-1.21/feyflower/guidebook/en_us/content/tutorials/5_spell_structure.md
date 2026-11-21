@@ -2,8 +2,7 @@
 {
   "title": "5. Spell Structure",
   "icon": "minecraft:paper",
-  "ordinal": 4,
-  "category": "trickster:tutorials"
+  "ordinal": 4
 }
 ```
 
@@ -16,23 +15,23 @@ as seen in the example spell in the last chapter.
 Unlike there though, tricks sometimes also require inputs 
 to be of specific types, in a specific order.
 
-;;;;;
 
 The inputs a trick takes, in addition to the output it provides,
 are called its **Signature**.
 These signatures are used all across this book 
 whenever a pattern for a trick is shown.
 
+;;;;;
 
 If you're having trouble understanding the format used for signatures,
-check out [the entry explaining them in more detail](^trickster:concepts/signatures)!
+check out [the entry explaining them in more detail](*trickster:concepts/signatures)!
 
 
 **But how do we know which circle comes first?**
 
 ;;;;;
 
-<|spell-preview-unloadable@trickster:templates|spell=YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFECBYklgCpPAYgYGFkBpIgzMDIKIBQkleam5RaxIAATAx4Vdp/IFalA9FmOnAgqQQASzjP+tUAAAA=|>
+<trickster:spell-preview spell="YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFECBYklgCpPAYgYGFkBpIgzMDIKIBQkleam5RaxIAATAx4Vdp/IFalA9FmOnAgqQQASzjP+tUAAAA=" />
 
 Take a look at the spell above.
 Its subcircles are labelled with the order they're cast, from 0 to 3.
@@ -55,10 +54,10 @@ See if you can spot the pin on this spell!
 ;;;;;
 
 One last thing!
-Aside from [Extensive Revision](^trickster:editing#3) and [Grafting Revision](^trickster:editing#14),
+Aside from [Extensive Revision](*trickster:editing@revision&trickster:add_subcircle) and [Grafting Revision](*trickster:editing@revision&trickster:remove_self),
 a lot of additional scribing patterns are also available,
 ranging from simple conveniences to actual gamechangers.
 
 
-If you haven't already, be sure to check out the [Spell-Scribing](^trickster:editing)
+If you haven't already, be sure to check out the [Spell-Scribing](*trickster:editing)
 chapter in its entirety!

@@ -1,13 +1,7 @@
 ```json
 {
   "title": "Misc Ploys",
-  "icon": "minecraft:iron_ingot",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "Ploy of Celestial Pin",
-    "Ploy of Clarity",
-    "Ploy of Obfuscation"
-  ]
+  "icon": "minecraft:iron_ingot"
 }
 ```
 
@@ -15,13 +9,21 @@ A few miscellaneous ploys that don't fit into any other category.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:pin_chunk,cost=4G|>
+#<trickster:trick id="trickster:summon_lightning" cost="5kG + 1.1G ^ distance" mana-type="trickster:storm" />
+
+Attempts to strike the given position with a bolt of lightning.
+
+;;;;;
+
+#<trickster:trick id="trickster:pin_chunk" cost="4G" />
 
 Fully loads the chunk containing the given position for exactly 4 seconds.
 
 ;;;;;
 
-<|page-title@feyflower:book_components|title=Note: Bars|>Spells can display arbitrary values on the caster's view as bars.
+#<trickster:note title="Bars" />
+
+Spells can display arbitrary values on the caster's view as bars.
 
 
 Bars are identified by a number and can be overwritten at any time by using the same number again.
@@ -37,12 +39,12 @@ Ploy of Clarity returns the given value to its parent circle when used, allowing
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:show_bar|>
+#<trickster:trick id="trickster:show_bar" />
 
 Shows a bar on the caster's view identified by the first number displaying the second number.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:clear_bar|>
+#<trickster:trick id="trickster:clear_bar" />
 
 Immediately clears a bar identified by the given number from the caster's view.

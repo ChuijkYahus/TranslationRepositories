@@ -2,8 +2,10 @@
 {
   "title": "Scroll Shelves",
   "icon": "trickster:scroll_shelf",
-  "category": "trickster:writing_casting",
-  "ordinal": 20
+  "ordinal": 20,
+  "associated_items": [
+    "trickster:scroll_shelf"
+  ]
 }
 ```
 
@@ -20,4 +22,4 @@ and when targeted with your crosshair, will show their name for easy browsing.
 
 Shelves can interact with hoppers.
 
-<recipe;trickster:scroll_shelf>
+<feyflower:crafting id="trickster:scroll_shelf" />

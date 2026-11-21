@@ -2,12 +2,7 @@
 {
   "title": "脱离式结构",
   "icon": "minecraft:compass",
-  "category": "trickster:tricks",
   "ordinal": 100,
-  "additional_search_terms": [
-    "飞行员之辑流",
-    "导航员之辑流"
-  ],
   "fabric:load_conditions": [
     {
       "condition": "fabric:any_mods_loaded",
@@ -42,12 +37,12 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:project_position|>
+#<trickster:trick id="trickster:project_position" />
 
 给定脱离式结构内部的位置，返回其在世界中的实际位置。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:project_direction|>
+#<trickster:trick id="trickster:project_direction" />
 
 给定脱离式结构内部的位置，根据结构的朝向旋转第二个向量并返回。

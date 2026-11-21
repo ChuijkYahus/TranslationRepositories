@@ -1,14 +1,16 @@
 ```json
 {
-  "title": "囚于死亡……",
+  "title": {
+    "text": "囚于死亡……",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:spawner",
-  "category": "trickster:infrastructure",
-  "required_advancements": [
-    "trickster:trigger/spawner"
-  ],
+  "condition": "trickster:trigger/spawner",
   "secret": true,
   "ordinal": 300,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 

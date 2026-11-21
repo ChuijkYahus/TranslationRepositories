@@ -1,12 +1,7 @@
 ```json
 {
   "title": "粒子",
-  "icon": "minecraft:firework_rocket",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "繁盛之技巧",
-    "光耀之技巧"
-  ]
+  "icon": "minecraft:firework_rocket"
 }
 ```
 
@@ -14,12 +9,12 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:highlight|>
+#<trickster:trick id="trickster:highlight" />
 
 令给定的方块高亮1秒，直接原样返回第一个位置。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:spell_particle|>
+#<trickster:trick id="trickster:spell_particle" />
 
 在所给位置处构筑出一个光源粒子。可以选择提供速度和颜色。

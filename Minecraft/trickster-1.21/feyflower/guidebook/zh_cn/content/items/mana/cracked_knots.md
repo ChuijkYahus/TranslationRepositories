@@ -1,19 +1,24 @@
 ```json
 {
-  "title": "开裂的晶结",
+  "title": {
+    "text": "开裂的晶结",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:cracked_emerald_knot",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:find_cracked_knot"
-  ],
+  "condition": "trickster:find_cracked_knot",
   "ordinal": 30,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:cracked_emerald_knot",
+    "trickster:cracked_diamond_knot"
+  ]
 }
 ```
 
 晶结并不易碎。要用相当大的力才能让它们开出一道裂痕，我找到的最可靠方式是用铁砧砸。
 
-;;;;;
 
 但不管怎么说，大多数情况下都极度不建议打裂晶结。晶结开裂与否一般不会影响魔力容量；而由于打裂后折射表面被损坏，月光的效果会大幅衰减。
 

@@ -2,45 +2,45 @@
 {
   "title": "Knots",
   "icon": "trickster:emerald_knot",
-  "category": "trickster:mana",
-  "ordinal": 20
+  "ordinal": 20,
+  "associated_items": [
+    "trickster:amethyst_knot",
+    "trickster:emerald_knot",
+    "trickster:diamond_knot"
+  ]
 }
 ```
 
 Knots are gemstones encased in glass orbs that hold a certain
-amount of [Mana](^trickster:concepts/mana) based on the rarity of the gem they're made from.
+amount of [Mana](*trickster:concepts/mana) based on the rarity of the gem they're made from.
 
 
 Some gems have unique properties when made into a Knot, such as Amethyst,
 which, unlike other gems, already contains mana when converted,
 but cannot be recharged naturally.
 
-;;;;;
-
 Naturally recharging a Knot is done by exposing it to the night sky.
 It will charge most quickly at or near a full moon, but not at all when is new.
 
+;;;;;
 
 To count as being exposed, a Knot must either be thrown on the ground or placed in a 
-[Charging Array](^trickster:items/mana/charging_array), [Charging belt](^trickster:items/mana/charging_belt), or [Spell Construct](^trickster:items/infrastructure/spell_construct) 
+[Charging Array](*trickster:items/mana/charging_array), [Charging belt](*trickster:items/mana/charging_belt), or [Spell Construct](*trickster:items/infrastructure/spell_construct) 
 with a clear view of the sky.
 Rechargeable Knots thrown on the ground will not despawn.
 
-;;;;;
 
 Most gems or crystals can be made into Knots using
-[Ploy of the Moon Watcher](^trickster:ploys/mana#2).
+[Ploy of the Moon Watcher](*trickster:tricks/ploys/mana#2).
 
 
 This ploy optionally takes two inputs, 
-one [slot](^trickster:distortions/inventory) containing a gem, another holding a Glass Block.
+one [slot](*trickster:tricks/distortions_stratagems/inventory) containing a gem, another holding a Glass Block.
 If the latter isn't provided, the first available Glass Block will be used.
 If the former isn't provided, an Amethyst Shard will be used in the same manner. 
 As such, it is not possible to create non-amethyst Knots without providing a slot reference.
 
 ;;;;;
-
-<|item-tag@trickster:templates|tag-id=trickster:spoilerless_mana_knots|>
 
 A few commonly used Knot types are:
 
@@ -54,7 +54,7 @@ Capacity: 1024 G
 Creation cost: 8192 G
 Capacity: 16384 G
 
-;;;;;
-
 Other gems and crystals may be able to be turned into Knots as well, 
 but this must be determined on a case-by-case basis.
+
+<trickster:item-tag id="trickster:spoilerless_mana_knots" />

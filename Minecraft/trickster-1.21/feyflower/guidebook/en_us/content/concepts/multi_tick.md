@@ -1,8 +1,7 @@
 ```json
 {
   "title": "Long Spells",
-  "icon": "minecraft:clock",
-  "category": "trickster:concepts"
+  "icon": "minecraft:clock"
 }
 ```
 
@@ -10,7 +9,6 @@ Spells do not all execute instantly. A big enough spell limits execution to a ce
 It may even run forever, 
 provided its caster remains alive, the spell does not blunder, and it never runs out of circles to execute.
 
-;;;;;
 
 To cast a spell capable of running long, a free spell slot is required, even if the spell completes within one twentieth of a second. 
 
@@ -27,9 +25,7 @@ Spell slots have the following states:
 - active and at maximum executions per second (orange)
 - active but waiting (white)
 
-;;;;;
-
-[Deviations](^trickster:tricks/functions) that cast spell fragments create sub-spells within their current spell. 
+[Deviations](*trickster:tricks/functions) that cast spell fragments create sub-spells within their current spell. 
 A spell may not have a sub-spell more than 255 spells deep, 
 and will blunder if such a thing is attempted. 
 

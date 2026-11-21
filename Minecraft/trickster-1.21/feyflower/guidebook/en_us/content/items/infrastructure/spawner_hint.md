@@ -1,14 +1,16 @@
 ```json
 {
-  "title": "Incarceration in Death...",
+  "title": {
+    "text": "Incarceration in Death...",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:spawner",
-  "category": "trickster:infrastructure",
-  "required_advancements": [
-    "trickster:trigger/spawner"
-  ],
+  "condition": "trickster:trigger/spawner",
   "secret": true,
   "ordinal": 300,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 

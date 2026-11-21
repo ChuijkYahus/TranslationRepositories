@@ -2,8 +2,7 @@
 {
   "title": "2. The Basics of Mana",
   "icon": "minecraft:paper",
-  "ordinal": 1,
-  "category": "trickster:tutorials"
+  "ordinal": 1
 }
 ```
 
@@ -12,19 +11,18 @@ Any spell that affects the world will consume a certain amount of Mana, scaling 
 
 
 Amounts of Mana can be measured in gandalfs, or G, named after a certain historical figure. 
-
-;;;;;
-
 One gandalf is defined as the amount of magical energy required to light a candle.
 
 
 Mana can be persistently stored in Knots, like the one below:
-<|item-spotlight@feyflower:book_components|item=trickster:amethyst_knot|>
+#<feyflower:item-spotlight item="trickster:amethyst_knot" />
 
 ;;;;;
 
 These gemstones encased in glass orbs hold a certain 
 amount of Mana based on the rarity of the gem they're made from.
+
+
 Some gems also have unique properties when made into a Knot, such as Amethyst, 
 which, unlike other gems, already contains Mana when converted.
 
@@ -34,9 +32,11 @@ or when in a pinch.
 
 ;;;;;
 
-<|item-spotlight@feyflower:book_components|item=trickster:emerald_knot|>Most Knots, except some special cases, like Amethyst, 
+#<feyflower:item-spotlight item="trickster:emerald_knot" />
+
+Most Knots, except some special cases, like Amethyst, 
 can be naturally refilled at a slow rate by simply exposing them to the night sky.
-Either throw them on the ground, or place them inside a Charging [Array](^trickster:items/mana/charging_array) or [Belt](^trickster:items/mana/charging_belt).
+Either throw them on the ground, or place them inside a Charging [Array](*trickster:items/mana/charging_array) or [Belt](*trickster:items/mana/charging_belt).
 Knots will charge most quickly at or near a full moon, but not at all on some of the darkest days in between.
 
 ;;;;;
@@ -47,29 +47,29 @@ Ticks being the smallest unit of meaningful time, at 1/20th of a second.
 
 
 For example, a spell drawing 50 M would consume 1 kilogandalf per second.
-<|item-spotlight@feyflower:book_components|item=trickster:diamond_knot|>
+#<feyflower:item-spotlight item="trickster:diamond_knot" />
+
+To actually create a Knot, one can simply use [Ploy of the Moon Watcher](*trickster:tricks/ploys/mana@trick&trickster:battery_creation)
+while having an Amethyst and Glass Block in their inventory.
 
 ;;;;;
 
-To actually create a Knot, one can simply use [Ploy of the Moon Watcher](^trickster:ploys/mana#2)
-while having an Amethyst and Glass Block in their inventory.
 An Amethyst Knot costs no Mana to create, as it can provide its own power,
 but any other Knot requires an appropriate amount of Mana to be constructed, 
-as detailed [here](^trickster:items/mana/knots).
+as detailed [here](*trickster:items/mana/knots).
 
-;;;;;
 
 Other Knot types will also require the caster to specify the slot containing 
 the appropriate gem as a first input, but this will be covered later.
 
 
-For now, drawing the [Ploy of the Moon Watcher](^trickster:ploys/mana#2) 
-in your [Mirror of Evaluation](^trickster:items/writing_casting/mirror_of_evaluation) 
+For now, drawing the [Ploy of the Moon Watcher](*trickster:tricks/ploys/mana@trick&trickster:battery_creation) 
+in your [Mirror of Evaluation](*trickster:items/writing_casting/mirror_of_evaluation) 
 as follows and pressing the evaluation button next to the pattern will allow you to create Amethyst Knots with ease.
 Create a few of these before continuing!
 
 ;;;;;
 
-<|spell-preview-unloadable@trickster:templates|spell=YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFECBYklgCpvA8cM1oZAKSkMy4tAAAA|>
+#<trickster:spell-preview spell="YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFECBYklgCpvA8cM1oZAKSkMy4tAAAA" />
 
 {gray}(Drag to pan and scroll to zoom){}

@@ -7,8 +7,7 @@
 }
 ```
 
-Now that I know about [Tempest](*trickster:mana_types/storm_mana) mana, 
-I can substitute the annoying wind charge item requirement with 500G of Tempest mana!
+现在我知道了有[风暴](*trickster:mana_types/storm_mana)魔力，就可以花500G的这种魔力来换掉戏法要的那颗烦人的风弹了！
 
 
-Conveniently, there is no stability requirement.
+更方便的是，它没有稳定度需求。

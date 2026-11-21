@@ -1,13 +1,18 @@
 ```json
 {
-  "title": "开裂的石英晶结",
+  "title": {
+    "text": "开裂的石英晶结",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:cracked_quartz_knot",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:cracked_quartz_knot"
-  ],
+  "condition": "trickster:cracked_quartz_knot",
   "ordinal": 60,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:cracked_quartz_knot"
+  ]
 }
 ```
 
@@ -16,7 +21,6 @@
 
 石英晶结与魔力相关的各项性质已经相当差了，开裂后更是完全**无法存储魔力**。
 
-;;;;;
 
 但在另一方面，它加速组构台的能力得到了增强。放入组构台后，组构台的施法速度会增加50%。
 

@@ -1,12 +1,7 @@
 ```json
 {
   "title": "实体定位",
-  "icon": "minecraft:chicken_spawn_egg",
-  "category": "trickster:delusions_ingresses",
-  "additional_search_terms": [
-    "怀抱之辑流",
-    "同命之辑流"
-  ]
+  "icon": "minecraft:chicken_spawn_egg"
 }
 ```
 
@@ -16,17 +11,17 @@
 戏法无法观测到目标位置时可能什么都不会返回。
 
 
-务必注意，实体片段可能会[衰退](^trickster:concepts/fragment_decay)。
+务必注意，实体片段可能会[衰退](*trickster:concepts/fragment_decay)。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:block_find_entity|>
+#<trickster:trick id="trickster:block_find_entity" />
 
 查找并返回给定位置处的实体。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:range_find_entity|>
+#<trickster:trick id="trickster:range_find_entity" />
 
 查找并返回距所给位置处给定范围内所有实体组成的列表。
 

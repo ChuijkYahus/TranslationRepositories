@@ -2,8 +2,10 @@
 {
   "title": "卷轴架",
   "icon": "trickster:scroll_shelf",
-  "category": "trickster:writing_casting",
-  "ordinal": 20
+  "ordinal": 20,
+  "associated_items": [
+    "trickster:scroll_shelf"
+  ]
 }
 ```
 
@@ -16,4 +18,4 @@
 
 卷轴架可与漏斗交互。
 
-<recipe;trickster:scroll_shelf>
+<feyflower:crafting id="trickster:scroll_shelf" />

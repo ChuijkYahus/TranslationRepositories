@@ -1,8 +1,7 @@
 ```json
 {
   "title": "戏法签名",
-  "icon": "minecraft:writable_book",
-  "category": "trickster:concepts"
+  "icon": "minecraft:writable_book"
 }
 ```
 
@@ -11,32 +10,31 @@
 
 签名是对戏法输入输出的标准化简短描述。
 
-;;;;;
 
 这里给出一则示例：
 
 
-{#aa7711}向量{}, {#ddaa00}数{} -> {#aa3355}布尔值{}
-
-
-它代表戏法接受一个{#aa7711}向量{}作为第一输入，且接受一个{#ddaa00}数{}作为第二输入。各输入从圆上分隔销开始顺时针排序。
-
-
-该戏法还会传出一个{#aa3355}布尔值{}作为输出，可供其父圆使用。
+$$trickster:vector$$, $$trickster:number$$ -> $$trickster:boolean$$
 
 ;;;;;
+
+它代表戏法接受一个$$trickster:vector$$作为第一输入，且接受一个$$trickster:number$$作为第二输入。各输入从圆上分隔销开始顺时针排序。
+
+
+该戏法还会传出一个$$trickster:boolean$$作为输出，可供其父圆使用。
+
 
 除去分隔输入所用的逗号（,），以及区分输入输出所用的箭头（->）外，签名中还可能出现其他几种符号，具体见后文。
 
 
-{#ddaa00}数?{} -> {#aa4444}任意{}
-
-
-输入后出现问号（?）表示该输入可选，可以不传入，也可以传入void。
+$$trickster:number$$? -> $$dev.enjarai.trickster.spell.Fragment$$
 
 ;;;;;
 
-{#ddaa00}数{} | {#aa7711}向量{} -> {#aa4444}任意{} | {#4400aa}空类型{}
+输入后出现问号（?）表示该输入可选，可以不传入，也可以传入void。
+
+
+$$trickster:number$$ | $$trickster:vector$$ -> $$dev.enjarai.trickster.spell.Fragment$$ | $$trickster:void$$
 
 
 签名中经常会出现由管道符（|）分隔开的两个输入，返回类型也可能使用该符号分隔。
@@ -46,21 +44,20 @@
 
 ;;;;;
 
-[{#aa4444}任意{}], {#ddaa00}数{} -> [{#aa3355}布尔值{}]
+[$$dev.enjarai.trickster.spell.Fragment$$], $$trickster:number$$ -> [$$trickster:boolean$$]
 
 
 某些输入或输出会被方括号（[]）括起，这代表戏法需接受或会返回仅由该类型片段组成的列表。
 
-;;;;;
 
-{{#aa4444}任意{}: {#aa3355}布尔值{}}, {#aa4444}任意{} -> {#aa3355}布尔值{}
+{$$dev.enjarai.trickster.spell.Fragment$$: $$trickster:boolean$$}, $$dev.enjarai.trickster.spell.Fragment$$ -> $$trickster:boolean$$
 
 
 签名中还可能出现两种类型被花括号（{}）括起，且中间使用冒号（:）分隔的情况。这代表键为第一类型、值为第二类型的映射。
 
 ;;;;;
 
-{#aa44aa}法术{}, {#aa4444}任意{}... -> {#aa4444}任意{}
+$$trickster:spell_part$$, $$dev.enjarai.trickster.spell.Fragment$$... -> $$dev.enjarai.trickster.spell.Fragment$$
 
 
 某些情况下，类型后方会跟随三个点（...）。这代表戏法会接受在该输入后方、同为该类型的*任意多个输入*。

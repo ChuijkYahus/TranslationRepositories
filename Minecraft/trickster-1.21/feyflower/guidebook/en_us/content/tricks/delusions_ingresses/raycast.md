@@ -1,14 +1,7 @@
 ```json
 {
   "title": "Raycasting",
-  "icon": "minecraft:spectral_arrow",
-  "category": "trickster:delusions_ingresses",
-  "additional_search_terms": [
-    "Pinpoint Ingress",
-    "Bearing Ingress",
-    "Mark Ingress",
-    "Pinprick Ingress"
-  ]
+  "icon": "minecraft:spectral_arrow"
 }
 ```
 
@@ -28,28 +21,24 @@ If a raycast misses and does not hit anything of relevance within 64 blocks, $$t
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_block|>
+#<trickster:trick id="trickster:raycast_block" />
 
 Returns the position of the block that is hit.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_entity|>
+#<trickster:trick id="trickster:raycast_entity" />
 
 Returns the entity that is hit.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_side|>
-
-;;;;;
+#<trickster:trick id="trickster:raycast_side" />
 
 Returns a unit vector representing the side of the block that is hit.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:raycast_pos|>
-
-;;;;;
+#<trickster:trick id="trickster:raycast_pos" />
 
 Returns the exact position of where the ray intersects a block.

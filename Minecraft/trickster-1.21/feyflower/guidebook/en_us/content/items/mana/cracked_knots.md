@@ -1,13 +1,19 @@
 ```json
 {
-  "title": "Cracked Knots",
+  "title": {
+    "text": "Cracked Knots",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:cracked_emerald_knot",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:find_cracked_knot"
-  ],
+  "condition": "trickster:find_cracked_knot",
   "ordinal": 30,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:cracked_emerald_knot",
+    "trickster:cracked_diamond_knot"
+  ]
 }
 ```
 
@@ -15,7 +21,6 @@ As it turns out, Knots don't break easily.
 To even crack them requires significant application of force,
 with the most reliable method I've found being a falling anvil.
 
-;;;;;
 
 In many cases, actually doing this is extremely undesirable.
 A cracked Knot can usually hold the same amount of mana as its intact version, 

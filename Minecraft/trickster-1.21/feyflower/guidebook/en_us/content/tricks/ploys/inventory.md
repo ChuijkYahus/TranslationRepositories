@@ -1,14 +1,7 @@
 ```json
 {
   "title": "Inventory Manipulation",
-  "icon": "minecraft:chest",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "Ploy of Offering",
-    "Organizer's Ploy",
-    "Swindler's Ploy",
-    "Cranial Shift Ploy"
-  ]
+  "icon": "minecraft:chest"
 }
 ```
 
@@ -28,28 +21,27 @@ moving the contained resources will always have a cost of (distance * amount * 0
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:drop_stack_from_slot|>
+#<trickster:trick id="trickster:drop_stack_from_slot" />
 
 Drops items from the given slot at a position, returning their entity. Optionally, an amount can be specified.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:move_resource|>
+#<trickster:trick id="trickster:move_resource" />
 
 Moves resources from one storage into another.
 
-;;;;;
 
 A number can be provided to limit the amount transferred, and a resource type or list of such can be provided as a filter.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:swap_slot|>
+#<trickster:trick id="trickster:swap_slot" />
 
 Swaps the resources within the given slots.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:set_hat|>
+#<trickster:trick id="trickster:set_hat" />
 
-Sets the selected slot in the caster's [Hat](^trickster:items/writing_casting/top_hat), returning a boolean based on success.
+Sets the selected slot in the caster's [Hat](*trickster:items/writing_casting/hats), returning a boolean based on success.

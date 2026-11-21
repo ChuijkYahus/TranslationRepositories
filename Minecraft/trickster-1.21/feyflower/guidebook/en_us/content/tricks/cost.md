@@ -2,15 +2,9 @@
 {
   "title": "Casting Cost",
   "icon": "minecraft:amethyst_shard",
-  "category": "trickster:tricks",
   "ordinal": 30,
-  "required_advancements": [
-    "trickster:cost_ploy"
-  ],
-  "secret": true,
-  "additional_search_terms": [
-    "Cost Ploy"
-  ]
+  "condition": "trickster:cost_ploy",
+  "secret": true
 }
 ```
 
@@ -23,6 +17,6 @@ As such, this system operates on an opt-in basis.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:cost|>
+#<trickster:trick id="trickster:cost" />
 
 Consumes one amethyst shard from the caster's inventory. Will blunder if none are available.

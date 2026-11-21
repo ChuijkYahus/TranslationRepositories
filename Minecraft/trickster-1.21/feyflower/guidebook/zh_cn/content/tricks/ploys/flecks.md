@@ -1,15 +1,7 @@
 ```json
 {
   "title": "视形",
-  "icon": "minecraft:ghast_tear",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "营销员之技巧",
-    "迅捷营销员之技巧",
-    "机警营销员之技巧",
-    "艺术家之技巧",
-    "奥威尔之技巧"
-  ]
+  "icon": "minecraft:ghast_tear"
 }
 ```
 
@@ -44,48 +36,48 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:draw_spell|>
+#<trickster:trick id="trickster:draw_spell" />
 
 在所给位置以所给朝向显示所给法术。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:entity_draw_spell|>
+#<trickster:trick id="trickster:entity_draw_spell" />
 
 显示法术，效果与营销员之技巧类似，但会依附至给定实体。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:entity_head_draw_spell|>
+#<trickster:trick id="trickster:entity_head_draw_spell" />
 
 显示法术，依附至实体的*头部*。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:draw_line|>
+#<trickster:trick id="trickster:draw_line" />
 
 在所给位置间绘制线段。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:scale_fleck|>
+#<trickster:trick id="trickster:scale_fleck" />
 
 缩放已存在的视形。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:roll_fleck|>
+#<trickster:trick id="trickster:roll_fleck" />
 
-绕视形的朝向旋转视形。只对使用[营销员之技巧](^trickster:ploys/flecks#2)绘制的视形有效。
+绕视形的朝向旋转视形。只对使用[营销员之技巧](*trickster:tricks/ploys/flecks@trick&trickster:draw_spell)绘制的视形有效。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:delete_fleck|>
+#<trickster:trick id="trickster:delete_fleck" />
 
 移除所给标识对应的视形。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:paint|>
+#<trickster:trick id="trickster:paint" />
 
 将视形涂为所给颜色。只对线段视形有效。

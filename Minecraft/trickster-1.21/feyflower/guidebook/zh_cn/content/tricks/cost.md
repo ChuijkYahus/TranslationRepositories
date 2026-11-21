@@ -2,15 +2,9 @@
 {
   "title": "施法消耗",
   "icon": "minecraft:amethyst_shard",
-  "category": "trickster:tricks",
   "ordinal": 30,
-  "required_advancements": [
-    "trickster:cost_ploy"
-  ],
-  "secret": true,
-  "additional_search_terms": [
-    "消耗之技巧"
-  ]
+  "condition": "trickster:cost_ploy",
+  "secret": true
 }
 ```
 
@@ -21,6 +15,6 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:cost|>
+#<trickster:trick id="trickster:cost" />
 
 消耗施法者物品栏中的一个紫水晶碎片。没有对应物品会导致失策。

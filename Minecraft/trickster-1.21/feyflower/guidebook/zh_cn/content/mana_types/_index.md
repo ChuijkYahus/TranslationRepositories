@@ -1,12 +1,22 @@
 ```json
 {
-  "title": "魔力",
+  "title": {
+    "text": "魔力",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:esoteric_mana",
-  "required_advancements": [
-    "trickster:trigger/mana_types"
-  ],
+  "condition": {
+    "type": "feyflower:any",
+    "any_of": [
+      "trickster:unusual_mana",
+      "trickster:prismatic_knot",
+      "trickster:astral_knot"
+    ]
+  },
   "ordinal": 30,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 

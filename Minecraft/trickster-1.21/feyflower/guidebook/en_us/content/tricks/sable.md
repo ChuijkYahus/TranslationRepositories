@@ -2,12 +2,7 @@
 {
   "title": "Detached Structures",
   "icon": "minecraft:compass",
-  "category": "trickster:tricks",
   "ordinal": 100,
-  "additional_search_terms": [
-    "Aviator's Ingress",
-    "Wayfinder's Ingress"
-  ],
   "fabric:load_conditions": [
     {
       "condition": "fabric:any_mods_loaded",
@@ -43,12 +38,12 @@ Documented here are Ingresses which transform vectors with respect to the actual
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:project_position|>
+#<trickster:trick id="trickster:project_position" />
 
 Given a position within a Detached Structure, returns its actual position within the world.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:project_direction|>
+#<trickster:trick id="trickster:project_direction" />
 
 Given a position within a Detached Structure, returns the second given vector rotated by the Structure's orientation.

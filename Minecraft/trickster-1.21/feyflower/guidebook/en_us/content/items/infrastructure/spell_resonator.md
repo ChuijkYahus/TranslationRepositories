@@ -2,16 +2,16 @@
 {
   "title": "Spell Resonator",
   "icon": "trickster:spell_resonator",
-  "category": "trickster:infrastructure",
-  "ordinal": 0
+  "ordinal": 0,
+  "associated_items": [
+    "trickster:spell_resonator"
+  ]
 }
 ```
 
 A simple device that can be set to emit any redstone power level, giving weak power to its sides and strong power to its attachment block.
 
 
-Can be configured and queried by [Resonance Ploy](^trickster:ploys/block#18) and [Ingress of Resonance](^trickster:delusions_ingresses/block#5) respectively.
+Can be configured and queried by [Resonance Ploy](*trickster:tricks/ploys/block@trick&trickster:power_resonator) and [Ingress of Resonance](*trickster:tricks/delusions_ingresses/block@trick&trickster:check_resonator) respectively.
 
-;;;;;
-
-<recipe;trickster:spell_resonator>
+<feyflower:crafting id="trickster:spell_resonator" />

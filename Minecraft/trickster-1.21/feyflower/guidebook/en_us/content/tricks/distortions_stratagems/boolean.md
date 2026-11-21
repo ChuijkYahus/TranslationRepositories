@@ -1,18 +1,7 @@
 ```json
 {
   "title": "Boolean Logic",
-  "icon": "minecraft:comparator",
-  "category": "trickster:distortions",
-  "additional_search_terms": [
-    "Decision Stratagem",
-    "Parity Stratagem",
-    "Disparity Stratagem",
-    "Stratagem Bar None",
-    "Stratagem In General",
-    "Stratagem In Absence",
-    "Lesser Distortion",
-    "Greater Distortion"
-  ]
+  "icon": "minecraft:comparator"
 }
 ```
 
@@ -33,7 +22,7 @@ Boolean values are created from any fragment based on the following logic:
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:if_else|>
+#<trickster:trick id="trickster:if_else" />
 
 This trick allows spells to use different fragments or even branch their behaviour based on certain criteria.
 
@@ -64,42 +53,42 @@ since the {#ddaa00}2{} and {#ddaa00}3{} form a pair where the {#ddaa00}2{} gets 
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:equals|>
+#<trickster:trick id="trickster:equals" />
 
 Checks for equality between many inputs. Will only return true if all inputs are equal.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:not_equals|>
+#<trickster:trick id="trickster:not_equals" />
 
 Checks for inequality between many inputs. Will return false if any input is equal to any other.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:all|>
+#<trickster:trick id="trickster:all" />
 
 Will only return true if all inputs are true.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:any|>
+#<trickster:trick id="trickster:any" />
 
 Will return true if any provided input is true.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:none|>
+#<trickster:trick id="trickster:none" />
 
 Will return true if none of the provided inputs are true.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:lesser_than|>
+#<trickster:trick id="trickster:lesser_than" />
 
 Returns whether the first number is lesser than the second.
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:greater_than|>
+#<trickster:trick id="trickster:greater_than" />
 
 Returns whether the first number is greater than the second.

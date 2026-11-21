@@ -1,8 +1,7 @@
 ```json
 {
   "title": "Reading Fragments",
-  "icon": "trickster:monocle",
-  "category": "trickster:concepts"
+  "icon": "trickster:monocle"
 }
 ```
 
@@ -20,15 +19,16 @@ it is not unlikely that one finds themself in a situation where they have no oth
 Fragments are magical representations of various forms of information. As such, some have arcane and esoteric appearances. These forms, along with details on how to extract their meaning, are the topic of this section.
 
 
-An alternative to reading fragments in their natural form is donning and focusing a form of [Scryglass](^trickster:items/writing_casting/scryglasses).
+An alternative to reading fragments in their natural form is donning and focusing a form of [Scryglass](*trickster:items/writing_casting/scryglasses).
 
-;;;;;
 
 Numbers are likely the most unique. They are represented with an octal, or base-8, system of nested rings. Each digit is represented by the clockwise angle between hole and pin, in 8ths of a full rotation.
 
 ;;;;;
 
 ![](trickster:textures/gui/img/integer.png,fit)
+
+The angle between pins determines the value of each digit, with smaller circles being less significant.
 
 ;;;;;
 
@@ -44,24 +44,24 @@ Vectors are simply 3 numbers on a circle.
 
 ;;;;;
 
-<|spell-preview@trickster:templates|spell=YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFECBYklgCpPAYgYGJkBpIgzMDIKIxQkpyfV5KYmZdaxJacCBLgQ0hllqTmgnQyENLKmpSTn5zNwCDlwMChUMaPUJGWU5qZAjYCACpCMzCrAAAA|>
+<trickster:spell-preview importable="true" spell="YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFECBYklgCpPAYgYGJkBpIgzMDIKIxQkpyfV5KYmZdaxJacCBLgQ0hllqTmgnQyENLKmpSTn5zNwCDlwMChUMaPUJGWU5qZAjYCACpCMzCrAAAA" />
 
 Containers are a hexagon around their source, colored blue for items, orange for fluids.
 
 ;;;;;
 
-<|spell-preview@trickster:templates|spell=YxEpKcpMzi4uSS2yKi5IzcmJL0gsKuFDEszJL2FgYGBiS04E8ZFkMktScxkAyDwzwkAAAAA=|>
+<trickster:spell-preview importable="true" spell="YxEpKcpMzi4uSS2yKi5IzcmJL0gsKuFDEszJL2FgYGBiS04E8ZFkMktScxkAyDwzwkAAAAA=" />
 
 Slots are a double-diamond instead, with their index shown above.
 
 ;;;;;
 
-<|spell-preview@trickster:templates|spell=YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFGCCbn55UkZualFrEU5+SXMDAwMLElJ4Jk+BFq0nJKM1MYAMz70BBLAAAA|>
+<trickster:spell-preview importable="true" spell="YxEpKcpMzi4uSS2yKi5IzcmJL0gsKhFGCCbn55UkZualFrEU5+SXMDAwMLElJ4Jk+BFq0nJKM1MYAMz70BBLAAAA" />
 
 Here is a container of a slot,
 
 ;;;;;
 
-<|spell-preview@trickster:templates|spell=YxEpKcpMzi4uSS2yKi5IzcmJL0gsKuFDEszJL2EAAhYog4ktOREkwY9QkpZTmpnCAABoLQNASgAAAA==|>
+<trickster:spell-preview importable="true" spell="YxEpKcpMzi4uSS2yKi5IzcmJL0gsKuFDEszJL2EAAhYog4ktOREkwY9QkpZTmpnCAABoLQNASgAAAA==" />
 
 and a slot of that container.

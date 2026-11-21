@@ -7,5 +7,4 @@
 }
 ```
 
-Looks like this ploy will consume [Tempest](*trickster:mana_types/storm_mana) mana if there's enough. 
-It *does* require that the stability be greater than 50%, but that's not an issue most of the time.
+似乎只要[风暴](*trickster:mana_types/storm_mana)魔力足够，这则技巧术就会优先消耗它。它*需要*稳定度大于50%，不过大多数情况下这倒是不成问题。

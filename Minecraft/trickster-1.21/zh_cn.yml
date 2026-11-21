@@ -7,6 +7,7 @@ trickster:
     written_scroll: 定稿卷轴
 
   text:
+    note: 笔记
     value_truncated: 过长值已截断
     disconnect_with_caution: 撤下需谨慎
 
@@ -80,7 +81,6 @@ trickster:
   scroll_hat:
     named: "所选槽位：%d [%s]"
     unnamed: "所选槽位：%d"
-  scroll_executable: 单次使用（%f 千甘道夫）
 
   unnamed_entity: 未命名的%s
 
@@ -384,7 +384,6 @@ trickster:
       fluid_type: 流体
       block_type: 方块
       entity_type: 实体类型
-      string: 字符串
       dimension: 维度
       displace: 位移
       color: 颜色
@@ -685,6 +684,12 @@ key:
 
 accessories.slot:
   collar: 颈环
+
+text.feyflower.book:
+  button.trickster:
+    import_spell:
+      .: 写入卷轴
+      description: 副手持卷轴与笔以将该法术写到其上
 
 text.config.trickster-config:
   title: 戏法师（Trickster）配置

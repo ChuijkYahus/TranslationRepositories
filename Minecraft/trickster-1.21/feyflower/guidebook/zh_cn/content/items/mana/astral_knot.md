@@ -1,13 +1,18 @@
 ```json
 {
-  "title": "星辰晶结",
+  "title": {
+    "text": "星辰晶结",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:astral_knot",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:astral_knot"
-  ],
+  "condition": "trickster:astral_knot",
   "ordinal": 110,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:astral_knot"
+  ]
 }
 ```
 
@@ -16,14 +21,13 @@
 
 而由于它和星星非常相似，我为它起名为“星辰晶结”。
 
-;;;;;
 
 星辰晶结的魔力容量极为巨大，比1兆甘都要稍大些。光是这一点就已经很是有用，但它还有一项独门绝活，初看不一定能看出来。
 
-
-在几次实验后，我观察到这些晶结会回应[泰拉菲尔之技巧](^trickster:ploys/mana#9)！对星辰晶结施放泰拉菲尔之技巧，会将其中魔力按80%的比例转化为*星辰*魔力。
-
 ;;;;;
+
+在几次实验后，我观察到这些晶结会回应[泰拉菲尔之技巧](*trickster:tricks/ploys/mana@trick&trickster:trigger_converter)！对星辰晶结施放泰拉菲尔之技巧，会将其中魔力按80%的比例转化为*星辰*魔力。
+
 
 星辰魔力似乎直接关联于夜空中的某颗星星。在这种形态下，晶结内的魔力会随时间增多，速率与魔力存量成比例。
 

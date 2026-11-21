@@ -1,14 +1,16 @@
 ```json
 {
-  "title": "Of Stars Below...",
+  "title": {
+    "text": "Of Stars Below...",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:nether_star",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:trigger/nether_star"
-  ],
+  "condition": "trickster:trigger/nether_star",
   "secret": true,
   "ordinal": 300,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 
@@ -17,7 +19,6 @@ Upon vanquishing the Wither, only a small star remains. Now freed of its host, t
 
 It is the very radiance of power unimaginable. I suspect that the construction of an object such as this would require *quettagandalfs*.
 
-;;;;;
 
 I cannot imagine that the Wither could ever be vanquished, with such strength at its disposal.
 

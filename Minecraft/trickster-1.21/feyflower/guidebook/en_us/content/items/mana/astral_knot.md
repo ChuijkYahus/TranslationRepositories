@@ -1,13 +1,18 @@
 ```json
 {
-  "title": "Astral Knot",
+  "title": {
+    "text": "Astral Knot",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "trickster:astral_knot",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:astral_knot"
-  ],
+  "condition": "trickster:astral_knot",
   "ordinal": 110,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note",
+  "associated_items": [
+    "trickster:astral_knot"
+  ]
 }
 ```
 
@@ -16,18 +21,16 @@ I knew it! The Wither's remains *are* sufficiently crystalline to store mana!
 
 Due to the obvious stellar resemblances, I dub thee: The Astral Knot.
 
-;;;;;
 
 Astral Knots seem to be able to hold a truly staggering amount of mana, at a little over one megagandalf.
 This in and of itself is quite useful, 
 but they actually have another trick up their sleeve that might not be so obvious at first glance.
 
+;;;;;
 
-After some experimentation, I learned that these Knots interact with [Terrafel's Ploy](^trickster:ploys/mana#9)!
+After some experimentation, I learned that these Knots interact with [Terrafel's Ploy](*trickster:tricks/ploys/mana@trick&trickster:trigger_converter)!
 When Terrafel's is cast on an Astral Knot, it turns any mana inside it *Star-Bound* at a rate of about 80%.
 
-
-;;;;;
 
 Star-Bound mana is, it seems, directly intertwined with a specific star in the night sky.
 While in this form, the amount of mana the Knot holds will increase over time, 

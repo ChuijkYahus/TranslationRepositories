@@ -1,14 +1,16 @@
 ```json
 {
-  "title": "Caustic Refractions...",
+  "title": {
+    "text": "Caustic Refractions...",
+    "modifiers": [
+      "italic"
+    ]
+  },
   "icon": "minecraft:prismarine_crystals",
-  "category": "trickster:mana",
-  "required_advancements": [
-    "trickster:trigger/prismarine_crystals"
-  ],
+  "condition": "trickster:trigger/prismarine_crystals",
   "secret": true,
   "ordinal": 300,
-  "trickster:page_texture": "trickster:textures/gui/white_book_note.png"
+  "book_texture_override": "trickster:white_note"
 }
 ```
 

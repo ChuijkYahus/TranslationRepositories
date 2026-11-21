@@ -1,15 +1,7 @@
 ```json
 {
   "title": "漂泊人",
-  "icon": "minecraft:ender_pearl",
-  "category": "trickster:tricks",
-  "additional_search_terms": [
-    "获权者之技巧",
-    "篡夺者之技巧",
-    "暴君之辑流",
-    "维度之辑流",
-    "位置之辑流"
-  ]
+  "icon": "minecraft:ender_pearl"
 }
 ```
 
@@ -21,33 +13,25 @@
 
 *“他们会跟自己的孩子讲这些。他们觉得这很有意思。他们不相信这是真的。*
 
-;;;;;
 
 *“但我遇到过一次。我说实话，这就是真的。你要是遇到了，你只会希望它不是真的。”*
 
 
 ——某位匿名受访者
 
----
+;;;;;
 
-<|image@trickster:templates|image=trickster:textures/gui/img/opened_eye.png,width=93,height=45,positioning=absolute,x=10,y=82|>
-
-
-
-
-
-
-
+#<trickster:image texture="trickster:textures/gui/img/opened_eye.png" width="124" height="60" center-vertically="true" />
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:prepare_displace,cost=120G + 1.35G^距离|>
+#<trickster:trick id="trickster:prepare_displace" cost="120G + 1.35G^距离" />
 
 以某实体为基础，创建暂时性的位移片段。此类片段只能在创建后维持五秒。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=trickster:displace,cost=20G + 1.35G^偏移量 + 距离 * 3G|>
+#<trickster:trick id="trickster:displace" cost="20G + 1.35G^偏移量 + 距离 * 3G" />
 
 消耗一个位移片段，将对应实体传送至相对于施法者的给定位置。若该实体不是施法者自己，则附加一段延时。
 
@@ -63,18 +47,18 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:get_displacements|>
+#<trickster:trick id="trickster:get_displacements" />
 
 给定实体，返回当前其直接可用的位移片段的数量。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:get_position|>
+#<trickster:trick id="trickster:get_position" />
 
 给定位移片段，返回其对应实体的位置。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:get_dimension|>
+#<trickster:trick id="trickster:get_dimension" />
 
 返回位移片段起点所在的维度。

@@ -1,12 +1,7 @@
 ```json
 {
   "title": "魔力生成",
-  "icon": "minecraft:wheat_seeds",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "栽培师之技巧",
-    "绝望者之技巧"
-  ]
+  "icon": "minecraft:wheat_seeds"
 }
 ```
 
@@ -14,12 +9,12 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:drain_matter|>
+#<trickster:trick id="trickster:drain_matter" />
 
 吸收给定位置处柔软植物的生物质，将其变为魔力。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:suck_color|>
+#<trickster:trick id="trickster:suck_color" />
 
 吸收给定位置处有色方块的颜色，将其变为该颜色的魔力。

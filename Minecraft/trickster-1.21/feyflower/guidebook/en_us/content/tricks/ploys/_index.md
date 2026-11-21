@@ -2,8 +2,7 @@
 {
   "title": "Ploys",
   "icon": "trickster:wand",
-  "ordinal": 20,
-  "parent": "trickster:tricks"
+  "ordinal": 20
 }
 ```
 

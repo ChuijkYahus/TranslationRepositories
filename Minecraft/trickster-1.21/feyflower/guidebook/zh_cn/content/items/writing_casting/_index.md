@@ -2,8 +2,7 @@
 {
   "title": "绘制与施法",
   "icon": "trickster:wand",
-  "ordinal": 0,
-  "parent": "trickster:items"
+  "ordinal": 0
 }
 ```
 

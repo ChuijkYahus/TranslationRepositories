@@ -1,15 +1,7 @@
 ```json
 {
   "title": "容器与槽位",
-  "icon": "minecraft:barrel",
-  "category": "trickster:distortions",
-  "additional_search_terms": [
-    "物仓之曲变",
-    "液仓之曲变",
-    "饰品之曲变",
-    "侵入之曲变",
-    "辨别之曲变"
-  ]
+  "icon": "minecraft:barrel"
 }
 ```
 
@@ -27,7 +19,7 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:create_item_container|>
+#<trickster:trick id="trickster:create_item_container" />
 
 ;;;;;
 
@@ -38,24 +30,24 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:create_fluid_container|>
+#<trickster:trick id="trickster:create_fluid_container" />
 
 使用所给片段构建流体容器。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:create_accessories_container|>
+#<trickster:trick id="trickster:create_accessories_container" />
 
 构建一个容器，其中包含施法者拥有的、能容纳所给类型的所有饰品槽。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:create_slot|>
+#<trickster:trick id="trickster:create_slot" />
 
 使用容器和所给索引构造槽位。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:filter_container|>
+#<trickster:trick id="trickster:filter_container" />
 
 使用所给资源类型筛选容器。需注意此曲变术返回的容器**不**支持槽位。

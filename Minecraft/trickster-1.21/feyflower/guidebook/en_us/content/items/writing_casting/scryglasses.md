@@ -2,25 +2,28 @@
 {
   "title": "Scryglasses",
   "icon": "trickster:monocle",
-  "category": "trickster:writing_casting",
-  "ordinal": 30
+  "ordinal": 30,
+  "associated_items": [
+    "trickster:monocle",
+    "trickster:glasses"
+  ]
 }
 ```
 
 A scryglass is simply a lens with special properties, but they are often made into facial accessories to assist in their usage.
 
 
-A scryglass can be focused by holding <keybind;key.trickster.show_fragment_text>.
+A scryglass can be focused by holding <feyflower:keybind id="key.trickster.show_fragment_text" />.
 
 
-Like the [Hats](^trickster:items/writing_casting/top_hat), there are a few varieties, identical in function.
+Like the [Hats](*trickster:items/writing_casting/hats), there are a few varieties, identical in function.
 
 ;;;;;
 
 The classy monocle:
 
-<recipe;trickster:monocle>
+<feyflower:crafting id="trickster:monocle" />
 
 The charming glasses:
 
-<recipe;trickster:glasses>
+<feyflower:crafting id="trickster:glasses" />

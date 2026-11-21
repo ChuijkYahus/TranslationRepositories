@@ -2,8 +2,7 @@
 {
   "title": "魔力",
   "icon": "trickster:amethyst_knot",
-  "ordinal": 10,
-  "parent": "trickster:items"
+  "ordinal": 10
 }
 ```
 

@@ -1,18 +1,7 @@
 ```json
 {
   "title": "布尔逻辑",
-  "icon": "minecraft:comparator",
-  "category": "trickster:distortions",
-  "additional_search_terms": [
-    "决策之谋略",
-    "对抵之谋略",
-    "失抵之谋略",
-    "无例外之谋略",
-    "通常态之谋略",
-    "缺失态之谋略",
-    "较小之曲变",
-    "较大之曲变"
-  ]
+  "icon": "minecraft:comparator"
 }
 ```
 
@@ -32,7 +21,7 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:if_else|>
+#<trickster:trick id="trickster:if_else" />
 
 此戏法可让法术根据特定判据使用不同的片段，甚至可以用来选择不同的分支。
 
@@ -58,42 +47,42 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:equals|>
+#<trickster:trick id="trickster:equals" />
 
 检查各输入是否相等。只有全部输入都相等，才返回true。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:not_equals|>
+#<trickster:trick id="trickster:not_equals" />
 
 检查各输入是否不等。若有至少两个输入相等，返回false。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:all|>
+#<trickster:trick id="trickster:all" />
 
 只有全部输入为true，才返回true。 
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:any|>
+#<trickster:trick id="trickster:any" />
 
 只要任意输入为true，就返回true。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:none|>
+#<trickster:trick id="trickster:none" />
 
 若没有输入为true，则返回true。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:lesser_than|>
+#<trickster:trick id="trickster:lesser_than" />
 
 检查第一个数是否小于第二个数。
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=trickster:greater_than|>
+#<trickster:trick id="trickster:greater_than" />
 
 检查第一个数是否大于第二个数。
