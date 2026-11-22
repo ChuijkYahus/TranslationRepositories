@@ -1,13 +1,7 @@
 ```json
 {
   "title": "声音",
-  "icon": "minecraft:music_disc_5",
-  "category": "trickster:tricks",
-  "additional_search_terms": [
-    "麦克风之辑流",
-    "警笛之技巧",
-    "消音耳罩之技巧"
-  ]
+  "icon": "minecraft:music_disc_5"
 }
 ```
 
@@ -17,18 +11,18 @@
 
 ;;;;;
 
-<|trick@trickster:templates|trick-id=partytrick:get_sound|>
+#<trickster:trick id="partytrick:get_sound" />
 
 返回先前一段时间抵达所给玩家鼓膜的声音列表。输出每刻更新一次。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=partytrick:play_sound,cost=2G|>
+#<trickster:trick id="partytrick:play_sound" cost="2G" />
 
 在给定位置播放声音，可选择指定音量、音调，以及可听见该声音的玩家。
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=partytrick:muffle_sound,cost=10G|>
+#<trickster:trick id="partytrick:muffle_sound" cost="10G" />
 
 改变对给定声音的音量的感知，未指定则改变所有声音的。所给数用作修正乘数。

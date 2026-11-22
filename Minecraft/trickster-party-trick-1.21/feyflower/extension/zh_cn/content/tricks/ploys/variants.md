@@ -1,12 +1,7 @@
 ```json
 {
   "title": "外形变种",
-  "icon": "trickster:mirror_of_evaluation[minecraft:custom_model_data=2]",
-  "category": "trickster:ploys",
-  "additional_search_terms": [
-    "虚荣之技巧",
-    "自定义模型数据"
-    ]
+  "icon": "trickster:mirror_of_evaluation[minecraft:custom_model_data=2]"
 }
 ```
 
@@ -21,10 +16,8 @@
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=partytrick:set_custom_model_data,cost=1G|>
+#<trickster:trick id="partytrick:set_custom_model_data" cost="1G" />
 
 更改指定槽位中物品的外观，未指定槽位则默认为副手槽物品。
-
-;;;;;
 
 若指定数，则将物品相应进行美化变形，即修改擅长奥术之人口中所谓的“自定义模型数据”。数为0时会重置外形。
