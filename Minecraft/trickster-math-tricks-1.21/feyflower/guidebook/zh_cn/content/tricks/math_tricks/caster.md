@@ -10,6 +10,6 @@
 
 ;;;;;
 
-<|trick@trickster-math-tricks:templates|trick-id=trickster-math-tricks:caster_quaternion|>
+#<trickster-math-tricks:trick id="trickster-math-tricks:caster_quaternion" />
 
 若可行，将施法实体头部的旋转方向返回为四元数。

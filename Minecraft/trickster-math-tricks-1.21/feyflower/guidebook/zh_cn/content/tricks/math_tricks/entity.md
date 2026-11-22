@@ -10,6 +10,6 @@
 
 ;;;;;
 
-<|trick@trickster-math-tricks:templates|trick-id=trickster-math-tricks:entity_quaternion|>
+#<trickster-math-tricks:trick id="trickster-math-tricks:entity_quaternion" />
 
 将所给实体头部的旋转方向返回为四元数。

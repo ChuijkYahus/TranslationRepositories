@@ -10,20 +10,12 @@
 
 ;;;;;
 
-<|pattern@trickster-math-tricks:templates|pattern=6\,0\,2\,8\,5,title=圆周之修订|>
-
-{gray}（抄绘图案）{}
-
----
+#<trickster-math-tricks:revision id="trickster-math-tricks:pi" />
 
 将符记换为数“π”。
 
 ;;;;;
 
-<|pattern@trickster-math-tricks:templates|pattern=3\,4\,8\,7\,6\,3,title=四元数之修订|>
+#<trickster-math-tricks:revision id="trickster-math-tricks:quat_ident" />
 
-{gray}（抄绘图案）{}
-
----
-
-将符记换为单位四元数。
+将符记换为四元数幺元。

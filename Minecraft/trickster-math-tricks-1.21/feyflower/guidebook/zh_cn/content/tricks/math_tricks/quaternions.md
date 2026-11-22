@@ -10,18 +10,19 @@
 
 ;;;;;
 
-<|trick@trickster-math-tricks:templates|trick-id=trickster-math-tricks:quat_from_axis|>
+
+#<trickster-math-tricks:trick id="trickster-math-tricks:quat_from_axis" />
 
 依照所给旋转轴和角度（弧度）构造四元数。
 
 ;;;;;
 
-<|trick@trickster-math-tricks:templates|trick-id=trickster-math-tricks:quat_from_comp|>
+#<trickster-math-tricks:trick id="trickster-math-tricks:quat_from_comp" />
 
 依照所给XYZW分量构造四元数。
 
 ;;;;;
 
-<|trick@trickster-math-tricks:templates|trick-id=trickster-math-tricks:quat_euler|>
+#<trickster-math-tricks:trick id="trickster-math-tricks:quat_euler" />
 
 计算所给四元数的欧拉角（弧度）。
