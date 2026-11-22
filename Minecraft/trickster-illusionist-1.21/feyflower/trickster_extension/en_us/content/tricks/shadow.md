@@ -1,8 +1,7 @@
 ```json
 {
   "title": "Illusionist",
-  "icon": "minecraft:sea_lantern",
-  "category": "trickster:tricks"
+  "icon": "minecraft:sea_lantern"
 }
 ```
 
@@ -10,16 +9,22 @@ Shadow blocks,
 sometimes also referred to as echoes or echo blocks, 
 are illusions superimposed onto a material block. 
 They are dispelled when the state of the material block changes, 
-but can also be removed using a Revelation Ploy.
+but can also be removed using Revelation Ploy.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=illusionist:disguise_block,cost=20kG|>
+#<trickster:trick id="illusionist:disguise_block" cost="20G" />
 
-Places a shadow of the given block at the given position and returns whether there was any change.
+Shadows the first position with either the given block or the exact state of the block at the second position.
 
 ;;;;;
 
-<|ploy@trickster:templates|trick-id=illusionist:dispel_block_disguise,cost=10kG|>
+#<trickster:trick id="illusionist:get_block_disguise" />
 
-Dispels any shadow block at the given position and returns whether there was one initially.
+Returns the shadow block at the given position, or void if there is none.
+
+;;;;;
+
+#<trickster:trick id="illusionist:dispel_block_disguise" cost="10G" />
+
+Dispels any shadow block at the given position.
