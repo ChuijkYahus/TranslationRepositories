@@ -1,2 +1,2 @@
-version=1.1.21
+version=1.2.0
 info-included=true,only-name
